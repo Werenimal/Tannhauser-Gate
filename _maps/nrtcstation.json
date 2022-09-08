@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"map_name": "NRTC Station",
+	"map_path": "map_files/NRTCStation",
+	"map_file": [
+		"NRTCStation.dmm",
+	],
+	"shuttles": {
+                "cargo": "cargo_tannhauser",
+                "arrivals": "arrivals_tannhauser",
+		"ferry": "ferry_skyrat",
+		"whiteship": "whiteship_meta",
+		"emergency": "emergency_skyrat"
+	}
+	
+}
