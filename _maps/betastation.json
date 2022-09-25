@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"map_name": "Beta Station",
+	"map_path": "map_files/betatation",
+	"map_file": [
+		"AlphaStation_lower.dmm",
+		"AlphaStation_upper.dmm"
+	],
+	"shuttles": {
+                "cargo": "cargo_tannhauser",
+                "arrivals": "arrivals_tannhauser",
+		"ferry": "ferry_skyrat",
+		"whiteship": "whiteship_meta",
+		"emergency": "emergency_skyrat"
+	}
+}
