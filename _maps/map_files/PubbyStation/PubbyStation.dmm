@@ -33104,7 +33104,7 @@
 /obj/item/clothing/neck/human_petcollar/choker{
 	pixel_y = 6
 	},
-/obj/item/clothing/head/kitty/genuine,
+/obj/item/clothing/head/costume/kitty/genuine,
 /obj/structure/window,
 /turf/open/floor/glass,
 /area/station/maintenance/department/security/brig)
@@ -54731,7 +54731,7 @@
 /area/station/hallway/secondary/entry)
 "tmL" = (
 /obj/effect/decal/cleanable/glitter/blue,
-/obj/item/clothing/under/misc/gear_harness{
+/obj/item/clothing/under/misc/skyrat/gear_harness{
 	pixel_x = -3;
 	pixel_y = -11
 	},
