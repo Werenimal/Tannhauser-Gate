@@ -139,18 +139,17 @@ structure_check() searches for nearby cultist structures required for the invoca
 	if(user)
 		invokers += user
 	if(req_cultists > 1 || istype(src, /obj/effect/rune/convert))
-		var/list/things_in_range = range(1, src)
-		for(var/mob/living/L in things_in_range)
-			if(IS_CULTIST(L))
-				if(L == user)
-					continue
-				if(ishuman(L))
-					var/mob/living/carbon/human/H = L
-					if((HAS_TRAIT(H, TRAIT_MUTE)) || H.silent)
-						continue
-				if(L.stat)
-					continue
-				invokers += L
+		for(var/mob/living/cultist in range(1, src))
+			if(!IS_CULTIST(cultist))
+				continue
+			if(cultist == user)
+				continue
+			if(!cultist.can_speak(allow_mimes = TRUE))
+				continue
+			if(cultist.stat != CONSCIOUS)
+				continue
+			invokers += cultist
+
 	return invokers
 
 /obj/effect/rune/proc/invoke(list/invokers)
@@ -860,9 +859,8 @@ structure_check() searches for nearby cultist structures required for the invoca
 		new_human.alpha = 150 //Makes them translucent
 		new_human.equipOutfit(/datum/outfit/ghost_cultist) //give them armor
 		new_human.apply_status_effect(/datum/status_effect/cultghost) //ghosts can't summon more ghosts
-		new_human.see_invisible = SEE_INVISIBLE_OBSERVER
+		new_human.set_invis_see(SEE_INVISIBLE_OBSERVER)
 		ADD_TRAIT(new_human, TRAIT_NOBREATH, INNATE_TRAIT)
-
 		ghosts++
 		playsound(src, 'sound/magic/exit_blood.ogg', 50, TRUE)
 		visible_message(span_warning("A cloud of red mist forms above [src], and from within steps... a [new_human.gender == FEMALE ? "wo":""]man."))
