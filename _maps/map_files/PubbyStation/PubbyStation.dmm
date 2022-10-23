@@ -5799,7 +5799,7 @@
 	name = "Prison Intercom (General)";
 	pixel_x = -25;
 	pixel_y = -2;
-	prison_radio = 1
+	
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -34698,7 +34698,7 @@
 	desc = "A station intercom. It looks like it has been modified to not broadcast.";
 	name = "Prison Intercom (General)";
 	pixel_y = 24;
-	prison_radio = 1
+	
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
@@ -52939,7 +52939,7 @@
 	desc = "A station intercom. It looks like it has been modified to not broadcast.";
 	name = "Prison Intercom (General)";
 	pixel_y = 24;
-	prison_radio = 1
+	
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
@@ -55296,7 +55296,7 @@
 	desc = "A station intercom. It looks like it has been modified to not broadcast.";
 	name = "Prison Intercom (General)";
 	pixel_y = 24;
-	prison_radio = 1
+	
 	},
 /obj/structure/sign/poster/official/random{
 	pixel_x = 30
@@ -56640,7 +56640,7 @@
 	desc = "A station intercom. It looks like it has been modified to not broadcast.";
 	name = "Prison Intercom (General)";
 	pixel_y = 24;
-	prison_radio = 1
+	
 	},
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/darkblue/filled/line{
