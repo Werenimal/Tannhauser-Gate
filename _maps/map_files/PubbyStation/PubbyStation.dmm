@@ -34459,7 +34459,6 @@
 /area/station/service/chapel/office)
 "cBS" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
-/obj/structure/cable,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -43464,7 +43463,6 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "jYy" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible{
 	dir = 8
 	},
