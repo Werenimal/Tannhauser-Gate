@@ -29233,8 +29233,7 @@
 /turf/closed/wall,
 /area/station/service/chapel/asteroid/monastery)
 "caT" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/tinted/fulltile,
+/obj/effect/spawner/structure/window/reinforced/tinted,
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
 "caV" = (
@@ -35289,7 +35288,6 @@
 /area/station/medical/virology)
 "doo" = (
 /obj/structure/table,
-/obj/structure/table,
 /obj/item/storage/box/beakers{
 	pixel_x = 4;
 	pixel_y = 4
@@ -40236,10 +40234,6 @@
 /obj/structure/sign/warning/radiation,
 /turf/closed/wall/r_wall,
 /area/station/engineering/atmos/hfr_room)
-"hpP" = (
-/obj/structure/lattice,
-/turf/closed/wall/r_wall,
-/area/station/engineering/supermatter/room)
 "hpY" = (
 /obj/machinery/camera/autoname/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -54128,6 +54122,7 @@
 /obj/machinery/power/terminal{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "stX" = (
@@ -56047,7 +56042,6 @@
 	dir = 8
 	},
 /obj/structure/cable,
-/obj/structure/cable,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "tQP" = (
@@ -56120,12 +56114,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
-"tUk" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/cable,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/blueshield)
 "tUm" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/dark,
@@ -60105,8 +60093,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "wMM" = (
-/obj/structure/grille,
-/obj/structure/cable,
+/obj/effect/spawner/structure/electrified_grille,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "wMQ" = (
@@ -61252,7 +61239,6 @@
 	},
 /obj/machinery/airalarm/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
-/obj/structure/cable,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/engine,
@@ -85759,7 +85745,7 @@ kRq
 kRq
 bva
 stQ
-bDi
+bmf
 bmf
 bmf
 cgp
@@ -94249,7 +94235,7 @@ dZj
 rjt
 cCI
 cbj
-hpP
+xNX
 xNX
 xNX
 xNX
@@ -95947,7 +95933,7 @@ dVF
 ein
 ein
 aaa
-tUk
+gZc
 tOt
 lNY
 xui
