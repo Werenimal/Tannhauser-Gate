@@ -109,7 +109,8 @@
 /obj/effect/turf_decal/loading_area{
 	dir = 4
 	},
-/turf/open/floor/iron/brown,
+/obj/effect/turf_decal/tile/brown/full,
+/turf/open/floor/iron,
 /area/centcom/central_command_areas/supply)
 "pT" = (
 /obj/machinery/conveyor_switch/oneway{
@@ -213,7 +214,8 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/bot,
-/turf/open/floor/iron/brown,
+/obj/effect/turf_decal/tile/brown/fourcorners,
+/turf/open/floor/iron,
 /area/centcom/central_command_areas/supply)
 "Ai" = (
 /obj/machinery/door/poddoor{
@@ -264,7 +266,8 @@
 /area/centcom/central_command_areas/supply)
 "Eg" = (
 /obj/effect/turf_decal/delivery,
-/turf/open/floor/iron/brown,
+/obj/effect/turf_decal/tile/brown/full,
+/turf/open/floor/iron,
 /area/centcom/central_command_areas/supply)
 "FA" = (
 /obj/structure/plasticflaps,
@@ -303,7 +306,8 @@
 /obj/effect/turf_decal/loading_area{
 	dir = 8
 	},
-/turf/open/floor/iron/brown,
+/obj/effect/turf_decal/tile/brown/full,
+/turf/open/floor/iron,
 /area/centcom/central_command_areas/supply)
 "Mq" = (
 /obj/effect/turf_decal/siding/yellow{

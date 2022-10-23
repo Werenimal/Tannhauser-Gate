@@ -53,7 +53,8 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = Warp_Lab
 	},
-/turf/open/floor/iron/dark/purple,
+/obj/effect/turf_decal/trimline/purple/filled/end,
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "cv" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -65,7 +66,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/locked,
-/turf/open/floor/iron/dark/purple,
+/obj/effect/turf_decal/trimline/purple/filled/end{
+	dir = 8
+	},
+/turf/open/space/basic,
 /area/station/science/research/abandoned)
 "cU" = (
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible,
@@ -100,9 +104,10 @@
 "eE" = (
 /obj/machinery/power/smes,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark/purple/side{
-	dir = 5
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "gp" = (
 /obj/machinery/atmospherics/components/binary/pump/off,
@@ -131,9 +136,10 @@
 /obj/structure/table_frame,
 /obj/machinery/light/cold/directional/west,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "in" = (
 /obj/structure/cable,
@@ -148,9 +154,10 @@
 /area/station/science/ordnance)
 "iF" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "jE" = (
 /obj/structure/railing{
@@ -207,9 +214,10 @@
 "lj" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/showcase/horrific_experiment,
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "mc" = (
 /obj/structure/table/reinforced/rglass,
@@ -219,9 +227,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/multitool,
 /obj/machinery/camera/autoname/directional/west,
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "my" = (
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/high_volume/incinerator_ordmix{
@@ -233,9 +242,10 @@
 /obj/structure/closet/firecloset/wall{
 	pixel_x = -28
 	},
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "nI" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
@@ -298,7 +308,8 @@
 /obj/machinery/light/cold/directional/south,
 /obj/machinery/firealarm/directional/south,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark/purple/side,
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "rC" = (
 /obj/structure/closet/firecloset,
@@ -348,9 +359,10 @@
 	pixel_x = 7
 	},
 /obj/item/pen/fourcolor,
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "tz" = (
 /obj/structure/disposaloutlet{
@@ -396,15 +408,17 @@
 /obj/item/trash/can{
 	pixel_y = 11
 	},
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 6
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "vs" = (
 /obj/machinery/light/cold/directional/south,
 /obj/machinery/light_switch/directional/south,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark/purple/side,
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "wd" = (
 /obj/effect/spawner/random/trash,
@@ -416,9 +430,10 @@
 /obj/structure/sign/poster/official/random{
 	pixel_x = -32
 	},
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "wJ" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -434,7 +449,8 @@
 "xZ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/radio/intercom/directional/south,
-/turf/open/floor/iron/dark/purple/side,
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "yc" = (
 /obj/machinery/door/airlock/research/glass/incinerator/ordmix_exterior{
@@ -473,9 +489,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/portable_atmospherics/canister/freon,
 /obj/effect/turf_decal/box,
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 10
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "AN" = (
 /obj/machinery/atmospherics/components/binary/pump/on{
@@ -512,9 +529,10 @@
 "DD" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/closet/radiation,
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/corner{
 	dir = 4
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "DZ" = (
 /turf/closed/wall/r_wall,
@@ -533,13 +551,15 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 6
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "Fe" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark/purple/corner,
+/obj/effect/turf_decal/trimline/purple/filled/corner,
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "Fl" = (
 /obj/structure/stairs/east,
@@ -624,15 +644,20 @@
 /obj/effect/turf_decal/caution{
 	dir = 8
 	},
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/warning{
 	dir = 4
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "JR" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/turf_decal/trimline/purple/filled/corner,
+/obj/effect/turf_decal/trimline/purple/filled/corner{
+	dir = 8
+	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/science/research/abandoned)
 "JU" = (
@@ -735,22 +760,25 @@
 /area/station/science/ordnance)
 "Qv" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark/purple/side,
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "QE" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/destructive_scanner,
 /obj/effect/turf_decal/stripes/end,
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "Rb" = (
 /obj/structure/frame/machine,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "Rc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -783,7 +811,8 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/newscaster/directional/south,
 /obj/item/trash/energybar,
-/turf/open/floor/iron/dark/purple/side,
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "Sd" = (
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
@@ -816,22 +845,25 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "Ut" = (
 /obj/machinery/light/cold/directional/south,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark/purple/side,
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "UL" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/portable_atmospherics/canister/halon,
 /obj/effect/turf_decal/box,
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "Vd" = (
 /obj/machinery/door/airlock/external{
@@ -866,9 +898,10 @@
 /turf/closed/wall/r_wall,
 /area/station/science/ordnance/burnchamber)
 "VL" = (
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 9
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "VZ" = (
 /turf/closed/wall/r_wall,
@@ -878,9 +911,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/storage/box/gorillacubes,
 /obj/item/analyzer/ranged,
-/turf/open/floor/iron/dark/purple/side{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 5
 	},
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "Wt" = (
 /turf/closed/wall/r_wall,
@@ -889,7 +923,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/firedoor/heavy,
-/turf/open/floor/iron/dark/purple,
+/obj/effect/turf_decal/trimline/purple/filled/end{
+	dir = 4
+	},
+/turf/open/space/basic,
 /area/station/science/research/abandoned)
 "Xi" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -909,7 +946,8 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/requests_console/directional/south,
-/turf/open/floor/iron/dark/purple/side,
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "Zq" = (
 /obj/effect/spawner/structure/window/reinforced,
