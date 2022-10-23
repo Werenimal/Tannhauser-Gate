@@ -34458,7 +34458,6 @@
 /turf/open/floor/plating,
 /area/station/service/chapel/office)
 "cBS" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/line{
@@ -36615,7 +36614,6 @@
 /area/station/ai_monitored/security/armory)
 "ewA" = (
 /obj/structure/window/reinforced/plasma/spawner/west,
-/obj/structure/cable,
 /obj/effect/turf_decal/box,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible{
 	dir = 1
@@ -37039,13 +37037,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit/departure_lounge)
-"eRJ" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/iron/dark,
-/area/station/security/lockers)
 "eSL" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -43477,7 +43468,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible{
 	dir = 8
 	},
-/obj/structure/cable,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -51420,7 +51410,6 @@
 /area/station/maintenance/department/engine)
 "qqa" = (
 /obj/structure/window/reinforced/plasma/spawner/west,
-/obj/structure/cable,
 /obj/effect/turf_decal/box,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible{
 	dir = 1
@@ -54630,7 +54619,6 @@
 /area/station/cargo/storage)
 "sLU" = (
 /obj/structure/window/reinforced/plasma/spawner/east,
-/obj/structure/cable,
 /obj/effect/turf_decal/box,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible{
 	dir = 1
@@ -54868,7 +54856,6 @@
 /turf/open/floor/iron/white,
 /area/station/ai_monitored/turret_protected/ai)
 "sWU" = (
-/obj/structure/cable,
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible{
 	dir = 8
@@ -59893,7 +59880,6 @@
 /area/station/cargo/office)
 "wGm" = (
 /obj/structure/window/reinforced/plasma/spawner/east,
-/obj/structure/cable,
 /obj/effect/turf_decal/box,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible{
 	dir = 1
@@ -60691,7 +60677,6 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
@@ -86404,7 +86389,7 @@ aew
 ail
 apd
 apd
-eRJ
+pah
 pah
 ajl
 ajl
