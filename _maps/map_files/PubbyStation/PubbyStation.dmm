@@ -22540,10 +22540,10 @@
 	dir = 5
 	},
 /obj/structure/table,
-/obj/item/computer_hardware/hard_drive/portable/medical,
-/obj/item/computer_hardware/hard_drive/portable/medical,
-/obj/item/computer_hardware/hard_drive/portable/medical,
-/obj/item/computer_hardware/hard_drive/portable/chemistry,
+/obj/item/computer_disk/medical,
+/obj/item/computer_disk/medical,
+/obj/item/computer_disk/medical,
+/obj/item/computer_disk/chemistry,
 /obj/item/wrench/medical,
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/white,
@@ -25011,9 +25011,9 @@
 	pixel_x = -8;
 	pixel_y = 14
 	},
-/obj/item/computer_hardware/hard_drive/portable/ordnance,
-/obj/item/computer_hardware/hard_drive/portable/ordnance,
-/obj/item/computer_hardware/hard_drive/portable/ordnance,
+/obj/item/computer_disk/ordnance,
+/obj/item/computer_disk/ordnance,
+/obj/item/computer_disk/ordnance,
 /obj/item/paper_bin{
 	pixel_x = 7;
 	pixel_y = 3
@@ -38140,11 +38140,11 @@
 /turf/open/floor/engine,
 /area/station/science/ordnance/burnchamber)
 "gic" = (
-/obj/item/computer_hardware/hard_drive/portable/engineering,
-/obj/item/computer_hardware/hard_drive/portable/engineering,
-/obj/item/computer_hardware/hard_drive/portable/engineering,
+/obj/item/computer_disk/engineering,
+/obj/item/computer_disk/engineering,
+/obj/item/computer_disk/engineering,
 /obj/structure/table/reinforced,
-/obj/item/computer_hardware/hard_drive/portable/atmos,
+/obj/item/computer_disk/atmos,
 /obj/machinery/requests_console/auto_name/directional/west,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 9
@@ -41811,10 +41811,10 @@
 	pixel_x = -30
 	},
 /obj/structure/table,
-/obj/item/computer_hardware/hard_drive/portable/quartermaster,
+/obj/item/computer_disk/quartermaster,
 /obj/item/clipboard,
-/obj/item/computer_hardware/hard_drive/portable/quartermaster,
-/obj/item/computer_hardware/hard_drive/portable/quartermaster,
+/obj/item/computer_disk/quartermaster,
+/obj/item/computer_disk/quartermaster,
 /obj/item/coin/silver,
 /obj/item/stamp/qm,
 /obj/item/reagent_containers/cup/glass/flask{
@@ -54083,7 +54083,7 @@
 	pixel_y = 12
 	},
 /obj/item/computer_hardware/card_slot,
-/obj/item/computer_hardware/hard_drive/portable/command/hop,
+/obj/item/computer_disk/command/hop,
 /obj/item/food/hotdog{
 	pixel_x = 6;
 	pixel_y = -10
@@ -57006,18 +57006,18 @@
 	dir = 6
 	},
 /obj/structure/table,
-/obj/item/computer_hardware/hard_drive/portable{
+/obj/item/computer_disk{
 	pixel_x = -2
 	},
-/obj/item/computer_hardware/hard_drive/portable{
+/obj/item/computer_disk{
 	pixel_x = -5;
 	pixel_y = 8
 	},
-/obj/item/computer_hardware/hard_drive/portable{
+/obj/item/computer_disk{
 	pixel_x = 7;
 	pixel_y = 2
 	},
-/obj/item/computer_hardware/hard_drive/portable{
+/obj/item/computer_disk{
 	pixel_x = -8;
 	pixel_y = -3
 	},
