@@ -37604,7 +37604,7 @@
 	dir = 4
 	},
 /obj/machinery/camera/motion/directional/west,
-/mob/living/simple_animal/hostile/rat{
+/mob/living/basic/mouse/rat{
 	desc = "They're an anarchist rodent who will bring down any non-rodentian.";
 	name = "Checkerz rat"
 	},

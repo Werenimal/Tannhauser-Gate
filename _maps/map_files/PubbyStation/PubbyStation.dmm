@@ -45235,7 +45235,7 @@
 	},
 /obj/item/reagent_containers/syringe/contraband/morphine,
 /obj/item/cigbutt,
-/mob/living/simple_animal/mouse/gray{
+/mob/living/basic/mouse/gray{
 	chew_probability = 0;
 	dir = 4;
 	name = "Checkerz"
@@ -52600,7 +52600,7 @@
 /turf/open/floor/wood/parquet,
 /area/station/maintenance/department/security/brig)
 "rsD" = (
-/mob/living/simple_animal/mouse/brown/tom,
+/mob/living/basic/mouse/brown/tom,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
