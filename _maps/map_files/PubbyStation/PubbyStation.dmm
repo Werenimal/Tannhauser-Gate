@@ -5798,8 +5798,7 @@
 	desc = "Talk through this. It looks like it has been modified to not broadcast.";
 	name = "Prison Intercom (General)";
 	pixel_x = -25;
-	pixel_y = -2;
-	
+	pixel_y = -2
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -34697,8 +34696,7 @@
 /obj/item/radio/intercom{
 	desc = "A station intercom. It looks like it has been modified to not broadcast.";
 	name = "Prison Intercom (General)";
-	pixel_y = 24;
-	
+	pixel_y = 24
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
@@ -39691,6 +39689,8 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
+/obj/effect/turf_decal/tile/dark_blue/fourcorners,
+/turf/open/floor/iron/dark,
 /area/station/security/prison/safe)
 "hot" = (
 /obj/machinery/light/directional/east,
@@ -43148,6 +43148,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
+/obj/effect/turf_decal/tile/dark_blue/fourcorners,
 /turf/open/floor/iron,
 /area/station/security/prison)
 "kfM" = (
@@ -43432,6 +43433,8 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
+/obj/effect/turf_decal/tile/dark_blue/fourcorners,
+/turf/open/floor/iron/dark,
 /area/station/security/prison/safe)
 "kvb" = (
 /obj/structure/cable,
@@ -44305,6 +44308,8 @@
 /obj/structure/table,
 /obj/item/storage/fancy/candle_box,
 /obj/item/storage/box/matches,
+/obj/effect/turf_decal/tile/dark_blue/fourcorners,
+/turf/open/floor/iron/dark,
 /area/station/security/prison)
 "kZU" = (
 /obj/structure/table/wood/fancy,
@@ -51973,6 +51978,8 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
+/obj/effect/turf_decal/tile/dark_blue/fourcorners,
+/turf/open/floor/iron/dark,
 /area/station/security/prison/safe)
 "qTL" = (
 /obj/effect/turf_decal/tile/purple/fourcorners,
@@ -52938,8 +52945,7 @@
 /obj/item/radio/intercom{
 	desc = "A station intercom. It looks like it has been modified to not broadcast.";
 	name = "Prison Intercom (General)";
-	pixel_y = 24;
-	
+	pixel_y = 24
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
@@ -55295,8 +55301,7 @@
 /obj/item/radio/intercom{
 	desc = "A station intercom. It looks like it has been modified to not broadcast.";
 	name = "Prison Intercom (General)";
-	pixel_y = 24;
-	
+	pixel_y = 24
 	},
 /obj/structure/sign/poster/official/random{
 	pixel_x = 30
@@ -56639,8 +56644,7 @@
 /obj/item/radio/intercom{
 	desc = "A station intercom. It looks like it has been modified to not broadcast.";
 	name = "Prison Intercom (General)";
-	pixel_y = 24;
-	
+	pixel_y = 24
 	},
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/darkblue/filled/line{
@@ -58433,6 +58437,8 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
+/obj/effect/turf_decal/tile/dark_blue/fourcorners,
+/turf/open/floor/iron/dark,
 /area/station/security/prison/safe)
 "vLM" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
