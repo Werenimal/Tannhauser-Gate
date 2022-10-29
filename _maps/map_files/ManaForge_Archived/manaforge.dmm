@@ -2024,7 +2024,7 @@
 /obj/item/tank/internals/oxygen,
 /obj/item/clothing/mask/gas,
 /obj/item/extinguisher,
-/obj/item/clothing/head/hardhat/red,
+/obj/item/clothing/head/utility/hardhat/red,
 /obj/item/clothing/glasses/meson,
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -4646,7 +4646,7 @@
 /obj/item/storage/belt/utility,
 /obj/item/storage/belt/utility,
 /obj/item/storage/belt/utility,
-/obj/item/clothing/head/welding,
+/obj/item/clothing/head/utility/welding,
 /turf/open/floor/iron,
 /area/station/ai_monitored/command/storage/eva)
 "ayY" = (
@@ -9680,7 +9680,7 @@
 /area/station/maintenance/port)
 "aSY" = (
 /obj/structure/table/reinforced,
-/obj/item/clothing/head/that,
+/obj/item/clothing/head/hats/tophat,
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
@@ -15677,7 +15677,7 @@
 	pixel_x = 1;
 	pixel_y = 6
 	},
-/obj/item/clothing/head/welding{
+/obj/item/clothing/head/utility/welding{
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -18435,7 +18435,7 @@
 	},
 /obj/effect/turf_decal/tile/yellow,
 /obj/item/storage/toolbox/mechanical,
-/obj/item/clothing/head/welding,
+/obj/item/clothing/head/utility/welding,
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "bvj" = (
@@ -24185,11 +24185,11 @@
 /area/station/engineering/atmos)
 "bSF" = (
 /obj/structure/table,
-/obj/item/clothing/head/welding{
+/obj/item/clothing/head/utility/welding{
 	pixel_x = -3;
 	pixel_y = 7
 	},
-/obj/item/clothing/head/welding{
+/obj/item/clothing/head/utility/welding{
 	pixel_x = -5;
 	pixel_y = 3
 	},
@@ -26868,7 +26868,7 @@
 /obj/item/storage/belt/utility,
 /obj/item/wrench,
 /obj/item/weldingtool,
-/obj/item/clothing/head/welding{
+/obj/item/clothing/head/utility/welding{
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -27407,7 +27407,7 @@
 "cii" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/suit/utility/radiation,
-/obj/item/clothing/head/radiation,
+/obj/item/clothing/head/utility/radiation,
 /obj/item/clothing/glasses/meson,
 /obj/item/geiger_counter,
 /obj/item/geiger_counter,
@@ -29329,7 +29329,7 @@
 /obj/structure/table,
 /obj/item/stack/sheet/iron/fifty,
 /obj/item/stack/sheet/glass/fifty,
-/obj/item/clothing/head/welding,
+/obj/item/clothing/head/utility/welding,
 /obj/item/stack/sheet/mineral/plasma{
 	amount = 35
 	},
@@ -30865,7 +30865,7 @@
 "cDi" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/suit/utility/radiation,
-/obj/item/clothing/head/radiation,
+/obj/item/clothing/head/utility/radiation,
 /obj/item/clothing/glasses/meson,
 /obj/item/clothing/glasses/meson,
 /obj/effect/turf_decal/stripes/line{
@@ -31651,7 +31651,7 @@
 	pixel_x = -2;
 	pixel_y = -1
 	},
-/obj/item/clothing/head/welding{
+/obj/item/clothing/head/utility/welding{
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -32620,7 +32620,7 @@
 /obj/structure/rack,
 /obj/item/wrench,
 /obj/item/clothing/suit/utility/fire/firefighter,
-/obj/item/clothing/head/hardhat/red,
+/obj/item/clothing/head/utility/hardhat/red,
 /obj/item/clothing/mask/gas,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -48454,7 +48454,7 @@
 "uhH" = (
 /obj/item/wrench,
 /obj/item/weldingtool,
-/obj/item/clothing/head/welding{
+/obj/item/clothing/head/utility/welding{
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -48773,8 +48773,8 @@
 /obj/effect/turf_decal/bot_blue,
 /obj/item/clothing/suit/utility/bomb_suit/security,
 /obj/item/clothing/suit/utility/bomb_suit/security,
-/obj/item/clothing/head/bomb_hood/security,
-/obj/item/clothing/head/bomb_hood/security,
+/obj/item/clothing/head/utility/bomb_hood/security,
+/obj/item/clothing/head/utility/bomb_hood/security,
 /turf/open/floor/iron/dark,
 /area/station/security/lockers)
 "uuD" = (
@@ -50819,7 +50819,7 @@
 /area/station/maintenance/port)
 "wES" = (
 /obj/structure/safe,
-/obj/item/clothing/head/bearpelt,
+/obj/item/clothing/head/costume/bearpelt,
 /obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
 /obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
 /obj/item/gun/ballistic/revolver/russian,
