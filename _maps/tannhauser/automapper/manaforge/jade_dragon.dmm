@@ -179,7 +179,6 @@
 /obj/item/reagent_containers/syringe/contraband/space_drugs,
 /obj/item/cigbutt,
 /mob/living/basic/mouse/gray{
-	chew_probability = 0;
 	dir = 4;
 	name = "Checkerz"
 	},
