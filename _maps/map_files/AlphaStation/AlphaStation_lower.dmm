@@ -7929,7 +7929,7 @@
 /turf/open/floor/iron/dark,
 /area/station/maintenance/solars/port/aft)
 "hNY" = (
-/obj/structure/shuttle/engine/huge,
+/obj/machinery/power/shuttle_engine/huge,
 /turf/open/space/basic,
 /area/space/nearstation)
 "hOa" = (
