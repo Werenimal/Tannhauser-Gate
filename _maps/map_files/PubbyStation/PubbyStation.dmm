@@ -60799,7 +60799,6 @@
 /obj/item/reagent_containers/syringe/contraband/morphine,
 /obj/item/cigbutt,
 /mob/living/basic/mouse/gray{
-	chew_probability = 0;
 	dir = 4;
 	name = "Checkerz"
 	},
