@@ -1988,8 +1988,8 @@
 /obj/structure/rack,
 /obj/item/clothing/suit/hazardvest,
 /obj/item/clothing/suit/hazardvest,
-/obj/item/clothing/head/hardhat/orange,
-/obj/item/clothing/head/hardhat/orange,
+/obj/item/clothing/head/utility/hardhat/orange,
+/obj/item/clothing/head/utility/hardhat/orange,
 /obj/item/clothing/glasses/meson/engine,
 /obj/item/clothing/glasses/meson/engine,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
@@ -7444,7 +7444,7 @@
 /obj/structure/chair/comfy/beige{
 	dir = 8
 	},
-/obj/item/clothing/head/bunnyhead,
+/obj/item/clothing/head/costume/bunnyhead,
 /turf/open/floor/carpet,
 /area/station/service/abandoned_gambling_den)
 "hso" = (
@@ -20670,7 +20670,7 @@
 	},
 /obj/effect/spawner/random/food_or_drink/donkpockets,
 /obj/item/storage/box/donkpockets,
-/obj/item/clothing/head/chefhat,
+/obj/item/clothing/head/utility/chefhat,
 /obj/machinery/light/no_nightlight/directional/north,
 /obj/structure/table/rolling,
 /obj/structure/disposalpipe/segment{

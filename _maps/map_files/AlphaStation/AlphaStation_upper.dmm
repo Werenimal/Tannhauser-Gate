@@ -13681,7 +13681,7 @@
 /obj/structure/table/reinforced,
 /obj/item/stack/package_wrap,
 /obj/item/hand_labeler,
-/obj/item/clothing/head/welding,
+/obj/item/clothing/head/utility/welding,
 /obj/item/radio/intercom/directional/north,
 /turf/open/floor/iron,
 /area/station/science/robotics/mechbay)
@@ -14573,11 +14573,11 @@
 "iuE" = (
 /obj/structure/table,
 /obj/item/book/manual/wiki/atmospherics,
-/obj/item/clothing/head/welding{
+/obj/item/clothing/head/utility/welding{
 	pixel_x = -5;
 	pixel_y = 3
 	},
-/obj/item/clothing/head/welding{
+/obj/item/clothing/head/utility/welding{
 	pixel_x = -5;
 	pixel_y = 3
 	},
@@ -16554,11 +16554,11 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
-/obj/item/clothing/head/festive,
+/obj/item/clothing/head/costume/festive,
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/item/fur_dyer,
 /obj/item/clothing/suit/costume/poncho/ponchoshame,
-/obj/item/clothing/head/sombrero/shamebrero,
+/obj/item/clothing/head/costume/sombrero/shamebrero,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -27950,7 +27950,7 @@
 	},
 /obj/item/storage/toolbox/electrical,
 /obj/item/multitool,
-/obj/item/clothing/head/welding,
+/obj/item/clothing/head/utility/welding,
 /obj/item/clothing/glasses/welding,
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 4
@@ -36637,7 +36637,7 @@
 	},
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical,
-/obj/item/clothing/head/welding,
+/obj/item/clothing/head/utility/welding,
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -39574,7 +39574,7 @@
 "wVH" = (
 /obj/structure/closet,
 /obj/item/storage/backpack/cultpack,
-/obj/item/clothing/head/nun_hood,
+/obj/item/clothing/head/chaplain/nun_hood,
 /obj/item/clothing/suit/chaplainsuit/nun,
 /obj/item/clothing/suit/chaplainsuit/holidaypriest,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
