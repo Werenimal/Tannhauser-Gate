@@ -17037,18 +17037,18 @@
 /area/station/ai_monitored/turret_protected/ai_upload)
 "jXa" = (
 /obj/structure/table,
-/obj/item/computer_hardware/hard_drive/portable{
+/obj/item/computer_disk{
 	pixel_x = -2
 	},
-/obj/item/computer_hardware/hard_drive/portable{
+/obj/item/computer_disk{
 	pixel_x = -5;
 	pixel_y = 8
 	},
-/obj/item/computer_hardware/hard_drive/portable{
+/obj/item/computer_disk{
 	pixel_x = 7;
 	pixel_y = 2
 	},
-/obj/item/computer_hardware/hard_drive/portable{
+/obj/item/computer_disk{
 	pixel_x = -8;
 	pixel_y = -3
 	},
@@ -32375,9 +32375,9 @@
 /area/station/service/abandoned_gambling_den/gaming)
 "sTG" = (
 /obj/structure/table/reinforced,
-/obj/item/computer_hardware/hard_drive/portable/quartermaster,
-/obj/item/computer_hardware/hard_drive/portable/quartermaster,
-/obj/item/computer_hardware/hard_drive/portable/quartermaster,
+/obj/item/computer_disk/quartermaster,
+/obj/item/computer_disk/quartermaster,
+/obj/item/computer_disk/quartermaster,
 /obj/item/gps/mining,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/item/reagent_containers/cup/glass/waterbottle/empty,
@@ -37611,7 +37611,7 @@
 	dir = 4
 	},
 /obj/machinery/camera/motion/directional/west,
-/mob/living/simple_animal/hostile/rat{
+/mob/living/basic/mouse/rat{
 	desc = "They're an anarchist rodent who will bring down any non-rodentian.";
 	name = "Checkerz rat"
 	},
