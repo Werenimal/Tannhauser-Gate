@@ -1157,7 +1157,6 @@
 "aHD" = (
 /obj/structure/window/reinforced,
 /obj/structure/cable,
-/obj/effect/landmark/start/expeditionary_corps,
 /turf/open/floor/plating,
 /area/station/command/gateway)
 "aHR" = (
@@ -1924,7 +1923,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/obj/effect/landmark/start/expeditionary_corps,
 /obj/effect/landmark/navigate_destination/gateway,
 /turf/open/floor/iron,
 /area/station/command/gateway)
@@ -30854,7 +30852,6 @@
 /obj/item/radio/intercom{
 	pixel_y = -26
 	},
-/obj/effect/landmark/start/expeditionary_corps,
 /turf/open/floor/iron,
 /area/station/command/gateway)
 "saM" = (

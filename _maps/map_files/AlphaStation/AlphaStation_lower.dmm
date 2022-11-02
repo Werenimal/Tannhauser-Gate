@@ -13,7 +13,7 @@
 /turf/open/floor/grass,
 /area/station/medical/virology)
 "aac" = (
-/mob/living/simple_animal/banana_spider,
+/mob/living/basic/banana_spider,
 /obj/effect/turf_decal/tile/random,
 /obj/effect/turf_decal/tile/random{
 	dir = 8
@@ -532,8 +532,7 @@
 "aCc" = (
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_one_access_txt = "0"
+	name = "Laser Room"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /obj/machinery/door/firedoor,
@@ -2957,8 +2956,7 @@
 /area/station/maintenance/disposal)
 "cVW" = (
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_one_access_txt = "0"
+	name = "Laser Room"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /obj/machinery/door/firedoor,
@@ -4042,8 +4040,7 @@
 /area/station/engineering/engine_smes)
 "dRw" = (
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_one_access_txt = "0"
+	name = "Laser Room"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -5952,8 +5949,7 @@
 /area/station/ai_monitored/command/storage/eva)
 "fNc" = (
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_one_access_txt = "0"
+	name = "Laser Room"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/atmos,
 /obj/machinery/door/firedoor,
@@ -10809,8 +10805,7 @@
 "kzF" = (
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_one_access_txt = "0"
+	name = "Laser Room"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /turf/open/floor/engine,
@@ -13083,8 +13078,7 @@
 /area/station/maintenance/night_club)
 "mLa" = (
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_one_access_txt = "0"
+	name = "Laser Room"
 	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
@@ -13885,8 +13879,7 @@
 "nzU" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_one_access_txt = "0"
+	name = "Laser Room"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -15517,8 +15510,7 @@
 /area/station/maintenance/department/science/xenobiology)
 "oUQ" = (
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_one_access_txt = "0"
+	name = "Laser Room"
 	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/atmos,
@@ -19973,8 +19965,7 @@
 /area/station/science/xenobiology)
 "sXQ" = (
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_one_access_txt = "0"
+	name = "Laser Room"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /obj/machinery/door/firedoor,
@@ -20930,8 +20921,7 @@
 /area/station/security/prison)
 "tNk" = (
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_one_access_txt = "0"
+	name = "Laser Room"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /obj/effect/turf_decal/tile/yellow/full,
@@ -21455,8 +21445,7 @@
 /area/station/maintenance/aft/lesser)
 "ukL" = (
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_one_access_txt = "0"
+	name = "Laser Room"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /obj/machinery/door/firedoor,
@@ -21535,8 +21524,7 @@
 /area/station/engineering/break_room)
 "umV" = (
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_one_access_txt = "0"
+	name = "Laser Room"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /obj/machinery/door/firedoor,
@@ -22056,8 +22044,7 @@
 /area/station/service/kitchen/coldroom)
 "uKS" = (
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_one_access_txt = "0"
+	name = "Laser Room"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -24918,8 +24905,7 @@
 /area/station/science/xenobiology)
 "xuz" = (
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Laser Room";
-	req_one_access_txt = "0"
+	name = "Laser Room"
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
