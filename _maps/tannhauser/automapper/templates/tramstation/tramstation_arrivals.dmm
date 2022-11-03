@@ -216,7 +216,7 @@
 /area/station/hallway/secondary/entry)
 "eW" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
-/area/space)
+/area/lavaland/surface)
 "fs" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -369,7 +369,7 @@
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/turf_decal/stripes/asteroid/box,
 /turf/open/floor/plating/airless,
-/area/mine/explored)
+/area/lavaland/surface)
 "jc" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
@@ -640,7 +640,7 @@
 /area/station/hallway/secondary/entry)
 "qd" = (
 /turf/open/misc/asteroid/airless,
-/area/mine/explored)
+/area/lavaland/surface)
 "qe" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
