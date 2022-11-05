@@ -17817,7 +17817,6 @@
 /turf/closed/wall/r_wall,
 /area/station/science/xenobiology)
 "bkH" = (
-/obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/research/glass{
 	name = "Slime Euthanization Chamber"
 	},
@@ -18697,7 +18696,6 @@
 /turf/open/floor/iron/dark,
 /area/station/science/server)
 "bnU" = (
-/obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command/glass{
 	name = "Server Room"
 	},
@@ -32515,15 +32513,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/monastery)
-"cvw" = (
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/disposalpipe/segment,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/iron,
-/area/station/cargo/storage)
 "cvx" = (
 /obj/machinery/camera/autoname/directional/south,
 /obj/machinery/light/directional/south,
@@ -39943,6 +39932,15 @@
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/station/commons/fitness/recreation)
+"hzE" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron,
+/area/station/cargo/storage)
 "hzF" = (
 /obj/structure/chair/sofa/right{
 	dir = 1
@@ -41406,18 +41404,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
-"iIc" = (
-/obj/effect/turf_decal/trimline/neutral/filled/line{
-	alpha = 100;
-	color = "#000000";
-	dir = 1
-	},
-/obj/effect/turf_decal/trimline/darkblue/line{
-	dir = 1
-	},
-/obj/effect/spawner/random/vending/snackvend,
-/turf/open/floor/iron,
-/area/station/hallway/primary/fore)
 "iIg" = (
 /obj/structure/flora/bush/flowers_yw/style_random,
 /obj/structure/flora/bush/lavendergrass/style_random,
@@ -51856,6 +51842,18 @@
 	},
 /turf/open/floor/plating,
 /area/station/engineering/supermatter/room)
+"qGm" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	alpha = 100;
+	color = "#000000";
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/darkblue/line{
+	dir = 1
+	},
+/obj/effect/spawner/random/vending/snackvend,
+/turf/open/floor/iron,
+/area/station/hallway/primary/fore)
 "qGF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/white/line{
@@ -84257,7 +84255,7 @@ atF
 auz
 avx
 awI
-iIc
+qGm
 ayJ
 aAg
 aBe
@@ -102272,8 +102270,8 @@ anQ
 aVz
 aWz
 sLD
-cvw
-cvw
+hzE
+hzE
 baC
 qXb
 udR
