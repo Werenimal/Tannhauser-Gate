@@ -776,8 +776,8 @@
 "aNq" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/blue,
-/obj/item/bodypart/l_leg/robot,
-/obj/item/bodypart/r_leg/robot,
+/obj/item/bodypart/leg/left/robot,
+/obj/item/bodypart/leg/right/robot,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/ai)
@@ -4001,10 +4001,10 @@
 "dRm" = (
 /obj/structure/table/reinforced,
 /obj/item/bodypart/chest/robot,
-/obj/item/bodypart/r_arm/robot{
+/obj/item/bodypart/arm/right/robot{
 	pixel_x = 6
 	},
-/obj/item/bodypart/l_arm/robot{
+/obj/item/bodypart/arm/left/robot{
 	pixel_x = -6
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,

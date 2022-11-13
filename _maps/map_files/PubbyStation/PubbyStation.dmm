@@ -59406,7 +59406,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "wth" = (
-/obj/item/bodypart/l_arm,
+/obj/item/bodypart/arm/left,
 /turf/open/floor/engine{
 	name = "Holodeck Projector Floor"
 	},
