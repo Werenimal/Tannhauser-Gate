@@ -24,7 +24,7 @@
 
 /mob/living/simple_animal/pet/redpanda/zesty
 	name = "Zesty"
-	desc = "Wah't a dork. Wash with Like colors"
+	desc = "Wah't a dork. Wash with Like colors."
 	butcher_results = list(/obj/item/reagent_containers/cup/glass/mug/tea = 6)
 	icon_state = "zest_panda"
 	icon_living = "zest_panda"
