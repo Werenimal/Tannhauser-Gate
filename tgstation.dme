@@ -6373,7 +6373,6 @@
 #include "modular_tannhauser\master_files\code\game\th_areas.dm"
 #include "modular_tannhauser\modules\AILaw\ai_law.dm"
 #include "modular_tannhauser\modules\Bestiary\code\panda.dm"
-#include "modular_tannhauser\modules\Bestiary\code\possum.dm"
 #include "modular_tannhauser\modules\CitOwOChems\code\chemistry\reagents\furrrrrr.dm"
 #include "modular_tannhauser\modules\CitOwOChems\code\chemistry\reagents\OwO.dm"
 #include "modular_tannhauser\modules\CitOwOChems\code\chemistry\reagents\plushmium.dm"
