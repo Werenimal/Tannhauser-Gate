@@ -511,9 +511,9 @@
 		//MODULAR SKYRAT ENTRIES
 		//PLEASE REFACTOR THESE AS YOU CAN
 
-		/mob/living/simple_animal/pet/redpanda
-		/mob/living/simple_animal/pet/redpanda/zesty
-		
+		/mob/living/simple_animal/pet/redpanda,
+		/mob/living/simple_animal/pet/redpanda/zesty,
+
 		// DO NOT ADD NEW ENTRIES TO THIS LIST
 		// READ THE COMMENT ABOVE
 
