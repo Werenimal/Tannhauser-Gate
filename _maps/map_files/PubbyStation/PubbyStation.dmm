@@ -15571,7 +15571,7 @@
 /turf/open/floor/iron,
 /area/station/service/janitor)
 "bbX" = (
-/obj/structure/janitorialcart,
+/obj/structure/mop_bucket/janitorialcart,
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -27092,7 +27092,7 @@
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "bVs" = (
-/obj/structure/mopbucket,
+/obj/structure/mop_bucket,
 /obj/item/mop,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
@@ -38904,7 +38904,6 @@
 	pixel_x = 7;
 	pixel_y = 12
 	},
-/obj/item/computer_hardware/card_slot,
 /obj/item/computer_disk/command/hop,
 /obj/item/food/hotdog{
 	pixel_x = 6;
@@ -46495,7 +46494,7 @@
 /turf/open/floor/wood,
 /area/station/maintenance/department/engine)
 "mIR" = (
-/obj/structure/janitorialcart,
+/obj/structure/mop_bucket/janitorialcart,
 /turf/open/floor/iron/dark,
 /area/station/security/prison/safe)
 "mIV" = (
@@ -54879,7 +54878,7 @@
 /turf/open/floor/plating,
 /area/station/cargo/storage)
 "sZu" = (
-/obj/structure/mopbucket,
+/obj/structure/mop_bucket,
 /obj/item/mop,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science)
