@@ -17425,10 +17425,6 @@
 	dir = 1
 	},
 /area/station/medical/medbay/central)
-"kkh" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/openspace,
-/area/station/science/ordnance)
 "kko" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -18212,10 +18208,6 @@
 /obj/structure/marker_beacon/burgundy,
 /turf/open/space/openspace,
 /area/space/nearstation)
-"kHi" = (
-/obj/structure/lattice,
-/turf/open/space/openspace,
-/area/station/hallway/secondary/entry)
 "kHC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/camera/autoname/directional/west,
@@ -26407,9 +26399,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
-"prE" = (
-/turf/open/space/openspace,
-/area/station/hallway/secondary/entry)
 "prL" = (
 /obj/structure/rack/shelf,
 /obj/effect/turf_decal/bot,
@@ -40316,7 +40305,7 @@
 /obj/machinery/door/poddoor/massdriver_ordnance,
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/station/science/ordnance)
+/area/space/nearstation)
 "xvm" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 6
@@ -75052,10 +75041,10 @@ trq
 trq
 jTR
 trq
-prE
-prE
-prE
-kHi
+lpk
+lpk
+lpk
+isP
 isP
 isP
 bSC
@@ -77622,10 +77611,10 @@ trq
 trq
 jTR
 trq
-prE
-prE
-prE
-kHi
+lpk
+lpk
+lpk
+isP
 isP
 isP
 bSC
@@ -91687,7 +91676,7 @@ iWm
 iWm
 iWm
 sIl
-kkh
+meb
 sIl
 lpk
 lpk

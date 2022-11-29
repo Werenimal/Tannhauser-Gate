@@ -417,7 +417,7 @@
 "aur" = (
 /obj/machinery/door/poddoor/incinerator_atmos_main,
 /turf/open/space/basic,
-/area/station/maintenance/disposal/incinerator)
+/area/space/nearstation)
 "auD" = (
 /obj/structure/stairs/west,
 /turf/open/floor/iron,
