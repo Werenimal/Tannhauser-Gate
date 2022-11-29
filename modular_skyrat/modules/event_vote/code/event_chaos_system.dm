@@ -52,15 +52,15 @@
 /datum/round_event_control/preset/moderate
 	name = "Highly Disruptive Random Event"
 	max_occurrences = 10
-	earliest_start = 10 MINUTES
+	earliest_start = 30 MINUTES
 	selectable_chaos_level = EVENT_CHAOS_MED
 
 /datum/round_event_control/preset/high
 	name = "Catastrophic Random Event"
 	max_occurrences = 10
-	earliest_start = 30 MINUTES
+	earliest_start = 50 MINUTES
 	selectable_chaos_level = EVENT_CHAOS_HIGH
-	min_players = 70
+	min_players = 20
 
 /**
  * EVENT CHAOS DECLARES
@@ -99,7 +99,7 @@
 	chaos_level = EVENT_CHAOS_LOW
 
 /datum/round_event_control/grey_tide
-	chaos_level = EVENT_CHAOS_LOW
+	chaos_level = EVENT_CHAOS_MED
 
 /datum/round_event_control/processor_overload
 	chaos_level = EVENT_CHAOS_LOW
@@ -170,10 +170,10 @@
 	chaos_level = EVENT_CHAOS_MED
 
 /datum/round_event_control/meteor_wave/threatening
-	chaos_level = EVENT_CHAOS_MED
+	chaos_level = EVENT_CHAOS_HIGH
 
 /datum/round_event_control/meteor_wave
-	chaos_level = EVENT_CHAOS_MED
+	chaos_level = EVENT_CHAOS_HIGH
 
 /datum/round_event_control/immovable_rod
 	chaos_level = EVENT_CHAOS_MED
