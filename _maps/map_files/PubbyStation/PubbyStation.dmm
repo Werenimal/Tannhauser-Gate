@@ -7006,11 +7006,6 @@
 /obj/structure/chair/stool,
 /turf/open/floor/vault,
 /area/station/ai_monitored/command/nuke_storage)
-"ayy" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/turf/open/space,
-/area/station/maintenance/solars/port)
 "ayz" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/warning/vacuum/external/directional/west,
@@ -68539,9 +68534,9 @@ ccv
 ccv
 ccv
 ccv
-ayy
+ccv
 azK
-ayy
+ccv
 ccv
 ccv
 ccv
@@ -69567,9 +69562,9 @@ ccv
 ccv
 ccv
 ccv
-ayy
+ccv
 azK
-ayy
+ccv
 ccv
 ccv
 ccv
@@ -70595,9 +70590,9 @@ ccv
 ccv
 ccv
 ccv
-ayy
+ccv
 azK
-ayy
+ccv
 ccv
 ccv
 ccv
