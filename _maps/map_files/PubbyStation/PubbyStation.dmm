@@ -947,15 +947,12 @@
 	},
 /turf/open/floor/plating,
 /area/station/ai_monitored/turret_protected/ai_sat_ext_as)
-"adV" = (
-/turf/open/space,
-/area/station/ai_monitored/turret_protected/ai_sat_ext_ap)
 "adW" = (
 /obj/structure/lattice,
 /obj/machinery/light/small/red/dim/directional/north,
 /obj/machinery/camera/autoname/directional/north,
 /turf/open/space,
-/area/station/ai_monitored/turret_protected/ai_sat_ext_ap)
+/area/space/nearstation)
 "adX" = (
 /turf/closed/wall/r_wall,
 /area/station/ai_monitored/turret_protected/aisat_interior)
@@ -967,15 +964,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat_interior)
-"adZ" = (
-/turf/open/space,
-/area/station/ai_monitored/turret_protected/ai_sat_ext_as)
-"aea" = (
-/obj/structure/lattice,
-/obj/machinery/light/small/red/dim/directional/north,
-/obj/machinery/camera/autoname/directional/north,
-/turf/open/space,
-/area/station/ai_monitored/turret_protected/ai_sat_ext_as)
 "aec" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -1077,7 +1065,7 @@
 	network = list("minisat")
 	},
 /turf/open/space,
-/area/station/ai_monitored/turret_protected/ai_sat_ext_ap)
+/area/space/nearstation)
 "aey" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1092,7 +1080,7 @@
 	network = list("minisat")
 	},
 /turf/open/space,
-/area/station/ai_monitored/turret_protected/ai_sat_ext_as)
+/area/space/nearstation)
 "aeA" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "visitation";
@@ -7018,11 +7006,6 @@
 /obj/structure/chair/stool,
 /turf/open/floor/vault,
 /area/station/ai_monitored/command/nuke_storage)
-"ayy" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/turf/open/space,
-/area/station/maintenance/solars/port)
 "ayz" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/warning/vacuum/external/directional/west,
@@ -30947,20 +30930,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat_interior)
-"cnD" = (
-/turf/open/space/basic,
-/area/station/ai_monitored/turret_protected/ai_sat_ext_ap)
-"cnE" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/station/ai_monitored/turret_protected/ai_sat_ext_ap)
-"cnG" = (
-/turf/open/space/basic,
-/area/station/ai_monitored/turret_protected/ai_sat_ext_as)
-"cnH" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/station/ai_monitored/turret_protected/ai_sat_ext_as)
 "cnJ" = (
 /obj/effect/turf_decal/bot_blue,
 /obj/structure/closet/secure_closet/security/sec,
@@ -33710,10 +33679,6 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science)
-"cDH" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/station/science/ordnance/testlab)
 "cDN" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/portable_atmospherics/canister/nitrous_oxide,
@@ -38861,7 +38826,7 @@
 /obj/machinery/door/poddoor/massdriver_ordnance,
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/station/science/ordnance/testlab)
+/area/space/nearstation)
 "gLF" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron,
@@ -42108,10 +42073,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos/hfr_room)
-"jmg" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space,
-/area/station/maintenance/solars/port)
 "jmL" = (
 /obj/machinery/door/window/left/directional/south{
 	name = "Mass Driver Door";
@@ -52330,7 +52291,7 @@
 	dir = 4
 	},
 /turf/open/space/basic,
-/area/station/cargo/storage)
+/area/space/nearstation)
 "rbo" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/structure/window/reinforced/spawner/east,
@@ -55722,10 +55683,6 @@
 	},
 /turf/open/floor/carpet/executive,
 /area/command/heads_quarters/captain/private/nt_rep)
-"tFP" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/station/maintenance/solars/starboard/fore)
 "tGm" = (
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible,
 /turf/open/floor/iron,
@@ -68577,9 +68534,9 @@ ccv
 ccv
 ccv
 ccv
-ayy
+ccv
 azK
-ayy
+ccv
 ccv
 ccv
 ccv
@@ -69605,9 +69562,9 @@ ccv
 ccv
 ccv
 ccv
-ayy
+ccv
 azK
-ayy
+ccv
 ccv
 ccv
 ccv
@@ -70633,9 +70590,9 @@ ccv
 ccv
 ccv
 ccv
-ayy
+ccv
 azK
-ayy
+ccv
 ccv
 ccv
 ccv
@@ -71662,7 +71619,7 @@ aaa
 aaa
 aaa
 aaa
-jmg
+azK
 aaa
 aaa
 aaa
@@ -71919,7 +71876,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -72176,7 +72133,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -72433,7 +72390,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -72690,7 +72647,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -72947,7 +72904,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -73204,7 +73161,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -73461,7 +73418,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -73718,7 +73675,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -73975,7 +73932,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -74232,7 +74189,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -74489,7 +74446,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -74746,7 +74703,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -75003,7 +74960,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -75260,7 +75217,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -75517,7 +75474,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -75774,7 +75731,7 @@ aaa
 aaa
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -76031,7 +75988,7 @@ aby
 aby
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -76288,7 +76245,7 @@ aaa
 aht
 aaa
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -76545,7 +76502,7 @@ aiu
 aiu
 aht
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -76802,7 +76759,7 @@ dci
 aiu
 aht
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -77059,7 +77016,7 @@ mwg
 aiu
 aht
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -77316,7 +77273,7 @@ tlc
 aiu
 aht
 aaa
-ayy
+ccv
 aaa
 aaa
 aaa
@@ -93985,11 +93942,11 @@ acY
 adj
 adu
 acP
-adV
-adV
-cnD
-adV
-adV
+emV
+emV
+nAC
+emV
+emV
 acP
 afb
 acP
@@ -94244,7 +94201,7 @@ adv
 acP
 adW
 aej
-cnE
+aht
 aej
 aex
 acP
@@ -94499,11 +94456,11 @@ add
 adk
 adw
 adX
-adV
-adV
-cnD
-adV
-adV
+emV
+emV
+nAC
+emV
+emV
 adX
 adO
 afw
@@ -95527,11 +95484,11 @@ add
 ado
 adA
 adX
-adZ
-adZ
-cnG
-adZ
-adZ
+emV
+emV
+nAC
+emV
+emV
 adX
 adO
 afA
@@ -95784,9 +95741,9 @@ acU
 acU
 adB
 acU
-aea
+adW
 aej
-cnH
+aht
 aej
 aez
 acU
@@ -96041,11 +95998,11 @@ ade
 aeB
 adE
 acU
-adZ
-adZ
-cnG
-adZ
-adZ
+emV
+emV
+nAC
+emV
+emV
 acU
 afj
 acU
@@ -104790,7 +104747,7 @@ aaa
 aaa
 aaa
 aaa
-tFP
+auq
 djO
 aoA
 ovK
@@ -105304,7 +105261,7 @@ aht
 aaa
 aaa
 aaa
-tFP
+auq
 djO
 djO
 djO
@@ -111819,9 +111776,9 @@ jKq
 kwf
 kwf
 kwf
-cDH
-cDH
-cDH
+cdm
+cdm
+cdm
 aht
 aaa
 aaa

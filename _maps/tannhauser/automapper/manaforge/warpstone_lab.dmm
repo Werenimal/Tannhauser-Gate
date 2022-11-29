@@ -69,7 +69,7 @@
 /obj/effect/turf_decal/trimline/purple/filled/end{
 	dir = 8
 	},
-/turf/open/space/basic,
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "cU" = (
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible,
@@ -926,7 +926,7 @@
 /obj/effect/turf_decal/trimline/purple/filled/end{
 	dir = 4
 	},
-/turf/open/space/basic,
+/turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "Xi" = (
 /obj/effect/decal/cleanable/dirt/dust,
