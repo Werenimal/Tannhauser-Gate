@@ -32467,7 +32467,7 @@
 /turf/closed/wall/r_wall,
 /area/station/maintenance/department/engine/atmos)
 "dfT" = (
-/obj/machinery/mineral/equipment_vendor,
+/obj/machinery/computer/order_console/mining,
 /turf/open/floor/iron,
 /area/station/cargo/miningdock)
 "dgl" = (
@@ -37819,7 +37819,7 @@
 /turf/open/floor/plating,
 /area/station/engineering/atmospherics_engine)
 "jiq" = (
-/obj/machinery/computer/chef_order{
+/obj/machinery/computer/order_console/cook{
 	dir = 4
 	},
 /turf/open/floor/iron/cafeteria,
