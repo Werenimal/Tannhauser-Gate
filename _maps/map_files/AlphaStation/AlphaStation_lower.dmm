@@ -3485,7 +3485,7 @@
 /turf/open/floor/circuit/green,
 /area/station/ai_monitored/turret_protected/ai)
 "duX" = (
-/obj/machinery/computer/chef_order{
+/obj/machinery/computer/order_console/cook{
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
@@ -11756,7 +11756,7 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/storage/tech)
 "lte" = (
-/obj/machinery/mineral/equipment_vendor,
+/obj/machinery/computer/order_console/mining,
 /turf/open/floor/iron,
 /area/station/cargo/miningoffice)
 "ltt" = (
