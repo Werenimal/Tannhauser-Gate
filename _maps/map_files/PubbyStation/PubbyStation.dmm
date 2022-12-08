@@ -212,7 +212,7 @@
 /turf/open/floor/wood,
 /area/station/security/prison)
 "aaW" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /turf/open/floor/wood,
 /area/station/security/prison)
 "aaX" = (
@@ -1043,7 +1043,7 @@
 /turf/open/floor/iron/white,
 /area/station/security/prison)
 "aer" = (
-/obj/structure/chair/sofa,
+/obj/structure/chair/sofa/middle/brown,
 /obj/structure/cable,
 /obj/effect/landmark/start/prisoner,
 /turf/open/floor/wood,
@@ -1133,7 +1133,7 @@
 /turf/open/floor/iron/white,
 /area/station/security/prison)
 "aeF" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /turf/open/floor/wood,
 /area/station/security/prison)
 "aeJ" = (
@@ -1885,7 +1885,7 @@
 /turf/open/floor/iron/white,
 /area/station/security/prison)
 "ahm" = (
-/obj/structure/chair/sofa/corner{
+/obj/structure/chair/sofa/corner/brown{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -1930,11 +1930,11 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "ahu" = (
-/obj/structure/chair/sofa,
+/obj/structure/chair/sofa/middle/brown,
 /turf/open/floor/wood,
 /area/station/security/prison)
 "ahv" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /obj/structure/sign/poster/official/random{
 	pixel_y = 32
 	},
@@ -2068,7 +2068,7 @@
 /turf/open/floor/iron/cafeteria,
 /area/station/security/prison)
 "ahU" = (
-/obj/structure/chair/sofa/right{
+/obj/structure/chair/sofa/right/brown{
 	dir = 4
 	},
 /obj/machinery/camera{
@@ -33984,7 +33984,7 @@
 /obj/structure/noticeboard{
 	pixel_y = 32
 	},
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/item/toy/plush/moth{
 	name = "Dr. Moff"
 	},
@@ -34871,7 +34871,7 @@
 /turf/open/floor/iron/white,
 /area/station/security/prison)
 "dEK" = (
-/obj/structure/chair/sofa/right{
+/obj/structure/chair/sofa/right/brown{
 	dir = 1
 	},
 /turf/open/floor/plating,
@@ -36802,7 +36802,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "fob" = (
-/obj/structure/chair/sofa{
+/obj/structure/chair/sofa/middle/brown{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/cum{
@@ -39906,7 +39906,7 @@
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "hzF" = (
-/obj/structure/chair/sofa/right{
+/obj/structure/chair/sofa/right/brown{
 	dir = 1
 	},
 /turf/open/floor/wood/parquet,
@@ -49714,7 +49714,7 @@
 /turf/open/floor/iron/white,
 /area/station/science/auxlab)
 "pgq" = (
-/obj/structure/chair/sofa{
+/obj/structure/chair/sofa/middle/brown{
 	dir = 1
 	},
 /turf/open/floor/plating,
@@ -51623,7 +51623,7 @@
 /turf/open/floor/grass,
 /area/station/service/hydroponics)
 "qxU" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /obj/item/toy/plush/moth{
 	name = "Big Moffer"
 	},
@@ -52736,7 +52736,7 @@
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/office)
 "rsz" = (
-/obj/structure/chair/sofa/left{
+/obj/structure/chair/sofa/left/brown{
 	dir = 1
 	},
 /turf/open/floor/wood/parquet,
@@ -59937,7 +59937,7 @@
 /turf/open/floor/iron/dark,
 /area/station/cargo/storage)
 "wLF" = (
-/obj/structure/chair/sofa/left{
+/obj/structure/chair/sofa/left/brown{
 	dir = 1
 	},
 /turf/open/floor/plating,

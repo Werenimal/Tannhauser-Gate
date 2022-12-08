@@ -6047,7 +6047,7 @@
 /obj/structure/noticeboard{
 	pixel_y = 32
 	},
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/item/toy/plush/skyrat/blue_cat{
 	desc = "A bright blue cat plush that was made in limited numbers, this one is listed as 10 of 500.";
 	name = "Zesty Cat  Plushie"
@@ -6592,7 +6592,7 @@
 /turf/open/floor/iron,
 /area/station/security/courtroom)
 "dUJ" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/effect/landmark/start/lawyer,
 /turf/open/floor/wood,
 /area/station/service/lawoffice)
@@ -13695,7 +13695,7 @@
 	},
 /area/station/medical/exam_room)
 "hWt" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /obj/item/toy/cattoy,
 /turf/open/floor/carpet,
 /area/station/medical/psychology)
@@ -20624,7 +20624,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/office)
 "mds" = (
-/obj/structure/chair/sofa,
+/obj/structure/chair/sofa/middle/brown,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
@@ -40856,7 +40856,7 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/station/hallway/secondary/entry)
 "xLd" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /turf/open/floor/wood,
 /area/station/service/lawoffice)
 "xLp" = (
