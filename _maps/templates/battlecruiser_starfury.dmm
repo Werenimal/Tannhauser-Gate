@@ -756,8 +756,8 @@
 "cP" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "starfury_surgery_shutters";
-	dir = 8
+	dir = 8;
+	id = "starfury_surgery_shutters"
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -824,15 +824,15 @@
 	id = "syndie_battlecruiser_bridge_bolt";
 	name = "Bridge Lockdown";
 	normaldoorcontrol = 1;
+	pixel_y = 4;
 	req_access = list("syndicate_leader");
-	specialfunctions = 4;
-	pixel_y = 4
+	specialfunctions = 4
 	},
 /obj/machinery/button/door{
 	id = "syndie_battlecruier_bridge_blast";
 	name = "Bridge Blast Doors";
-	req_access = list("syndicate_leader");
-	pixel_y = -4
+	pixel_y = -4;
+	req_access = list("syndicate_leader")
 	},
 /obj/structure/window/reinforced/survival_pod{
 	dir = 8
@@ -1867,7 +1867,7 @@
 "gF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/vehicle/sealed/mecha/medical/combat/marauder/mauler/loaded,
+/obj/vehicle/sealed/mecha/marauder/loaded,
 /turf/open/floor/pod/light,
 /area/shuttle/sbc_starfury)
 "gH" = (
@@ -2465,16 +2465,13 @@
 	pixel_x = 2
 	},
 /obj/item/ammo_box/magazine/m10mm{
-	icon_state = "9x19p-8";
 	pixel_x = -3;
 	pixel_y = 6
 	},
 /obj/item/ammo_box/magazine/m10mm{
-	icon_state = "9x19p-8";
 	pixel_y = 3
 	},
 /obj/item/ammo_box/magazine/m10mm{
-	icon_state = "9x19p-8";
 	pixel_x = 3
 	},
 /obj/structure/extinguisher_cabinet/directional/east,
@@ -2701,16 +2698,13 @@
 "iv" = (
 /obj/structure/table,
 /obj/item/ammo_box/magazine/m10mm{
-	icon_state = "9x19p-8";
 	pixel_x = -3;
 	pixel_y = 6
 	},
 /obj/item/ammo_box/magazine/m10mm{
-	icon_state = "9x19p-8";
 	pixel_y = 3
 	},
 /obj/item/ammo_box/magazine/m10mm{
-	icon_state = "9x19p-8";
 	pixel_x = 3
 	},
 /obj/item/assembly/flash/handheld,
@@ -3090,9 +3084,9 @@
 /area/shuttle/sbc_starfury)
 "jv" = (
 /obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
 	id = "syndie_battlecruiser_sm";
-	name = "Radiation Chamber Shutters";
-	dir = 8
+	name = "Radiation Chamber Shutters"
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/sbc_starfury)
@@ -3186,9 +3180,9 @@
 /area/shuttle/sbc_starfury)
 "jN" = (
 /obj/machinery/door/poddoor/shutters/preopen{
+	dir = 4;
 	id = "syndie_battlecruiser_sm";
-	name = "Radiation Chamber Shutters";
-	dir = 4
+	name = "Radiation Chamber Shutters"
 	},
 /obj/structure/cable,
 /obj/machinery/button/door/directional/north{
@@ -4394,9 +4388,9 @@
 /area/shuttle/sbc_starfury)
 "wd" = (
 /obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
 	id = "syndie_battlecruiser_sm";
-	name = "Radiation Chamber Shutters";
-	dir = 8
+	name = "Radiation Chamber Shutters"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/button/door/directional/north{
@@ -4874,8 +4868,8 @@
 "FO" = (
 /obj/machinery/door/window/survival_pod{
 	dir = 1;
-	req_access = list("syndicate_leader");
-	name = "Command Desk"
+	name = "Command Desk";
+	req_access = list("syndicate_leader")
 	},
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -5714,8 +5708,8 @@
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/structure/cable,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "starfury_surgery_shutters";
-	dir = 8
+	dir = 8;
+	id = "starfury_surgery_shutters"
 	},
 /turf/open/floor/plating,
 /area/shuttle/sbc_starfury)
@@ -5739,9 +5733,9 @@
 /area/shuttle/sbc_starfury)
 "Xg" = (
 /obj/machinery/door/poddoor/shutters/preopen{
+	dir = 4;
 	id = "syndie_battlecruiser_sm";
-	name = "Radiation Chamber Shutters";
-	dir = 4
+	name = "Radiation Chamber Shutters"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
