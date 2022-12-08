@@ -5988,7 +5988,7 @@
 /turf/open/floor/iron,
 /area/station/service/hydroponics/garden)
 "aEM" = (
-/obj/structure/chair/sofa/right/brown,
+/obj/structure/chair/sofa/right,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
@@ -5997,7 +5997,7 @@
 	},
 /area/station/commons/fitness)
 "aEN" = (
-/obj/structure/chair/sofa/left/brown,
+/obj/structure/chair/sofa/left,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
@@ -6300,13 +6300,13 @@
 	},
 /area/station/commons/fitness)
 "aGc" = (
-/obj/structure/chair/sofa/left/brown{
+/obj/structure/chair/sofa/left{
 	dir = 1
 	},
 /turf/open/floor/iron,
 /area/station/commons/fitness)
 "aGd" = (
-/obj/structure/chair/sofa/right/brown{
+/obj/structure/chair/sofa/right{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral{
@@ -8883,7 +8883,7 @@
 /area/station/service/bar)
 "aQb" = (
 /obj/effect/landmark/start/hangover,
-/obj/structure/chair/sofa/right/brown,
+/obj/structure/chair/sofa/right,
 /obj/structure/window/spawner/north,
 /turf/open/floor/wood,
 /area/station/service/bar)
@@ -8895,7 +8895,7 @@
 /turf/open/floor/iron,
 /area/station/service/bar)
 "aQd" = (
-/obj/structure/chair/sofa/right/brown{
+/obj/structure/chair/sofa/right{
 	dir = 1
 	},
 /obj/effect/landmark/start/hangover,
@@ -9272,7 +9272,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "aRu" = (
-/obj/structure/chair/sofa/left/brown{
+/obj/structure/chair/sofa/left{
 	dir = 1
 	},
 /obj/effect/landmark/start/hangover,
@@ -10284,7 +10284,7 @@
 /obj/item/clothing/mask/cigarette/cigar,
 /obj/item/toy/cards/deck,
 /obj/effect/landmark/start/hangover,
-/obj/structure/chair/sofa/left/brown,
+/obj/structure/chair/sofa/left,
 /obj/structure/window/spawner/north,
 /turf/open/floor/wood,
 /area/station/service/bar)
@@ -10859,7 +10859,7 @@
 /area/station/hallway/primary/central)
 "aXi" = (
 /obj/effect/landmark/start/hangover,
-/obj/structure/chair/sofa/right/brown,
+/obj/structure/chair/sofa/right,
 /obj/structure/window/spawner/north,
 /obj/machinery/light/directional/west,
 /obj/machinery/computer/security/telescreen/entertainment/directional/west,
@@ -11700,14 +11700,14 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "aZZ" = (
-/obj/structure/chair/sofa/middle/brown{
+/obj/structure/chair/sofa{
 	dir = 1
 	},
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/wood,
 /area/station/service/bar)
 "baa" = (
-/obj/structure/chair/sofa/left/brown{
+/obj/structure/chair/sofa/left{
 	dir = 1
 	},
 /obj/effect/landmark/start/hangover,
@@ -11719,7 +11719,7 @@
 /turf/open/floor/wood,
 /area/station/service/bar)
 "bac" = (
-/obj/structure/chair/sofa/right/brown{
+/obj/structure/chair/sofa/right{
 	dir = 1
 	},
 /obj/effect/landmark/start/hangover,
@@ -22402,7 +22402,7 @@
 "bKM" = (
 /obj/machinery/light/directional/north,
 /obj/structure/extinguisher_cabinet/directional/north,
-/obj/structure/chair/sofa/left/brown,
+/obj/structure/chair/sofa/left,
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/carpet/blue,
 /area/station/medical/psychology)
@@ -38912,7 +38912,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
 "kiA" = (
-/obj/structure/chair/sofa/middle/brown{
+/obj/structure/chair/sofa{
 	dir = 1
 	},
 /turf/open/floor/wood,
@@ -40251,7 +40251,7 @@
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain)
 "lxZ" = (
-/obj/item/modular_computer/pda/clear,
+/obj/item/modular_computer/tablet/pda/clear,
 /turf/open/floor/plating,
 /area/station/security/prison/safe)
 "lyl" = (
@@ -40974,7 +40974,7 @@
 	},
 /obj/structure/sign/departments/restroom/directional/south,
 /obj/machinery/light/small/directional/south,
-/obj/structure/chair/sofa/left/brown{
+/obj/structure/chair/sofa/left{
 	dir = 1
 	},
 /turf/open/floor/iron/white,
@@ -41780,7 +41780,7 @@
 	},
 /obj/machinery/airalarm/directional/south,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/chair/sofa/right/brown{
+/obj/structure/chair/sofa/right{
 	dir = 1
 	},
 /turf/open/floor/iron/white,
@@ -42114,7 +42114,7 @@
 /area/station/hallway/primary/starboard)
 "nxs" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/obj/structure/chair/sofa/middle/brown{
+/obj/structure/chair/sofa{
 	dir = 1
 	},
 /turf/open/floor/wood,
@@ -46011,7 +46011,7 @@
 /turf/open/floor/iron/dark,
 /area/station/science/research/abandoned)
 "rBQ" = (
-/obj/structure/chair/sofa/corner/brown{
+/obj/structure/chair/sofa/corner{
 	dir = 8
 	},
 /turf/open/floor/wood,
@@ -46075,7 +46075,7 @@
 /turf/open/floor/wood,
 /area/station/service/bar)
 "rFQ" = (
-/obj/structure/chair/sofa/middle/brown,
+/obj/structure/chair/sofa,
 /obj/effect/landmark/start/assistant,
 /obj/structure/window/spawner/north,
 /turf/open/floor/wood,
@@ -46287,7 +46287,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
 "rSY" = (
-/obj/structure/chair/sofa/corner/brown{
+/obj/structure/chair/sofa/corner{
 	dir = 1
 	},
 /turf/open/floor/wood,
@@ -48587,7 +48587,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/brig)
 "umx" = (
-/obj/structure/chair/sofa/right/brown,
+/obj/structure/chair/sofa/right,
 /obj/item/toy/plush/moth{
 	name = "Dr. Moff"
 	},
@@ -50543,7 +50543,7 @@
 	},
 /area/station/security/prison)
 "wnr" = (
-/obj/structure/chair/sofa/middle/brown{
+/obj/structure/chair/sofa{
 	dir = 1
 	},
 /obj/effect/landmark/start/hangover,

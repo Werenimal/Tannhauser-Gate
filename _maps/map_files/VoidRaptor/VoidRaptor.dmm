@@ -83604,7 +83604,7 @@
 /turf/open/floor/noslip,
 /area/station/service/janitor)
 "xnc" = (
-/obj/vehicle/sealed/mecha/medical/combat/working/ripley/cargo,
+/obj/vehicle/sealed/mecha/working/ripley/cargo,
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
 	},
