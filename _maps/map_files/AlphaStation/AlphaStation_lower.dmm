@@ -15563,7 +15563,7 @@
 /turf/open/floor/engine/helium,
 /area/station/tcommsat/server)
 "oYu" = (
-/obj/vehicle/sealed/mecha/medical/odysseus,
+/obj/vehicle/sealed/mecha/odysseus,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/thruster_room/starboard)
 "oZk" = (
