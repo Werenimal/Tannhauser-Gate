@@ -5170,6 +5170,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
 /turf/open/floor/engine,
 /area/station/maintenance/disposal/incinerator)
 "eXv" = (
@@ -13824,12 +13825,12 @@
 /area/station/maintenance/fore)
 "nyt" = (
 /obj/machinery/airlock_controller/incinerator_atmos{
-	pixel_x = -23;
-	pixel_y = 6
+	pixel_y = 9;
+	pixel_x = -24
 	},
 /obj/machinery/button/door/incinerator_vent_atmos_aux{
-	pixel_x = -22;
-	pixel_y = -7
+	pixel_y = -5;
+	pixel_x = -22
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -14187,6 +14188,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
 /turf/open/floor/engine,
 /area/station/maintenance/disposal/incinerator)
 "nOt" = (
@@ -14744,8 +14746,8 @@
 	dir = 8
 	},
 /obj/machinery/airlock_controller/incinerator_atmos{
-	pixel_x = -23;
-	pixel_y = 6
+	pixel_y = 9;
+	pixel_x = -24
 	},
 /turf/open/floor/iron/dark,
 /area/station/maintenance/disposal/incinerator)
