@@ -21617,7 +21617,7 @@
 /area/station/hallway/primary/starboard)
 "mGA" = (
 /obj/effect/mapping_helpers/airlock/locked,
-/obj/machinery/embedded_controller/radio/airlock_controller/incinerator_ordmix{
+/obj/machinery/airlock_controller/incinerator_ordmix{
 	pixel_x = -22
 	},
 /obj/effect/mapping_helpers/airlock/access/any/science/ordnance,

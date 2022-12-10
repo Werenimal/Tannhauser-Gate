@@ -13823,7 +13823,7 @@
 /turf/open/floor/iron,
 /area/station/maintenance/fore)
 "nyt" = (
-/obj/machinery/embedded_controller/radio/airlock_controller/incinerator_atmos{
+/obj/machinery/airlock_controller/incinerator_atmos{
 	pixel_x = -23;
 	pixel_y = 6
 	},
@@ -14743,7 +14743,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/machinery/embedded_controller/radio/airlock_controller/incinerator_atmos{
+/obj/machinery/airlock_controller/incinerator_atmos{
 	pixel_x = -23;
 	pixel_y = 6
 	},
