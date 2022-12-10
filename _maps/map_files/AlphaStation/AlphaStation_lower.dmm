@@ -13830,10 +13830,6 @@
 /turf/open/floor/iron,
 /area/station/maintenance/fore)
 "nyt" = (
-/obj/machinery/airlock_controller/incinerator_atmos{
-	pixel_y = 9;
-	pixel_x = -24
-	},
 /obj/machinery/button/door/incinerator_vent_atmos_aux{
 	pixel_y = -5;
 	pixel_x = -22
@@ -13841,15 +13837,12 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/machinery/computer/turbine_computer{
+/obj/machinery/computer/security/telescreen/turbine{
+	pixel_x = -38;
 	dir = 4
 	},
-/obj/machinery/computer/security/telescreen{
-	desc = "Used for watching the turbine vent.";
-	dir = 4;
-	name = "turbine vent monitor";
-	network = list("turbine");
-	pixel_x = -36
+/obj/machinery/computer/turbine_computer{
+	dir = 4
 	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
@@ -15640,14 +15633,6 @@
 	},
 /turf/open/floor/plating/elevatorshaft,
 /area/station/cargo/warehouse)
-"pcl" = (
-/mob/living/simple_animal/bot/secbot/beepsky/officer,
-/obj/effect/turf_decal/tile/brown/half/contrasted{
-	dir = 1
-	},
-/obj/structure/sign/poster/random/directional/north,
-/turf/open/floor/iron,
-/area/station/maintenance/fore)
 "pcp" = (
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
@@ -16467,6 +16452,15 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
+"pNC" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/computer/atmos_control/nocontrol/incinerator{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/station/engineering/atmospherics_engine)
 "pOp" = (
 /obj/item/clothing/suit/straight_jacket/kinky_sleepbag,
 /obj/item/clothing/ears/kinky_headphones,
@@ -51782,7 +51776,7 @@ mOU
 mOU
 uEp
 tHm
-tHm
+pNC
 nyt
 itt
 uEp
@@ -59990,7 +59984,7 @@ tTF
 eRY
 pbU
 qxj
-pcl
+dja
 qGn
 aik
 lXv
