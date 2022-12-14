@@ -7202,7 +7202,7 @@
 /turf/open/floor/iron/dark,
 /area/station/cargo/storage)
 "gWu" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "gWF" = (
@@ -7532,6 +7532,12 @@
 	},
 /turf/open/floor/iron,
 /area/station/maintenance/aft)
+"hpF" = (
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/station/engineering/atmospherics_engine)
 "hpG" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -10487,7 +10493,6 @@
 /obj/machinery/atmospherics/components/trinary/filter/flipped{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "keE" = (
@@ -15955,7 +15960,6 @@
 "pbF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/dark/visible,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "pbP" = (
@@ -17241,7 +17245,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/purple/visible{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "qkQ" = (
@@ -20462,7 +20466,7 @@
 /obj/machinery/atmospherics/components/binary/pump/off/purple{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "sZZ" = (
@@ -21902,7 +21906,7 @@
 "ujK" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/line,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "ukp" = (
@@ -23769,7 +23773,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "vQo" = (
@@ -25021,7 +25025,7 @@
 /area/station/ai_monitored/command/storage/eva)
 "xbD" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
-/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers,
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "xbM" = (
@@ -25856,6 +25860,10 @@
 	dir = 5
 	},
 /area/station/service/kitchen)
+"xLZ" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
+/turf/open/floor/iron/dark,
+/area/station/engineering/atmospherics_engine)
 "xMd" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/door/firedoor{
@@ -54106,7 +54114,7 @@ sUt
 kcL
 tns
 vQj
-sIh
+xLZ
 edc
 wYK
 rUy
@@ -54619,7 +54627,7 @@ uOz
 qcQ
 fwT
 hJa
-vQj
+hpF
 sIh
 qga
 wYK
@@ -54875,8 +54883,8 @@ uEp
 uOz
 cPN
 fwT
-gWu
-vQj
+sIh
+hpF
 sIh
 qga
 wYK
