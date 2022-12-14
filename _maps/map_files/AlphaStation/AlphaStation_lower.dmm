@@ -1744,6 +1744,7 @@
 /area/station/medical/medbay)
 "bKk" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/purple/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "bKx" = (
@@ -1934,6 +1935,9 @@
 "bQX" = (
 /obj/machinery/atmospherics/components/binary/pump/off/purple{
 	dir = 4
+	},
+/obj/machinery/atmospherics/components/binary/dp_vent_pump/high_volume/incinerator_atmos{
+	dir = 1
 	},
 /turf/open/floor/engine,
 /area/station/engineering/atmospherics_engine)
@@ -7198,6 +7202,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/station/cargo/storage)
+"gWu" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
+/turf/open/floor/iron/dark,
+/area/station/engineering/atmospherics_engine)
 "gWF" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/structure/cable,
@@ -7254,6 +7262,7 @@
 /obj/machinery/airlock_sensor/incinerator_atmos{
 	pixel_y = -24
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /turf/open/floor/engine,
 /area/station/engineering/atmospherics_engine)
 "gZU" = (
@@ -10480,6 +10489,7 @@
 /obj/machinery/atmospherics/components/trinary/filter/flipped{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "keE" = (
@@ -14481,6 +14491,7 @@
 /obj/machinery/airlock_controller/incinerator_atmos{
 	pixel_y = -24
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /turf/open/floor/engine,
 /area/station/engineering/atmospherics_engine)
 "nOt" = (
@@ -17231,6 +17242,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/purple/visible{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "qkQ" = (
@@ -18606,6 +18618,9 @@
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/layer_manifold/supply/hidden{
+	dir = 4
 	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
@@ -20448,6 +20463,7 @@
 /obj/machinery/atmospherics/components/binary/pump/off/purple{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "sZZ" = (
@@ -21887,6 +21903,7 @@
 "ujK" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "ukp" = (
@@ -25004,6 +25021,11 @@
 /obj/effect/mapping_helpers/airlock/access/all/command/eva,
 /turf/open/floor/iron,
 /area/station/ai_monitored/command/storage/eva)
+"xbD" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers,
+/turf/open/floor/iron/dark,
+/area/station/engineering/atmospherics_engine)
 "xbM" = (
 /obj/structure/cable,
 /obj/machinery/conveyor{
@@ -52537,9 +52559,9 @@ aJM
 uEp
 sIh
 sIh
-sIh
+gWu
 ujK
-uEp
+xbD
 bQX
 gZz
 iSq
@@ -52794,7 +52816,7 @@ mOU
 uEp
 sIh
 sIh
-sIh
+gWu
 xHH
 aRZ
 hTq
@@ -53051,7 +53073,7 @@ mOU
 uEp
 sIh
 sIh
-sIh
+gWu
 weP
 okD
 mcI
