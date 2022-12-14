@@ -20328,10 +20328,6 @@
 /obj/machinery/suit_storage_unit/industrial/loader,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
-"tmG" = (
-/obj/effect/spawner/random/trash/mopbucket,
-/turf/open/floor/plating,
-/area/station/maintenance/aft/lesser)
 "tmK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/orange/visible{
 	dir = 8
@@ -52598,7 +52594,7 @@ kTx
 uTm
 haM
 qPg
-tmG
+uTM
 uTM
 jpl
 jpl
