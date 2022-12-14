@@ -2355,8 +2355,8 @@
 	dir = 8
 	},
 /obj/machinery/button/ignition/incinerator/atmos{
-	pixel_y = -25;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = -25
 	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
@@ -2590,8 +2590,9 @@
 /turf/open/floor/carpet/red,
 /area/station/service/theater)
 "cCp" = (
-/obj/machinery/power/turbine/core_rotor/constructed{
-	dir = 1
+/obj/machinery/power/turbine/core_rotor{
+	dir = 1;
+	mapping_id = "main_turbine"
 	},
 /obj/structure/cable,
 /turf/open/floor/engine,
@@ -10990,7 +10991,7 @@
 	},
 /area/station/science/xenobiology)
 "kFf" = (
-/obj/machinery/power/turbine/inlet_compressor/constructed{
+/obj/machinery/power/turbine/inlet_compressor{
 	dir = 1
 	},
 /turf/open/floor/engine,
@@ -13831,17 +13832,18 @@
 /area/station/maintenance/fore)
 "nyt" = (
 /obj/machinery/button/door/incinerator_vent_atmos_aux{
-	pixel_y = -5;
-	pixel_x = -22
+	pixel_x = -22;
+	pixel_y = -5
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /obj/machinery/computer/security/telescreen/turbine{
-	pixel_x = -38;
-	dir = 4
+	dir = 4;
+	pixel_x = -38
 	},
 /obj/machinery/computer/turbine_computer{
+	mapping_id = "main_turbine";
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
@@ -14338,7 +14340,7 @@
 	},
 /area/station/science/xenobiology)
 "nSl" = (
-/obj/machinery/power/turbine/turbine_outlet/constructed{
+/obj/machinery/power/turbine/turbine_outlet{
 	dir = 1
 	},
 /turf/open/floor/engine,
@@ -16661,7 +16663,7 @@
 "pZc" = (
 /obj/machinery/door/poddoor/incinerator_atmos_aux,
 /turf/open/floor/engine/airless,
-/area/station/engineering/atmospherics_engine)
+/area/space/nearstation)
 "pZq" = (
 /obj/effect/spawner/random/exotic/antag_gear_weak,
 /obj/structure/table,
@@ -52291,7 +52293,7 @@ xHH
 aRZ
 hTq
 nNi
-nIe
+iSq
 nIe
 nIe
 nIe
