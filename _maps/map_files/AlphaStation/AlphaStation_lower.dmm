@@ -14187,6 +14187,9 @@
 	dir = 8
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
+/obj/machinery/airlock_controller/incinerator_atmos{
+	pixel_y = -24
+	},
 /turf/open/floor/engine,
 /area/station/engineering/atmospherics_engine)
 "nOt" = (
@@ -14742,10 +14745,6 @@
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
-	},
-/obj/machinery/airlock_controller/incinerator_atmos{
-	pixel_y = 9;
-	pixel_x = -24
 	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
