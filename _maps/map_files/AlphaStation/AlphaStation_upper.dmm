@@ -3,14 +3,14 @@
 /obj/machinery/status_display/evac/directional/north,
 /obj/structure/bed/dogbed/ian,
 /obj/machinery/camera/autoname/directional/north,
-/mob/living/simple_animal/pet/dog/corgi/ian,
+/mob/living/basic/pet/dog/corgi/ian,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain/private)
 "aab" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
-/mob/living/simple_animal/pet/dog/corgi/borgi,
+/mob/living/basic/pet/dog/corgi/borgi,
 /turf/open/floor/iron,
 /area/station/science/robotics/lab)
 "aac" = (
@@ -33,19 +33,19 @@
 "aai" = (
 /obj/structure/flora/bush/flowers_br,
 /obj/machinery/door/window/left/directional/west,
-/mob/living/simple_animal/pet/dog/corgi,
+/mob/living/basic/pet/dog/corgi,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "aaj" = (
 /obj/structure/flora/bush/jungle/b,
-/mob/living/simple_animal/pet/dog/corgi,
+/mob/living/basic/pet/dog/corgi,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "aak" = (
 /obj/structure/flora/bush/jungle,
 /obj/structure/flora/grass/jungle/b,
 /obj/machinery/light/small/directional/east,
-/mob/living/simple_animal/pet/dog/corgi/puppy,
+/mob/living/basic/pet/dog/corgi/puppy,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "aal" = (
@@ -57,7 +57,7 @@
 /area/station/medical/psychology)
 "aam" = (
 /obj/structure/flora/bush/sparsegrass,
-/mob/living/simple_animal/pet/dog/corgi/puppy,
+/mob/living/basic/pet/dog/corgi/puppy,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "aan" = (
@@ -29985,7 +29985,7 @@
 /area/station/medical/surgery)
 "rud" = (
 /obj/structure/flora/bush/jungle/c,
-/mob/living/simple_animal/pet/dog/corgi/puppy,
+/mob/living/basic/pet/dog/corgi/puppy,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "ruW" = (
@@ -34161,7 +34161,7 @@
 /area/station/command/bridge)
 "tRB" = (
 /obj/structure/flora/bush/large,
-/mob/living/simple_animal/pet/dog/corgi/puppy,
+/mob/living/basic/pet/dog/corgi/puppy,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "tRG" = (

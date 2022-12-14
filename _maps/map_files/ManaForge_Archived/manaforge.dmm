@@ -40277,7 +40277,7 @@
 	},
 /obj/machinery/camera/autoname/directional/west,
 /obj/structure/bed/dogbed/mcgriff,
-/mob/living/simple_animal/pet/dog/pug/mcgriff,
+/mob/living/basic/pet/dog/pug/mcgriff,
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/warden)
@@ -47564,7 +47564,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/brig)
 "tkl" = (
-/mob/living/simple_animal/pet/dog/corgi/borgi,
+/mob/living/basic/pet/dog/corgi/borgi,
 /turf/open/floor/iron,
 /area/station/science/robotics/lab)
 "tkC" = (
@@ -48167,7 +48167,7 @@
 /obj/structure/bed/dogbed/ian,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
-/mob/living/simple_animal/pet/dog/corgi/ian{
+/mob/living/basic/pet/dog/corgi/ian{
 	dir = 8
 	},
 /turf/open/floor/iron,

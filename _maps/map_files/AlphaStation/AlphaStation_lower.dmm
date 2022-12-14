@@ -11050,7 +11050,7 @@
 /obj/machinery/light/small/directional/south{
 	dir = 8
 	},
-/mob/living/simple_animal/pet/dog/corgi/puppy/slime{
+/mob/living/basic/pet/dog/corgi/puppy/slime{
 	desc = "An unbearably cute pink glacy mew puppy.";
 	name = "\improper slime glacy puppy"
 	},
@@ -24755,7 +24755,7 @@
 	dir = 9
 	},
 /obj/machinery/power/apc/auto_name/directional/north,
-/mob/living/simple_animal/pet/dog/pug/mcgriff,
+/mob/living/basic/pet/dog/pug/mcgriff,
 /turf/open/floor/iron,
 /area/station/security/warden)
 "wQB" = (

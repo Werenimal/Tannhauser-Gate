@@ -4049,7 +4049,7 @@
 	},
 /obj/structure/cable,
 /obj/structure/bed/dogbed/mcgriff,
-/mob/living/simple_animal/pet/dog/pug/mcgriff,
+/mob/living/basic/pet/dog/pug/mcgriff,
 /turf/open/floor/iron/dark,
 /area/station/security/warden)
 "aor" = (
@@ -7884,7 +7884,7 @@
 	pixel_y = 32
 	},
 /obj/structure/bed/dogbed/ian,
-/mob/living/simple_animal/pet/dog/corgi/ian,
+/mob/living/basic/pet/dog/corgi/ian,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hop)
 "aBG" = (
@@ -18644,7 +18644,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/mob/living/simple_animal/pet/dog/corgi/borgi,
+/mob/living/basic/pet/dog/corgi/borgi,
 /turf/open/floor/iron,
 /area/station/science/robotics/lab)
 "bnQ" = (
@@ -41581,7 +41581,7 @@
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "iOw" = (
-/mob/living/simple_animal/pet/dog/corgi,
+/mob/living/basic/pet/dog/corgi,
 /obj/machinery/door/window/left/directional/east{
 	dir = 8;
 	name = "Petting Garden"
@@ -48323,7 +48323,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "ogM" = (
-/mob/living/simple_animal/pet/dog/corgi/puppy,
+/mob/living/basic/pet/dog/corgi/puppy,
 /obj/structure/flora/bush/jungle/a/style_random,
 /obj/structure/flora/grass/jungle/b,
 /obj/machinery/light/small/directional/east,
@@ -54582,7 +54582,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
 "sRs" = (
-/mob/living/simple_animal/pet/dog/corgi/puppy,
+/mob/living/basic/pet/dog/corgi/puppy,
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
@@ -61269,7 +61269,7 @@
 /turf/open/floor/wood,
 /area/station/service/lawoffice)
 "xJI" = (
-/mob/living/simple_animal/pet/dog/corgi,
+/mob/living/basic/pet/dog/corgi,
 /obj/structure/flora/bush/jungle/b/style_random,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
