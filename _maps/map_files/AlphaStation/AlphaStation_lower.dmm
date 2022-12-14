@@ -15957,6 +15957,7 @@
 "pbF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/dark/visible,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "pbP" = (
@@ -23771,6 +23772,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "vQo" = (
@@ -53845,7 +53847,7 @@ gHv
 hyK
 sUj
 bKk
-sIh
+gWu
 vQj
 sIh
 wwj
@@ -54873,7 +54875,7 @@ uEp
 uOz
 cPN
 fwT
-sIh
+gWu
 vQj
 sIh
 qga
