@@ -3,14 +3,14 @@
 /obj/machinery/status_display/evac/directional/north,
 /obj/structure/bed/dogbed/ian,
 /obj/machinery/camera/autoname/directional/north,
-/mob/living/simple_animal/pet/dog/corgi/ian,
+/mob/living/basic/pet/dog/corgi/ian,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain/private)
 "aab" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
-/mob/living/simple_animal/pet/dog/corgi/borgi,
+/mob/living/basic/pet/dog/corgi/borgi,
 /turf/open/floor/iron,
 /area/station/science/robotics/lab)
 "aac" = (
@@ -30,32 +30,22 @@
 	},
 /turf/open/misc/sandy_dirt/planet,
 /area/station/commons/dorms/barracks)
-"aah" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/mob/living/simple_animal/bot/secbot/beepsky/officer{
-	desc = "It's Officer Beepski! Powered by a potato and a shot of whiskey, and with a sturdier reinforced chassis, too.";
-	name = "Officer Beepski"
-	},
-/turf/open/floor/iron/white/smooth_large,
-/area/station/hallway/primary/port)
 "aai" = (
 /obj/structure/flora/bush/flowers_br,
 /obj/machinery/door/window/left/directional/west,
-/mob/living/simple_animal/pet/dog/corgi,
+/mob/living/basic/pet/dog/corgi,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "aaj" = (
 /obj/structure/flora/bush/jungle/b,
-/mob/living/simple_animal/pet/dog/corgi,
+/mob/living/basic/pet/dog/corgi,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "aak" = (
 /obj/structure/flora/bush/jungle,
 /obj/structure/flora/grass/jungle/b,
 /obj/machinery/light/small/directional/east,
-/mob/living/simple_animal/pet/dog/corgi/puppy,
+/mob/living/basic/pet/dog/corgi/puppy,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "aal" = (
@@ -67,7 +57,7 @@
 /area/station/medical/psychology)
 "aam" = (
 /obj/structure/flora/bush/sparsegrass,
-/mob/living/simple_animal/pet/dog/corgi/puppy,
+/mob/living/basic/pet/dog/corgi/puppy,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "aan" = (
@@ -3884,13 +3874,6 @@
 	},
 /turf/open/openspace,
 /area/station/service/theater)
-"ckr" = (
-/mob/living/simple_animal/bot/secbot/beepsky/officer{
-	desc = "It's Officer Beepske! Powered by a potato and a shot of whiskey, and with a sturdier reinforced chassis, too.";
-	name = "Officer Beepske"
-	},
-/turf/open/floor/iron/white/smooth_large,
-/area/station/science/lobby)
 "ckD" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
@@ -10836,7 +10819,7 @@
 /area/station/command/heads_quarters/rd)
 "giF" = (
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted,
-/mob/living/simple_animal/bot/medbot/autopatrol,
+/mob/living/simple_animal/bot/medbot,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "giM" = (
@@ -19092,14 +19075,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/office)
-"lel" = (
-/mob/living/simple_animal/bot/secbot/beepsky/officer{
-	baton_type = /obj/item/melee/baton/security/cattleprod/teleprod;
-	desc = "It's Officer Zapski! Powered by a potato and.. OH GOD YOU LET HIM LOOSE ON THE STATION!!.";
-	name = "Officer Zapski"
-	},
-/turf/open/floor/iron/dark,
-/area/station/ai_monitored/security/armory)
 "lez" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -21759,7 +21734,7 @@
 /area/station/hallway/primary/starboard)
 "mGA" = (
 /obj/effect/mapping_helpers/airlock/locked,
-/obj/machinery/embedded_controller/radio/airlock_controller/incinerator_ordmix{
+/obj/machinery/airlock_controller/incinerator_ordmix{
 	pixel_x = -22
 	},
 /obj/effect/mapping_helpers/airlock/access/any/science/ordnance,
@@ -30010,7 +29985,7 @@
 /area/station/medical/surgery)
 "rud" = (
 /obj/structure/flora/bush/jungle/c,
-/mob/living/simple_animal/pet/dog/corgi/puppy,
+/mob/living/basic/pet/dog/corgi/puppy,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "ruW" = (
@@ -34186,7 +34161,7 @@
 /area/station/command/bridge)
 "tRB" = (
 /obj/structure/flora/bush/large,
-/mob/living/simple_animal/pet/dog/corgi/puppy,
+/mob/living/basic/pet/dog/corgi/puppy,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "tRG" = (
@@ -66272,7 +66247,7 @@ xHJ
 gmt
 lAj
 ipS
-aah
+fIy
 cDM
 tVI
 xjd
@@ -66807,7 +66782,7 @@ xZT
 vvh
 ooU
 ooU
-lel
+chn
 chn
 tCD
 oeB
@@ -83726,7 +83701,7 @@ eeu
 fnC
 fnC
 ddE
-ckr
+kmU
 bEP
 cCn
 snY

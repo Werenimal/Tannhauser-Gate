@@ -21218,7 +21218,7 @@
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/public/glass/incinerator/atmos_interior,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/machinery/embedded_controller/radio/airlock_controller/incinerator_atmos{
+/obj/machinery/airlock_controller/incinerator_atmos{
 	pixel_x = 38;
 	pixel_y = 6
 	},
@@ -36053,7 +36053,7 @@
 /area/station/security/brig)
 "hjk" = (
 /obj/effect/mapping_helpers/airlock/locked,
-/obj/machinery/embedded_controller/radio/airlock_controller/incinerator_ordmix,
+/obj/machinery/airlock_controller/incinerator_ordmix,
 /obj/machinery/door/airlock/research/glass/incinerator/ordmix_interior,
 /turf/open/floor/engine,
 /area/station/science/ordnance/burnchamber)
@@ -40277,7 +40277,7 @@
 	},
 /obj/machinery/camera/autoname/directional/west,
 /obj/structure/bed/dogbed/mcgriff,
-/mob/living/simple_animal/pet/dog/pug/mcgriff,
+/mob/living/basic/pet/dog/pug/mcgriff,
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/warden)
@@ -47564,7 +47564,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/brig)
 "tkl" = (
-/mob/living/simple_animal/pet/dog/corgi/borgi,
+/mob/living/basic/pet/dog/corgi/borgi,
 /turf/open/floor/iron,
 /area/station/science/robotics/lab)
 "tkC" = (
@@ -48167,7 +48167,7 @@
 /obj/structure/bed/dogbed/ian,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
-/mob/living/simple_animal/pet/dog/corgi/ian{
+/mob/living/basic/pet/dog/corgi/ian{
 	dir = 8
 	},
 /turf/open/floor/iron,
