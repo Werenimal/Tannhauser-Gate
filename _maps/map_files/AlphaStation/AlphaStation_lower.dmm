@@ -1744,7 +1744,6 @@
 /area/station/medical/medbay)
 "bKk" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/purple/visible,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "bKx" = (
@@ -9902,7 +9901,6 @@
 /obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/camera/autoname/directional/south,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/item/pipe_dispenser,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
@@ -22074,7 +22072,6 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/light/no_nightlight/directional/south,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "urz" = (
@@ -24346,7 +24343,6 @@
 "wwj" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/mechanical{
 	pixel_x = 2;
@@ -26324,6 +26320,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
+"yge" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/dark,
+/area/station/engineering/atmospherics_engine)
 "ygr" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -53590,7 +53590,7 @@ uEp
 sIh
 sIh
 sZU
-sIh
+gWu
 lAY
 mJU
 jyG
@@ -53849,7 +53849,7 @@ sUj
 bKk
 gWu
 vQj
-sIh
+yge
 wwj
 wYK
 rUy
