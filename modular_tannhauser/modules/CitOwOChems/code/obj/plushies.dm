@@ -15,7 +15,7 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 
 /obj/item/toy/plush/plushling
 	icon = 'modular_skyrat/master_files/icons/obj/plushes.dmi'
-	icon_state = "blue_fox"
+	icon_state = "bluefox"
 	name = "peculiar plushie"
 	desc = "An adorable stuffed toy- wait, did it just move?"
 	can_random_spawn = FALSE

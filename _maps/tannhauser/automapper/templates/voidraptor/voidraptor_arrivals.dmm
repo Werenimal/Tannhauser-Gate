@@ -145,10 +145,6 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/wood/large,
 /area/station/hallway/secondary/entry)
-"rz" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/station/hallway/secondary/entry)
 "rX" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -471,13 +467,13 @@ RO
 RO
 RO
 Gc
-rz
+zB
 YJ
 os
 UR
 VO
 Gc
-rz
+zB
 Gc
 "}
 (3,1,1) = {"
@@ -699,13 +695,13 @@ RO
 ao
 RO
 Gc
-rz
+zB
 Gc
 Mq
 MB
 Ti
 Gc
-rz
+zB
 Gc
 "}
 (15,1,1) = {"
