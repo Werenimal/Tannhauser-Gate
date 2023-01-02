@@ -2396,7 +2396,6 @@
 /area/station/ai_monitored/security/armory)
 "aiP" = (
 /obj/machinery/airalarm/directional/north,
-/obj/machinery/gun_vendor,
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 9
