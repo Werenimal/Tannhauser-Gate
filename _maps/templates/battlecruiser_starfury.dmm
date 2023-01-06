@@ -3055,7 +3055,7 @@
 	cell_type = /obj/item/stock_parts/cell/high;
 	dir = 1;
 	name = "Syndicate Battlecruiser APC";
-	pixel_y = 25
+	pixel_y = 23
 	},
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
