@@ -36168,7 +36168,7 @@
 /area/station/engineering/supermatter/room)
 "ePO" = (
 /obj/structure/table/wood/fancy/blue,
-/obj/item/reagent_containers/cup/glass/sillycup/smallcarton,
+/obj/item/reagent_containers/cup/glass/bottle/juice/smallcarton,
 /turf/open/floor/wood,
 /area/station/maintenance/department/crew_quarters/dorms)
 "eQL" = (
