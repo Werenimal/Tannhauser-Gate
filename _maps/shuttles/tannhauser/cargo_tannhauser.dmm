@@ -64,7 +64,7 @@
 "hp" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Supply Shuttle Airlock";
-	req_access_txt = "31"
+	
 	},
 /obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /obj/docking_port/mobile/supply{
@@ -196,7 +196,7 @@
 "ou" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Supply Shuttle Cockpit";
-	req_access_txt = "31"
+	
 	},
 /obj/effect/mapping_helpers/airlock/access/all/cent_com,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
@@ -385,7 +385,7 @@
 "FQ" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Supply Shuttle Cockpit";
-	req_access_txt = "31"
+	
 	},
 /obj/effect/mapping_helpers/airlock/access/all/cent_com,
 /turf/open/floor/iron/sepia,
@@ -496,7 +496,7 @@
 "OB" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Supply Shuttle Airlock";
-	req_access_txt = "31"
+	
 	},
 /obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /obj/structure/cable,
