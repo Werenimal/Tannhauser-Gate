@@ -115,11 +115,11 @@
 /turf/open/floor/carpet/purple,
 /area/station/service/jadedragon)
 "C" = (
-/obj/item/candle/infinite{
+/obj/item/flashlight/flare/candle/infinite{
 	light_color = "#A700FF";
 	pixel_x = -6
 	},
-/obj/item/candle/infinite{
+/obj/item/flashlight/flare/candle/infinite{
 	light_color = "#A700FF";
 	pixel_x = 4;
 	pixel_y = 3
