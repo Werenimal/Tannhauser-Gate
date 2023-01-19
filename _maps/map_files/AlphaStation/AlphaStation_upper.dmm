@@ -3572,7 +3572,7 @@
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
 "caE" = (
-/obj/item/candle,
+/obj/item/flashlight/flare/candle,
 /obj/machinery/light_switch/directional/north,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/structure/table/wood,
@@ -3708,7 +3708,7 @@
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/nuke_storage)
 "ceX" = (
-/obj/item/candle,
+/obj/item/flashlight/flare/candle,
 /obj/machinery/light_switch/directional/west,
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/table/wood,
@@ -26438,7 +26438,7 @@
 /area/station/hallway/primary/port)
 "poj" = (
 /obj/structure/table,
-/obj/item/candle,
+/obj/item/flashlight/flare/candle,
 /obj/item/trash/sosjerky,
 /obj/item/hourglass,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,

@@ -8990,7 +8990,7 @@
 /area/station/hallway/primary/central/fore)
 "aEZ" = (
 /obj/structure/table,
-/obj/item/candle,
+/obj/item/flashlight/flare/candle,
 /obj/item/trash/sosjerky,
 /obj/item/hourglass,
 /turf/open/floor/iron/dark,
@@ -26179,7 +26179,7 @@
 /obj/structure/table/reinforced,
 /obj/item/storage/box/lights/mixed,
 /obj/item/cigbutt/cigarbutt,
-/obj/item/candle{
+/obj/item/flashlight/flare/candle{
 	pixel_x = -5
 	},
 /obj/item/storage/box/matches{
@@ -32720,12 +32720,12 @@
 /area/station/service/chapel/monastery)
 "cwy" = (
 /obj/structure/table/wood/fancy,
-/obj/item/candle,
-/obj/item/candle{
+/obj/item/flashlight/flare/candle,
+/obj/item/flashlight/flare/candle{
 	pixel_x = 6;
 	pixel_y = 8
 	},
-/obj/item/candle{
+/obj/item/flashlight/flare/candle{
 	pixel_x = -8;
 	pixel_y = 6
 	},
@@ -59953,11 +59953,11 @@
 /obj/structure/window{
 	dir = 4
 	},
-/obj/item/candle/infinite{
+/obj/item/flashlight/flare/candle/infinite{
 	light_color = "#A700FF";
 	pixel_x = -6
 	},
-/obj/item/candle/infinite{
+/obj/item/flashlight/flare/candle/infinite{
 	light_color = "#A700FF";
 	pixel_x = 4;
 	pixel_y = 3
@@ -60803,7 +60803,7 @@
 /area/station/medical/medbay/central)
 "xrw" = (
 /obj/structure/table,
-/obj/item/candle{
+/obj/item/flashlight/flare/candle{
 	pixel_x = -5
 	},
 /obj/machinery/button/curtain{
