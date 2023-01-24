@@ -51,7 +51,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
-	cycle_id = Warp_Lab
+	cycle_id = "Warp_Lab"
 	},
 /obj/effect/turf_decal/trimline/purple/filled/end,
 /turf/open/floor/iron/dark,
@@ -83,7 +83,7 @@
 	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
-	cycle_id = Warp_Lab
+	cycle_id = "Warp_Lab"
 	},
 /turf/open/floor/iron/white,
 /area/station/science/research/abandoned)
@@ -872,7 +872,7 @@
 	opacity = 0
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
-	cycle_id = Warp_Lab
+	cycle_id = "Warp_Lab"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/science/maintenance,
 /turf/open/floor/plating,

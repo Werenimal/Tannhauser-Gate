@@ -63,8 +63,7 @@
 /area/shuttle/supply)
 "hp" = (
 /obj/machinery/door/airlock/grunge{
-	name = "Supply Shuttle Airlock";
-	
+	name = "Supply Shuttle Airlock"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /obj/docking_port/mobile/supply{

@@ -19,18 +19,6 @@
 	},
 /turf/open/floor/glass,
 /area/shuttle/arrival)
-"bf" = (
-/obj/structure/chair/sofa/corp/right{
-	dir = 8
-	},
-/obj/structure/chair/sofa/corp/left{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue/half{
-	dir = 8
-	},
-/turf/open/floor/iron/shuttle/evac,
-/area/shuttle/arrival)
 "bT" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/ferry{
 	dir = 1;
@@ -509,9 +497,6 @@
 /area/shuttle/arrival)
 "UU" = (
 /obj/machinery/light/directional/north,
-/obj/structure/chair/sofa/corp{
-	dir = 8
-	},
 /obj/structure/chair/sofa/corp/left{
 	dir = 8
 	},
@@ -629,7 +614,7 @@ mF
 (7,1,1) = {"
 qU
 KE
-bf
+nT
 dp
 zu
 KE
