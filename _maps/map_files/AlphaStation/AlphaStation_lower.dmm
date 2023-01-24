@@ -304,8 +304,7 @@
 /area/station/security/prison)
 "and" = (
 /obj/machinery/door/airlock/engineering/glass{
-	name = "Server Room";
-	
+	name = "Server Room"
 	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{

@@ -280,8 +280,7 @@
 /area/station/hallway/secondary/entry)
 "agg" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Pharmacy";
-	
+	name = "Pharmacy"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/medical/chemistry,
 /obj/effect/turf_decal/tile/blue/fourcorners,

@@ -1844,8 +1844,7 @@
 /obj/machinery/button/door{
 	id = "Prison Gate";
 	name = "Prison Wing Lockdown";
-	pixel_x = 26;
-	
+	pixel_x = 26
 	},
 /obj/effect/turf_decal/trimline/darkblue/filled/line{
 	dir = 4
