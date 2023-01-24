@@ -280,8 +280,7 @@
 /area/station/hallway/secondary/entry)
 "agg" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Pharmacy";
-	
+	name = "Pharmacy"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/medical/chemistry,
 /obj/effect/turf_decal/tile/blue/fourcorners,
@@ -649,20 +648,17 @@
 /obj/machinery/button/door/directional/north{
 	id = "rdrnd";
 	name = "Research and Development Containment Control";
-	pixel_x = -6;
-	
+	pixel_x = -6
 	},
 /obj/machinery/button/door/directional/north{
 	id = "rdordnance";
 	name = "Ordnance Containment Control";
-	pixel_x = 6;
-	
+	pixel_x = 6
 	},
 /obj/machinery/button/door/directional/north{
 	id = "rdoffice";
 	name = "Privacy Control";
-	pixel_y = 34;
-	
+	pixel_y = 34
 	},
 /obj/machinery/computer/security/telescreen/rd{
 	pixel_x = 31;
@@ -697,9 +693,6 @@
 /turf/open/floor/plating,
 /area/station/service/bar/backroom)
 "atN" = (
-/obj/machinery/door/firedoor{
-	name = "Emergency Shutter"
-	},
 /obj/effect/turf_decal/tile/red/fourcorners,
 /obj/effect/mapping_helpers/airlock/access/any/security/brig,
 /obj/machinery/door/airlock/external{
@@ -3613,8 +3606,7 @@
 	name = "Emergency Shutter"
 	},
 /obj/machinery/door/airlock/medical/glass{
-	name = "Recovery Ward";
-	
+	name = "Recovery Ward"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/blue/fourcorners,
@@ -5460,8 +5452,7 @@
 /area/station/maintenance/aft/upper)
 "djp" = (
 /obj/structure/closet/secure_closet{
-	name = "contraband locker";
-	
+	name = "contraband locker"
 	},
 /obj/effect/spawner/random/contraband/armory,
 /obj/effect/spawner/random/maintenance/three,
@@ -5541,8 +5532,7 @@
 "dlV" = (
 /obj/machinery/button/door/directional/west{
 	id = "prison release";
-	name = "Labor Camp Shuttle Lockdown";
-	
+	name = "Labor Camp Shuttle Lockdown"
 	},
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron/white,
@@ -7116,8 +7106,7 @@
 /obj/machinery/button/door/directional/north{
 	id = "xeno_blastdoor";
 	name = "Xenobiology Containment Control";
-	pixel_x = 8;
-	
+	pixel_x = 8
 	},
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/rd)
@@ -7587,8 +7576,7 @@
 /area/station/command/heads_quarters/hos)
 "etE" = (
 /obj/machinery/door/airlock/hatch{
-	name = "MiniSat Telecomms Relay Access";
-	
+	name = "MiniSat Telecomms Relay Access"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/command/maintenance,
 /obj/effect/mapping_helpers/airlock/locked,
@@ -8100,8 +8088,7 @@
 /obj/machinery/computer/med_data/laptop{
 	dir = 8;
 	pixel_y = 1;
-	req_one_access = null;
-	
+	req_one_access = null
 	},
 /turf/open/floor/plastic,
 /area/station/science/genetics)
@@ -8234,8 +8221,7 @@
 /area/station/hallway/primary/fore)
 "eOu" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Paramedic Dispatch Room";
-	
+	name = "Paramedic Dispatch Room"
 	},
 /obj/machinery/door/firedoor{
 	name = "Emergency Shutter"
@@ -8355,8 +8341,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/window/right/directional/north{
 	dir = 8;
-	name = "Research Test Chamber";
-	
+	name = "Research Test Chamber"
 	},
 /turf/open/floor/engine,
 /area/station/science/research)
@@ -10820,8 +10805,7 @@
 /area/station/medical/medbay/central)
 "giM" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Auxilliary Surgery";
-	
+	name = "Auxilliary Surgery"
 	},
 /obj/machinery/door/firedoor{
 	name = "Emergency Shutter"
@@ -11140,8 +11124,7 @@
 /area/station/command/heads_quarters/qm)
 "gqI" = (
 /obj/machinery/door/morgue{
-	name = "Confession Booth (Chaplain)";
-	
+	name = "Confession Booth (Chaplain)"
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/office)
@@ -11360,8 +11343,7 @@
 /area/station/commons/dorms/barracks)
 "gxb" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Recovery Ward";
-	
+	name = "Recovery Ward"
 	},
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/effect/mapping_helpers/airlock/access/all/medical/general,
@@ -12417,9 +12399,7 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/station/hallway/secondary/entry)
 "hgF" = (
-/obj/machinery/vending/cart{
-	
-	},
+/obj/machinery/vending/cart,
 /obj/item/radio/intercom/directional/north,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain/private)
@@ -12987,8 +12967,7 @@
 "hyS" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor{
-	name = "Weapon Distribution";
-	
+	name = "Weapon Distribution"
 	},
 /obj/item/paper,
 /obj/machinery/door/firedoor{
@@ -13160,8 +13139,7 @@
 /area/station/science/research)
 "hEs" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Pharmacy";
-	
+	name = "Pharmacy"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/all/medical/pharmacy,
@@ -13685,8 +13663,7 @@
 /obj/machinery/door/window{
 	dir = 1;
 	name = "HoP's Desk";
-	req_access = list("hop");
-	
+	req_access = list("hop")
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -16980,8 +16957,7 @@
 "jSr" = (
 /obj/machinery/light/directional/north,
 /obj/machinery/door/window{
-	name = "Secure Art Exhibition";
-	
+	name = "Secure Art Exhibition"
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -17172,9 +17148,6 @@
 /area/station/medical/medbay/central)
 "jZf" = (
 /obj/machinery/door/airlock/gold/glass,
-/obj/machinery/door/firedoor{
-	name = "Emergency Shutter"
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/any/service/janitor,
@@ -17391,8 +17364,7 @@
 /area/station/engineering/atmos/upper)
 "khj" = (
 /obj/machinery/door/airlock/security{
-	name = "Evidence Storage";
-	
+	name = "Evidence Storage"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -18313,8 +18285,7 @@
 /area/station/maintenance/solars/port/fore)
 "kIx" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Cryogenics Bay";
-	
+	name = "Cryogenics Bay"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/all/medical/general,
@@ -18674,14 +18645,12 @@
 /obj/machinery/button/door/directional/east{
 	id = "rdrnd";
 	name = "Primary Research Shutters Control";
-	pixel_y = 6;
-	
+	pixel_y = 6
 	},
 /obj/machinery/button/door/directional/east{
 	id = "rndlab2";
 	name = "Secondary Research Shutters Control";
-	pixel_y = -6;
-	
+	pixel_y = -6
 	},
 /turf/open/floor/iron,
 /area/station/science/research)
@@ -19651,8 +19620,7 @@
 /obj/machinery/button/door/directional/west{
 	id = "rdrnd";
 	name = "Research and Development Containment Control";
-	pixel_y = -24;
-	
+	pixel_y = -24
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/science)
@@ -20338,8 +20306,7 @@
 /obj/structure/window/reinforced,
 /obj/machinery/door/window{
 	dir = 8;
-	name = "Secure Art Exhibition";
-	
+	name = "Secure Art Exhibition"
 	},
 /obj/structure/sign/painting/library_secure{
 	pixel_x = 32
@@ -21083,8 +21050,7 @@
 	id = "MedbayFoyer";
 	name = "Medbay Foyer Doors";
 	normaldoorcontrol = 1;
-	pixel_x = 23;
-	
+	pixel_x = 23
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible/layer4,
@@ -22150,8 +22116,7 @@
 /area/command/heads_quarters/captain/private/nt_rep)
 "mRu" = (
 /obj/machinery/door/window/left/directional/south{
-	name = "Court Cell";
-	
+	name = "Court Cell"
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/structure/disposalpipe/segment,
@@ -23793,8 +23758,7 @@
 /area/station/medical/coldroom)
 "nQw" = (
 /obj/machinery/door/airlock/cmo{
-	name = "Chief Medical Officer's Office";
-	
+	name = "Chief Medical Officer's Office"
 	},
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/blue,
@@ -24592,8 +24556,7 @@
 /obj/item/target/syndicate,
 /obj/structure/closet/crate/secure{
 	desc = "A secure crate containing various materials for building a customised test-site.";
-	name = "Firing Range Gear Crate";
-	
+	name = "Firing Range Gear Crate"
 	},
 /obj/machinery/airalarm/directional/north,
 /obj/structure/cable,
@@ -25324,8 +25287,7 @@
 /area/station/science/research)
 "oGt" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Medbay Storage";
-	
+	name = "Medbay Storage"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /obj/effect/turf_decal/tile/blue/fourcorners,
@@ -25440,8 +25402,7 @@
 /obj/machinery/door/window/right{
 	dir = 1;
 	name = "Cargo Desk";
-	req_access = list("shipping");
-	
+	req_access = list("shipping")
 	},
 /obj/machinery/door/firedoor{
 	name = "Emergency Shutter"
@@ -27067,8 +27028,7 @@
 	id = "papersplease";
 	name = "Shutters Control Button";
 	pixel_x = -26;
-	pixel_y = 6;
-	
+	pixel_y = 6
 	},
 /obj/structure/closet/secure_closet/security/cargo,
 /turf/open/floor/iron,
@@ -28922,8 +28882,7 @@
 /area/station/science/research)
 "qOf" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Pharmacy";
-	
+	name = "Pharmacy"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/medical/chemistry,
 /obj/effect/turf_decal/tile/blue/fourcorners,
@@ -30070,9 +30029,6 @@
 	},
 /area/station/engineering/atmos/upper)
 "rxv" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -30860,8 +30816,7 @@
 /area/station/hallway/primary/central/aft)
 "rTT" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Pharmacy";
-	
+	name = "Pharmacy"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/medical/cmo,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -31169,8 +31124,7 @@
 	id = "papersplease";
 	name = "Shutters Control Button";
 	pixel_x = 26;
-	pixel_y = 6;
-	
+	pixel_y = 6
 	},
 /obj/structure/closet/secure_closet/security/cargo,
 /turf/open/floor/iron,
@@ -31660,8 +31614,7 @@
 /area/station/hallway/secondary/entry)
 "srn" = (
 /obj/machinery/door/airlock/maintenance{
-	name = "CMO Maintenance";
-	
+	name = "CMO Maintenance"
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -32755,8 +32708,7 @@
 /area/station/security/range)
 "sYO" = (
 /obj/machinery/door/airlock/maintenance{
-	name = "Medbay Maintenance";
-	
+	name = "Medbay Maintenance"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance/departmental,
 /obj/machinery/duct,
@@ -33633,8 +33585,7 @@
 /area/station/service/lawoffice)
 "tzm" = (
 /obj/machinery/door/airlock/command{
-	name = "Teleporter Room";
-	
+	name = "Teleporter Room"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/science/general,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -34318,11 +34269,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/upper)
-"tXG" = (
-/obj/structure/grille,
-/obj/structure/grille,
-/turf/closed/wall/r_wall,
-/area/station/engineering/atmos/storage/gas)
 "tYj" = (
 /obj/structure/noticeboard/directional/north{
 	desc = "A memorial wall for pinning mementos upon.";
@@ -35055,8 +35001,7 @@
 /area/station/medical/chemistry)
 "uoO" = (
 /obj/machinery/door/airlock/maintenance{
-	name = "Medbay Maintenance";
-	
+	name = "Medbay Maintenance"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance/departmental,
 /turf/open/floor/iron/dark,
@@ -35077,8 +35022,7 @@
 "upu" = (
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/machinery/door/airlock/medical/glass{
-	name = "Medbay Storage";
-	
+	name = "Medbay Storage"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
@@ -35951,8 +35895,7 @@
 	},
 /obj/machinery/button/door/directional/north{
 	id = "detective_shutters";
-	name = "detective's office shutters control";
-	
+	name = "detective's office shutters control"
 	},
 /turf/open/floor/carpet,
 /area/space)
@@ -36968,8 +36911,7 @@
 /area/station/science/genetics)
 "vtg" = (
 /obj/machinery/door/airlock/hatch{
-	name = "MiniSat Telecomms Relay Access";
-	
+	name = "MiniSat Telecomms Relay Access"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/command/maintenance,
 /obj/structure/cable,
@@ -37125,8 +37067,7 @@
 "vww" = (
 /obj/machinery/door/window/brigdoor{
 	dir = 1;
-	name = "Research Director Observation";
-	
+	name = "Research Director Observation"
 	},
 /turf/open/floor/engine,
 /area/station/command/heads_quarters/rd)
@@ -37410,8 +37351,7 @@
 	id = "chemistry_shutters";
 	name = "Shutters Control";
 	pixel_x = 24;
-	pixel_y = -24;
-	
+	pixel_y = -24
 	},
 /obj/effect/turf_decal/tile/blue/half/contrasted,
 /turf/open/floor/iron/white,
@@ -37843,8 +37783,7 @@
 	id = "roboticsprivacy";
 	name = "Robotics Privacy Control";
 	pixel_x = -24;
-	pixel_y = -24;
-	
+	pixel_y = -24
 	},
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/tile/purple/anticorner/contrasted{
@@ -38126,8 +38065,7 @@
 /obj/machinery/button/door/directional/south{
 	id = "cmoprivacy";
 	name = "CMO Privacy Shutters";
-	pixel_x = -8;
-	
+	pixel_x = -8
 	},
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
@@ -40217,9 +40155,6 @@
 /area/station/security/office)
 "xky" = (
 /obj/machinery/door/airlock/gold,
-/obj/machinery/door/firedoor{
-	name = "Emergency Shutter"
-	},
 /obj/effect/mapping_helpers/airlock/access/any/service/janitor,
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
@@ -40443,8 +40378,7 @@
 /area/station/cargo/office)
 "xrz" = (
 /obj/machinery/door/airlock{
-	name = "Law Office";
-	
+	name = "Law Office"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/service/lawyer,
 /obj/machinery/door/firedoor,
@@ -40649,8 +40583,7 @@
 /area/station/service/salon)
 "xxf" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Emergency Atmos";
-	
+	name = "Emergency Atmos"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/medical/cmo,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -78304,7 +78237,7 @@ wga
 wga
 lVd
 xzf
-tXG
+lVd
 lVd
 lVd
 lVd
