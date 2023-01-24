@@ -194,8 +194,7 @@
 /area/shuttle/supply)
 "ou" = (
 /obj/machinery/door/airlock/grunge{
-	name = "Supply Shuttle Cockpit";
-	
+	name = "Supply Shuttle Cockpit"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/cent_com,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,

@@ -2970,8 +2970,7 @@
 /obj/machinery/button/door{
 	id = "armory";
 	name = "Armory Shutters";
-	pixel_x = 26;
-	
+	pixel_x = 26
 	},
 /obj/structure/rack,
 /obj/item/storage/box/rubbershot{
