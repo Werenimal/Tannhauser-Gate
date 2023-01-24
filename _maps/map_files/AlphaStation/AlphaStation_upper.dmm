@@ -12402,9 +12402,7 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/station/hallway/secondary/entry)
 "hgF" = (
-/obj/machinery/vending/cart{
-	
-	},
+/obj/machinery/vending/cart,
 /obj/item/radio/intercom/directional/north,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain/private)

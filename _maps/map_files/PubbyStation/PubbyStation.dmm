@@ -7877,9 +7877,7 @@
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hop)
 "aBG" = (
-/obj/machinery/vending/cart{
-	
-	},
+/obj/machinery/vending/cart,
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hop)
@@ -12068,9 +12066,7 @@
 /turf/open/floor/wood,
 /area/station/service/bar)
 "aQV" = (
-/obj/structure/closet/secure_closet/bar{
-	
-	},
+/obj/structure/closet/secure_closet/bar,
 /obj/item/stack/cable_coil,
 /obj/item/stack/sheet/glass/fifty,
 /obj/item/stack/sheet/iron/fifty,
@@ -12784,9 +12780,7 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Rabbit Hole"
 	},
-/obj/effect/mapping_helpers/airlock/abandoned{
-	
-	},
+/obj/effect/mapping_helpers/airlock/abandoned,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "aTO" = (

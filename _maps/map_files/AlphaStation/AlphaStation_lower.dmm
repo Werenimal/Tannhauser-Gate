@@ -1581,12 +1581,6 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/catwalk_floor/iron,
 /area/station/maintenance/port/central)
-"bBk" = (
-/obj/structure/grille,
-/obj/structure/grille,
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/space/nearstation)
 "bBm" = (
 /obj/machinery/camera/emp_proof/directional/west,
 /obj/effect/turf_decal/tile/yellow/anticorner/contrasted{
@@ -15588,11 +15582,6 @@
 	},
 /turf/open/floor/engine/helium,
 /area/station/tcommsat/server)
-"oMt" = (
-/obj/structure/grille,
-/obj/structure/grille,
-/turf/open/space/basic,
-/area/space/nearstation)
 "oMA" = (
 /obj/machinery/status_display/supply{
 	pixel_y = 32
@@ -20992,17 +20981,6 @@
 /obj/machinery/atmospherics/components/binary/pump/off/cyan/visible,
 /turf/open/floor/iron/dark,
 /area/station/engineering/supermatter/room)
-"tAj" = (
-/obj/structure/chair/pew/left{
-	dir = 1
-	},
-/obj/structure/chair/pew/left{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/turf_decal/tile/dark/diagonal_centre,
-/turf/open/floor/carpet/red,
-/area/station/service/theater)
 "tAv" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 9
@@ -50715,14 +50693,14 @@ ezF
 ezF
 ezF
 ezF
-bBk
-bBk
-bBk
-bBk
-bBk
-bBk
-bBk
-bBk
+hOf
+hOf
+hOf
+hOf
+hOf
+hOf
+hOf
+hOf
 ezF
 ezF
 pyz
@@ -58357,7 +58335,7 @@ ezF
 ezF
 ezF
 ezF
-oMt
+iVr
 ezF
 ezF
 ezF
@@ -59767,7 +59745,7 @@ lGr
 bjg
 lGr
 bjg
-tAj
+pxv
 vAW
 dZr
 nEI
