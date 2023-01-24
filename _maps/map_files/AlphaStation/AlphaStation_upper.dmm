@@ -693,9 +693,6 @@
 /turf/open/floor/plating,
 /area/station/service/bar/backroom)
 "atN" = (
-/obj/machinery/door/firedoor{
-	name = "Emergency Shutter"
-	},
 /obj/effect/turf_decal/tile/red/fourcorners,
 /obj/effect/mapping_helpers/airlock/access/any/security/brig,
 /obj/machinery/door/airlock/external{
@@ -17151,9 +17148,6 @@
 /area/station/medical/medbay/central)
 "jZf" = (
 /obj/machinery/door/airlock/gold/glass,
-/obj/machinery/door/firedoor{
-	name = "Emergency Shutter"
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/any/service/janitor,
@@ -30035,9 +30029,6 @@
 	},
 /area/station/engineering/atmos/upper)
 "rxv" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -34278,11 +34269,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/upper)
-"tXG" = (
-/obj/structure/grille,
-/obj/structure/grille,
-/turf/closed/wall/r_wall,
-/area/station/engineering/atmos/storage/gas)
 "tYj" = (
 /obj/structure/noticeboard/directional/north{
 	desc = "A memorial wall for pinning mementos upon.";
@@ -40169,9 +40155,6 @@
 /area/station/security/office)
 "xky" = (
 /obj/machinery/door/airlock/gold,
-/obj/machinery/door/firedoor{
-	name = "Emergency Shutter"
-	},
 /obj/effect/mapping_helpers/airlock/access/any/service/janitor,
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
@@ -78254,7 +78237,7 @@ wga
 wga
 lVd
 xzf
-tXG
+lVd
 lVd
 lVd
 lVd
