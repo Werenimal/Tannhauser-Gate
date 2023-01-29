@@ -17821,8 +17821,8 @@
 /area/station/medical/morgue)
 "bkX" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex/nitrile,
-/obj/item/clothing/gloves/color/latex/nitrile,
+/obj/item/clothing/gloves/latex/nitrile,
+/obj/item/clothing/gloves/latex/nitrile,
 /obj/item/reagent_containers/spray/cleaner,
 /turf/open/floor/plating,
 /area/station/medical/cryo)
@@ -20374,7 +20374,7 @@
 /area/station/maintenance/department/engine)
 "btS" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /obj/machinery/light_switch{
 	pixel_y = -24
@@ -35655,7 +35655,7 @@
 /obj/item/storage/box/monkeycubes{
 	layer = 3.1
 	},
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/stack/sheet/mineral/plasma{
 	amount = 2
 	},
@@ -48562,7 +48562,7 @@
 /obj/item/reagent_containers/dropper{
 	pixel_y = 8
 	},
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/glasses/science,
 /turf/open/floor/iron,
 /area/station/science/xenobiology)
@@ -51645,7 +51645,7 @@
 /turf/open/floor/catwalk_floor/iron,
 /area/station/engineering/atmos/storage/gas)
 "qzo" = (
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/surgical_drapes,
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -53789,7 +53789,7 @@
 /area/station/maintenance/department/crew_quarters/dorms)
 "shi" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /obj/item/reagent_containers/spray/cleaner,
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -54556,7 +54556,7 @@
 	pixel_x = -7;
 	pixel_y = 7
 	},
-/obj/item/clothing/gloves/color/latex{
+/obj/item/clothing/gloves/latex{
 	pixel_x = -7;
 	pixel_y = -3
 	},
@@ -58975,7 +58975,7 @@
 /area/station/science/research)
 "wfs" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex{
+/obj/item/clothing/gloves/latex{
 	pixel_x = 129;
 	pixel_y = 71
 	},
@@ -61053,7 +61053,7 @@
 /area/station/maintenance/department/science)
 "xDJ" = (
 /obj/structure/table/wood,
-/obj/item/clothing/head/utility/hardhat/weldhat{
+/obj/item/clothing/head/utility/hardhat/welding{
 	pixel_x = -9;
 	pixel_y = 11
 	},
