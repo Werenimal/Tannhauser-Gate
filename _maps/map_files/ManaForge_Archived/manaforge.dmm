@@ -16115,7 +16115,7 @@
 /area/station/science/ordnance/bomb)
 "bor" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/surgical_drapes,
 /obj/item/razor,
 /turf/open/floor/iron/dark,
@@ -22487,7 +22487,7 @@
 /obj/structure/table/reinforced,
 /obj/item/slime_scanner,
 /obj/item/clothing/glasses/science,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /turf/open/floor/iron,
 /area/station/science/xenobiology)
 "bLh" = (
@@ -24869,7 +24869,7 @@
 /area/station/engineering/atmos)
 "bWf" = (
 /obj/structure/table/glass,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/machinery/requests_console{
 	department = "Virology";
 	name = "Virology Requests Console";
@@ -33752,7 +33752,7 @@
 /obj/item/toy/figure/scientist,
 /obj/structure/table,
 /obj/item/clothing/glasses/science,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/storage/box/petridish{
 	pixel_x = -5;
 	pixel_y = 8
@@ -35950,7 +35950,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
 "hgj" = (
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /obj/item/reagent_containers/spray/cleaner,
 /obj/structure/table/glass,

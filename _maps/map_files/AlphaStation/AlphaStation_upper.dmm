@@ -5226,7 +5226,7 @@
 /area/station/command/heads_quarters/hop)
 "den" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex{
+/obj/item/clothing/gloves/latex{
 	pixel_x = 4;
 	pixel_y = 9
 	},
@@ -14343,7 +14343,7 @@
 	pixel_x = -7;
 	pixel_y = 7
 	},
-/obj/item/clothing/gloves/color/latex{
+/obj/item/clothing/gloves/latex{
 	pixel_x = -7;
 	pixel_y = -3
 	},
@@ -21144,8 +21144,8 @@
 /area/station/science/ordnance/testlab)
 "msX" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /obj/item/clothing/mask/surgical,
 /obj/item/reagent_containers/spray/cleaner{
