@@ -8499,6 +8499,33 @@
 /obj/effect/turf_decal/bot_blue,
 /turf/open/floor/iron/freezer,
 /area/centcom/interlink)
+"lnY" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/structure/rack,
+/obj/item/storage/box/nif_ghost_box,
+/obj/item/storage/box/nif_ghost_box,
+/obj/item/storage/box/nif_ghost_box,
+/obj/item/storage/box/nif_ghost_box,
+/obj/item/storage/box/nif_ghost_box,
+/obj/item/storage/box/nif_ghost_box,
+/obj/item/storage/box/nif_ghost_box,
+/obj/item/storage/box/nif_ghost_box,
+/obj/item/storage/box/nif_ghost_box,
+/obj/item/storage/box/nif_ghost_box,
+/turf/open/indestructible/hoteltile{
+	icon_state = "floor"
+	},
+/area/centcom/holding/cafe)
 "loD" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/structure/showcase/machinery/tv{
@@ -11502,33 +11529,6 @@
 	},
 /turf/open/floor/grass,
 /area/centcom/interlink)
-"sIb" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/blue/filled/line,
-/obj/structure/rack,
-/obj/item/storage/box/nif_ghost_box,
-/obj/item/storage/box/nif_ghost_box,
-/obj/item/storage/box/nif_ghost_box,
-/obj/item/storage/box/nif_ghost_box,
-/obj/item/storage/box/nif_ghost_box,
-/obj/item/storage/box/nif_ghost_box,
-/obj/item/storage/box/nif_ghost_box,
-/obj/item/storage/box/nif_ghost_box,
-/obj/item/storage/box/nif_ghost_box,
-/obj/item/storage/box/nif_ghost_box,
-/turf/open/indestructible/hoteltile{
-	icon_state = "floor"
-	},
-/area/centcom/holding/cafe)
 "sIH" = (
 /obj/structure/chair/sofa/left/brown{
 	dir = 1
@@ -58810,7 +58810,7 @@ aAu
 aur
 aLO
 aOI
-sIb
+lnY
 aqf
 aUo
 axQ

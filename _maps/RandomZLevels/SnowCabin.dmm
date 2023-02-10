@@ -3558,6 +3558,21 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/cabin)
+"ob" = (
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/item/clothing/shoes/sneakers/brown,
+/obj/item/clothing/head/hats/warden/police{
+	desc = "I am the law!"
+	},
+/obj/structure/closet{
+	anchored = 1;
+	name = "uniform closet"
+	},
+/obj/item/clothing/under/rank/security/officer/spacepol{
+	desc = "Anyone enjoying their time while working in a megacorporation, planetary government, or band of pirates is under the jurisdiction of the fun police."
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/cabin/caves/mountain)
 "oC" = (
 /obj/effect/light_emitter{
 	name = "outdoor light";
@@ -3619,6 +3634,15 @@
 	},
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
+"qh" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/decal/cleanable/glitter/blue{
+	desc = "It looks like fancy glitter to me.";
+	name = "icy wind"
+	},
+/obj/item/clothing/head/helmet/skull,
+/turf/open/misc/asteroid/snow/snow_cabin,
+/area/awaymission/cabin/caves)
 "qo" = (
 /obj/item/pickaxe{
 	desc = "It's almost broken.";
@@ -3634,31 +3658,6 @@
 	name = "packed snow";
 	slowdown = 0
 	},
-/area/awaymission/cabin/snowforest)
-"qB" = (
-/obj/structure/statue/snow/snowman{
-	anchored = 1;
-	name = "Who"
-	},
-/obj/item/clothing/head/helmet/knight/yellow{
-	desc = "A classic metal helmet. The cold has made it unreliable though.";
-	name = "old medieval helmet";
-	pixel_y = 7
-	},
-/obj/item/claymore/weak/ceremonial{
-	desc = "Brought to you by the guys in charge of making replica katana toys!";
-	force = 1;
-	layer = 3.01;
-	name = "replica claymore";
-	pixel_x = 5;
-	pixel_y = 8;
-	throwforce = 2
-	},
-/obj/item/shield/roman/fake{
-	layer = 3.01;
-	pixel_x = -7
-	},
-/turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/snowforest)
 "qR" = (
 /turf/open/misc/ice/smooth,
@@ -4151,6 +4150,31 @@
 	slowdown = 0
 	},
 /area/awaymission/cabin/caves)
+"ER" = (
+/obj/structure/statue/snow/snowman{
+	anchored = 1;
+	name = "Who"
+	},
+/obj/item/clothing/head/helmet/knight/yellow{
+	desc = "A classic metal helmet. The cold has made it unreliable though.";
+	name = "old medieval helmet";
+	pixel_y = 7
+	},
+/obj/item/claymore/weak/ceremonial{
+	desc = "Brought to you by the guys in charge of making replica katana toys!";
+	force = 1;
+	layer = 3.01;
+	name = "replica claymore";
+	pixel_x = 5;
+	pixel_y = 8;
+	throwforce = 2
+	},
+/obj/item/shield/roman/fake{
+	layer = 3.01;
+	pixel_x = -7
+	},
+/turf/open/misc/asteroid/snow/snow_cabin,
+/area/awaymission/cabin/snowforest)
 "Fq" = (
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/structure/sign/poster/official/space_cops{
@@ -4222,15 +4246,6 @@
 	slowdown = 0
 	},
 /area/awaymission/cabin/snowforest)
-"HW" = (
-/obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/glitter/blue{
-	desc = "It looks like fancy glitter to me.";
-	name = "icy wind"
-	},
-/obj/item/clothing/head/helmet/skull,
-/turf/open/misc/asteroid/snow/snow_cabin,
-/area/awaymission/cabin/caves)
 "HY" = (
 /obj/structure/fence/door/opened,
 /obj/structure/barricade/wooden/crude/snow,
@@ -4246,21 +4261,6 @@
 	},
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
-"Ij" = (
-/obj/effect/turf_decal/tile/blue/fourcorners,
-/obj/item/clothing/shoes/sneakers/brown,
-/obj/item/clothing/head/hats/warden/police{
-	desc = "I am the law!"
-	},
-/obj/structure/closet{
-	anchored = 1;
-	name = "uniform closet"
-	},
-/obj/item/clothing/under/rank/security/officer/spacepol{
-	desc = "Anyone enjoying their time while working in a megacorporation, planetary government, or band of pirates is under the jurisdiction of the fun police."
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/cabin/caves/mountain)
 "IU" = (
 /obj/effect/decal/cleanable/shreds,
 /turf/open/misc/asteroid/snow/snow_cabin,
@@ -8262,7 +8262,7 @@ cx
 cx
 td
 Xy
-Ij
+ob
 cx
 co
 co
@@ -28129,7 +28129,7 @@ ab
 jm
 Oe
 RC
-qB
+ER
 RC
 nE
 RC
@@ -51847,7 +51847,7 @@ Lj
 tC
 Dw
 tC
-HW
+qh
 gx
 Oe
 gx
