@@ -16459,7 +16459,7 @@
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "bfr" = (
-/obj/structure/sign/barsign,
+/obj/machinery/barsign,
 /turf/closed/wall,
 /area/station/service/bar)
 "bfs" = (
@@ -40331,7 +40331,6 @@
 /obj/item/computer_disk/medical,
 /obj/item/computer_disk/medical,
 /obj/item/computer_disk/medical,
-/obj/item/computer_disk/chemistry,
 /obj/item/wrench/medical,
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/white,
@@ -44163,7 +44162,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "kVc" = (
-/obj/structure/sign/barsign,
+/obj/machinery/barsign,
 /turf/closed/wall,
 /area/station/maintenance/department/crew_quarters/dorms)
 "kVk" = (

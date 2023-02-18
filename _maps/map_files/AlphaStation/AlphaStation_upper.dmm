@@ -16636,7 +16636,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/theatre)
 "jJn" = (
-/obj/structure/sign/barsign,
+/obj/machinery/barsign,
 /turf/closed/wall,
 /area/station/service/theater)
 "jJr" = (
