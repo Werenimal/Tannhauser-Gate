@@ -721,16 +721,6 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/cabin)
-"cD" = (
-/obj/structure/sign/barsign{
-	pixel_y = -32;
-	req_access = null
-	},
-/obj/machinery/door/window/left/directional/west{
-	name = "Bar"
-	},
-/turf/open/floor/wood,
-/area/awaymission/cabin)
 "cE" = (
 /obj/machinery/light/directional/north,
 /obj/structure/cable,
@@ -4150,31 +4140,6 @@
 	slowdown = 0
 	},
 /area/awaymission/cabin/caves)
-"ER" = (
-/obj/structure/statue/snow/snowman{
-	anchored = 1;
-	name = "Who"
-	},
-/obj/item/clothing/head/helmet/knight/yellow{
-	desc = "A classic metal helmet. The cold has made it unreliable though.";
-	name = "old medieval helmet";
-	pixel_y = 7
-	},
-/obj/item/claymore/weak/ceremonial{
-	desc = "Brought to you by the guys in charge of making replica katana toys!";
-	force = 1;
-	layer = 3.01;
-	name = "replica claymore";
-	pixel_x = 5;
-	pixel_y = 8;
-	throwforce = 2
-	},
-/obj/item/shield/roman/fake{
-	layer = 3.01;
-	pixel_x = -7
-	},
-/turf/open/misc/asteroid/snow/snow_cabin,
-/area/awaymission/cabin/snowforest)
 "Fq" = (
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/structure/sign/poster/official/space_cops{
@@ -4246,6 +4211,10 @@
 	slowdown = 0
 	},
 /area/awaymission/cabin/snowforest)
+"Hz" = (
+/obj/machinery/barsign/all_access,
+/turf/closed/wall/mineral/wood,
+/area/awaymission/cabin)
 "HY" = (
 /obj/structure/fence/door/opened,
 /obj/structure/barricade/wooden/crude/snow,
@@ -4341,6 +4310,12 @@
 	},
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
+"LK" = (
+/obj/machinery/door/window/left/directional/west{
+	name = "Bar"
+	},
+/turf/open/floor/wood,
+/area/awaymission/cabin)
 "LS" = (
 /obj/structure/sign{
 	pixel_x = 32
@@ -4437,6 +4412,31 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/cabin)
+"Nu" = (
+/obj/structure/statue/snow/snowman{
+	anchored = 1;
+	name = "Who"
+	},
+/obj/item/clothing/head/helmet/knight/yellow{
+	desc = "A classic metal helmet. The cold has made it unreliable though.";
+	name = "old medieval helmet";
+	pixel_y = 7
+	},
+/obj/item/claymore/weak/ceremonial{
+	desc = "Brought to you by the guys in charge of making replica katana toys!";
+	force = 1;
+	layer = 3.01;
+	name = "replica claymore";
+	pixel_x = 5;
+	pixel_y = 8;
+	throwforce = 2
+	},
+/obj/item/shield/roman/fake{
+	layer = 3.01;
+	pixel_x = -7
+	},
+/turf/open/misc/asteroid/snow/snow_cabin,
+/area/awaymission/cabin/snowforest)
 "Oe" = (
 /turf/open/misc/asteroid/snow/snow_cabin,
 /area/awaymission/cabin/caves)
@@ -28129,7 +28129,7 @@ ab
 jm
 Oe
 RC
-ER
+Nu
 RC
 nE
 RC
@@ -29221,8 +29221,8 @@ bU
 ev
 eu
 RV
-cD
-an
+LK
+Hz
 aq
 eg
 aq
