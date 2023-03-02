@@ -5064,8 +5064,8 @@
 /turf/open/floor/plating,
 /area/station/maintenance/solars/starboard/fore)
 "arW" = (
-/obj/structure/pole{
-	pole_on = 1
+/obj/structure/stripper_pole{
+	lights_enabled = 1
 	},
 /turf/open/floor/iron/dark,
 /area/station/maintenance/department/crew_quarters/dorms)
