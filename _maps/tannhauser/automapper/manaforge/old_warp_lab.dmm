@@ -451,9 +451,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/requests_console{
 	department = "Science";
-	departmentType = 2;
 	name = "Science Requests Console";
-	pixel_y = -32
+	pixel_y = -32;
+	supplies_requestable = 1
 	},
 /turf/open/floor/iron/dark/purple/side,
 /area/station/science/research/abandoned)

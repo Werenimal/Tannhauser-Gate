@@ -218,8 +218,8 @@
 "aaX" = (
 /obj/machinery/requests_console{
 	department = "Hydroponics";
-	departmentType = 2;
-	pixel_y = 30
+	pixel_y = 30;
+	supplies_requestable = 1
 	},
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 5
@@ -528,9 +528,10 @@
 	},
 /obj/machinery/requests_console{
 	department = "AI";
-	departmentType = 5;
 	pixel_x = 28;
-	pixel_y = -28
+	pixel_y = -28;
+	assistance_requestable = 1;
+	anon_tips_receiver = 1
 	},
 /turf/open/floor/circuit,
 /area/station/ai_monitored/turret_protected/ai)
@@ -2530,8 +2531,9 @@
 "ajk" = (
 /obj/machinery/requests_console{
 	department = "Security";
-	departmentType = 5;
-	pixel_y = 30
+	pixel_y = 30;
+	assistance_requestable = 1;
+	anon_tips_receiver = 1
 	},
 /obj/structure/table,
 /obj/item/storage/box/donkpockets{
@@ -2781,9 +2783,10 @@
 /obj/machinery/requests_console{
 	announcementConsole = 1;
 	department = "Head of Security's Desk";
-	departmentType = 5;
 	name = "Head of Security RC";
-	pixel_y = 30
+	pixel_y = 30;
+	assistance_requestable = 1;
+	anon_tips_receiver = 1
 	},
 /obj/machinery/button/door{
 	id = "hos_spess_shutters";
@@ -4044,8 +4047,9 @@
 "aop" = (
 /obj/machinery/requests_console{
 	department = "Security";
-	departmentType = 5;
-	pixel_x = -32
+	pixel_x = -32;
+	assistance_requestable = 1;
+	anon_tips_receiver = 1
 	},
 /obj/structure/cable,
 /obj/structure/bed/dogbed/mcgriff,
@@ -6934,9 +6938,10 @@
 /obj/machinery/requests_console{
 	announcementConsole = 1;
 	department = "Captain's Desk";
-	departmentType = 5;
 	name = "Captain RC";
-	pixel_y = 30
+	pixel_y = 30;
+	assistance_requestable = 1;
+	anon_tips_receiver = 1
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -7215,9 +7220,10 @@
 /obj/machinery/requests_console{
 	announcementConsole = 1;
 	department = "Bridge";
-	departmentType = 5;
 	name = "Bridge RC";
-	pixel_y = -30
+	pixel_y = -30;
+	assistance_requestable = 1;
+	anon_tips_receiver = 1
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
@@ -11813,8 +11819,8 @@
 /obj/effect/spawner/random/maintenance,
 /obj/machinery/requests_console{
 	department = "Cargo Bay";
-	departmentType = 2;
-	pixel_y = 32
+	pixel_y = 32;
+	supplies_requestable = 1
 	},
 /turf/open/floor/iron,
 /area/station/cargo/storage)
@@ -12875,8 +12881,8 @@
 "aUa" = (
 /obj/machinery/requests_console{
 	department = "Kitchen";
-	departmentType = 2;
-	pixel_y = 30
+	pixel_y = 30;
+	supplies_requestable = 1
 	},
 /obj/machinery/chem_master/condimaster{
 	name = "CondiMaster Neo";
@@ -14406,8 +14412,9 @@
 	},
 /obj/machinery/requests_console{
 	department = "Security";
-	departmentType = 5;
-	pixel_y = 30
+	pixel_y = 30;
+	assistance_requestable = 1;
+	anon_tips_receiver = 1
 	},
 /obj/structure/reagent_dispensers/wall/peppertank/directional/west,
 /obj/effect/turf_decal/tile/red{
@@ -15264,8 +15271,8 @@
 /obj/structure/closet/l3closet/janitor,
 /obj/machinery/requests_console{
 	department = "Janitorial";
-	departmentType = 1;
-	pixel_x = 32
+	pixel_x = 32;
+	assistance_requestable = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/directional/east,
@@ -17913,9 +17920,9 @@
 "bli" = (
 /obj/machinery/requests_console{
 	department = "Medbay";
-	departmentType = 1;
 	name = "Medbay RC";
-	pixel_x = -32
+	pixel_x = -32;
+	assistance_requestable = 1
 	},
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 8
@@ -18114,10 +18121,10 @@
 "blI" = (
 /obj/machinery/requests_console{
 	department = "Robotics";
-	departmentType = 2;
 	name = "Robotics RC";
 	pixel_y = 30;
-	receive_ore_updates = 1
+	receive_ore_updates = 1;
+	supplies_requestable = 1
 	},
 /obj/effect/turf_decal/tile/green{
 	dir = 1
@@ -19997,9 +20004,9 @@
 /obj/structure/cable,
 /obj/machinery/requests_console{
 	department = "Medbay";
-	departmentType = 1;
 	name = "Medbay RC";
-	pixel_y = -30
+	pixel_y = -30;
+	assistance_requestable = 1
 	},
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 10
@@ -22527,9 +22534,9 @@
 "bCD" = (
 /obj/machinery/requests_console{
 	department = "Chemistry";
-	departmentType = 2;
 	pixel_x = 32;
-	receive_ore_updates = 1
+	receive_ore_updates = 1;
+	supplies_requestable = 1
 	},
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 4
@@ -25944,9 +25951,10 @@
 	},
 /obj/machinery/requests_console{
 	department = "Atmospherics";
-	departmentType = 3;
 	name = "Atmos RC";
-	pixel_x = 30
+	pixel_x = 30;
+	assistance_requestable = 1;
+	supplies_requestable = 1
 	},
 /turf/open/floor/iron,
 /area/station/engineering/lobby)
@@ -26918,8 +26926,9 @@
 /obj/machinery/light/directional/west,
 /obj/machinery/requests_console{
 	department = "Security";
-	departmentType = 5;
-	pixel_x = -32
+	pixel_x = -32;
+	assistance_requestable = 1;
+	anon_tips_receiver = 1
 	},
 /obj/item/paper_bin{
 	layer = 2.9
@@ -30510,9 +30519,10 @@
 /obj/machinery/requests_console{
 	announcementConsole = 1;
 	department = "Telecomms Admin";
-	departmentType = 5;
 	name = "Telecomms RC";
-	pixel_y = 30
+	pixel_y = 30;
+	assistance_requestable = 1;
+	anon_tips_receiver = 1
 	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -31861,8 +31871,8 @@
 	},
 /obj/machinery/requests_console{
 	department = "Chapel";
-	departmentType = 2;
-	pixel_x = -32
+	pixel_x = -32;
+	supplies_requestable = 1
 	},
 /obj/structure/closet,
 /obj/item/storage/backpack/cultpack,
@@ -34015,8 +34025,9 @@
 /obj/structure/cable,
 /obj/machinery/requests_console{
 	department = "Security";
-	departmentType = 5;
-	pixel_x = 30
+	pixel_x = 30;
+	assistance_requestable = 1;
+	anon_tips_receiver = 1
 	},
 /obj/effect/turf_decal/trimline/darkblue/filled/warning{
 	dir = 5
@@ -34896,9 +34907,9 @@
 	},
 /obj/machinery/requests_console{
 	department = "Bar";
-	departmentType = 2;
 	pixel_y = -30;
-	receive_ore_updates = 1
+	receive_ore_updates = 1;
+	supplies_requestable = 1
 	},
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/service)
@@ -42201,9 +42212,10 @@
 	},
 /obj/machinery/requests_console{
 	department = "Engineering";
-	departmentType = 3;
 	name = "Engineering RC";
-	pixel_x = -32
+	pixel_x = -32;
+	assistance_requestable = 1;
+	supplies_requestable = 1
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/shower/directional/east{
@@ -42222,9 +42234,10 @@
 /obj/machinery/requests_console{
 	announcementConsole = 1;
 	department = "Chief Medical Officer's Desk";
-	departmentType = 5;
 	name = "Chief Medical Officer RC";
-	pixel_x = -30
+	pixel_x = -30;
+	assistance_requestable = 1;
+	anon_tips_receiver = 1
 	},
 /obj/machinery/disposal/bin,
 /obj/effect/turf_decal/tile/blue{
@@ -42440,9 +42453,9 @@
 "jzL" = (
 /obj/machinery/requests_console{
 	department = "Cargo Bay";
-	departmentType = 2;
 	pixel_x = -32;
-	pixel_y = 29
+	pixel_y = 29;
+	supplies_requestable = 1
 	},
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
@@ -51267,10 +51280,10 @@
 "qnT" = (
 /obj/machinery/requests_console{
 	department = "Science";
-	departmentType = 2;
 	name = "Science Requests Console";
 	pixel_x = 32;
-	receive_ore_updates = 1
+	receive_ore_updates = 1;
+	supplies_requestable = 1
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -52025,8 +52038,8 @@
 /obj/structure/cable,
 /obj/machinery/requests_console{
 	department = "Cargo Bay";
-	departmentType = 2;
-	pixel_x = -30
+	pixel_x = -30;
+	supplies_requestable = 1
 	},
 /obj/structure/table,
 /obj/item/computer_disk/quartermaster,
