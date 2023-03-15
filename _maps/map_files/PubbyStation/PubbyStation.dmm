@@ -3250,7 +3250,7 @@
 /turf/open/floor/carpet,
 /area/station/command/heads_quarters/hos)
 "alM" = (
-/obj/machinery/computer/secure_data{
+/obj/machinery/computer/records/security{
 	dir = 8
 	},
 /turf/open/floor/carpet,
@@ -3742,7 +3742,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/warden)
 "amV" = (
-/obj/machinery/computer/secure_data,
+/obj/machinery/computer/records/security,
 /turf/open/floor/iron/dark,
 /area/station/security/warden)
 "amX" = (
@@ -3974,7 +3974,7 @@
 /area/station/command/heads_quarters/hos)
 "anS" = (
 /obj/machinery/keycard_auth/directional/south,
-/mob/living/simple_animal/hostile/retaliate/bat/sgt_araneus,
+/mob/living/basic/giant_spider/sgt_araneus,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hos)
 "anT" = (
@@ -4942,7 +4942,7 @@
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "arI" = (
-/obj/machinery/computer/med_data,
+/obj/machinery/computer/records/medical,
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
@@ -5042,7 +5042,7 @@
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "arQ" = (
-/obj/machinery/computer/secure_data,
+/obj/machinery/computer/records/security,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
@@ -5835,7 +5835,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/brig)
 "auE" = (
-/obj/machinery/computer/secure_data,
+/obj/machinery/computer/records/security,
 /obj/machinery/button/door{
 	desc = "A remote control switch for the medbay foyer.";
 	id = "innerbrig";
@@ -8931,7 +8931,7 @@
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hop)
 "aEO" = (
-/obj/machinery/computer/secure_data{
+/obj/machinery/computer/records/security{
 	dir = 1
 	},
 /turf/open/floor/carpet,
@@ -9227,13 +9227,13 @@
 /turf/open/floor/iron/grimy,
 /area/station/security/detectives_office)
 "aFX" = (
-/obj/machinery/computer/med_data{
+/obj/machinery/computer/records/medical{
 	dir = 1
 	},
 /turf/open/floor/carpet,
 /area/station/security/detectives_office)
 "aFY" = (
-/obj/machinery/computer/secure_data{
+/obj/machinery/computer/records/security{
 	dir = 1
 	},
 /obj/machinery/camera/autoname/directional/south,
@@ -10759,7 +10759,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
 "aMg" = (
-/obj/machinery/computer/secure_data,
+/obj/machinery/computer/records/security,
 /obj/structure/reagent_dispensers/wall/peppertank/directional/north,
 /obj/machinery/camera/autoname/directional/north,
 /obj/effect/turf_decal/trimline/red/filled/line,
@@ -15155,7 +15155,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit/departure_lounge)
 "baQ" = (
-/obj/machinery/computer/secure_data{
+/obj/machinery/computer/records/security{
 	dir = 4
 	},
 /obj/machinery/button/door{
@@ -38173,7 +38173,7 @@
 /area/station/commons/storage/tools)
 "gkS" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/med_data/laptop{
+/obj/machinery/computer/records/medical/laptop{
 	dir = 1;
 	pixel_y = 4
 	},
@@ -39573,7 +39573,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos/office)
 "hjy" = (
-/obj/machinery/computer/med_data,
+/obj/machinery/computer/records/medical,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
@@ -40945,7 +40945,7 @@
 	dir = 4
 	},
 /obj/machinery/power/apc/auto_name/directional/south,
-/obj/machinery/computer/med_data{
+/obj/machinery/computer/records/medical{
 	dir = 1
 	},
 /turf/open/floor/iron/white,
@@ -43090,7 +43090,7 @@
 	pixel_y = 24
 	},
 /obj/structure/table,
-/obj/machinery/computer/med_data/laptop,
+/obj/machinery/computer/records/medical/laptop,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
 	},
@@ -56936,7 +56936,7 @@
 /obj/item/radio/intercom{
 	pixel_x = 28
 	},
-/obj/machinery/computer/med_data{
+/obj/machinery/computer/records/medical{
 	dir = 8
 	},
 /turf/open/floor/iron/white,
