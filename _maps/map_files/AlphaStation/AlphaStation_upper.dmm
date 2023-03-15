@@ -1606,7 +1606,7 @@
 /turf/open/floor/iron/cafeteria,
 /area/station/commons/dorms/laundry)
 "aXe" = (
-/obj/machinery/computer/secure_data{
+/obj/machinery/computer/records/security{
 	dir = 1
 	},
 /obj/structure/window/reinforced/spawner,
@@ -3735,7 +3735,7 @@
 /area/station/ai_monitored/security/armory)
 "chr" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/med_data/laptop{
+/obj/machinery/computer/records/medical/laptop{
 	dir = 1;
 	pixel_y = 4
 	},
@@ -4161,7 +4161,7 @@
 /turf/open/floor/carpet,
 /area/station/service/library)
 "cws" = (
-/obj/machinery/computer/med_data{
+/obj/machinery/computer/records/medical{
 	dir = 8
 	},
 /turf/open/floor/carpet,
@@ -6395,7 +6395,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos/upper)
 "dNu" = (
-/obj/machinery/computer/secure_data{
+/obj/machinery/computer/records/security{
 	dir = 1
 	},
 /obj/structure/window/reinforced/spawner,
@@ -8088,7 +8088,7 @@
 /obj/effect/turf_decal/siding/purple{
 	dir = 6
 	},
-/obj/machinery/computer/med_data/laptop{
+/obj/machinery/computer/records/medical/laptop{
 	dir = 8;
 	pixel_y = 1;
 	req_one_access = null
@@ -9041,7 +9041,7 @@
 /turf/open/floor/eighties,
 /area/station/service/abandoned_gambling_den/gaming)
 "fst" = (
-/obj/machinery/computer/secure_data{
+/obj/machinery/computer/records/security{
 	dir = 1
 	},
 /turf/open/floor/wood,
@@ -14032,7 +14032,7 @@
 /obj/item/radio/intercom{
 	pixel_x = -28
 	},
-/obj/machinery/computer/med_data{
+/obj/machinery/computer/records/medical{
 	dir = 4
 	},
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -15239,7 +15239,7 @@
 /area/station/command/heads_quarters/ce)
 "iNN" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/secure_data/laptop,
+/obj/machinery/computer/records/security/laptop,
 /turf/open/floor/wood,
 /area/station/service/lawoffice)
 "iNY" = (
@@ -15661,7 +15661,7 @@
 	},
 /area/station/hallway/primary/starboard)
 "jcH" = (
-/obj/machinery/computer/med_data,
+/obj/machinery/computer/records/medical,
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/green/half/contrasted{
 	dir = 1
@@ -17072,7 +17072,7 @@
 	},
 /area/station/service/chapel/monastery)
 "jWh" = (
-/obj/machinery/computer/secure_data,
+/obj/machinery/computer/records/security,
 /turf/open/floor/iron,
 /area/station/security/office)
 "jWN" = (
@@ -19933,7 +19933,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine/atmos)
 "lGZ" = (
-/obj/machinery/computer/secure_data,
+/obj/machinery/computer/records/security,
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
@@ -24279,7 +24279,7 @@
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
 "ocX" = (
-/obj/machinery/computer/secure_data{
+/obj/machinery/computer/records/security{
 	dir = 8
 	},
 /turf/open/floor/carpet,
@@ -26922,7 +26922,7 @@
 /turf/open/floor/iron,
 /area/station/cargo/warehouse/upper)
 "pCi" = (
-/obj/machinery/computer/secure_data,
+/obj/machinery/computer/records/security,
 /obj/machinery/airalarm/directional/north,
 /obj/structure/disposalpipe/sorting/mail{
 	dir = 4;
@@ -28419,7 +28419,7 @@
 /area/station/maintenance/solars/port/fore)
 "qyM" = (
 /obj/structure/table/glass,
-/obj/machinery/computer/med_data/laptop,
+/obj/machinery/computer/records/medical/laptop,
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
@@ -29383,7 +29383,7 @@
 /turf/open/floor/carpet,
 /area/station/service/library/lounge)
 "reu" = (
-/obj/machinery/computer/secure_data{
+/obj/machinery/computer/records/security{
 	dir = 1
 	},
 /obj/structure/window/reinforced/spawner,
@@ -41304,7 +41304,7 @@
 /area/station/medical/medbay/lobby)
 "xQk" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/med_data/laptop{
+/obj/machinery/computer/records/medical/laptop{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -41761,7 +41761,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "ydk" = (
-/obj/machinery/computer/secure_data{
+/obj/machinery/computer/records/security{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
