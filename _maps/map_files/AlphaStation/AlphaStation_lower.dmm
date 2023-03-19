@@ -4031,7 +4031,7 @@
 	pixel_y = -5
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/turf_decal/trimline/darkblue/line{
+/obj/effect/turf_decal/trimline/dark_blue/line{
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
@@ -5601,7 +5601,7 @@
 	pixel_y = 13
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/turf_decal/trimline/darkblue/corner{
+/obj/effect/turf_decal/trimline/dark_blue/corner{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
@@ -6720,7 +6720,7 @@
 /obj/effect/turf_decal/trimline/neutral/filled/warning{
 	dir = 1
 	},
-/obj/effect/turf_decal/trimline/darkblue/line{
+/obj/effect/turf_decal/trimline/dark_blue/line{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
@@ -14445,7 +14445,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/turf_decal/trimline/darkblue/line{
+/obj/effect/turf_decal/trimline/dark_blue/line{
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
@@ -16767,7 +16767,7 @@
 "pNr" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/turf_decal/trimline/darkblue/corner{
+/obj/effect/turf_decal/trimline/dark_blue/corner{
 	dir = 1
 	},
 /obj/structure/disposalpipe/segment,
@@ -20216,7 +20216,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/turf_decal/trimline/darkblue/corner{
+/obj/effect/turf_decal/trimline/dark_blue/corner{
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment,
@@ -22988,7 +22988,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/turf_decal/trimline/darkblue/line{
+/obj/effect/turf_decal/trimline/dark_blue/line{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
