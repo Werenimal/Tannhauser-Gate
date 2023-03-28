@@ -43855,7 +43855,7 @@
 /area/station/maintenance/department/engine)
 "kGJ" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/toy/beach_ball/holoball,
+/obj/item/toy/basketball,
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
 "kHO" = (
@@ -47161,10 +47161,10 @@
 /obj/item/clothing/gloves/boxing/blue,
 /obj/item/clothing/gloves/boxing/green,
 /obj/item/clothing/gloves/boxing/yellow,
-/obj/item/toy/beach_ball/holoball/dodgeball,
-/obj/item/toy/beach_ball/holoball/dodgeball,
-/obj/item/toy/beach_ball/holoball/dodgeball,
-/obj/item/toy/beach_ball/holoball/dodgeball,
+/obj/item/toy/dodgeball,
+/obj/item/toy/dodgeball,
+/obj/item/toy/dodgeball,
+/obj/item/toy/dodgeball,
 /turf/open/floor/iron,
 /area/station/security/prison)
 "niy" = (
@@ -57509,7 +57509,7 @@
 /area/station/hallway/primary/central/fore)
 "uZP" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/holohoop{
+/obj/structure/hoop{
 	dir = 8
 	},
 /obj/effect/turf_decal/stripes/white/line{
