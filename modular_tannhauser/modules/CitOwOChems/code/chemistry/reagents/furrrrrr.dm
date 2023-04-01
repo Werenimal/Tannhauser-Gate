@@ -55,7 +55,7 @@
 				if(LAZYLEN(seen))
 					to_chat(M, "You notice [pick(seen)]'s bulge [pick("OwO!", "uwu!")]")
 		if(16)
-			T = M.getorganslot(ORGAN_SLOT_TONGUE)
+			T = M.get_organ_slot(ORGAN_SLOT_TONGUE)
 			var/obj/item/organ/internal/tongue/nT = new /obj/item/organ/internal/tongue/fluffy
 			T.Remove()
 			nT.Insert(M)
@@ -80,7 +80,7 @@
 
 /datum/reagent/OwO/furranium/on_mob_delete(mob/living/carbon/M)
 	if(creation_purity < 0.95) // Only permanent if you're a good chemist.
-		nT = M.getorganslot(ORGAN_SLOT_TONGUE)
+		nT = M.get_organ_slot(ORGAN_SLOT_TONGUE)
 		nT.Remove()
 		qdel(nT)
 		T.Insert(M)

@@ -34,6 +34,10 @@
 		/area/station/cargo/warehouse,
 		// maintenence areas are not required to be connected
 		/area/station/maintenance,
+		// Tannhauser Exclusion Zone
+		/area/station/tcommsat/computer,
+		/area/station/common/arcade,
+		/area/station/service/jadedragon,
 	)
 	for(var/ignored_type in ignored_areas)
 		station_areas_remaining -= typesof(ignored_type)
