@@ -6893,7 +6893,6 @@
 #include "modular_skyrat\modules\xenos_skyrat_redo\code\xeno_types\spitter.dm"
 #include "modular_skyrat\modules\xenos_skyrat_redo\code\xeno_types\warrior.dm"
 #include "modular_tannhauser\_skyrat_override\modules\DynamicRules\code\dynamics.dm"
-#include "modular_tannhauser\_skyrat_override\modules\event_vote\code\event_chaos_system.dm"
 #include "modular_tannhauser\_skyrat_override\modules\lobby_cam\code\lobby_cam.dm"
 #include "modular_tannhauser\_skyrat_override\modules\veteran_only\code\job_types.dm"
 #include "modular_tannhauser\_TG_override\creep_override.dm"
