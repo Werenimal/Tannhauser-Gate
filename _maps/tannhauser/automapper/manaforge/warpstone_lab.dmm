@@ -735,7 +735,7 @@
 /turf/closed/wall/r_wall,
 /area/station/maintenance/starboard/aft)
 "Ok" = (
-/turf/open/genturf/alternative,
+/turf/open/genturf/blue,
 /area/icemoon/underground/unexplored/rivers/deep/shoreline)
 "Ox" = (
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
