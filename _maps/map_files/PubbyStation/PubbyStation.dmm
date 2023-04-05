@@ -1904,7 +1904,7 @@
 /turf/open/floor/carpet,
 /area/station/command/heads_quarters/captain/private)
 "aho" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "ahp" = (
@@ -4321,7 +4321,7 @@
 /area/station/maintenance/fore)
 "api" = (
 /obj/structure/cable,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "apj" = (
@@ -7941,7 +7941,7 @@
 	dir = 1
 	},
 /obj/structure/cable,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/iron,
 /area/station/commons/fitness/recreation)
 "aBW" = (
@@ -10594,7 +10594,7 @@
 /area/station/service/cafeteria)
 "aLE" = (
 /obj/structure/sink/directional/east,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/machinery/airalarm/directional/west,
 /turf/open/floor/iron/freezer,
 /area/station/commons/toilet/auxiliary)
@@ -11827,7 +11827,7 @@
 /area/station/cargo/storage)
 "aQg" = (
 /obj/structure/cable,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "aQh" = (
@@ -12603,7 +12603,7 @@
 /turf/open/floor/wood,
 /area/station/service/bar)
 "aSQ" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/item/storage/box/beanbag,
 /obj/item/assembly/mousetrap,
 /obj/item/storage/box/mousetraps,
@@ -18190,7 +18190,7 @@
 "blR" = (
 /obj/item/beacon,
 /obj/effect/landmark/blobstart,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/engine,
 /area/station/science/explab)
@@ -21699,7 +21699,7 @@
 /turf/open/floor/iron,
 /area/station/science/auxlab)
 "bzd" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/iron,
 /area/station/science/auxlab)
 "bzg" = (
@@ -22550,7 +22550,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "bCF" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/structure/chair/office{
 	dir = 8
 	},
@@ -23136,7 +23136,7 @@
 /turf/open/floor/iron/freezer,
 /area/station/medical/virology)
 "bFJ" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/freezer,
 /area/station/medical/virology)
@@ -24338,7 +24338,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/abandoned)
 "bMa" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/station/medical/abandoned)
@@ -25227,7 +25227,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
 "bPS" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
 "bPT" = (
@@ -28598,7 +28598,7 @@
 /area/station/maintenance/department/engine)
 "cbT" = (
 /obj/item/shovel,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "cbV" = (
@@ -30747,7 +30747,7 @@
 /area/station/tcommsat/server)
 "cmH" = (
 /obj/machinery/telecomms/message_server/preset,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmK" = (
 /turf/open/floor/iron/dark/telecomms,
@@ -30786,43 +30786,43 @@
 /area/station/tcommsat/server)
 "cmV" = (
 /obj/machinery/telecomms/server/presets/security,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmW" = (
 /obj/machinery/telecomms/server/presets/science,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmX" = (
 /obj/machinery/telecomms/hub/preset,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmY" = (
 /obj/machinery/telecomms/server/presets/common,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmZ" = (
 /obj/machinery/telecomms/server/presets/service,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cna" = (
 /obj/machinery/telecomms/server/presets/medical,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cnb" = (
 /obj/machinery/telecomms/server/presets/command,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cnc" = (
 /obj/machinery/ntnet_relay,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cnd" = (
 /obj/machinery/telecomms/server/presets/supply,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cne" = (
 /obj/machinery/telecomms/server/presets/engineering,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cng" = (
 /mob/living/carbon/human/species/monkey,
@@ -35156,8 +35156,7 @@
 /area/station/medical/psychology)
 "dTb" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 8;
-	opacity = 0
+	dir = 8
 	},
 /obj/item/food/popcorn{
 	pixel_x = 7
@@ -35342,7 +35341,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness)
 "ecW" = (
@@ -35480,8 +35479,7 @@
 /area/station/security/prison)
 "ejk" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 1;
-	opacity = 0
+	dir = 1
 	},
 /obj/effect/decal/cleanable/cum,
 /turf/open/floor/wood/parquet,
@@ -35768,7 +35766,7 @@
 /turf/open/floor/engine,
 /area/station/science/research)
 "ewh" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/engine/plasma,
 /area/station/engineering/atmos)
 "ewj" = (
@@ -35790,8 +35788,7 @@
 /area/station/hallway/secondary/entry)
 "eyQ" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 1;
-	opacity = 0
+	dir = 1
 	},
 /obj/item/trash/popcorn,
 /turf/open/floor/wood/parquet,
@@ -43158,8 +43155,7 @@
 /area/station/service/chapel/office)
 "kcG" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 8;
-	opacity = 0
+	dir = 8
 	},
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood/parquet,
@@ -44226,7 +44222,7 @@
 "kUU" = (
 /obj/machinery/light/directional/south,
 /obj/structure/cable,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/solars/starboard/fore)
 "kUY" = (
@@ -44622,8 +44618,7 @@
 /area/station/science/genetics)
 "lma" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 1;
-	opacity = 0
+	dir = 1
 	},
 /turf/open/floor/wood/parquet,
 /area/station/maintenance/department/security/brig)
@@ -44940,7 +44935,7 @@
 /obj/effect/turf_decal/vg_decals/atmos/air{
 	dir = 1
 	},
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/engine/air,
 /area/station/engineering/atmos)
@@ -45909,12 +45904,10 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced/tinted{
-	dir = 1;
-	opacity = 0
+	dir = 1
 	},
 /obj/structure/window/reinforced/tinted{
-	dir = 4;
-	opacity = 0
+	dir = 4
 	},
 /turf/open/floor/wood/parquet,
 /area/station/maintenance/department/security/brig)
@@ -47860,8 +47853,7 @@
 /area/station/engineering/supermatter/room)
 "nMY" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 4;
-	opacity = 0
+	dir = 4
 	},
 /turf/open/floor/wood/parquet,
 /area/station/maintenance/department/security/brig)
@@ -48211,7 +48203,7 @@
 /area/station/medical/virology)
 "oaG" = (
 /obj/item/wirerod,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "oaS" = (
@@ -49656,7 +49648,7 @@
 "paM" = (
 /obj/item/stack/sheet/animalhide/xeno,
 /obj/item/clothing/under/rank/civilian/janitor/maid,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science)
@@ -50066,16 +50058,14 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced/tinted{
-	dir = 1;
-	opacity = 0
+	dir = 1
 	},
 /obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
 	pixel_x = 5
 	},
 /obj/structure/table/wood,
 /obj/structure/window/reinforced/tinted{
-	dir = 8;
-	opacity = 0
+	dir = 8
 	},
 /turf/open/floor/wood/parquet,
 /area/station/maintenance/department/security/brig)
@@ -50918,7 +50908,7 @@
 /area/station/maintenance/department/science)
 "pYj" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
@@ -53534,7 +53524,7 @@
 /area/station/engineering/atmospherics_engine)
 "rSH" = (
 /obj/item/trash/can,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/wood,
 /area/station/maintenance/department/engine)
 "rSQ" = (
@@ -54043,7 +54033,7 @@
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "soM" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "spo" = (
@@ -54461,7 +54451,7 @@
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "sJo" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
@@ -55077,7 +55067,7 @@
 /obj/item/beacon,
 /obj/effect/landmark/event_spawn,
 /obj/effect/landmark/blobstart,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
 "tfS" = (
@@ -57146,8 +57136,7 @@
 /area/station/medical/chemistry)
 "uIr" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 4;
-	opacity = 0
+	dir = 4
 	},
 /obj/item/kirbyplants/random,
 /obj/item/trash/chips,
@@ -58173,7 +58162,7 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "vtT" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/solars/port)
 "vtX" = (
@@ -58971,7 +58960,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/department/engine)
 "wby" = (

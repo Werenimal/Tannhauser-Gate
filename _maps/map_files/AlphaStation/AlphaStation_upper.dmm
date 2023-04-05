@@ -929,7 +929,7 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/medbay/central)
 "aBl" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "aBH" = (
@@ -2964,7 +2964,7 @@
 /area/station/command/heads_quarters/ce)
 "bKy" = (
 /obj/effect/landmark/start/chaplain,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/monastery)
 "bLk" = (
@@ -19929,7 +19929,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/brig/upper)
 "lGS" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine/atmos)
 "lGZ" = (
@@ -30242,7 +30242,7 @@
 /turf/open/floor/iron,
 /area/station/cargo/office)
 "rDi" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/department/medical)
 "rDn" = (

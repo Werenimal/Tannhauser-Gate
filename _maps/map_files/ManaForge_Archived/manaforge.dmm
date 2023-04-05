@@ -1802,7 +1802,7 @@
 /area/station/maintenance/port/fore)
 "amE" = (
 /obj/structure/bed,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/item/bedsheet/dorms,
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
@@ -2240,7 +2240,7 @@
 /area/station/maintenance/port/fore)
 "aoU" = (
 /obj/structure/bed,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
 "aoW" = (
@@ -2592,7 +2592,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "aqE" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "aqJ" = (
@@ -3131,7 +3131,7 @@
 /turf/open/floor/carpet,
 /area/station/security/detectives_office)
 "ate" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -8014,7 +8014,7 @@
 /area/station/hallway/primary/central)
 "aMi" = (
 /obj/structure/disposalpipe/segment,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood,
 /area/station/service/bar)
@@ -11128,7 +11128,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port)
 "aYg" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/construction)
 "aYi" = (
@@ -12361,7 +12361,7 @@
 	},
 /area/station/science/research/abandoned)
 "bct" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/iron/freezer,
 /area/station/commons/toilet/locker)
 "bcv" = (
@@ -21668,7 +21668,7 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/storage/tech)
 "bHJ" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/engineering/storage/tech)
@@ -23843,7 +23843,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/iron,
 /area/station/science/ordnance/storage)
 "bQU" = (
@@ -28032,7 +28032,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "cmq" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/structure/disposalpipe/segment,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
@@ -39528,7 +39528,7 @@
 "kKn" = (
 /obj/machinery/light/dim/directional/south,
 /obj/effect/decal/cleanable/oil/streak,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/aft)
 "kKM" = (
@@ -42847,7 +42847,7 @@
 /turf/open/floor/iron/white,
 /area/station/security/brig)
 "okD" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/carpet/purple,
 /area/station/service/jadedragon)
 "okP" = (

@@ -65,7 +65,7 @@
 /turf/open/floor/glass,
 /area/station/service/jadedragon)
 "i" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/carpet/purple,
 /area/station/service/jadedragon)
 "k" = (
