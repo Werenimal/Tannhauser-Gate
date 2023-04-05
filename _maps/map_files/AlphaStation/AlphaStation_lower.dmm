@@ -141,7 +141,7 @@
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
 "aer" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/effect/spawner/random/engineering/tracking_beacon,
 /obj/structure/window/reinforced{
@@ -2381,7 +2381,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/customs/aft)
 "cqf" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
@@ -2921,7 +2921,7 @@
 /area/station/medical/morgue)
 "cPw" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
@@ -3746,7 +3746,7 @@
 /turf/open/floor/iron,
 /area/station/maintenance/fore)
 "dCD" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security)
 "dCV" = (
@@ -4737,7 +4737,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "eyE" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
 "eyI" = (
@@ -7202,7 +7202,7 @@
 /turf/open/floor/plating,
 /area/station/medical/abandoned)
 "gXh" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/abandon_exam)
 "gXm" = (
@@ -8842,7 +8842,7 @@
 /turf/open/floor/carpet/royalblack,
 /area/station/service/theater)
 "iyD" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/lesser)
 "iyF" = (
@@ -17423,7 +17423,7 @@
 /turf/open/floor/iron,
 /area/station/cargo/warehouse)
 "qrB" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
 "qrR" = (
@@ -18056,7 +18056,7 @@
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
 "qUD" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/plating,
@@ -20114,7 +20114,7 @@
 /obj/structure/table,
 /obj/item/toy/cards/deck,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/iron,
 /area/station/security/prison)
 "sMT" = (
@@ -20990,7 +20990,7 @@
 /turf/open/floor/engine,
 /area/station/science/cytology)
 "tAy" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science)
 "tBd" = (
@@ -23460,7 +23460,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/thruster_room/port)
 "vCv" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/central)
 "vDY" = (

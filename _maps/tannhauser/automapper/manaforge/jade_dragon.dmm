@@ -36,7 +36,7 @@
 /turf/open/floor/glass/plasma,
 /area/station/service/jadedragon)
 "n" = (
-/obj/effect/landmark/xeno_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /obj/structure/sign/poster/contraband/lusty_xenomorph{
 	pixel_x = 30
 	},
