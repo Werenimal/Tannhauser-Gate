@@ -30743,7 +30743,7 @@
 /area/station/tcommsat/computer)
 "cmG" = (
 /obj/machinery/blackbox_recorder,
-/turf/open/floor/circuit/telecomms/server,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
 "cmH" = (
 /obj/machinery/telecomms/message_server/preset,
@@ -30754,27 +30754,27 @@
 /area/station/tcommsat/server)
 "cmL" = (
 /obj/machinery/telecomms/bus/preset_three,
-/turf/open/floor/circuit/telecomms/server,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
 "cmM" = (
 /obj/machinery/telecomms/receiver/preset_left,
-/turf/open/floor/circuit/telecomms/server,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
 "cmN" = (
 /obj/machinery/telecomms/processor/preset_three,
-/turf/open/floor/circuit/telecomms/server,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
 "cmO" = (
 /obj/machinery/telecomms/processor/preset_one,
-/turf/open/floor/circuit/telecomms/server,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
 "cmP" = (
 /obj/machinery/telecomms/receiver/preset_right,
-/turf/open/floor/circuit/telecomms/server,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
 "cmQ" = (
 /obj/machinery/telecomms/bus/preset_one,
-/turf/open/floor/circuit/telecomms/server,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
 "cmR" = (
 /obj/machinery/light/directional/west,
@@ -30830,27 +30830,27 @@
 /area/station/science/genetics)
 "cnj" = (
 /obj/machinery/telecomms/processor/preset_four,
-/turf/open/floor/circuit/telecomms/server,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
 "cnk" = (
 /obj/machinery/telecomms/broadcaster/preset_left,
-/turf/open/floor/circuit/telecomms/server,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
 "cnl" = (
 /obj/machinery/telecomms/bus/preset_four,
-/turf/open/floor/circuit/telecomms/server,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
 "cnm" = (
 /obj/machinery/telecomms/bus/preset_two,
-/turf/open/floor/circuit/telecomms/server,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
 "cnn" = (
 /obj/machinery/telecomms/broadcaster/preset_right,
-/turf/open/floor/circuit/telecomms/server,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
 "cno" = (
 /obj/machinery/telecomms/processor/preset_two,
-/turf/open/floor/circuit/telecomms/server,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
 "cnp" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible,
