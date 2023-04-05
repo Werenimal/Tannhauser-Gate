@@ -30743,38 +30743,38 @@
 /area/station/tcommsat/computer)
 "cmG" = (
 /obj/machinery/blackbox_recorder,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmH" = (
 /obj/machinery/telecomms/message_server/preset,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmK" = (
 /turf/open/floor/iron/dark/telecomms,
 /area/station/tcommsat/server)
 "cmL" = (
 /obj/machinery/telecomms/bus/preset_three,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmM" = (
 /obj/machinery/telecomms/receiver/preset_left,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmN" = (
 /obj/machinery/telecomms/processor/preset_three,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmO" = (
 /obj/machinery/telecomms/processor/preset_one,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmP" = (
 /obj/machinery/telecomms/receiver/preset_right,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmQ" = (
 /obj/machinery/telecomms/bus/preset_one,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmR" = (
 /obj/machinery/light/directional/west,
@@ -30786,43 +30786,43 @@
 /area/station/tcommsat/server)
 "cmV" = (
 /obj/machinery/telecomms/server/presets/security,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmW" = (
 /obj/machinery/telecomms/server/presets/science,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmX" = (
 /obj/machinery/telecomms/hub/preset,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmY" = (
 /obj/machinery/telecomms/server/presets/common,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cmZ" = (
 /obj/machinery/telecomms/server/presets/service,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cna" = (
 /obj/machinery/telecomms/server/presets/medical,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cnb" = (
 /obj/machinery/telecomms/server/presets/command,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cnc" = (
 /obj/machinery/ntnet_relay,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cnd" = (
 /obj/machinery/telecomms/server/presets/supply,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cne" = (
 /obj/machinery/telecomms/server/presets/engineering,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cng" = (
 /mob/living/carbon/human/species/monkey,
@@ -30830,27 +30830,27 @@
 /area/station/science/genetics)
 "cnj" = (
 /obj/machinery/telecomms/processor/preset_four,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cnk" = (
 /obj/machinery/telecomms/broadcaster/preset_left,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cnl" = (
 /obj/machinery/telecomms/bus/preset_four,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cnm" = (
 /obj/machinery/telecomms/bus/preset_two,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cnn" = (
 /obj/machinery/telecomms/broadcaster/preset_right,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cno" = (
 /obj/machinery/telecomms/processor/preset_two,
-/turf/open/floor/circuit/telecomms/mainframe,
+/turf/open/floor/circuit/telecomms/server,
 /area/station/tcommsat/server)
 "cnp" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible,
@@ -35156,8 +35156,7 @@
 /area/station/medical/psychology)
 "dTb" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 8;
-	opacity = 0
+	dir = 8
 	},
 /obj/item/food/popcorn{
 	pixel_x = 7
@@ -35480,8 +35479,7 @@
 /area/station/security/prison)
 "ejk" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 1;
-	opacity = 0
+	dir = 1
 	},
 /obj/effect/decal/cleanable/cum,
 /turf/open/floor/wood/parquet,
@@ -35790,8 +35788,7 @@
 /area/station/hallway/secondary/entry)
 "eyQ" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 1;
-	opacity = 0
+	dir = 1
 	},
 /obj/item/trash/popcorn,
 /turf/open/floor/wood/parquet,
@@ -43158,8 +43155,7 @@
 /area/station/service/chapel/office)
 "kcG" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 8;
-	opacity = 0
+	dir = 8
 	},
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood/parquet,
@@ -44622,8 +44618,7 @@
 /area/station/science/genetics)
 "lma" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 1;
-	opacity = 0
+	dir = 1
 	},
 /turf/open/floor/wood/parquet,
 /area/station/maintenance/department/security/brig)
@@ -45909,12 +45904,10 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced/tinted{
-	dir = 1;
-	opacity = 0
+	dir = 1
 	},
 /obj/structure/window/reinforced/tinted{
-	dir = 4;
-	opacity = 0
+	dir = 4
 	},
 /turf/open/floor/wood/parquet,
 /area/station/maintenance/department/security/brig)
@@ -47860,8 +47853,7 @@
 /area/station/engineering/supermatter/room)
 "nMY" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 4;
-	opacity = 0
+	dir = 4
 	},
 /turf/open/floor/wood/parquet,
 /area/station/maintenance/department/security/brig)
@@ -50066,16 +50058,14 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced/tinted{
-	dir = 1;
-	opacity = 0
+	dir = 1
 	},
 /obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
 	pixel_x = 5
 	},
 /obj/structure/table/wood,
 /obj/structure/window/reinforced/tinted{
-	dir = 8;
-	opacity = 0
+	dir = 8
 	},
 /turf/open/floor/wood/parquet,
 /area/station/maintenance/department/security/brig)
@@ -57146,8 +57136,7 @@
 /area/station/medical/chemistry)
 "uIr" = (
 /obj/structure/window/reinforced/tinted{
-	dir = 4;
-	opacity = 0
+	dir = 4
 	},
 /obj/item/kirbyplants/random,
 /obj/item/trash/chips,
