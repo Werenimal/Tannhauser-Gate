@@ -166,6 +166,7 @@
 /obj/item/reagent_containers/cup/glass/waterbottle/empty{
 	pixel_x = -15
 	},
+/obj/effect/landmark/atmospheric_sanity/ignore_area,
 /turf/open/floor/carpet/purple,
 /area/station/service/jadedragon)
 "L" = (
