@@ -399,7 +399,6 @@
 /area/station/cargo/warehouse/upper)
 "ajC" = (
 /obj/structure/table,
-/obj/item/food/soup/wingfangchu,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/item/dice/d10,

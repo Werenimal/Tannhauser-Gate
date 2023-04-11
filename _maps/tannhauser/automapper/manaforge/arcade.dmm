@@ -67,6 +67,10 @@
 /obj/effect/spawner/random/entertainment/arcade,
 /turf/open/floor/eighties,
 /area/station/common/arcade)
+"u" = (
+/obj/effect/landmark/atmospheric_sanity/ignore_area,
+/turf/open/floor/eighties,
+/area/station/common/arcade)
 "v" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
@@ -314,7 +318,7 @@ B
 P
 Q
 t
-j
+u
 t
 j
 y

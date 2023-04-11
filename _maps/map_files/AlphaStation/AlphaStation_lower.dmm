@@ -25816,26 +25816,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/science/xenobiology)
-"xMq" = (
-/obj/structure/table/reinforced,
-/obj/item/reagent_containers/condiment/peppermill{
-	pixel_x = 3
-	},
-/obj/item/reagent_containers/condiment/saltshaker{
-	pixel_x = -3
-	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "kitchen_counter";
-	name = "Kitchen Counter Shutters"
-	},
-/obj/item/food/soup/coldchili,
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/turf/open/floor/iron/cafeteria{
-	dir = 5
-	},
-/area/station/service/kitchen)
 "xMG" = (
 /turf/closed/wall,
 /area/station/maintenance/department/cargo)
@@ -60521,7 +60501,7 @@ sit
 uWI
 vAW
 fpa
-xMq
+xLM
 rNn
 fcn
 oTx
