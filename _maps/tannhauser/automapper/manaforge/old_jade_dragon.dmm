@@ -8,7 +8,7 @@
 	pixel_y = 6
 	},
 /obj/item/clothing/head/kitty/genuine,
-/obj/structure/window,
+/obj/structure/window/spawner/directional/south,
 /turf/open/floor/glass,
 /area/station/service/jadedragon)
 "b" = (
@@ -46,10 +46,8 @@
 /turf/open/floor/glass,
 /area/station/service/jadedragon)
 "h" = (
-/obj/structure/window,
-/obj/structure/window{
-	dir = 4
-	},
+/obj/structure/window/spawner/directional/south,
+/obj/structure/window/spawner/directional/east,
 /obj/item/feather{
 	pixel_y = 12
 	},
@@ -122,7 +120,7 @@
 /turf/open/space/basic,
 /area/space)
 "x" = (
-/obj/structure/window,
+/obj/structure/window/spawner/directional/south,
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/floor/glass,
 /area/station/service/jadedragon)
@@ -174,9 +172,7 @@
 /area/station/maintenance/aft)
 "J" = (
 /obj/machinery/light/blacklight/directional/north,
-/obj/structure/window{
-	dir = 4
-	},
+/obj/structure/window/spawner/directional/east,
 /obj/item/bdsm_candle,
 /turf/open/floor/glass,
 /area/station/service/jadedragon)
@@ -189,10 +185,8 @@
 /turf/open/floor/glass,
 /area/station/service/jadedragon)
 "L" = (
-/obj/structure/window,
-/obj/structure/window{
-	dir = 8
-	},
+/obj/structure/window/spawner/directional/south,
+/obj/structure/window/spawner/directional/west,
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/floor/glass,
 /area/station/service/jadedragon)
@@ -212,9 +206,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/aft)
 "P" = (
-/obj/structure/window{
-	dir = 8
-	},
+/obj/structure/window/spawner/directional/west,
 /obj/effect/spawner/costume/maid,
 /obj/item/stack/spacecash/c200{
 	pixel_x = 4;
@@ -244,17 +236,13 @@
 /turf/open/floor/glass,
 /area/station/service/jadedragon)
 "S" = (
-/obj/structure/window{
-	dir = 4
-	},
+/obj/structure/window/spawner/directional/east,
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/floor/glass,
 /area/station/service/jadedragon)
 "U" = (
 /obj/machinery/light/blacklight/directional/north,
-/obj/structure/window{
-	dir = 8
-	},
+/obj/structure/window/spawner/directional/west,
 /obj/effect/decal/cleanable/glitter/blue,
 /turf/open/floor/glass,
 /area/station/service/jadedragon)

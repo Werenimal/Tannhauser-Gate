@@ -87,9 +87,7 @@
 /turf/open/floor/iron/dark/side,
 /area/station/hallway/secondary/entry)
 "gf" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
+/obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/chair/sofa/bench/right{
 	dir = 4
 	},
@@ -272,9 +270,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "le" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
+/obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/chair/sofa/bench/left{
 	dir = 4
 	},
@@ -715,9 +711,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "OM" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
+/obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/chair/sofa/bench{
 	dir = 4
 	},
@@ -750,9 +744,7 @@
 	},
 /area/station/hallway/secondary/entry)
 "Qk" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
+/obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/chair/sofa/bench{
 	dir = 4
 	},
@@ -768,9 +760,7 @@
 /turf/open/floor/grass,
 /area/station/hallway/secondary/entry)
 "RB" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
+/obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/chair/sofa/bench/left{
 	dir = 4
 	},
@@ -918,9 +908,7 @@
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry)
 "ZI" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
+/obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/chair/sofa/bench/right{
 	dir = 4
 	},
