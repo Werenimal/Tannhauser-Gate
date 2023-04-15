@@ -15255,29 +15255,10 @@
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "bbh" = (
-/obj/structure/table,
-/obj/item/reagent_containers/condiment/flour,
-/obj/item/storage/box/papersack{
-	icon_state = "paperbag_NanotrasenStandard_closed"
-	},
-/obj/item/storage/box/papersack{
-	icon_state = "paperbag_NanotrasenStandard_closed"
-	},
-/obj/item/storage/box/papersack{
-	icon_state = "paperbag_NanotrasenStandard_closed"
-	},
-/obj/item/storage/box/papersack{
-	icon_state = "paperbag_NanotrasenStandard_closed"
-	},
-/obj/item/storage/box/papersack{
-	icon_state = "paperbag_NanotrasenStandard_closed"
-	},
-/obj/item/storage/box/papersack{
-	icon_state = "paperbag_NanotrasenStandard_closed"
-	},
-/obj/item/book/manual/chef_recipes{
-	pixel_x = 2;
-	pixel_y = 6
+/obj/machinery/oven/range,
+/obj/item/reagent_containers/cup/soup_pot{
+	pixel_x = -5;
+	pixel_y = 14
 	},
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
@@ -31110,6 +31091,7 @@
 "cpm" = (
 /obj/structure/table,
 /obj/item/knife,
+/obj/item/reagent_containers/condiment/flour,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "cpn" = (
@@ -31138,6 +31120,28 @@
 "cps" = (
 /obj/structure/table,
 /obj/item/food/pie/cream,
+/obj/item/storage/box/papersack{
+	icon_state = "paperbag_NanotrasenStandard_closed"
+	},
+/obj/item/storage/box/papersack{
+	icon_state = "paperbag_NanotrasenStandard_closed"
+	},
+/obj/item/storage/box/papersack{
+	icon_state = "paperbag_NanotrasenStandard_closed"
+	},
+/obj/item/storage/box/papersack{
+	icon_state = "paperbag_NanotrasenStandard_closed"
+	},
+/obj/item/storage/box/papersack{
+	icon_state = "paperbag_NanotrasenStandard_closed"
+	},
+/obj/item/storage/box/papersack{
+	icon_state = "paperbag_NanotrasenStandard_closed"
+	},
+/obj/item/book/manual/chef_recipes{
+	pixel_x = 2;
+	pixel_y = 6
+	},
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "cpt" = (
