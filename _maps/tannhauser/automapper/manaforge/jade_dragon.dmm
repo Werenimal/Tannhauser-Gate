@@ -21,7 +21,7 @@
 /area/station/service/jadedragon)
 "i" = (
 /obj/effect/decal/cleanable/glitter/blue,
-/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/directional/north,
 /turf/open/floor/glass/plasma,
 /area/station/service/jadedragon)
 "j" = (
@@ -31,8 +31,8 @@
 	pixel_x = -5;
 	pixel_y = -5
 	},
-/obj/structure/window/spawner/east,
-/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/directional/east,
+/obj/structure/window/spawner/directional/north,
 /turf/open/floor/glass/plasma,
 /area/station/service/jadedragon)
 "n" = (
@@ -124,7 +124,7 @@
 	pixel_x = 4;
 	pixel_y = 3
 	},
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /obj/structure/window/spawner,
 /turf/open/floor/glass/plasma,
 /area/station/service/jadedragon)
@@ -189,7 +189,7 @@
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "O" = (
-/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/directional/north,
 /obj/item/melee/chainofcommand/tailwhip/kitty,
 /turf/open/floor/glass/plasma,
 /area/station/service/jadedragon)
@@ -210,7 +210,7 @@
 /turf/open/floor/glass/plasma,
 /area/station/service/jadedragon)
 "T" = (
-/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/directional/north,
 /obj/item/feather{
 	pixel_x = 4;
 	pixel_y = -1
@@ -223,7 +223,7 @@
 /area/station/service/jadedragon)
 "V" = (
 /obj/effect/decal/cleanable/glitter/blue,
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /turf/open/floor/glass/plasma,
 /area/station/service/jadedragon)
 "W" = (
@@ -235,7 +235,7 @@
 /turf/open/floor/carpet/purple,
 /area/station/service/jadedragon)
 "Y" = (
-/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/directional/east,
 /turf/open/floor/glass/plasma,
 /area/station/service/jadedragon)
 

@@ -303,12 +303,10 @@
 /area/station/hallway/secondary/entry)
 "iE" = (
 /obj/structure/table/wood,
-/obj/structure/window/reinforced{
-	dir = 1;
+/obj/structure/window/reinforced/spawner/directional/north{
 	pixel_y = 2
 	},
-/obj/structure/window/reinforced{
-	dir = 4;
+/obj/structure/window/reinforced/spawner/directional/east{
 	pixel_y = 2
 	},
 /obj/item/paper_bin,
@@ -372,16 +370,14 @@
 /area/station/commons/vacant_room/office)
 "ku" = (
 /obj/structure/table/wood,
-/obj/structure/window/reinforced{
-	dir = 1;
+/obj/structure/window/reinforced/spawner/directional/north{
 	pixel_y = 2
 	},
 /turf/open/floor/carpet,
 /area/station/commons/vacant_room/office)
 "kG" = (
 /obj/structure/table/wood,
-/obj/structure/window/reinforced{
-	dir = 8;
+/obj/structure/window/reinforced/spawner/directional/west{
 	pixel_y = 2
 	},
 /turf/open/floor/carpet,
@@ -589,11 +585,10 @@
 /area/station/hallway/secondary/entry)
 "rI" = (
 /obj/structure/table/wood,
-/obj/structure/window/reinforced{
-	dir = 4;
+/obj/structure/window/reinforced/spawner/directional/east{
 	pixel_y = 2
 	},
-/obj/structure/window/reinforced{
+/obj/structure/window/reinforced/spawner/directional/south{
 	pixel_y = 2
 	},
 /obj/effect/spawner/random/decoration/ornament,
@@ -1023,11 +1018,10 @@
 /area/station/hallway/secondary/entry)
 "Gr" = (
 /obj/structure/table/wood,
-/obj/structure/window/reinforced{
-	dir = 8;
+/obj/structure/window/reinforced/spawner/directional/west{
 	pixel_y = 2
 	},
-/obj/structure/window/reinforced{
+/obj/structure/window/reinforced/spawner/directional/south{
 	pixel_y = 2
 	},
 /obj/effect/spawner/random/decoration/ornament,
@@ -1338,8 +1332,7 @@
 /area/station/hallway/secondary/entry)
 "PN" = (
 /obj/structure/table/wood,
-/obj/structure/window/reinforced{
-	dir = 4;
+/obj/structure/window/reinforced/spawner/directional/east{
 	pixel_y = 2
 	},
 /turf/open/floor/carpet,
@@ -1486,7 +1479,7 @@
 /area/station/hallway/secondary/entry)
 "SA" = (
 /obj/structure/table/wood,
-/obj/structure/window/reinforced{
+/obj/structure/window/reinforced/spawner/directional/south{
 	pixel_y = 2
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -1571,7 +1564,7 @@
 /area/station/commons/vacant_room/office)
 "Uj" = (
 /obj/structure/table/wood,
-/obj/structure/window/reinforced{
+/obj/structure/window/reinforced/spawner/directional/south{
 	pixel_y = 2
 	},
 /turf/open/floor/carpet,

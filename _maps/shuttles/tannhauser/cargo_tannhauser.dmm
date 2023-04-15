@@ -1,11 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aG" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/cable,
 /obj/machinery/power/shuttle_engine/heater,
 /turf/open/floor/iron/shuttle/cargo,
@@ -46,9 +42,7 @@
 /area/shuttle/supply)
 "gg" = (
 /obj/machinery/power/shuttle_engine/heater,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
+/obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/iron/shuttle/cargo,
 /area/shuttle/supply)
 "gt" = (
@@ -78,9 +72,7 @@
 /area/template_noop)
 "ic" = (
 /obj/machinery/power/shuttle_engine/propulsion/left,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
+/obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/floor/iron/shuttle/cargo,
 /area/shuttle/supply)
 "iI" = (
@@ -212,9 +204,7 @@
 /area/shuttle/supply)
 "pz" = (
 /obj/machinery/power/shuttle_engine/propulsion/right,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
+/obj/structure/window/reinforced/spawner/directional/west,
 /turf/open/floor/iron/shuttle/cargo,
 /area/shuttle/supply)
 "pK" = (
@@ -553,12 +543,8 @@
 	},
 /area/shuttle/supply)
 "UG" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/cable,
 /obj/machinery/power/shuttle_engine/heater,
 /turf/open/floor/iron/shuttle/cargo,
