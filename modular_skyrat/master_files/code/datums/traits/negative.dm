@@ -6,14 +6,14 @@
 	value = -4
 	mob_trait = TRAIT_MOOD_NOEXAMINE
 	medical_record_text = "Patient is incapable of communicating their emotions."
-	icon = "question-circle"
+	icon = FA_ICON_QUESTION_CIRCLE
 
 /datum/quirk/fragile
 	name = "Fragility"
 	desc = "You feel incredibly fragile. Burns and bruises hurt you more than the average person!"
 	value = -6
 	medical_record_text = "Patient's body has adapted to low gravity. Sadly low-gravity environments are not conducive to strong bone development."
-	icon = "tired"
+	icon = FA_ICON_TIRED
 
 /datum/quirk/fragile/post_add()
 	. = ..()
@@ -27,16 +27,6 @@
 	user.physiology.brute_mod /= 1.25
 	user.physiology.burn_mod /= 1.2
 
-/datum/quirk/sensitivesnout
-	name = "Sensitive Snout"
-	desc = "Your face has always been sensitive, and it really hurts when someone pokes it!"
-	gain_text = span_notice("Your face is awfully sensitive.")
-	lose_text = span_notice("Your face feels numb.")
-	medical_record_text = "Patient's nose seems to have a cluster of nerves in the tip, would advise against direct contact."
-	value = -2
-	mob_trait = TRAIT_SENSITIVESNOUT
-	icon = "fingerprint"
-
 /datum/quirk/monophobia
 	name = "Monophobia"
 	desc = "You will become increasingly stressed when not in company of others, triggering panic reactions ranging from sickness to heart attacks."
@@ -44,7 +34,7 @@
 	gain_text = span_danger("You feel really lonely...")
 	lose_text = span_notice("You feel like you could be safe on your own.")
 	medical_record_text = "Patient feels sick and distressed when not around other people, leading to potentially lethal levels of stress."
-	icon = "people-arrows"
+	icon = FA_ICON_PEOPLE_ARROWS_LEFT_RIGHT
 
 /datum/quirk/monophobia/post_add()
 	. = ..()
@@ -64,7 +54,7 @@
 	medical_record_text = "Patient's digits are thick and lack the dexterity for operating some small devices, computers and non-adapted firearms."
 	value = -8
 	mob_trait = TRAIT_CHUNKYFINGERS
-	icon = "hand-middle-finger"
+	icon = FA_ICON_HAND_MIDDLE_FINGER
 
 /datum/quirk/no_guns
 	name = "No Guns"
@@ -74,4 +64,4 @@
 	medical_record_text = "Patient is unable to use firearms. Reasoning unknown."
 	value = -6
 	mob_trait = TRAIT_NOGUNS
-	icon = "none"
+	icon = FA_ICON_GUN
