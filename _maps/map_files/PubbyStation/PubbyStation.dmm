@@ -1481,6 +1481,7 @@
 "afP" = (
 /obj/machinery/holopad/secure,
 /mob/living/simple_animal/bot/secbot/pingsky,
+/obj/effect/landmark/navigate_destination/minisat_access_ai,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "afQ" = (
@@ -2373,9 +2374,7 @@
 /area/station/security/lockers)
 "aiO" = (
 /obj/structure/rack,
-/obj/machinery/power/apc/auto_name/directional/east{
-	auto_name = 1
-	},
+/obj/machinery/power/apc/auto_name/directional/east,
 /obj/effect/mapping_helpers/apc/cell_5k,
 /obj/effect/turf_decal/bot_blue,
 /obj/structure/cable,
@@ -3342,9 +3341,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/brig)
 "amf" = (
-/obj/machinery/power/apc/auto_name/directional/east{
-	auto_name = 1
-	},
+/obj/machinery/power/apc/auto_name/directional/east,
 /obj/effect/mapping_helpers/apc/cell_10k,
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
@@ -7229,9 +7226,7 @@
 /turf/open/floor/engine,
 /area/station/science/cytology)
 "azo" = (
-/obj/machinery/power/apc/auto_name/directional/east{
-	auto_name = 1
-	},
+/obj/machinery/power/apc/auto_name/directional/east,
 /obj/effect/mapping_helpers/apc/cell_10k,
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -7591,6 +7586,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/access/all/command/gateway,
+/obj/effect/landmark/navigate_destination/gateway,
 /turf/open/floor/iron,
 /area/station/command/gateway)
 "aAM" = (
@@ -7778,9 +7774,7 @@
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/ai_upload)
 "aBx" = (
-/obj/machinery/power/apc/auto_name/directional/north{
-	auto_name = 1
-	},
+/obj/machinery/power/apc/auto_name/directional/north,
 /obj/effect/mapping_helpers/apc/cell_5k,
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -11003,9 +10997,7 @@
 /turf/open/floor/iron/freezer,
 /area/station/commons/toilet/auxiliary)
 "aNe" = (
-/obj/machinery/power/apc/auto_name/directional/south{
-	auto_name = 1
-	},
+/obj/machinery/power/apc/auto_name/directional/south,
 /obj/effect/mapping_helpers/apc/cell_5k,
 /obj/item/soap/nanotrasen,
 /obj/machinery/shower/directional/west,
@@ -12176,9 +12168,7 @@
 /obj/structure/chair{
 	dir = 8
 	},
-/obj/machinery/power/apc/auto_name/directional/north{
-	auto_name = 1
-	},
+/obj/machinery/power/apc/auto_name/directional/north,
 /obj/effect/mapping_helpers/apc/cell_5k,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -21871,6 +21861,7 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/any/medical/pharmacy,
 /obj/effect/mapping_helpers/airlock/access/any/medical/chemistry,
+/obj/effect/landmark/navigate_destination/chemfactory,
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "bzZ" = (
@@ -27240,9 +27231,7 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/storage/tech)
 "bWv" = (
-/obj/machinery/power/apc/auto_name/directional/west{
-	auto_name = 1
-	},
+/obj/machinery/power/apc/auto_name/directional/west,
 /obj/effect/mapping_helpers/apc/cell_10k,
 /obj/item/stack/sheet/plasteel/twenty{
 	pixel_x = -3;
@@ -29501,6 +29490,7 @@
 /area/station/service/hydroponics/garden/monastery)
 "chl" = (
 /obj/structure/flora/bush/sunny/style_random,
+/obj/effect/landmark/navigate_destination/chapel,
 /turf/open/floor/grass,
 /area/station/service/hydroponics/garden/monastery)
 "chp" = (
@@ -30207,6 +30197,7 @@
 	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/tcoms,
+/obj/effect/landmark/navigate_destination/minisat_access_tcomms,
 /turf/open/floor/plating,
 /area/station/tcommsat/computer)
 "clC" = (
@@ -32498,6 +32489,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
+/obj/effect/landmark/navigate_destination/minisat_access_chapel_library,
 /turf/open/floor/iron/dark,
 /area/station/service/library/lounge)
 "cwj" = (
@@ -33996,9 +33988,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "dbK" = (
-/obj/machinery/power/apc/auto_name/directional/west{
-	auto_name = 1
-	},
+/obj/machinery/power/apc/auto_name/directional/west,
 /obj/effect/mapping_helpers/apc/cell_5k,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/burnt_floor,
@@ -37958,9 +37948,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "gjt" = (
-/obj/machinery/power/apc/auto_name/directional/north{
-	auto_name = 1
-	},
+/obj/machinery/power/apc/auto_name/directional/north,
 /obj/effect/mapping_helpers/apc/cell_5k,
 /obj/effect/turf_decal/tile/green{
 	dir = 1
@@ -38582,9 +38570,7 @@
 /turf/open/floor/iron/white,
 /area/station/science/ordnance/storage)
 "gIC" = (
-/obj/machinery/power/apc/auto_name/directional/west{
-	auto_name = 1
-	},
+/obj/machinery/power/apc/auto_name/directional/west,
 /obj/effect/mapping_helpers/apc/cell_5k,
 /obj/machinery/light/small/directional/west,
 /obj/effect/decal/cleanable/dirt,
@@ -42027,6 +42013,14 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/security/lockers)
+"jpJ" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "pod_arrive"
+	},
+/obj/machinery/door/airlock/external,
+/obj/effect/landmark/navigate_destination/dockescpod1,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "jqA" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -43398,6 +43392,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/effect/landmark/navigate_destination/dockesc,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit/departure_lounge)
 "kyp" = (
@@ -47062,6 +47057,7 @@
 	name = "Escape Pod Two"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/general,
+/obj/effect/landmark/navigate_destination/dockescpod2,
 /turf/open/floor/iron,
 /area/station/security/prison)
 "nku" = (
@@ -49748,6 +49744,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
+/obj/effect/landmark/navigate_destination/dockescpod3,
 /turf/open/floor/plating,
 /area/station/ai_monitored/command/nuke_storage)
 "plI" = (
@@ -51498,6 +51495,7 @@
 /obj/structure/window/reinforced/spawner{
 	dir = 4
 	},
+/obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/floor/grass,
 /area/station/service/hydroponics)
 "qxU" = (
@@ -53613,9 +53611,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "scz" = (
-/obj/machinery/power/apc/auto_name/directional/west{
-	auto_name = 1
-	},
+/obj/machinery/power/apc/auto_name/directional/west,
 /obj/effect/mapping_helpers/apc/cell_10k,
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
@@ -53820,6 +53816,7 @@
 /obj/structure/window/reinforced/spawner{
 	dir = 4
 	},
+/obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/grass,
 /area/station/service/hydroponics)
 "slR" = (
@@ -57691,7 +57688,7 @@
 /obj/machinery/door/airlock/atmos{
 	name = "Incinerator"
 	},
-/obj/effect/landmark/navigate_destination,
+/obj/effect/landmark/navigate_destination/incinerator,
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
@@ -59656,9 +59653,7 @@
 /turf/open/floor/iron/dark,
 /area/station/commons/dorms)
 "wIv" = (
-/obj/machinery/power/apc/auto_name/directional/west{
-	auto_name = 1
-	},
+/obj/machinery/power/apc/auto_name/directional/west,
 /obj/effect/mapping_helpers/apc/cell_5k,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -60864,6 +60859,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/any/supply/maintenance,
+/obj/effect/landmark/navigate_destination/disposals,
 /turf/open/floor/plating,
 /area/station/maintenance/disposal)
 "xyl" = (
@@ -61032,9 +61028,7 @@
 /turf/open/floor/iron,
 /area/station/maintenance/disposal)
 "xFl" = (
-/obj/machinery/power/apc/auto_name/directional/north{
-	auto_name = 1
-	},
+/obj/machinery/power/apc/auto_name/directional/north,
 /obj/effect/mapping_helpers/apc/cell_5k,
 /obj/structure/cable,
 /turf/open/floor/iron/dark/telecomms,
@@ -81311,7 +81305,7 @@ baK
 baK
 baK
 aHy
-vvV
+jpJ
 bcX
 diI
 hXW
