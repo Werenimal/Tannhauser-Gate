@@ -343,6 +343,10 @@
                 "Cyborg",
 				"AI"
             ]
+        },
+        
+        "Stowaway Changeling": {
+            "weight": 0
         }
     }
 }

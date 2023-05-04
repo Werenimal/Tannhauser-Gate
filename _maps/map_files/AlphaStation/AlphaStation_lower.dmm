@@ -6101,10 +6101,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/machinery/airalarm/engine{
-	dir = 4;
-	pixel_x = 24
-	},
+/obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/engine_access,
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter)
@@ -16333,10 +16331,8 @@
 /area/station/maintenance/aft)
 "pAh" = (
 /obj/machinery/camera/motion/directional/east,
-/obj/machinery/airalarm/server{
-	dir = 4;
-	pixel_x = 22
-	},
+/obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/tlv_no_checks,
 /obj/machinery/telecomms/server/presets/medical,
 /turf/open/floor/circuit/green/airless,
 /area/station/tcommsat/server)
@@ -20870,10 +20866,8 @@
 /turf/open/floor/wood,
 /area/station/service/abandoned_gambling_den)
 "tFv" = (
-/obj/machinery/airalarm/unlocked{
-	dir = 4;
-	pixel_x = 23
-	},
+/obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/unlocked,
 /obj/effect/spawner/random/food_or_drink/donkpockets,
 /obj/item/storage/box/donkpockets,
 /obj/item/clothing/head/utility/chefhat,
