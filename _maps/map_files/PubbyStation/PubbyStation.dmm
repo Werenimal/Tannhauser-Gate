@@ -15292,7 +15292,8 @@
 /turf/open/floor/iron/dark,
 /area/station/service/bar)
 "bbu" = (
-/obj/effect/spawner/structure/window/reinforced/damaged,
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/damaged_window,
 /turf/open/floor/plating,
 /area/station/service/bar)
 "bbv" = (
