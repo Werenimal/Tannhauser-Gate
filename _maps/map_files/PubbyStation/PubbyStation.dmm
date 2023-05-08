@@ -12592,6 +12592,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
 /area/station/science/robotics/lab)
 "aTa" = (
@@ -15292,7 +15293,8 @@
 /turf/open/floor/iron/dark,
 /area/station/service/bar)
 "bbu" = (
-/obj/effect/spawner/structure/window/reinforced/damaged,
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/damaged_window,
 /turf/open/floor/plating,
 /area/station/service/bar)
 "bbv" = (
@@ -17563,6 +17565,7 @@
 	codes_txt = "patrol;next_patrol=Sci3";
 	location = "Sci2"
 	},
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
 "bko" = (
@@ -18174,6 +18177,7 @@
 "bmx" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "bmy" = (
@@ -18186,6 +18190,7 @@
 /area/station/medical/medbay/lobby)
 "bmz" = (
 /obj/effect/turf_decal/tile/blue,
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "bmA" = (
@@ -18421,6 +18426,7 @@
 "bnv" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/coroner,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "bny" = (
@@ -19980,6 +19986,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "bsI" = (
@@ -22851,6 +22858,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
+"bEJ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/medical/abandoned)
 "bES" = (
 /obj/machinery/door/airlock/cmo{
 	id_tag = "CMOCell";
@@ -28377,6 +28389,7 @@
 	codes_txt = "patrol;next_patrol=Eng3";
 	location = "Eng2"
 	},
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
 "cby" = (
@@ -29637,6 +29650,7 @@
 /area/station/service/chapel/monastery)
 "cib" = (
 /obj/structure/flora/bush/flowers_pp/style_random,
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/grass,
 /area/station/service/hydroponics/garden/monastery)
 "cic" = (
@@ -35853,6 +35867,7 @@
 	},
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/neutral,
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
 /area/station/commons/dorms/barracks)
 "eIf" = (
@@ -37540,6 +37555,12 @@
 	dir = 1
 	},
 /area/station/hallway/secondary/exit/departure_lounge)
+"fUL" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/carpet,
+/area/station/service/chapel)
 "fVT" = (
 /obj/machinery/computer/security/telescreen/ordnance{
 	dir = 1;
@@ -40406,6 +40427,10 @@
 /obj/machinery/light/no_nightlight/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
+"hVg" = (
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron/dark,
+/area/station/service/library)
 "hVx" = (
 /obj/structure/chair{
 	dir = 4
@@ -40844,6 +40869,11 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
+"irU" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "irY" = (
 /obj/machinery/holopad,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -42829,6 +42859,7 @@
 /area/station/medical/virology)
 "jWH" = (
 /obj/effect/turf_decal/trimline/blue/corner,
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "jWT" = (
@@ -43134,6 +43165,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/carpet/executive,
 /area/station/commons/dorms/barracks)
+"knP" = (
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "kon" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible{
@@ -43204,6 +43239,12 @@
 "krt" = (
 /turf/open/floor/light/colour_cycle/dancefloor_b,
 /area/station/maintenance/department/crew_quarters/dorms)
+"kru" = (
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/engine{
+	name = "Holodeck Projector Floor"
+	},
+/area/station/holodeck/rec_center)
 "krz" = (
 /obj/structure/table,
 /turf/open/floor/iron,
@@ -43304,6 +43345,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/effect/landmark/start/hangover/closet,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit/departure_lounge)
 "kvq" = (
@@ -46401,6 +46443,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/psychology)
+"mMA" = (
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
 "mNb" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -47116,6 +47162,11 @@
 "noM" = (
 /turf/open/floor/iron/white,
 /area/station/science/genetics)
+"nps" = (
+/obj/structure/closet/crate/coffin,
+/obj/effect/landmark/start/hangover/closet,
+/turf/open/floor/iron/dark,
+/area/station/service/chapel/monastery)
 "npH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/trimline/yellow/filled/line,
@@ -48827,6 +48878,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/commons/dorms/barracks)
+"oDB" = (
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron,
+/area/station/commons/storage/tools)
 "oDJ" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line,
 /obj/structure/closet/secure_closet/atmospherics,
@@ -50967,6 +51022,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /turf/open/floor/plating,
 /area/station/science/ordnance)
+"qhc" = (
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/grass,
+/area/station/medical/psychology)
 "qhh" = (
 /obj/item/stock_parts/cell/crank,
 /obj/effect/decal/cleanable/blood/old,
@@ -56540,6 +56599,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
 /area/station/commons/dorms/barracks)
 "uqf" = (
@@ -57913,6 +57973,10 @@
 	},
 /turf/open/floor/engine,
 /area/station/engineering/atmos/hfr_room)
+"vrJ" = (
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "vrX" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -58404,6 +58468,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/science/xenobiology)
+"vNr" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/carpet,
+/area/station/service/library)
 "vNT" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -59210,6 +59279,7 @@
 /area/station/engineering/atmos)
 "wth" = (
 /obj/item/bodypart/arm/left,
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/engine{
 	name = "Holodeck Projector Floor"
 	},
@@ -60050,6 +60120,10 @@
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
+"wUK" = (
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/carpet,
+/area/station/service/library/artgallery)
 "wVe" = (
 /obj/structure/cable,
 /obj/machinery/power/turbine/turbine_outlet,
@@ -60211,6 +60285,16 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/disposal)
+"xcm" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron,
+/area/station/hallway/primary/aft)
 "xcG" = (
 /obj/machinery/light/small/directional/north,
 /obj/structure/sign/warning/vacuum/external/directional/north,
@@ -61317,6 +61401,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
+"xQy" = (
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/exit/departure_lounge)
 "xQA" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -73359,7 +73447,7 @@ cuS
 bWV
 bWV
 bWV
-ciz
+nps
 ckb
 cku
 cvT
@@ -76683,7 +76771,7 @@ rDr
 ohO
 ohO
 ohO
-ohO
+fUL
 ohO
 ohO
 cbO
@@ -76980,7 +77068,7 @@ ckH
 ckH
 ckH
 ckH
-ckH
+hVg
 ckH
 ckH
 czM
@@ -77237,7 +77325,7 @@ cjQ
 cjQ
 cjQ
 cjQ
-cjQ
+vNr
 jMS
 czL
 cAK
@@ -77748,7 +77836,7 @@ cyB
 cjp
 cyR
 ick
-ckH
+hVg
 ckH
 ckH
 ckH
@@ -78429,7 +78517,7 @@ hXW
 bcX
 bcX
 bcX
-bcX
+knP
 bcX
 bcX
 bcX
@@ -78454,7 +78542,7 @@ aaa
 aZx
 pCe
 bbU
-baK
+vrJ
 baK
 sGO
 hXW
@@ -78947,7 +79035,7 @@ bcX
 bcX
 bcX
 bcX
-bcX
+knP
 bcX
 bcX
 kOC
@@ -79204,7 +79292,7 @@ bcX
 bcX
 bcX
 bcX
-bcX
+knP
 bcX
 bcX
 woc
@@ -79226,7 +79314,7 @@ aZx
 uXE
 bbU
 baK
-bdW
+irU
 eMM
 hXW
 aaa
@@ -79458,7 +79546,7 @@ bcX
 bcX
 bcX
 xQn
-bcX
+knP
 bcX
 bcX
 bcX
@@ -79483,7 +79571,7 @@ aZx
 xos
 bbU
 bbU
-bdW
+irU
 eMM
 hXW
 aaa
@@ -79715,7 +79803,7 @@ oNZ
 gPC
 bcX
 bcX
-bcX
+knP
 bcX
 bcX
 bcX
@@ -79740,7 +79828,7 @@ aZx
 aZx
 aZx
 bbU
-bdW
+irU
 eMM
 aZx
 aaa
@@ -79790,7 +79878,7 @@ iJb
 iYT
 oya
 fnq
-ewV
+wUK
 ewV
 ewV
 ewV
@@ -80990,7 +81078,7 @@ aaa
 aHz
 aML
 xIw
-xIw
+xQy
 jiK
 qOG
 hXW
@@ -81002,7 +81090,7 @@ woc
 bcX
 bcX
 bcX
-bcX
+knP
 bcX
 bcX
 bcX
@@ -81259,7 +81347,7 @@ bcX
 bcX
 bcX
 bcX
-bcX
+knP
 bcX
 bcX
 bcX
@@ -81279,7 +81367,7 @@ baK
 baK
 baK
 baK
-baK
+vrJ
 baK
 baK
 baK
@@ -87398,7 +87486,7 @@ aAo
 aBi
 aCu
 aDz
-aDA
+oDB
 aDA
 aGg
 aBi
@@ -87714,7 +87802,7 @@ bFU
 bNP
 bOE
 dSI
-bNP
+qhc
 sRs
 sOB
 hQc
@@ -89997,7 +90085,7 @@ ben
 bdo
 bdo
 tWc
-aDZ
+mMA
 bin
 jze
 jze
@@ -96698,7 +96786,7 @@ mkM
 bxf
 bKP
 pcH
-bKP
+bEJ
 bKP
 bKP
 bNV
@@ -96942,7 +97030,7 @@ bGa
 bkq
 blC
 bkn
-byL
+xcm
 cqk
 bqd
 brv
@@ -102805,8 +102893,8 @@ aur
 aur
 aur
 aur
-aur
-aur
+kru
+kru
 aur
 aur
 aJp
@@ -103060,10 +103148,10 @@ avm
 aur
 aur
 aur
+kru
 aur
 aur
-aur
-aur
+kru
 aur
 aur
 aur
@@ -104093,7 +104181,7 @@ aur
 aur
 aur
 aur
-aur
+kru
 aur
 atn
 uOC
