@@ -272,7 +272,7 @@
 	dir = 8
 	},
 /obj/structure/table,
-/obj/item/stamp/qm,
+/obj/item/stamp/head/qm,
 /obj/item/pen/red,
 /obj/item/pen{
 	pixel_x = 4;
@@ -308,12 +308,12 @@
 /area/station/command/heads_quarters/hos)
 "abT" = (
 /obj/machinery/requests_console{
-	announcementConsole = 1;
 	department = "Head of Security's Desk";
 	name = "Head of Security RC";
 	pixel_y = 30;
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	anon_tips_receiver = 1;
+	can_send_announcements = 1
 	},
 /obj/structure/table/wood,
 /obj/item/storage/box/seccarts{
@@ -466,7 +466,7 @@
 "acQ" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
-/obj/item/stamp/hos,
+/obj/item/stamp/head/hos,
 /obj/item/clothing/accessory/badge/holo/hos,
 /turf/open/floor/carpet,
 /area/station/command/heads_quarters/hos)
@@ -4443,7 +4443,7 @@
 "ayt" = (
 /obj/structure/table/glass,
 /obj/item/hemostat,
-/obj/item/stock_parts/manipulator,
+/obj/item/stock_parts/servo,
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
 "ayu" = (
@@ -6405,14 +6405,14 @@
 /area/station/service/theater)
 "aGs" = (
 /obj/machinery/requests_console{
-	announcementConsole = 1;
 	department = "Research Director's Desk";
 	name = "Research Director RC";
 	pixel_x = -2;
 	pixel_y = 30;
 	receive_ore_updates = 1;
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	anon_tips_receiver = 1;
+	can_send_announcements = 1
 	},
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk,
@@ -8988,7 +8988,7 @@
 /obj/item/computer_disk/ordnance,
 /obj/item/computer_disk/ordnance,
 /obj/item/computer_disk/ordnance,
-/obj/item/stamp/rd{
+/obj/item/stamp/head/rd{
 	pixel_x = 3;
 	pixel_y = -2
 	},
@@ -10691,12 +10691,12 @@
 /area/station/command/bridge)
 "aWT" = (
 /obj/machinery/requests_console{
-	announcementConsole = 1;
 	department = "Bridge";
 	name = "Bridge RC";
 	pixel_y = -30;
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	anon_tips_receiver = 1;
+	can_send_announcements = 1
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -13092,12 +13092,12 @@
 /area/station/hallway/primary/central)
 "bfp" = (
 /obj/machinery/requests_console{
-	announcementConsole = 1;
 	department = "Bridge";
 	name = "Bridge RC";
 	pixel_y = -30;
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	anon_tips_receiver = 1;
+	can_send_announcements = 1
 	},
 /obj/machinery/light/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -13148,12 +13148,12 @@
 	},
 /obj/item/pen,
 /obj/machinery/requests_console{
-	announcementConsole = 1;
 	department = "Captain's Desk";
 	name = "Captain RC";
 	pixel_x = -30;
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	anon_tips_receiver = 1;
+	can_send_announcements = 1
 	},
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain)
@@ -13170,7 +13170,7 @@
 "bfB" = (
 /obj/structure/table/wood,
 /obj/item/folder/blue,
-/obj/item/stamp/captain,
+/obj/item/stamp/head/captain,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain)
 "bfC" = (
@@ -15200,16 +15200,10 @@
 /area/station/science/lab)
 "bma" = (
 /obj/structure/table/glass,
-/obj/item/stock_parts/manipulator{
-	pixel_x = 6;
-	pixel_y = 7
-	},
+/obj/item/stock_parts/servo,
 /obj/item/stock_parts/capacitor,
 /obj/item/stock_parts/capacitor,
-/obj/item/stock_parts/manipulator{
-	pixel_x = 6;
-	pixel_y = 7
-	},
+/obj/item/stock_parts/servo,
 /obj/machinery/firealarm/directional/east,
 /obj/item/stock_parts/micro_laser{
 	pixel_x = -5;
@@ -17811,7 +17805,7 @@
 	pixel_y = 7
 	},
 /obj/item/pen,
-/obj/item/stamp/hop,
+/obj/item/stamp/head/hop,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/hop)
 "btE" = (
@@ -17984,12 +17978,12 @@
 /area/station/cargo/office)
 "bue" = (
 /obj/machinery/requests_console{
-	announcementConsole = 1;
 	department = "Head of Personnel's Desk";
 	name = "Head of Personnel RC";
 	pixel_y = -30;
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	anon_tips_receiver = 1;
+	can_send_announcements = 1
 	},
 /obj/machinery/camera/autoname/directional/south,
 /obj/structure/table,
@@ -22216,10 +22210,10 @@
 "bKt" = (
 /obj/structure/table,
 /obj/item/stock_parts/micro_laser,
-/obj/item/stock_parts/manipulator,
-/obj/item/stock_parts/manipulator,
-/obj/item/stock_parts/manipulator,
-/obj/item/stock_parts/manipulator,
+/obj/item/stock_parts/servo,
+/obj/item/stock_parts/servo,
+/obj/item/stock_parts/servo,
+/obj/item/stock_parts/servo,
 /obj/item/stock_parts/capacitor,
 /obj/item/stock_parts/micro_laser/high,
 /obj/item/stock_parts/micro_laser/high,
@@ -24329,12 +24323,12 @@
 /area/station/engineering/atmos)
 "bUc" = (
 /obj/machinery/requests_console{
-	announcementConsole = 1;
 	department = "Telecomms Admin";
 	name = "Telecomms RC";
 	pixel_x = 30;
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	anon_tips_receiver = 1;
+	can_send_announcements = 1
 	},
 /turf/open/floor/iron,
 /area/station/tcommsat/computer)
@@ -27355,7 +27349,7 @@
 "cio" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/yellow,
-/obj/item/stamp/ce,
+/obj/item/stamp/head/ce,
 /obj/structure/disposalpipe/segment,
 /obj/effect/landmark/event_spawn,
 /obj/effect/turf_decal/siding/thinplating{
@@ -27484,11 +27478,11 @@
 	},
 /obj/machinery/camera/autoname/directional/west,
 /obj/machinery/requests_console/directional/west{
-	announcementConsole = 1;
 	department = "Chief Engineer's Desk";
 	name = "Chief Engineer's Requests Console";
 	assistance_requestable = 1;
-	supplies_requestable = 1
+	supplies_requestable = 1;
+	can_send_announcements = 1
 	},
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 4
@@ -36202,12 +36196,12 @@
 	dir = 1
 	},
 /obj/machinery/requests_console{
-	announcementConsole = 1;
 	department = "Chief Medical Officer's Desk";
 	name = "Chief Medical Officer RC";
 	pixel_y = 32;
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	anon_tips_receiver = 1;
+	can_send_announcements = 1
 	},
 /obj/machinery/light/directional/north,
 /obj/structure/cable,
@@ -50813,7 +50807,7 @@
 	pixel_x = -3;
 	pixel_y = 7
 	},
-/obj/item/stamp/qm,
+/obj/item/stamp/head/qm,
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
@@ -51770,7 +51764,7 @@
 "xzV" = (
 /obj/structure/table/glass,
 /obj/item/folder/white,
-/obj/item/stamp/cmo,
+/obj/item/stamp/head/cmo,
 /obj/item/clothing/neck/stethoscope,
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
