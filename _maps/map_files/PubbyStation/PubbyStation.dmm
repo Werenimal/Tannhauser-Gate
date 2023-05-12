@@ -4803,7 +4803,7 @@
 /area/station/security/brig)
 "ars" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "art" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
@@ -14180,10 +14180,8 @@
 /turf/open/floor/iron/dark,
 /area/station/service/bar)
 "aYg" = (
-/obj/machinery/smartfridge/drinks{
-	icon_state = "boozeomat"
-	},
-/turf/closed/wall,
+/obj/machinery/smartfridge/drinks,
+/turf/open/floor/iron/dark,
 /area/station/service/bar)
 "aYh" = (
 /obj/structure/table/reinforced,
@@ -14417,10 +14415,10 @@
 /area/station/service/hydroponics)
 "aYR" = (
 /obj/structure/sink/kitchen/directional/south,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "aYS" = (
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "aYU" = (
 /obj/machinery/airalarm/directional/north,
@@ -14430,7 +14428,7 @@
 /obj/effect/spawner/random/food_or_drink/donkpockets,
 /obj/item/storage/box/donkpockets,
 /obj/item/clothing/head/utility/chefhat,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "aYV" = (
 /obj/structure/table,
@@ -14441,7 +14439,7 @@
 /obj/item/plate/oven_tray{
 	pixel_y = 4
 	},
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "aYX" = (
 /obj/structure/table/reinforced,
@@ -14823,7 +14821,7 @@
 "baa" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "bab" = (
 /obj/machinery/door/airlock/service,
@@ -14835,7 +14833,7 @@
 "bac" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "bad" = (
 /obj/structure/table/reinforced,
@@ -15218,14 +15216,14 @@
 /obj/effect/landmark/start/cook,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "bbi" = (
 /obj/structure/table,
 /obj/item/reagent_containers/cup/bowl,
 /obj/item/food/dough,
 /obj/item/holosign_creator/robot_seat/restaurant,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "bbl" = (
 /obj/structure/table/reinforced,
@@ -15518,7 +15516,7 @@
 /obj/structure/table,
 /obj/item/clothing/suit/apron/chef,
 /obj/item/kitchen/rollingpin,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "bcg" = (
 /obj/structure/table,
@@ -15530,7 +15528,7 @@
 	pixel_x = -4;
 	pixel_y = -5
 	},
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "bch" = (
 /obj/machinery/oven/range,
@@ -15542,7 +15540,7 @@
 	pixel_x = 16;
 	pixel_y = 12
 	},
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "bck" = (
 /obj/structure/disposalpipe/segment,
@@ -15821,7 +15819,7 @@
 /area/station/hallway/primary/central)
 "bdp" = (
 /obj/machinery/griddle,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "bdy" = (
 /obj/machinery/door/firedoor,
@@ -16068,7 +16066,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "beq" = (
 /obj/structure/disposalpipe/segment{
@@ -16076,7 +16074,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "ber" = (
 /obj/effect/landmark/start/cook,
@@ -16085,14 +16083,14 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "beu" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "bex" = (
 /obj/machinery/camera/autoname/directional/south,
@@ -16366,7 +16364,7 @@
 	req_access = list("kitchen")
 	},
 /obj/machinery/vending/dinnerware,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "bfr" = (
 /obj/machinery/barsign,
@@ -30970,7 +30968,7 @@
 /area/station/hallway/primary/central)
 "cpa" = (
 /obj/machinery/vending/boozeomat,
-/turf/closed/wall,
+/turf/open/floor/iron/dark,
 /area/station/service/bar)
 "cpb" = (
 /obj/structure/table/glass,
@@ -31060,7 +31058,7 @@
 /obj/structure/table,
 /obj/item/knife,
 /obj/item/reagent_containers/condiment/flour,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "cpn" = (
 /obj/structure/table,
@@ -31069,7 +31067,7 @@
 	pixel_x = -2;
 	pixel_y = 5
 	},
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "cpo" = (
 /obj/machinery/holopad,
@@ -31078,12 +31076,12 @@
 "cpq" = (
 /obj/machinery/deepfryer,
 /obj/machinery/light/directional/west,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "cpr" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "cps" = (
 /obj/structure/table,
@@ -31110,7 +31108,7 @@
 	pixel_x = 2;
 	pixel_y = 6
 	},
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "cpt" = (
 /obj/item/beacon,
@@ -31128,7 +31126,7 @@
 /area/station/service/bar)
 "cpu" = (
 /obj/machinery/deepfryer,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "cpv" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -31156,11 +31154,11 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "cpy" = (
 /obj/machinery/processor,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "cpA" = (
 /obj/structure/table,
@@ -31168,14 +31166,14 @@
 	pixel_x = -3;
 	pixel_y = 6
 	},
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "cpB" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "cpH" = (
 /obj/effect/turf_decal/plaque{
@@ -35245,7 +35243,7 @@
 /area/station/hallway/primary/central/fore)
 "ehr" = (
 /obj/machinery/smartfridge/organ,
-/turf/closed/wall,
+/turf/open/floor/iron/white/textured_large,
 /area/station/medical/surgery)
 "ehF" = (
 /obj/machinery/camera/autoname/directional/east,
@@ -37209,8 +37207,8 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "fHD" = (
-/obj/machinery/smartfridge,
-/turf/closed/wall,
+/obj/machinery/smartfridge/food,
+/turf/open/floor/iron/smooth_large,
 /area/station/service/kitchen)
 "fHO" = (
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -51896,6 +51894,10 @@
 	},
 /turf/open/floor/iron/white/corner,
 /area/station/hallway/secondary/exit/departure_lounge)
+"qMC" = (
+/obj/machinery/smartfridge/chemistry/preloaded,
+/turf/open/floor/iron/white,
+/area/station/medical/chemistry)
 "qMT" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/decal/cleanable/dirt,
@@ -52400,7 +52402,7 @@
 /area/station/service/library/artgallery)
 "riH" = (
 /obj/structure/table,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "riW" = (
 /obj/structure/cable,
@@ -52878,7 +52880,7 @@
 /obj/item/hand_labeler,
 /obj/item/toy/figure/chef,
 /obj/item/food/mint,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "rxZ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -58370,7 +58372,9 @@
 /area/station/engineering/atmos)
 "vIa" = (
 /obj/machinery/smartfridge/organ,
-/turf/closed/wall,
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
 /area/station/medical/morgue)
 "vIc" = (
 /obj/structure/disposalpipe/segment{
@@ -90608,7 +90612,7 @@ brg
 buh
 wQy
 bvo
-gzG
+qMC
 byA
 bzZ
 bzZ
