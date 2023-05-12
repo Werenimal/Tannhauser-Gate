@@ -1206,7 +1206,7 @@
 	pixel_x = -14;
 	pixel_y = 18
 	},
-/turf/open/misc/beach/coastline_t{
+/turf/open/misc/beach/sand{
 	baseturfs = /turf/open/floor/plating;
 	dir = 6
 	},
@@ -1607,7 +1607,7 @@
 /area/station/security/office)
 "aXh" = (
 /obj/structure/table/wood,
-/obj/item/stamp/hos{
+/obj/item/stamp/head/hos{
 	pixel_x = 7
 	},
 /obj/item/phone{
@@ -4387,7 +4387,7 @@
 /turf/open/floor/carpet/red,
 /area/station/service/bar/backroom)
 "cFj" = (
-/turf/open/misc/beach/coastline_t{
+/turf/open/misc/beach/sand{
 	baseturfs = /turf/open/floor/plating;
 	dir = 4
 	},
@@ -6035,12 +6035,12 @@
 /obj/structure/table,
 /obj/machinery/cell_charger,
 /obj/machinery/requests_console/directional/east{
-	announcementConsole = 1;
 	department = "Research Lab";
 	name = "Research Requests Console";
 	receive_ore_updates = 1;
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	anon_tips_receiver = 1;
+	can_send_announcements = 1
 	},
 /turf/open/floor/iron,
 /area/station/science/research)
@@ -6411,7 +6411,7 @@
 /turf/open/space/openspace,
 /area/space)
 "dPS" = (
-/turf/open/misc/beach/coastline_t/sandwater_inner{
+/turf/open/misc/beach/coast/corner{
 	baseturfs = /turf/open/floor/plating
 	},
 /area/station/commons/dorms/barracks)
@@ -6884,7 +6884,7 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
-/turf/open/misc/beach/coastline_t{
+/turf/open/misc/beach/sand{
 	dir = 8
 	},
 /area/station/commons/dorms/barracks)
@@ -7463,7 +7463,7 @@
 	},
 /obj/item/folder/white,
 /obj/item/pen,
-/obj/item/stamp/cmo,
+/obj/item/stamp/head/cmo,
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
 "eqS" = (
@@ -7889,11 +7889,11 @@
 /area/station/hallway/primary/central/aft)
 "eEC" = (
 /obj/machinery/requests_console/directional/east{
-	announcementConsole = 1;
 	department = "Bridge";
 	name = "Bridge Requests Console";
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	anon_tips_receiver = 1;
+	can_send_announcements = 1
 	},
 /obj/machinery/computer/cargo/request,
 /obj/structure/cable,
@@ -9051,7 +9051,7 @@
 	pixel_x = -2;
 	pixel_y = 4
 	},
-/obj/item/stamp/hop{
+/obj/item/stamp/head/hop{
 	pixel_x = -4;
 	pixel_y = 4
 	},
@@ -11661,7 +11661,7 @@
 /area/station/command/heads_quarters/hop)
 "gIs" = (
 /obj/machinery/light/warm/directional/south,
-/turf/open/water/beach/biodome,
+/turf/open/water/beach,
 /area/station/commons/dorms/barracks)
 "gIz" = (
 /obj/effect/turf_decal/siding/brown,
@@ -11804,11 +11804,11 @@
 	dir = 4
 	},
 /obj/machinery/requests_console/directional/west{
-	announcementConsole = 1;
 	department = "Chief Medical Officer's Desk";
 	name = "Chief Medical Officer's Requests Console";
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	anon_tips_receiver = 1;
+	can_send_announcements = 1
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -12047,7 +12047,7 @@
 /area/station/cargo/sorting)
 "gVh" = (
 /obj/structure/fluff/beach_umbrella/syndi,
-/turf/open/misc/beach/coastline_t{
+/turf/open/misc/beach/sand{
 	baseturfs = /turf/open/floor/plating;
 	dir = 4
 	},
@@ -12873,7 +12873,7 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
-/turf/open/misc/beach/coastline_t{
+/turf/open/misc/beach/sand{
 	baseturfs = /turf/open/floor/plating;
 	dir = 8
 	},
@@ -15843,7 +15843,7 @@
 /area/station/medical/medbay/lobby)
 "jml" = (
 /obj/structure/window/reinforced/spawner/directional/north,
-/turf/open/misc/beach/coastline_t{
+/turf/open/misc/beach/sand{
 	baseturfs = /turf/open/floor/plating
 	},
 /area/station/commons/dorms/barracks)
@@ -17632,7 +17632,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/table/reinforced,
 /obj/item/folder/yellow,
-/obj/item/stamp/qm,
+/obj/item/stamp/head/qm,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/item/reagent_containers/cup/glass/waterbottle/empty,
 /obj/item/reagent_containers/cup/glass/drinkingglass/shotglass/syndicate{
@@ -17757,7 +17757,7 @@
 "kuK" = (
 /obj/structure/table,
 /obj/item/folder/white,
-/obj/item/stamp/rd,
+/obj/item/stamp/head/rd,
 /obj/item/toy/figure/rd{
 	pixel_y = 10
 	},
@@ -18954,7 +18954,7 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
-/turf/open/misc/beach/coastline_t/sandwater_inner{
+/turf/open/misc/beach/coast/corner{
 	baseturfs = /turf/open/floor/plating;
 	dir = 8
 	},
@@ -19017,7 +19017,7 @@
 /turf/open/floor/wood/large,
 /area/station/security/detectives_office)
 "lgU" = (
-/turf/open/water/beach/biodome,
+/turf/open/water/beach,
 /area/station/commons/dorms/barracks)
 "lgZ" = (
 /obj/machinery/light_switch{
@@ -27968,7 +27968,7 @@
 /obj/structure/table/wood,
 /obj/item/folder/blue,
 /obj/item/pen/fourcolor,
-/obj/item/stamp/captain,
+/obj/item/stamp/head/captain,
 /obj/machinery/door/window/brigdoor/left/directional/north{
 	name = "Captain's Desk";
 	req_access = list("captain")
@@ -28084,7 +28084,7 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
-/turf/open/misc/beach/coastline_t{
+/turf/open/misc/beach/sand{
 	baseturfs = /turf/open/floor/plating;
 	dir = 8
 	},
@@ -28785,11 +28785,11 @@
 	pixel_y = 2
 	},
 /obj/machinery/requests_console/directional/north{
-	announcementConsole = 1;
 	department = "Head of Personnel's Desk";
 	name = "Head of Personnel's Requests Console";
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	anon_tips_receiver = 1;
+	can_send_announcements = 1
 	},
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain/private)
@@ -31516,8 +31516,8 @@
 	pixel_x = 3;
 	pixel_y = 3
 	},
-/obj/item/stock_parts/manipulator,
-/obj/item/stock_parts/manipulator,
+/obj/item/stock_parts/servo,
+/obj/item/stock_parts/servo,
 /turf/open/floor/iron,
 /area/station/science/research)
 "sum" = (
@@ -31607,7 +31607,7 @@
 "swd" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/yellow,
-/obj/item/stamp/ce,
+/obj/item/stamp/head/ce,
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/ce)
@@ -31980,11 +31980,11 @@
 	dir = 5
 	},
 /obj/machinery/requests_console/directional/east{
-	announcementConsole = 1;
 	department = "Research Director's Desk";
 	name = "Research Director's Requests Console";
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	anon_tips_receiver = 1;
+	can_send_announcements = 1
 	},
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/rd)
@@ -37290,11 +37290,11 @@
 	dir = 4
 	},
 /obj/machinery/requests_console/directional/west{
-	announcementConsole = 1;
 	department = "Captain's Desk";
 	name = "Captain's Requests Console";
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	anon_tips_receiver = 1;
+	can_send_announcements = 1
 	},
 /turf/open/floor/carpet,
 /area/station/command/heads_quarters/captain)
@@ -38033,7 +38033,7 @@
 "weO" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /mob/living/simple_animal/pet/redpanda/zesty,
-/turf/open/misc/beach/coastline_t/sandwater_inner{
+/turf/open/misc/beach/coast/corner{
 	baseturfs = /turf/open/floor/plating
 	},
 /area/station/commons/dorms/barracks)
@@ -40913,10 +40913,10 @@
 "xNW" = (
 /obj/machinery/light/directional/east,
 /obj/machinery/requests_console/directional/east{
-	announcementConsole = 1;
 	department = "Quartermaster's Desk";
 	name = "Quartermaster's Requests Console";
-	supplies_requestable = 1
+	supplies_requestable = 1;
+	can_send_announcements = 1
 	},
 /obj/structure/filingcabinet/chestdrawer,
 /obj/effect/turf_decal/tile/brown/anticorner/contrasted,
