@@ -18836,7 +18836,9 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
-/turf/closed/wall,
+/turf/open/floor/iron/cafeteria{
+	dir = 5
+	},
 /area/station/service/kitchen)
 "rMW" = (
 /obj/structure/disposalpipe/segment{

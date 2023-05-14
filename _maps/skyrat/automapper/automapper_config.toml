@@ -82,12 +82,12 @@ trait_name = "Station"
 
 # TRAMSTATION MAP EDITS
 # Tramstation Arrivals
-[templates.tramstation_arrivals]
-map_files = ["tramstation_arrivals.dmm"]
-directory = "_maps/tannhauser/automapper/templates/tramstation/"
-required_map = "tramstation.dmm"
-coordinates = [14, 96, 2]
-trait_name = "Station"
+#[templates.tramstation_arrivals]
+#map_files = ["tramstation_arrivals.dmm"]
+#directory = "_maps/tannhauser/automapper/templates/tramstation/"
+#required_map = "tramstation.dmm"
+#coordinates = [8, 97, 2]
+#trait_name = "Station"
 
 # BLUESHIFT MAP EDITS
 # BlueShift Arrivals
@@ -278,12 +278,12 @@ trait_name = "Station"
 
 # TRAMSTATION MAP EDITS
 # Tramstation Arrivals
-#[templates.tramstation_arrivals]
-#map_files = ["tramstation_arrivals.dmm"]
-#directory = "_maps/skyrat/automapper/templates/tramstation/"
-#required_map = "tramstation.dmm"
-#coordinates = [8, 96, 2]
-#trait_name = "Station"
+[templates.tramstation_arrivals]
+map_files = ["tramstation_arrivals.dmm"]
+directory = "_maps/skyrat/automapper/templates/tramstation/"
+required_map = "tramstation.dmm"
+coordinates = [8, 96, 2]
+trait_name = "Station"
 
 # Tramstation Armory
 [templates.tramstation_armory]

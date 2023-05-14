@@ -25,8 +25,6 @@
 /tools/UpdatePaths @ORCACommander
 
 ## Map Owner
-_maps/map_files/ManaForge/ @ORCACommander
-/_maps/manaforge.json @ORCACommander
 
 /_maps/pubbystation.json @Kittayecat
 _maps/map_files/PubbyStation/ @Kittayecat
@@ -44,4 +42,4 @@ _maps/map_files/PubbyStation/ @Kittayecat
 /code/controllers/subsystem.dm @ORCACommander
 /code/controllers/subsystem/timer.dm @ORCACommander
 /code/controllers/configuration/entries @ORCACommander
-/tools/tgs4_scripts/ @ORCACommander
+/tools/tgs_scripts/ @ORCACommander

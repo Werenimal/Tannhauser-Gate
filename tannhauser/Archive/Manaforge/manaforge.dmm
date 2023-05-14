@@ -4028,10 +4028,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
-"awJ" = (
-/obj/structure/janitorialcart,
-/turf/open/floor/plating,
-/area/station/maintenance/starboard/fore)
 "awK" = (
 /obj/structure/table/glass,
 /obj/item/pen,
@@ -12064,10 +12060,6 @@
 	},
 /turf/open/floor/wood,
 /area/station/service/bar)
-"bby" = (
-/obj/structure/sign/barsign,
-/turf/closed/wall,
-/area/station/service/bar)
 "bbz" = (
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/white/corner{
@@ -12633,10 +12625,6 @@
 /obj/effect/landmark/blobstart,
 /obj/item/clothing/suit/costume/ianshirt,
 /obj/structure/closet,
-/turf/open/floor/plating,
-/area/station/maintenance/port)
-"bdM" = (
-/obj/item/latexballon,
 /turf/open/floor/plating,
 /area/station/maintenance/port)
 "bdN" = (
@@ -18378,14 +18366,6 @@
 /obj/effect/turf_decal/tile/yellow,
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
-"bvk" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/purple/side{
-	dir = 1
-	},
-/area/station/security/corrections_officer)
 "bvn" = (
 /obj/structure/disposaloutlet{
 	dir = 8
@@ -20874,11 +20854,6 @@
 /obj/item/stack/cable_coil,
 /obj/item/stock_parts/cell/high,
 /turf/open/floor/iron/dark,
-/area/station/engineering/storage/tech)
-"bFa" = (
-/turf/open/floor/iron/dark/yellow/side{
-	dir = 5
-	},
 /area/station/engineering/storage/tech)
 "bFb" = (
 /obj/structure/cable,
@@ -28570,13 +28545,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/supermatter/room)
-"cqW" = (
-/obj/machinery/power/supermatter_crystal/shard/hugbox/fakecrystal{
-	color = "green";
-	name = "Synthetic Warp Stone Crystal"
-	},
-/turf/open/floor/engine/airless,
-/area/station/science/research/abandoned)
 "cqY" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -33349,6 +33317,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/security/office)
+"egB" = (
+/obj/machinery/power/supermatter_crystal/shard/hugbox/fakecrystal{
+	color = "green";
+	name = "Synthetic Warp Stone Crystal"
+	},
+/turf/open/floor/engine/airless,
+/area/station/science/research/abandoned)
 "ehM" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/carpet,
@@ -33407,12 +33382,6 @@
 /mob/living/carbon/human/species/monkey,
 /turf/open/floor/iron,
 /area/station/medical/virology)
-"elB" = (
-/obj/structure/cable,
-/turf/open/floor/iron/dark/purple/side{
-	dir = 1
-	},
-/area/station/security/corrections_officer)
 "emn" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
@@ -34291,6 +34260,10 @@
 "fkH" = (
 /turf/open/floor/iron/smooth_large,
 /area/station/engineering/gravity_generator)
+"fkM" = (
+/obj/structure/awaymissions/wildwest/masterclock,
+/turf/open/floor/wood,
+/area/blueshield)
 "flc" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/ordnance_burn_chamber_input{
 	dir = 1
@@ -34944,10 +34917,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
-"fSV" = (
-/obj/machinery/gun_vendor,
-/turf/open/floor/iron/dark,
-/area/station/security/range)
 "fTv" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/dark/visible{
 	dir = 8
@@ -39790,6 +39759,10 @@
 /obj/structure/chair/stool/bar/directional/west,
 /turf/open/floor/wood,
 /area/station/service/bar)
+"lch" = (
+/obj/structure/sign/barsign,
+/turf/closed/wall,
+/area/station/service/bar)
 "lcl" = (
 /obj/structure/rack,
 /obj/item/integrated_circuit/loaded/hello_world,
@@ -41733,6 +41706,10 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
+"njW" = (
+/obj/structure/janitorialcart,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/fore)
 "nlo" = (
 /obj/effect/turf_decal/tile/dark_blue{
 	dir = 8
@@ -42018,6 +41995,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/station/science/ordnance/storage)
+"nxS" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/purple/side{
+	dir = 1
+	},
+/area/station/security/corrections_officer)
 "nxZ" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/machinery/atmospherics/components/binary/pump/on/supply/visible/layer4{
@@ -42362,6 +42347,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
+"nRn" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/purple/corner,
+/area/station/science/research/abandoned)
 "nRA" = (
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/machinery/camera/autoname/directional/south,
@@ -42857,10 +42846,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
-"otj" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/dark/purple/corner,
-/area/station/science/research/abandoned)
 "otu" = (
 /obj/structure/bodycontainer/morgue,
 /obj/effect/turf_decal/tile/dark_blue{
@@ -44196,10 +44181,6 @@
 /obj/effect/landmark/start/depsec/science,
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/science)
-"pNh" = (
-/obj/structure/awaymissions/wildwest/masterclock,
-/turf/open/floor/wood,
-/area/blueshield)
 "pOe" = (
 /obj/structure/table,
 /obj/item/assembly/signaler,
@@ -46035,6 +46016,11 @@
 	dir = 4
 	},
 /area/station/security/prison)
+"rLy" = (
+/turf/open/floor/iron/dark/yellow/side{
+	dir = 8
+	},
+/area/station/engineering/storage/tech)
 "rLK" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -46712,11 +46698,6 @@
 /obj/structure/grille,
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
-"sBm" = (
-/turf/open/floor/iron/dark/yellow/side{
-	dir = 8
-	},
-/area/station/engineering/storage/tech)
 "sCd" = (
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
@@ -47713,6 +47694,11 @@
 "tzS" = (
 /turf/closed/wall,
 /area/station/science/ordnance/testlab)
+"tAq" = (
+/turf/open/floor/iron/dark/yellow/side{
+	dir = 5
+	},
+/area/station/engineering/storage/tech)
 "tAJ" = (
 /obj/structure/table,
 /obj/item/toy/cards/deck{
@@ -48484,6 +48470,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/nuke_storage)
+"upa" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark/purple/side{
+	dir = 1
+	},
+/area/station/security/corrections_officer)
 "upf" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -48951,6 +48943,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/science/research)
+"uJi" = (
+/obj/machinery/gun_vendor,
+/turf/open/floor/iron/dark,
+/area/station/security/range)
 "uJY" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 10
@@ -48965,6 +48961,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/processing)
+"uMN" = (
+/obj/item/latexballon,
+/turf/open/floor/plating,
+/area/station/maintenance/port)
 "uMS" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -70392,7 +70392,7 @@ aYH
 ydA
 bbO
 aPA
-bdM
+uMN
 aPz
 bji
 bhS
@@ -70906,7 +70906,7 @@ aYS
 aZx
 bbO
 aPA
-bdM
+uMN
 aPz
 aSg
 bhT
@@ -73197,7 +73197,7 @@ hLK
 nax
 sHc
 kOn
-otj
+nRn
 utz
 iBg
 sEK
@@ -74739,7 +74739,7 @@ hLK
 neA
 sHc
 gzQ
-cqW
+egB
 cUm
 xjU
 hFk
@@ -75732,7 +75732,7 @@ hgW
 dTe
 tMH
 bil
-bvk
+nxS
 cNr
 gEp
 bgU
@@ -75989,7 +75989,7 @@ hgW
 uFU
 fNJ
 uMS
-elB
+upa
 nyx
 iWJ
 uMS
@@ -76040,7 +76040,7 @@ bPL
 aSc
 hSc
 xtO
-pNh
+fkM
 kWe
 mJm
 bbT
@@ -78894,9 +78894,9 @@ aJq
 bCs
 bDv
 bEX
-sBm
+rLy
 oFf
-sBm
+rLy
 bKt
 bLx
 bCs
@@ -80691,7 +80691,7 @@ fhG
 lUZ
 aJq
 bCs
-bFa
+tAq
 aWi
 aWi
 bET
@@ -83695,7 +83695,7 @@ xzh
 xzh
 xzh
 jrT
-fSV
+uJi
 wbO
 aaU
 mNa
@@ -88122,7 +88122,7 @@ aKR
 aSq
 aNt
 bad
-bby
+lch
 uly
 ilO
 bet
@@ -96323,7 +96323,7 @@ alP
 anf
 anf
 alP
-awJ
+njW
 anf
 alP
 aAv
