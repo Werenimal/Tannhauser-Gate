@@ -33462,7 +33462,7 @@
 /area/station/command/heads_quarters/hos)
 "tCc" = (
 /obj/machinery/smartfridge/chemistry/preloaded,
-/turf/closed/wall,
+/turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
 "tCd" = (
 /obj/structure/window/reinforced/spawner/directional/north,
