@@ -24478,7 +24478,7 @@
 "ooA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/smartfridge/drinks,
-/turf/closed/wall,
+/turf/open/floor/iron,
 /area/station/service/bar)
 "ooT" = (
 /obj/structure/cable,
@@ -29788,6 +29788,10 @@
 /obj/structure/disposalpipe/trunk/multiz/down,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/exam_room)
+"rvX" = (
+/obj/machinery/smartfridge/chemistry/preloaded,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/medical/pharmacy)
 "rvZ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -84652,7 +84656,7 @@ vKV
 jJr
 fxc
 mNW
-tCc
+rvX
 hEs
 mNW
 mNW

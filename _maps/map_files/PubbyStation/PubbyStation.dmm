@@ -38383,10 +38383,6 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/commons/dorms/barracks)
-"gzG" = (
-/obj/machinery/smartfridge/chemistry/preloaded,
-/turf/closed/wall,
-/area/station/medical/chemistry)
 "gAG" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
@@ -91640,7 +91636,7 @@ jze
 vII
 frX
 dRU
-gzG
+qMC
 bAg
 bCt
 brl
