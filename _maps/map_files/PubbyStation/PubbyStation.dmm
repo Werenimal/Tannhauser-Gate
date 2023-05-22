@@ -48755,7 +48755,7 @@
 /area/station/security/brig)
 "oAk" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/lizard/wags_his_tail,
+/mob/living/basic/lizard/wags_his_tail,
 /turf/open/floor/iron,
 /area/station/service/janitor)
 "oAw" = (
