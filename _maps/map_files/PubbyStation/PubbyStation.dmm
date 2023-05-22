@@ -18541,7 +18541,8 @@
 "bnS" = (
 /obj/structure/table,
 /obj/item/stack/sheet/plasteel{
-	amount = 10
+	amount = 10;
+	pixel_y = -9
 	},
 /obj/item/assembly/flash/handheld,
 /obj/item/assembly/flash/handheld,
@@ -42897,6 +42898,15 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 27
 	},
+/obj/item/mod/core/standard,
+/obj/item/mod/core/standard{
+	pixel_y = 9;
+	pixel_x = 8
+	},
+/obj/item/mod/core/standard{
+	pixel_x = 6;
+	pixel_y = -18
+	},
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/lab)
 "jYh" = (
@@ -55272,6 +55282,10 @@
 /obj/item/food/fishmeat,
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
+"try" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/heater,
+/turf/open/floor/iron,
+/area/station/engineering/atmos)
 "trQ" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/nitrous_input{
 	dir = 1
@@ -100386,7 +100400,7 @@ bWc
 cby
 jaI
 bXB
-bMf
+try
 bMf
 bMf
 bMf
