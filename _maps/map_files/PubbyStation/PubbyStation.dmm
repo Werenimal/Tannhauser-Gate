@@ -29372,7 +29372,7 @@
 /turf/open/floor/grass,
 /area/station/service/hydroponics/garden/monastery)
 "cgI" = (
-/mob/living/simple_animal/butterfly,
+/mob/living/basic/butterfly,
 /turf/open/floor/grass,
 /area/station/service/hydroponics/garden/monastery)
 "cgJ" = (
@@ -36600,7 +36600,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/psychology)
 "fkY" = (
-/obj/structure/weightmachine/stacklifter,
+/obj/structure/weightmachine,
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness)
 "flQ" = (
@@ -43914,7 +43914,7 @@
 /obj/structure/flora/bush/flowers_br/style_random,
 /obj/structure/flora/bush/sunny/style_random,
 /obj/structure/window/reinforced/spawner/directional/west,
-/mob/living/simple_animal/butterfly,
+/mob/living/basic/butterfly,
 /turf/open/floor/grass,
 /area/station/hallway/secondary/exit/departure_lounge)
 "kQy" = (
@@ -44707,7 +44707,7 @@
 /obj/structure/window/reinforced/spawner/directional/north{
 	pixel_y = 2
 	},
-/mob/living/simple_animal/butterfly,
+/mob/living/basic/butterfly,
 /turf/open/floor/grass,
 /area/station/science/genetics)
 "lue" = (
@@ -46981,7 +46981,7 @@
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "neR" = (
-/mob/living/simple_animal/butterfly,
+/mob/living/basic/butterfly,
 /obj/structure/flora/bush/jungle/c/style_random,
 /turf/open/floor/grass,
 /area/station/medical/psychology)
@@ -48413,7 +48413,7 @@
 /turf/open/floor/iron/dark,
 /area/station/tcommsat/computer)
 "opC" = (
-/obj/structure/weightmachine/stacklifter,
+/obj/structure/weightmachine,
 /obj/item/food/meat/steak{
 	pixel_y = -5
 	},
@@ -53919,7 +53919,7 @@
 /turf/open/floor/engine,
 /area/station/engineering/supermatter)
 "snZ" = (
-/mob/living/simple_animal/butterfly,
+/mob/living/basic/butterfly,
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/flora/grass/jungle/b,
