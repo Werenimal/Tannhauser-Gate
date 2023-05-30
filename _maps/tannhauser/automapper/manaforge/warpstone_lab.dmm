@@ -425,9 +425,7 @@
 "wl" = (
 /obj/structure/table_frame,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/sign/poster/official/random{
-	pixel_x = -32
-	},
+/obj/structure/sign/poster/official/random/directional/west,
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},

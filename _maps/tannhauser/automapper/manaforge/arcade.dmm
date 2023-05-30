@@ -11,9 +11,7 @@
 /turf/open/floor/eighties,
 /area/station/common/arcade)
 "g" = (
-/obj/structure/sign/poster/contraband/random{
-	pixel_x = -32
-	},
+/obj/structure/sign/poster/contraband/random/directional/west,
 /turf/open/floor/eighties,
 /area/station/common/arcade)
 "h" = (
@@ -121,9 +119,7 @@
 /area/icemoon/underground/explored)
 "E" = (
 /obj/structure/closet/lasertag/red,
-/obj/structure/sign/poster/official/random{
-	pixel_x = 32
-	},
+/obj/structure/sign/poster/official/random/directional/east,
 /turf/open/floor/eighties,
 /area/station/common/arcade)
 "G" = (

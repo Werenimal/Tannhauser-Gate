@@ -756,7 +756,7 @@
 /area/station/commons/vacant_room/office)
 "vK" = (
 /obj/structure/lattice/catwalk,
-/obj/structure/window/reinforced/spawner,
+/obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/hallway/secondary/entry)
 "vM" = (
@@ -1610,7 +1610,7 @@
 /obj/machinery/camera/directional/west{
 	c_tag = "Arrivals - Landing Bay Lounge"
 	},
-/obj/structure/window/reinforced/spawner,
+/obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/hallway/secondary/entry)
 "Wc" = (
