@@ -37,9 +37,7 @@
 /area/station/service/jadedragon)
 "n" = (
 /obj/effect/landmark/generic_maintenance_landmark,
-/obj/structure/sign/poster/contraband/lusty_xenomorph{
-	pixel_x = 30
-	},
+/obj/structure/sign/poster/official/random/directional/east,
 /turf/open/floor/carpet/purple,
 /area/station/service/jadedragon)
 "o" = (

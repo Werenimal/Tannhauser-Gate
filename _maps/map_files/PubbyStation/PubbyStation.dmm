@@ -18653,15 +18653,13 @@
 /area/station/medical/medbay/lobby)
 "boL" = (
 /obj/machinery/medical_kiosk,
-/obj/structure/sign/poster/official/cleanliness{
-	pixel_y = -30
-	},
 /obj/machinery/camera/directional/south{
 	c_tag = "Medbay Lobby #1";
 	name = "medical camera";
 	network = list("ss13","medbay")
 	},
 /obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/structure/sign/poster/official/cleanliness/directional/south,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "boN" = (
@@ -22569,9 +22567,7 @@
 /obj/machinery/light_switch{
 	pixel_y = -22
 	},
-/obj/structure/sign/poster/official/no_erp{
-	pixel_x = 29
-	},
+/obj/structure/sign/poster/official/no_erp/directional/east,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
@@ -46783,9 +46779,7 @@
 	name = "Prison Intercom (General)";
 	pixel_y = 24
 	},
-/obj/structure/sign/poster/official/random{
-	pixel_x = 30
-	},
+/obj/structure/sign/poster/official/random/directional/east,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -46955,10 +46949,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/library/artgallery)
-"njL" = (
-/obj/structure/sign/poster/official/cleanliness,
-/turf/closed/wall,
-/area/station/commons/toilet/restrooms)
 "nkd" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -50548,9 +50538,7 @@
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
 	dir = 5
 	},
-/obj/structure/sign/poster/official/random{
-	pixel_x = 30
-	},
+/obj/structure/sign/poster/official/random/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
 /turf/open/floor/iron/white,
@@ -58928,6 +58916,7 @@
 	dir = 9
 	},
 /obj/effect/turf_decal/trimline/purple/filled/corner,
+/obj/structure/sign/poster/official/cleanliness/directional/west,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/department/crew_quarters/dorms)
 "wjD" = (
@@ -104276,7 +104265,7 @@ atn
 rwg
 fVY
 rpp
-njL
+itC
 itC
 itC
 itC
