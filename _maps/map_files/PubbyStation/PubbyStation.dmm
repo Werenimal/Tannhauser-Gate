@@ -55209,7 +55209,7 @@
 /turf/open/floor/engine/n2o,
 /area/station/engineering/atmos)
 "tst" = (
-/obj/machinery/drone_dispenser/preloaded,
+/obj/machinery/drone_dispenser,
 /turf/open/floor/iron,
 /area/station/science/robotics/mechbay)
 "ttB" = (
