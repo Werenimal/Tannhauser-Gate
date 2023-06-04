@@ -37387,11 +37387,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit/departure_lounge)
-"fPr" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/loading_area,
-/turf/open/floor/plating,
-/area/station/maintenance/department/engine/atmos)
 "fPG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -45715,10 +45710,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/nuke_storage)
-"mou" = (
-/obj/machinery/drone_dispenser/preloaded,
-/turf/open/floor/plating,
-/area/station/maintenance/department/engine/atmos)
 "mpd" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /turf/open/floor/plating,
@@ -55217,6 +55208,10 @@
 	},
 /turf/open/floor/engine/n2o,
 /area/station/engineering/atmos)
+"tst" = (
+/obj/machinery/drone_dispenser/preloaded,
+/turf/open/floor/iron,
+/area/station/science/robotics/mechbay)
 "ttB" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
@@ -99000,7 +98995,7 @@ bgE
 bju
 bhR
 biu
-bju
+tst
 bkt
 blI
 bmO
@@ -99022,8 +99017,8 @@ bCS
 bCS
 cCl
 cCl
-mou
-fPr
+fce
+fce
 fce
 hAS
 cby
