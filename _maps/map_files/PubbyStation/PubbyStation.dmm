@@ -3110,10 +3110,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/security/brig)
-"als" = (
-/obj/effect/landmark/start/security_medic,
-/turf/open/floor/iron/white,
-/area/station/security/brig)
 "alt" = (
 /obj/machinery/door/window/left/directional/west{
 	dir = 4;
@@ -17042,6 +17038,7 @@
 	req_access = list("robotics")
 	},
 /obj/machinery/camera/autoname/directional/west,
+/obj/machinery/drone_dispenser,
 /turf/open/floor/iron,
 /area/station/science/robotics/mechbay)
 "bhT" = (
@@ -18575,6 +18572,7 @@
 /area/station/maintenance/department/cargo)
 "bor" = (
 /obj/structure/table/optable,
+/obj/item/autopsy_scanner,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "bos" = (
@@ -20104,6 +20102,9 @@
 /obj/item/mmi,
 /obj/item/mmi,
 /obj/structure/table,
+/obj/item/autopsy_scanner{
+	pixel_y = 14
+	},
 /turf/open/floor/iron/white,
 /area/station/science/robotics/lab)
 "btf" = (
@@ -34055,9 +34056,6 @@
 "dhK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/stripes/line,
-/obj/machinery/atmospherics/components/binary/temperature_gate{
-	dir = 8
-	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "diI" = (
@@ -36556,6 +36554,10 @@
 "fmh" = (
 /turf/open/floor/wood,
 /area/station/maintenance/department/engine)
+"fmN" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
+/turf/open/floor/engine,
+/area/station/engineering/supermatter/room)
 "fmU" = (
 /obj/structure/chair,
 /obj/effect/turf_decal/tile/neutral{
@@ -37915,12 +37917,6 @@
 /obj/item/stack/package_wrap,
 /turf/open/floor/iron,
 /area/station/security/prison)
-"gkz" = (
-/obj/machinery/atmospherics/components/binary/pressure_valve{
-	dir = 8
-	},
-/turf/open/floor/engine,
-/area/station/engineering/supermatter/room)
 "gkQ" = (
 /obj/structure/table/wood,
 /turf/open/floor/iron/dark,
@@ -40666,8 +40662,6 @@
 /turf/open/floor/iron/white,
 /area/station/science/ordnance)
 "ikb" = (
-/obj/structure/closet/secure_closet/security/sec,
-/obj/effect/turf_decal/bot_blue,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
 /turf/open/floor/iron/dark,
@@ -41960,6 +41954,8 @@
 /area/station/medical/virology)
 "jpt" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
+/obj/effect/turf_decal/bot_blue,
+/obj/structure/closet/secure_closet/security/sec,
 /turf/open/floor/iron/dark,
 /area/station/security/lockers)
 "jpJ" = (
@@ -48622,7 +48618,6 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "oya" = (
@@ -55208,10 +55203,6 @@
 	},
 /turf/open/floor/engine/n2o,
 /area/station/engineering/atmos)
-"tst" = (
-/obj/machinery/drone_dispenser,
-/turf/open/floor/iron,
-/area/station/science/robotics/mechbay)
 "ttB" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
@@ -58937,7 +58928,6 @@
 /area/station/science/ordnance)
 "whP" = (
 /obj/structure/window/reinforced/spawner/directional/east,
-/obj/structure/closet/secure_closet/security_medic,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 5
 	},
@@ -81982,7 +81972,7 @@ aiD
 ajM
 jZr
 akD
-als
+akD
 amb
 amN
 ajM
@@ -91079,7 +91069,7 @@ ceX
 wdp
 hUW
 liY
-gkz
+tYl
 dhK
 xNX
 xNX
@@ -91336,7 +91326,7 @@ mwG
 wza
 ulY
 ulY
-tYl
+fmN
 owZ
 ujj
 hUW
@@ -98995,7 +98985,7 @@ bgE
 bju
 bhR
 biu
-tst
+bju
 bkt
 blI
 bmO
