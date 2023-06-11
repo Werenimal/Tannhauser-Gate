@@ -21,7 +21,6 @@
 				"Security Officer",
 				"Warden",
 				"Detective",
-				"Security Medic",
 				"Head of Security",
 				"Captain",
 				"Nanotrasen Consultant",
@@ -79,7 +78,6 @@
 				"Security Officer",
 				"Warden",
 				"Detective",
-				"Security Medic",
 				"Head of Security",
 				"Captain",
 				"Nanotrasen Consultant",
@@ -104,7 +102,6 @@
 				"Security Officer",
 				"Warden",
 				"Detective",
-				"Security Medic",
 				"Head of Security",
 				"Captain",
 				"Nanotrasen Consultant",
@@ -164,7 +161,7 @@
     },
     "Midround": {
         "Syndicate Sleeper Agent": {
-			"weight": 0,
+			"weight": 3,
 			"antag_cap": {
                 "denominator": 30
             },
@@ -175,7 +172,6 @@
 				"Security Officer",
 				"Warden",
 				"Detective",
-				"Security Medic",
 				"Head of Security",
 				"Captain",
 				"Nanotrasen Consultant",
@@ -190,6 +186,10 @@
 				"AI"
             ]
         },
+		
+		"Space Changeling": {
+			"weight": 2
+		},
 		
 		"Malfunctioning AI": {
 			"weight": 0,
@@ -225,7 +225,7 @@
 		},
 
 		"Abductors": {
-			"weight": 0
+			"weight": 1
 		},
 
 		"Space Ninja": {
@@ -233,31 +233,16 @@
 		},
 
 		"Spiders": {
-			"weight": 0
+			"weight": 4
 		},
-
-		"Revenant": {
-			"weight": 0
-		},
-
-		"Sentient Disease": {
-			"weight": 0
-		},
-
-		"Space Pirates": {
-			"weight": 0
-		},
-
 		"Obsessed": {
 			"weight": 0,
-            "repeatable":0
+			"repeatable": 0
 		},
-
-		"Space Changeling": {
-			"weight": 0
-		},
-
 		"Paradox Clone": {
+			"weight": 3
+		},
+		"Lone Infiltrator": {
 			"weight": 0
 		}
 	},
@@ -275,7 +260,6 @@
 				"Security Officer",
 				"Warden",
 				"Detective",
-				"Security Medic",
 				"Head of Security",
 				"Captain",
 				"Nanotrasen Consultant",
@@ -303,7 +287,6 @@
 				"Security Officer",
 				"Warden",
 				"Detective",
-				"Security Medic",
 				"Head of Security",
 				"Captain",
 				"Nanotrasen Consultant",
@@ -328,7 +311,6 @@
 				"Security Officer",
 				"Warden",
 				"Detective",
-				"Security Medic",
 				"Head of Security",
 				"Captain",
 				"Nanotrasen Consultant",
@@ -343,9 +325,9 @@
 				"AI"
             ]
         },
-        
+
         "Stowaway Changeling": {
             "weight": 0
-        }
+		}
     }
 }
