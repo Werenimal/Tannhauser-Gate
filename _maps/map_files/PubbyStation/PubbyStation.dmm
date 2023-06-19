@@ -31356,7 +31356,7 @@
 /turf/open/floor/plating,
 /area/station/medical/abandoned)
 "cqG" = (
-/obj/item/kirbyplants/dead,
+/obj/item/kirbyplants/random/dead,
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
