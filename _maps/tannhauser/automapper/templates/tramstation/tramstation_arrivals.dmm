@@ -729,9 +729,7 @@
 /area/station/hallway/secondary/entry)
 "uG" = (
 /obj/machinery/airalarm/directional/south,
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
@@ -1310,9 +1308,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "Pe" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-18"
-	},
+/obj/item/kirbyplants/organic/plant18,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
@@ -1506,9 +1502,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "Tb" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-18"
-	},
+/obj/item/kirbyplants/organic/plant18,
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
