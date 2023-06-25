@@ -22,9 +22,7 @@
 /area/station/hallway/secondary/entry)
 "aP" = (
 /obj/effect/turf_decal/delivery,
-/obj/item/kirbyplants{
-	icon_state = "plant-21"
-	},
+/obj/item/kirbyplants/organic/plant21,
 /obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
@@ -698,9 +696,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "vD" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-18"
-	},
+/obj/item/kirbyplants/organic/plant18,
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
@@ -711,9 +707,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port)
 "wf" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-13"
-	},
+/obj/item/kirbyplants/organic/plant13,
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
