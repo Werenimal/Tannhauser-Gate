@@ -2350,9 +2350,9 @@
 /obj/item/gun/energy/e_gun/dragnet,
 /obj/item/gun/energy/e_gun/dragnet,
 /obj/effect/turf_decal/bot_blue,
-/obj/item/melee/hammer,
-/obj/item/melee/hammer,
-/obj/item/melee/hammer,
+/obj/item/melee/breaching_hammer,
+/obj/item/melee/breaching_hammer,
+/obj/item/melee/breaching_hammer,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "aiM" = (
