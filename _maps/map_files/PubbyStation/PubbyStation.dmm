@@ -29269,6 +29269,20 @@
 	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
+"cgF" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/iron/dark,
+/area/station/service/bar)
 "cgH" = (
 /turf/open/floor/grass,
 /area/station/service/hydroponics/garden/monastery)
@@ -33195,11 +33209,7 @@
 /turf/open/floor/iron/dark,
 /area/station/service/library)
 "cAU" = (
-/obj/structure/rack{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "minibar";
-	name = "skeletal minibar"
-	},
+/obj/structure/rack/shelf/wooden,
 /obj/item/book/codex_gigas,
 /obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/iron/dark,
@@ -43603,7 +43613,7 @@
 /area/station/security/prison)
 "kHO" = (
 /obj/structure/bed/dogbed/renault,
-/mob/living/simple_animal/pet/fox/renault,
+/mob/living/basic/pet/fox/renault,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/captain/private)
 "kHP" = (
@@ -93261,7 +93271,7 @@ aPE
 aPE
 aZa
 bah
-bag
+cgF
 bah
 bbq
 bey
@@ -95317,7 +95327,7 @@ aPE
 aPE
 aZf
 bah
-bag
+cgF
 bah
 bag
 beE
