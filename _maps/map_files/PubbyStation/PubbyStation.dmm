@@ -3947,7 +3947,7 @@
 /area/station/command/heads_quarters/hos)
 "anS" = (
 /obj/machinery/keycard_auth/directional/south,
-/mob/living/basic/giant/spider/sgt_araneus,
+/mob/living/basic/spider/giant/sgt_araneus,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hos)
 "anT" = (
