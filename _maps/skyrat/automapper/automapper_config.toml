@@ -26,82 +26,6 @@ required_map = "builtin"
 coordinates = [206, 85, 1]
 trait_name = "CentCom"
 
-#----- Start Tannhauser Edits -----
-
-# CC Shuttle Dock - This is so we can fit the larger Cargo shuttle added by mortisdeum
-[templates.centcom_cargo_dock]
-map_files = ["centcom_cargo_dock.dmm"]
-directory = "_maps/tannhauser/automapper/templates/centcom/"
-required_map = "builtin"
-coordinates = [152, 101, 1]
-trait_name = "CentCom"
-
-# CC Arrivals Dock - This is so we can fit the larger arrivals shuttle added by mortisdeum
-[templates.centcom_arrivals_dock]
-map_files = ["centcom_arrivals_dock.dmm"]
-directory = "_maps/tannhauser/automapper/templates/centcom/"
-required_map = "builtin"
-coordinates = [43, 225, 2]
-trait_name = "CentCom"
-
-# METASTATION MAP TEMPLATES
-# Metastation Arrivals
-[templates.metastaton_arrivals]
-map_files = ["metastation_arrivals.dmm"]
-directory = "_maps/tannhauser/automapper/templates/metastation/"
-required_map = "MetaStation.dmm"
-coordinates = [20, 107, 1]
-trait_name = "Station"
-
-# DELTASTATION MAP EDITS
-# Deltastation Arrivals
-[templates.deltastation_arrivals]
-map_files = ["deltastation_arrivals.dmm"]
-directory = "_maps/tannhauser/automapper/templates/deltastation/"
-required_map = "DeltaStation2.dmm"
-coordinates = [126, 195, 1]
-trait_name = "Station"
-
-# ICEBOX MAP EDITS
-# Icebox Arrivals
-[templates.icebox_arrivals]
-map_files = ["icebox_arrivals.dmm"]
-directory = "_maps/tannhauser/automapper/templates/icebox/"
-required_map = "IceBoxStation.dmm"
-coordinates = [10, 116, 3]
-trait_name = "Station"
-
-# TRAMSTATION MAP EDITS
-# Tramstation Arrivals
-#[templates.tramstation_arrivals]
-#map_files = ["tramstation_arrivals.dmm"]
-#directory = "_maps/tannhauser/automapper/templates/tramstation/"
-#required_map = "tramstation.dmm"
-#coordinates = [8, 97, 2]
-#trait_name = "Station"
-
-# BLUESHIFT MAP EDITS
-# BlueShift Arrivals
-[templates.blueshift_arrivals]
-map_files = ["blueshift_arrivals.dmm"]
-directory = "_maps/tannhauser/automapper/templates/blueshift/"
-required_map = "BlueShift_lower.dmm"
-coordinates = [154, 87, 1]
-trait_name = "Station"
-
-# VOIDRAPTOR MAP EDITS
-# VoidRaptor Arrivals
-[templates.voidraptor_arrivals]
-map_files = ["voidraptor_arrivals.dmm"]
-directory = "_maps/tannhauser/automapper/templates/voidraptor/"
-required_map = "VoidRaptor.dmm"
-coordinates = [75, 140, 1]
-trait_name = "Station"
-
-
-
-#----- End Tannhauser Edits -----
-
 # METASTATION MAP TEMPLATES
 # Metastation Arrivals
 #[templates.metastaton_arrivals]
@@ -259,6 +183,7 @@ coordinates = [114, 65, 3]
 trait_name = "Station"
 
 # TRAMSTATION MAP EDITS
+
 # Tramstation Arrivals
 [templates.tramstation_arrivals]
 map_files = ["tramstation_arrivals.dmm"]
@@ -441,6 +366,14 @@ trait_name = "Station"
 
 # ICEBOX MAP EDITS
 
+# Icebox Arrivals
+[templates.icebox_arrivals]
+map_files = ["icebox_arrivals.dmm"]
+directory = "_maps/tannhauser/automapper/templates/icebox/"
+required_map = "IceBoxStation.dmm"
+coordinates = [10, 116, 3]
+trait_name = "Station"
+
 # Manaforge Jade Dragon
 [templates.manaforge_jade]
 map_files = ["jade_dragon.dmm"]
@@ -463,4 +396,56 @@ map_files = ["arcade.dmm"]
 directory = "_maps/tannhauser/automapper/manaforge/"
 required_map = "IceBoxStation.dmm"
 coordinates = [134, 69, 2]
+trait_name = "Station"
+
+# CC Shuttle Dock - This is so we can fit the larger Cargo shuttle added by mortisdeum
+[templates.centcom_cargo_dock]
+map_files = ["centcom_cargo_dock.dmm"]
+directory = "_maps/tannhauser/automapper/templates/centcom/"
+required_map = "builtin"
+coordinates = [152, 101, 1]
+trait_name = "CentCom"
+
+# CC Arrivals Dock - This is so we can fit the larger arrivals shuttle added by mortisdeum
+[templates.centcom_arrivals_dock]
+map_files = ["centcom_arrivals_dock.dmm"]
+directory = "_maps/tannhauser/automapper/templates/centcom/"
+required_map = "builtin"
+coordinates = [43, 225, 2]
+trait_name = "CentCom"
+
+# METASTATION MAP TEMPLATES
+# Metastation Arrivals
+[templates.metastaton_arrivals]
+map_files = ["metastation_arrivals.dmm"]
+directory = "_maps/tannhauser/automapper/templates/metastation/"
+required_map = "MetaStation.dmm"
+coordinates = [20, 107, 1]
+trait_name = "Station"
+
+# DELTASTATION MAP EDITS
+# Deltastation Arrivals
+[templates.deltastation_arrivals]
+map_files = ["deltastation_arrivals.dmm"]
+directory = "_maps/tannhauser/automapper/templates/deltastation/"
+required_map = "DeltaStation2.dmm"
+coordinates = [126, 195, 1]
+trait_name = "Station"
+
+# TRAMSTATION MAP EDITS
+# Tramstation Arrivals
+#[templates.tramstation_arrivals]
+#map_files = ["tramstation_arrivals.dmm"]
+#directory = "_maps/tannhauser/automapper/templates/tramstation/"
+#required_map = "tramstation.dmm"
+#coordinates = [8, 97, 2]
+#trait_name = "Station"
+
+# VOIDRAPTOR MAP EDITS
+# VoidRaptor Arrivals
+[templates.voidraptor_arrivals]
+map_files = ["voidraptor_arrivals.dmm"]
+directory = "_maps/tannhauser/automapper/templates/voidraptor/"
+required_map = "VoidRaptor.dmm"
+coordinates = [75, 140, 1]
 trait_name = "Station"
