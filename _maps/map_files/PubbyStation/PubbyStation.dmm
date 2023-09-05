@@ -35504,6 +35504,10 @@
 /obj/structure/chair,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
+"eyj" = (
+/obj/effect/landmark/start/corrections_officer,
+/turf/open/floor/iron/dark,
+/area/station/security/prison)
 "eyQ" = (
 /obj/structure/window/reinforced/tinted/spawner/directional/north,
 /obj/item/trash/popcorn,
@@ -55189,6 +55193,10 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
+"tuJ" = (
+/obj/structure/closet/secure_closet/corrections_officer,
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "tuL" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -82421,7 +82429,7 @@ aen
 aen
 aen
 aeU
-aeU
+eyj
 dcS
 aeU
 hMg
@@ -86797,7 +86805,7 @@ nHK
 cnN
 cnV
 gyR
-anM
+tuJ
 anM
 agP
 ajo
