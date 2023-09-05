@@ -542,11 +542,11 @@
 "iA" = (
 /obj/effect/turf_decal/tile/brown/half/contrasted,
 /obj/structure/closet/crate,
-/obj/item/circuitboard/machine/spaceship_navigation_beacon,
-/obj/item/circuitboard/machine/spaceship_navigation_beacon,
-/obj/item/circuitboard/machine/spaceship_navigation_beacon,
-/obj/item/circuitboard/machine/spaceship_navigation_beacon,
-/obj/item/circuitboard/machine/spaceship_navigation_beacon,
+/obj/item/folded_navigation_gigabeacon,
+/obj/item/folded_navigation_gigabeacon,
+/obj/item/folded_navigation_gigabeacon,
+/obj/item/folded_navigation_gigabeacon,
+/obj/item/folded_navigation_gigabeacon,
 /obj/item/stack/cable_coil,
 /obj/item/stack/sheet/iron/fifty,
 /turf/open/floor/iron/dark,
@@ -1153,7 +1153,7 @@
 /obj/item/circuitboard/machine/rtg/advanced,
 /obj/item/circuitboard/machine/rtg/advanced,
 /obj/item/circuitboard/machine/rtg/advanced,
-/obj/item/circuitboard/machine/spaceship_navigation_beacon,
+/obj/item/folded_navigation_gigabeacon,
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
@@ -2662,7 +2662,7 @@
 /obj/item/storage/organbox{
 	pixel_y = 6
 	},
-/obj/item/storage/backpack/duffelbag/med/surgery,
+/obj/item/surgery_tray,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 8
 	},

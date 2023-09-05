@@ -1618,7 +1618,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
-/obj/machinery/door/airlock/multi_tile/glass{
+/obj/machinery/door/airlock/multi_tile/public/glass{
 	dir = 4;
 	id_tag = "HotelRoom8"
 	},
@@ -3228,7 +3228,7 @@
 	dir = 1
 	},
 /obj/item/crowbar,
-/obj/item/circuitboard/machine/spaceship_navigation_beacon,
+/obj/item/folded_navigation_gigabeacon,
 /obj/effect/turf_decal/siding/dark_blue{
 	dir = 8
 	},
@@ -5483,7 +5483,7 @@
 /area/ruin/space/has_grav/hotel/power)
 "Fm" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/multi_tile/glass{
+/obj/machinery/door/airlock/multi_tile/public/glass{
 	dir = 4;
 	id_tag = "HotelRoom8"
 	},
@@ -6958,7 +6958,7 @@
 /area/ruin/space/has_grav/hotel)
 "Ps" = (
 /obj/structure/table,
-/obj/item/storage/backpack/duffelbag/med/surgery,
+/obj/item/surgery_tray,
 /turf/open/floor/iron/showroomfloor,
 /area/ruin/space/has_grav/hotel)
 "Pw" = (
@@ -7370,10 +7370,10 @@
 /turf/open/floor/carpet/neon/simple/black/nodots,
 /area/ruin/space/has_grav/hotel/guestroom/room_1)
 "Sb" = (
-/obj/machinery/oven,
 /obj/effect/turf_decal/siding/dark_green{
 	dir = 1
 	},
+/obj/machinery/oven/range,
 /turf/open/floor/iron/cafeteria,
 /area/ruin/space/has_grav/hotel/bar)
 "Se" = (
