@@ -18979,7 +18979,7 @@
 "bpV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
-/obj/item/surgery_tray,
+/obj/item/surgery_tray/full,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "bpW" = (
@@ -22239,8 +22239,8 @@
 /obj/structure/table/glass,
 /obj/item/tank/internals/anesthetic,
 /obj/item/clothing/mask/breath/medical,
-/obj/item/surgery_tray,
-/obj/item/surgery_tray,
+/obj/item/surgery_tray/full,
+/obj/item/surgery_tray/full,
 /obj/item/reagent_containers/cup/bottle/ethanol,
 /obj/item/reagent_containers/cup/bottle/ethanol,
 /obj/item/blood_filter,
@@ -22726,7 +22726,7 @@
 /area/station/medical/surgery)
 "bEv" = (
 /obj/structure/table/glass,
-/obj/item/surgery_tray,
+/obj/item/surgery_tray/full,
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery)
@@ -24037,7 +24037,7 @@
 "bLE" = (
 /obj/machinery/light/directional/south,
 /obj/structure/table/glass,
-/obj/item/surgery_tray,
+/obj/item/surgery_tray/full,
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery)
