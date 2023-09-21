@@ -16970,7 +16970,6 @@
 /area/command/heads_quarters/captain/private/nt_rep)
 "bhJ" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/lapvend,
 /turf/open/floor/iron,
 /area/command/heads_quarters/captain/private/nt_rep)
 "bhL" = (
