@@ -33420,6 +33420,10 @@
 /obj/structure/disposalpipe/junction/flip{
 	dir = 8
 	},
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/station/cargo/office)
 "cDB" = (
@@ -41743,15 +41747,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos/hfr_room)
-"jhw" = (
-/obj/structure/rack,
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 9
-	},
-/obj/machinery/power/apc/auto_name/directional/east,
-/obj/structure/cable,
-/turf/closed/wall,
-/area/station/bitrunning/den)
 "jhz" = (
 /obj/machinery/modular_computer/preset/id,
 /obj/machinery/computer/security/telescreen/entertainment{
@@ -45719,7 +45714,6 @@
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "mqp" = (
-/obj/structure/cable,
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
@@ -49046,19 +49040,6 @@
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron/white,
 /area/station/commons/toilet/restrooms)
-"oMv" = (
-/obj/machinery/button/door{
-	id = "Commissary";
-	name = "Commissary Shutter Control";
-	pixel_x = 24;
-	pixel_y = 6
-	},
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment,
-/turf/closed/wall,
-/area/station/bitrunning/den)
 "oMH" = (
 /obj/structure/table,
 /obj/item/airlock_painter/decal,
@@ -49886,9 +49867,15 @@
 /area/station/commons/dorms/barracks)
 "puX" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 1
+	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/button/door{
+	id = "Commissary";
+	name = "Commissary Shutter Control";
+	pixel_x = 24;
+	pixel_y = 6
+	},
 /turf/open/floor/iron,
 /area/station/cargo/office)
 "pvv" = (
@@ -50043,7 +50030,7 @@
 /area/station/engineering/main)
 "pAs" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 8
+	dir = 10
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -61473,6 +61460,9 @@
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 6
 	},
 /turf/open/floor/iron,
 /area/station/cargo/office)
@@ -101542,9 +101532,9 @@ xlX
 cot
 kUq
 jvs
-oMv
+jvs
 mqp
-jhw
+nOV
 nOV
 bcI
 wDZ
