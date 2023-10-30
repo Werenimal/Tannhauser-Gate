@@ -48875,7 +48875,7 @@
 	dir = 4
 	},
 /obj/structure/table/wood/shuttle_bar,
-/obj/item/book/fish_catalog,
+/obj/item/book/manual/fish_catalog,
 /turf/open/floor/wood,
 /area/station/service/barber)
 "oFI" = (
