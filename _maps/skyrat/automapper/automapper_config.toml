@@ -182,6 +182,31 @@ required_map = "IceBoxStation.dmm"
 coordinates = [114, 65, 3]
 trait_name = "Station"
 
+# Icecats Camp Lower Level
+[templates.icebox_icecats_lower]
+map_files = ["icemoon_underground_icewalker_lower.dmm"]
+directory = "_maps/RandomRuins/IceRuins/skyrat/"
+required_map = "IceBoxStation.dmm"
+coordinates = [202, 16, 1]
+trait_name = "Station"
+
+# Icecats Camp Upper Level
+[templates.icebox_icecats_upper]
+map_files = ["icemoon_underground_icewalker_upper.dmm"]
+directory = "_maps/RandomRuins/IceRuins/skyrat/"
+required_map = "IceBoxStation.dmm"
+coordinates = [202, 16, 2]
+trait_name = "Station"
+
+# KILOSTATION MAP EDITS
+# Kilostation Arrivals
+[templates.kilostation_arrivals]
+map_files = ["kilostation_arrivals.dmm"]
+directory = "_maps/skyrat/automapper/templates/kilostation/"
+required_map = "KiloStation.dmm"
+coordinates = [151, 80, 1]
+trait_name = "Station"
+
 # TRAMSTATION MAP EDITS
 
 # Tramstation Arrivals

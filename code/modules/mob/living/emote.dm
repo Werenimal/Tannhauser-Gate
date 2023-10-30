@@ -107,9 +107,14 @@
 		message_animal_or_basic = custom_message
 	. = ..()
 	message_animal_or_basic = initial(message_animal_or_basic)
-	if(. && user.death_sound)
-		if(!user.can_speak() || user.oxyloss >= 50)
-			return //stop the sound if oxyloss too high/cant speak
+	if(!. && !user.can_speak() || user.getOxyLoss() >= 50)
+		return //stop the sound if oxyloss too high/cant speak
+	var/mob/living/carbon/carbon_user = user
+	// For masks that give unique death sounds
+	if(istype(carbon_user) && isclothing(carbon_user.wear_mask) && carbon_user.wear_mask.unique_death)
+		playsound(carbon_user, carbon_user.wear_mask.unique_death, 200, TRUE, TRUE)
+		return
+	if(user.death_sound)
 		playsound(user, user.death_sound, 200, TRUE, TRUE)
 
 /datum/emote/living/drool
@@ -551,7 +556,7 @@
 	message = "smiles weakly."
 
 /// The base chance for your yawn to propagate to someone else if they're on the same tile as you
-#define YAWN_PROPAGATE_CHANCE_BASE 40
+#define YAWN_PROPAGATE_CHANCE_BASE 0 // SKYRAT EDIT - Group yawn no more - ORIGINAL: #define YAWN_PROPAGATE_CHANCE_BASE 40
 /// The base chance for your yawn to propagate to someone else if they're on the same tile as you
 #define YAWN_PROPAGATE_CHANCE_DECAY 8
 

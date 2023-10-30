@@ -4,14 +4,16 @@
 
 [![resentment](.github/images/badges/built-with-resentment.svg)](.github/images/comics/131-bug-free.png) [![technical debt](.github/images/badges/contains-technical-debt.svg)](.github/images/comics/106-tech-debt-modified.png) [![forinfinityandbyond](.github/images/badges/made-in-byond.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
-* **Git / GitHub cheatsheet:** https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833
-* **Guide to Modularisation:** [./modular_skyrat/readme.md](./modular_skyrat/readme.md)
-* **Website:** https://www.tgstation13.org
-* **Code:** https://github.com/Sea-of-Lost-Souls/Tannhauser-Gate
-* **Wiki:** https://tgstation13.org/wiki/Main_Page
-* **Codedocs:** https://sea-of-lost-souls.github.io/Tannhauser-Gate/
-* **Skyrat 13 Discord:** https://discord.com/invite/hGpZ4Z3
-* **Coderbus Discord:** https://discord.gg/Vh8TJp9
+| Website                   | Link                                           |
+|---------------------------|------------------------------------------------|
+| Git / GitHub cheatsheet   | [https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833](https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833) |
+| Guide to Modularization   | [./modular_skyrat/readme.md](./modular_skyrat/readme.md)            |
+| Website                   | [https://www.tgstation13.org](https://www.tgstation13.org)          |
+| Code                      | [https://github.com/Sea-of-Lost-Souls/Tannhauser-Gate](https://github.com/Sea-of-Lost-Souls/Tannhauser-Gate)    |
+| Wiki                      | [https://wiki.skyrat13.space/index.php/Main_Page](https://wiki.skyrat13.space/index.php/Main_Page)   |
+| Codedocs                  | [https://sea-of-lost-souls.github.io/Tannhauser-Gate/](https://sea-of-lost-souls.github.io/Tannhauser-Gate/)       |
+| Skyrat 13 Discord         | [https://discord.com/invite/hGpZ4Z3](https://discord.com/invite/hGpZ4Z3) |
+| Coderbus Discord          | [https://discord.gg/Vh8TJp9](https://discord.gg/Vh8TJp9)               |
 
 This is Sea of Lost Souls' downstream fork of Skyrat 13 created in byond.
 
