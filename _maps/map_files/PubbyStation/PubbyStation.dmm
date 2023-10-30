@@ -33215,7 +33215,7 @@
 /turf/open/floor/iron/dark,
 /area/station/service/library)
 "cAU" = (
-/obj/structure/rack/shelf/wooden,
+/obj/structure/rack/shelf,
 /obj/item/book/codex_gigas,
 /obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/iron/dark,
@@ -42803,8 +42803,8 @@
 	},
 /obj/item/mod/core/standard,
 /obj/item/mod/core/standard{
-	pixel_y = 9;
-	pixel_x = 8
+	pixel_x = 8;
+	pixel_y = 9
 	},
 /obj/item/mod/core/standard{
 	pixel_x = 6;
@@ -48875,7 +48875,7 @@
 	dir = 4
 	},
 /obj/structure/table/wood/shuttle_bar,
-/obj/item/book/fish_catalog,
+/obj/item/book/manual/fish_catalog,
 /turf/open/floor/wood,
 /area/station/service/barber)
 "oFI" = (
