@@ -496,8 +496,6 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_BLOODSHOT_EYES "bloodshot_eyes"
 /// This mob should never close UI even if it doesn't have a client
 #define TRAIT_PRESERVE_UI_WITHOUT_CLIENT "preserve_ui_without_client"
-/// Lets the mob use flight potions
-#define TRAIT_CAN_USE_FLIGHT_POTION "can_use_flight_potion"
 /// This mob overrides certian SSlag_switch measures with this special trait
 #define TRAIT_BYPASS_MEASURES "bypass_lagswitch_measures"
 /// Someone can safely be attacked with honorbound with ONLY a combat mode check, the trait is assuring holding a weapon and hitting won't hurt them..
@@ -665,7 +663,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_TENTACLE_IMMUNE "tentacle_immune"
 /// Currently under the effect of overwatch
 #define TRAIT_OVERWATCHED "watcher_overwatched"
-/// Cannot be targetted by watcher overwatch
+/// Cannot be targeted by watcher overwatch
 #define TRAIT_OVERWATCH_IMMUNE "overwatch_immune"
 
 //non-mob traits
@@ -868,6 +866,9 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 
 /// Trait applied when an integrated circuit/module becomes undupable
 #define TRAIT_CIRCUIT_UNDUPABLE "circuit_undupable"
+
+/// Trait applied when an integrated circuit opens a UI on a player (see list pick component)
+#define TRAIT_CIRCUIT_UI_OPEN "circuit_ui_open"
 
 /// Hearing trait that is from the hearing component
 #define CIRCUIT_HEAR_TRAIT "circuit_hear"
@@ -1335,9 +1336,15 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 ///Trait given by /datum/element/relay_attacker
 #define TRAIT_RELAYING_ATTACKER "relaying_attacker"
 
+///Trait given to limb by /mob/living/basic/living_limb_flesh
+#define TRAIT_IGNORED_BY_LIVING_FLESH "livingflesh_ignored"
+
 /// Trait given while using /datum/action/cooldown/mob_cooldown/wing_buffet
 #define TRAIT_WING_BUFFET "wing_buffet"
 /// Trait given while tired after using /datum/action/cooldown/mob_cooldown/wing_buffet
 #define TRAIT_WING_BUFFET_TIRED "wing_buffet_tired"
 /// Trait given to a dragon who fails to defend their rifts
 #define TRAIT_RIFT_FAILURE "fail_dragon_loser"
+
+/// Trait given to mobs that we do not want to mindswap
+#define TRAIT_NO_MINDSWAP "no_mindswap"
