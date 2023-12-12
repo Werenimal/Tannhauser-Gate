@@ -2,7 +2,7 @@
  * Test if icon states for each datum actually exist in the DMI.
  */
 /datum/unit_test/barsigns_icon
-	var/list/blacklisted_sign_types = list(/datum/barsign/skyrat, /datum/barsign/tan, /datum/barsign/skyrat/large) // SKYRAT EDIT ADDITION - Modular barsigns
+	var/list/blacklisted_sign_types = list(/datum/barsign/skyrat, /datum/barsign/skyrat/tan/, /datum/barsign/skyrat/large) // SKYRAT EDIT ADDITION - Modular barsigns
 
 /datum/unit_test/barsigns_icon/Run()
 	var/obj/machinery/barsign_type = /obj/machinery/barsign
