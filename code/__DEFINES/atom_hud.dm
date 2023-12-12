@@ -14,9 +14,9 @@
 /// loyality implant
 #define IMPLOYAL_HUD "5"
 /// chemical implant
-#define IMPCHEM_HUD "6"
+#define IMPSEC_FIRST_HUD "6"
 /// tracking implant
-#define IMPTRACK_HUD "7"
+#define IMPSEC_SECOND_HUD "7"
 /// Silicon/Mech/Circuit Status
 #define DIAG_STAT_HUD "8"
 /// Silicon health bar
@@ -75,14 +75,8 @@
 #define DATA_HUD_PERMIT 11 //SKYRAT EDIT
 #define DATA_HUD_DNR 12 // SKYRAT EDIT
 
-// Notification action types
-#define NOTIFY_JUMP "jump"
-#define NOTIFY_PLAY "play"
-#define NOTIFY_ORBIT "orbit"
-
 /// cooldown for being shown the images for any particular data hud
 #define ADD_HUD_TO_COOLDOWN 20
-
 
 // Security HUD icon_state defines
 
