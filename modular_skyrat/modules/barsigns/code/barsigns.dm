@@ -9,6 +9,9 @@
 	// uses modular icon file
 	if(istype(chosen_sign, /datum/barsign/skyrat/large))
 		icon = SKYRAT_LARGE_BARSIGN_FILE
+	//Tannhauser Icon File
+	else if(istype(chosen_sign, /datum/barsign/skyrat/tan))
+		icon = TAN_BAR_SIGNS
 	else
 		icon = SKYRAT_BARSIGN_FILE
 
