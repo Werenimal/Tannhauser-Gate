@@ -33,7 +33,7 @@
 
 	maxHealth = 150
 	health = 150
-	damage_coeff = list(BRUTE = 1, BURN = 0, TOX = 1, CLONE = 1, STAMINA = 0, OXY = 0)
+	damage_coeff = list(BRUTE = 1, BURN = 0, TOX = 1, STAMINA = 0, OXY = 0)
 	unsuitable_atmos_damage = 0
 	minimum_survivable_temperature = 0
 	maximum_survivable_temperature = INFINITY
@@ -126,6 +126,7 @@
 	attack_verb_simple = "bite"
 
 	pass_flags = PASSTABLE
+	basic_mob_flags = DEL_ON_DEATH
 	butcher_results = list(/obj/item/food/meat/slab = 1)
 	gold_core_spawnable = HOSTILE_SPAWN
 
@@ -188,6 +189,7 @@
 	attack_verb_continuous = "stings"
 	attack_verb_simple = "sting"
 	attack_sound = 'sound/effects/attackblob.ogg'
+	basic_mob_flags = DEL_ON_DEATH
 
 	ai_controller = /datum/ai_controller/basic_controller/electric_mosquito
 
@@ -245,6 +247,7 @@
 
 	melee_damage_lower = 10
 	melee_damage_upper = 15
+	basic_mob_flags = DEL_ON_DEATH
 	wound_bonus = 15
 	obj_damage = 40
 	attack_sound = 'sound/effects/wounds/crackandbleed.ogg'
