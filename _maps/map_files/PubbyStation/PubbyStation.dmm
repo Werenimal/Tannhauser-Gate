@@ -17173,8 +17173,8 @@
 /obj/structure/secure_safe{
 	pixel_x = -27
 	},
-/obj/structure/closet/secure_closet/nanotrasen_consultant/station,
 /obj/item/clothing/under/rank/centcom/intern,
+/obj/structure/closet/secure_closet/nanotrasen_consultant,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/nt_rep)
 "biM" = (
