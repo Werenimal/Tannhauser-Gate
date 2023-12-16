@@ -45,7 +45,7 @@
 
 /datum/chemical_reaction/OwO/plushmium/reaction_finish(datum/reagents/holder, datum/equilibrium/reaction, react_vol)
 	..()
-	var/datum/reagent/plushmium = holder.get_reagent(/datum/reagent/OwO/plushmium)
+	var/datum/reagent/plushmium = holder.has_reagent(/datum/reagent/OwO/plushmium)
 	if(plushmium.purity > 0.9) // High purity leaves the reagent behind, so you can make plushie shells
 		return
 	if(react_vol < 20) // It creates a normal plush at low volume.. at higher amounts, things get slightly more interesting.
