@@ -2,6 +2,9 @@
 
 // Tanhauser Gate Bar Signs
 
+/datum/barsign/skyrat/tan
+	name ="placeholder"
+
 /datum/barsign/skyrat/tan/orcacomand
 	name = "Orca Dive Bar"
 	icon_state = "orcacomand"
