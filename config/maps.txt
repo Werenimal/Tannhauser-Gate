@@ -80,6 +80,11 @@ map blueshift
 	votable
 endmap
 
+map kilostation
+	maxplayers 75
+	votable
+endmap
+
 ##Tannhauser-Gate Maps##
 map manaforge
 	maxplayers 80
