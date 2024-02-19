@@ -1126,7 +1126,6 @@
 /obj/structure/bed/medical/emergency,
 /obj/structure/bed/medical/emergency,
 /obj/machinery/iv_drip,
-/obj/machinery/iv_drip,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 6
 	},
@@ -19221,8 +19220,6 @@
 /area/station/hallway/secondary/entry)
 "bqH" = (
 /obj/machinery/door/window/left/directional/north{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #5";
 	req_access = list("xenobiology")
 	},
@@ -19258,8 +19255,6 @@
 /area/station/science/xenobiology)
 "bqK" = (
 /obj/machinery/door/window/left/directional/north{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #6";
 	req_access = list("xenobiology")
 	},
@@ -19757,7 +19752,6 @@
 /area/station/science/xenobiology)
 "bsb" = (
 /obj/machinery/door/window/left/directional/south{
-	base_state = "right";
 	icon_state = "right";
 	name = "Containment Pen #5";
 	req_access = list("xenobiology")
@@ -19768,8 +19762,6 @@
 /area/station/science/xenobiology)
 "bsd" = (
 /obj/machinery/door/window/left/directional/south{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #6"
 	},
 /obj/effect/turf_decal/stripes/line,
@@ -21111,8 +21103,6 @@
 /area/station/science/xenobiology)
 "bxN" = (
 /obj/machinery/door/window/left/directional/north{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #1";
 	req_access = list("xenobiology")
 	},
@@ -21141,8 +21131,6 @@
 /area/station/science/xenobiology)
 "bxQ" = (
 /obj/machinery/door/window/left/directional/north{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #2";
 	req_access = list("xenobiology")
 	},
@@ -21170,8 +21158,6 @@
 /area/station/science/xenobiology)
 "bxS" = (
 /obj/machinery/door/window/left/directional/north{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #3";
 	req_access = list("xenobiology")
 	},
@@ -21183,8 +21169,6 @@
 /area/station/science/xenobiology)
 "bxT" = (
 /obj/machinery/door/window/left/directional/north{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #4";
 	req_access = list("xenobiology")
 	},
@@ -21564,8 +21548,6 @@
 	name = "Containment Blast Door"
 	},
 /obj/machinery/door/window/left/directional/south{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #1";
 	req_access = list("xenobiology")
 	},
@@ -21624,8 +21606,6 @@
 	name = "Containment Blast Door"
 	},
 /obj/machinery/door/window/left/directional/south{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #3";
 	req_access = list("xenobiology")
 	},
@@ -34967,7 +34947,6 @@
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/flora/grass/jungle,
-/obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/grass,
 /area/station/medical/medbay/lobby)
 "dWp" = (
@@ -37623,7 +37602,6 @@
 /area/station/security/execution/education)
 "gaR" = (
 /obj/structure/window/reinforced/spawner/directional/north,
-/obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/bush/flowers_pp/style_random,
@@ -38508,10 +38486,6 @@
 /area/station/science/ordnance/testlab)
 "gJV" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/poddoor/preopen{
-	id = "atmoslock";
-	name = "Atmospherics Lockdown Blast Door"
-	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/poddoor/preopen{
 	id = "atmoslock";
@@ -39256,8 +39230,6 @@
 	name = "Containment Blast Door"
 	},
 /obj/machinery/door/window/left/directional/south{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #4";
 	req_access = list("xenobiology")
 	},
@@ -45534,8 +45506,6 @@
 /area/station/commons/locker)
 "mfu" = (
 /obj/machinery/door/window/left/directional/south{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #8";
 	req_access = list("xenobiology")
 	},
@@ -45698,7 +45668,6 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "mnQ" = (
-/obj/structure/window/reinforced/tinted/spawner/directional/north,
 /obj/structure/window/reinforced/tinted/spawner/directional/north,
 /obj/structure/window/reinforced/tinted/spawner/directional/east,
 /turf/open/floor/wood/parquet,
@@ -49929,7 +49898,6 @@
 /area/station/security/prison)
 "psC" = (
 /obj/structure/window/reinforced/tinted/spawner/directional/north,
-/obj/structure/window/reinforced/tinted/spawner/directional/north,
 /obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
 	pixel_x = 5
 	},
@@ -50908,10 +50876,6 @@
 "qcA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/plasticflaps/opaque,
-/obj/machinery/door/poddoor/preopen{
-	id = "atmoslock";
-	name = "Atmospherics Lockdown Blast Door"
-	},
 /obj/machinery/navbeacon{
 	codes_txt = "delivery;dir=8";
 	location = "Atmospherics"
@@ -53889,8 +53853,6 @@
 /area/station/science/ordnance/freezerchamber)
 "smW" = (
 /obj/machinery/door/window/left/directional/south{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #7";
 	req_access = list("xenobiology")
 	},
@@ -60705,8 +60667,6 @@
 /area/station/hallway/secondary/entry)
 "xoD" = (
 /obj/machinery/door/window/left/directional/north{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #7";
 	req_access = list("xenobiology")
 	},
@@ -60837,8 +60797,6 @@
 /area/station/cargo/sorting)
 "xur" = (
 /obj/machinery/door/window/left/directional/north{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #8";
 	req_access = list("xenobiology")
 	},
@@ -60931,8 +60889,6 @@
 	name = "Containment Blast Door"
 	},
 /obj/machinery/door/window/left/directional/south{
-	base_state = "right";
-	icon_state = "right";
 	name = "Containment Pen #2";
 	req_access = list("xenobiology")
 	},
