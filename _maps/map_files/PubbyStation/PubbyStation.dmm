@@ -9047,9 +9047,7 @@
 /area/station/command/heads_quarters/hop)
 "aFB" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/brigdoor/left/directional/north{
-	base_state = "rightsecure";
-	icon_state = "rightsecure";
+/obj/machinery/door/window/brigdoor/right/directional/north{
 	name = "Head of Personnel's Desk";
 	req_access = list("hop")
 	},
@@ -17569,9 +17567,7 @@
 /area/station/science/robotics/lab)
 "bkv" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/right/directional/south{
-	base_state = "left";
-	icon_state = "left";
+/obj/machinery/door/window/left/directional/south{
 	name = "Robotics Desk";
 	req_access = list("robotics")
 	},
@@ -17610,9 +17606,7 @@
 /turf/open/floor/engine,
 /area/station/science/explab)
 "bkD" = (
-/obj/machinery/door/window/right/directional/south{
-	base_state = "left";
-	icon_state = "left";
+/obj/machinery/door/window/left/directional/south{
 	name = "Research Division Delivery";
 	req_access = list("science")
 	},
@@ -23698,9 +23692,7 @@
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/dock)
 "bKh" = (
-/obj/machinery/door/window/right/directional/west{
-	base_state = "left";
-	icon_state = "left";
+/obj/machinery/door/window/left/directional/west{
 	name = "Arena"
 	},
 /obj/structure/window/reinforced/spawner/directional/north,
@@ -33038,9 +33030,7 @@
 /area/station/security/prison)
 "cAr" = (
 /obj/machinery/light/small/directional/west,
-/obj/machinery/door/window/right/directional/south{
-	base_state = "left";
-	icon_state = "left";
+/obj/machinery/door/window/left/directional/south{
 	name = "Curator Desk Door";
 	req_access = list("chapel_office")
 	},
@@ -41226,7 +41216,7 @@
 /area/station/security/lockers)
 "iKb" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/left/directional/west{
+/obj/machinery/door/window/l/directional/west{
 	base_state = "right";
 	icon_state = "right";
 	name = "Reception Window"
