@@ -1126,7 +1126,6 @@
 /obj/structure/bed/medical/emergency,
 /obj/structure/bed/medical/emergency,
 /obj/machinery/iv_drip,
-/obj/machinery/iv_drip,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 6
 	},
@@ -34967,7 +34966,6 @@
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/flora/grass/jungle,
-/obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/grass,
 /area/station/medical/medbay/lobby)
 "dWp" = (
@@ -37623,7 +37621,6 @@
 /area/station/security/execution/education)
 "gaR" = (
 /obj/structure/window/reinforced/spawner/directional/north,
-/obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/bush/flowers_pp/style_random,
@@ -38508,10 +38505,6 @@
 /area/station/science/ordnance/testlab)
 "gJV" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/poddoor/preopen{
-	id = "atmoslock";
-	name = "Atmospherics Lockdown Blast Door"
-	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/poddoor/preopen{
 	id = "atmoslock";
@@ -45699,7 +45692,6 @@
 /area/station/medical/medbay/central)
 "mnQ" = (
 /obj/structure/window/reinforced/tinted/spawner/directional/north,
-/obj/structure/window/reinforced/tinted/spawner/directional/north,
 /obj/structure/window/reinforced/tinted/spawner/directional/east,
 /turf/open/floor/wood/parquet,
 /area/station/service/jadedragon)
@@ -49929,7 +49921,6 @@
 /area/station/security/prison)
 "psC" = (
 /obj/structure/window/reinforced/tinted/spawner/directional/north,
-/obj/structure/window/reinforced/tinted/spawner/directional/north,
 /obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
 	pixel_x = 5
 	},
@@ -50918,10 +50909,6 @@
 	},
 /obj/effect/turf_decal/delivery,
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/poddoor/preopen{
-	id = "atmoslock";
-	name = "Atmospherics Lockdown Blast Door"
-	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible,
 /turf/open/floor/iron,
