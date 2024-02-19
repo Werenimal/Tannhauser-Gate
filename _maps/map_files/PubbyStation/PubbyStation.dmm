@@ -31906,7 +31906,7 @@
 /obj/item/clothing/mask/muzzle{
 	pixel_y = -2
 	},
-/obj/item/clothing/neck/human_petcollar/choker{
+/obj/item/clothing/neck/human_petcollar/locked/choker{
 	pixel_y = 6
 	},
 /obj/item/clothing/head/costume/kitty/genuine,
@@ -34111,7 +34111,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/table,
 /obj/item/food/vendor_snacks/rice_crackers{
-	pixel_y = 0;
 	pixel_x = 5
 	},
 /obj/effect/spawner/random/food_or_drink/any_snack_or_beverage{
@@ -43837,9 +43836,8 @@
 	anchored = 1;
 	can_be_unanchored = 1
 	},
-/obj/item/clothing/mask/breath/medical{
-	pixel_x = 5;
-	pixel_y = -8
+/obj/item/clothing/mask/muzzle/breath{
+	pixel_y = -13
 	},
 /turf/open/floor/glass,
 /area/station/service/jadedragon)
