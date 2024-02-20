@@ -197,8 +197,9 @@
 	anchored = 1;
 	can_be_unanchored = 1
 	},
-/obj/item/clothing/mask/breath/anesthetic{
-	pixel_y = -6
+/obj/item/clothing/mask/muzzle/breath{
+	pixel_y = -10;
+	pixel_x = 6
 	},
 /obj/machinery/light/blacklight/directional/west,
 /turf/open/floor/glass/plasma,
