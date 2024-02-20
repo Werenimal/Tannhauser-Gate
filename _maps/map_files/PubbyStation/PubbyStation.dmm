@@ -54949,7 +54949,7 @@
 	},
 /obj/structure/cable,
 /obj/structure/closet/secure_closet/chief_medical,
-/obj/item/valentine,
+/obj/item/paper/valentine,
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
 "tiH" = (
