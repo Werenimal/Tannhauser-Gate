@@ -12902,6 +12902,7 @@
 	name = "Mining Maintenance"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/supply/mining,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/station/cargo/miningdock)
 "aUG" = (
@@ -15571,6 +15572,7 @@
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 9
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/cargo/miningdock)
 "bcC" = (
@@ -15587,6 +15589,7 @@
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/cargo/miningdock)
 "bcF" = (
@@ -15594,6 +15597,7 @@
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/cargo/miningdock)
 "bcG" = (
@@ -42599,6 +42603,7 @@
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/cargo/miningdock)
 "jRZ" = (
@@ -42760,6 +42765,7 @@
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/cargo/miningdock)
 "jYe" = (
