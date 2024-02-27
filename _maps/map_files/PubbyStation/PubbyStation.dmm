@@ -40190,7 +40190,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/button/door{
-	id = "Sec Mech"s";
+	id = "Sec Mech";
 	name = "Mech Bay Door Control";
 	pixel_x = 25;
 	req_access = list("robotics")
