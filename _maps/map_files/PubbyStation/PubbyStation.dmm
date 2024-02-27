@@ -26362,7 +26362,7 @@
 /obj/effect/turf_decal/trimline/brown/line{
 	dir = 1
 	},
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/carpet/neon/simple/black,
 /area/station/cargo/bitrunning/den)
 "bTL" = (
 /obj/structure/rack,
@@ -35957,6 +35957,8 @@
 "eCS" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "eDC" = (
@@ -40516,7 +40518,7 @@
 /obj/structure/table,
 /obj/machinery/microwave,
 /obj/machinery/light/small/directional/east,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/carpet/neon/simple/black,
 /area/station/cargo/bitrunning/den)
 "hNd" = (
 /obj/structure/disposalpipe/segment{
@@ -42392,7 +42394,7 @@
 	pixel_x = 3;
 	pixel_y = 6
 	},
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/carpet/neon/simple/black,
 /area/station/cargo/bitrunning/den)
 "jha" = (
 /obj/structure/fence{
@@ -47856,7 +47858,7 @@
 	},
 /obj/machinery/firealarm/directional/west,
 /obj/effect/landmark/start/bitrunner,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/carpet/neon/simple/black,
 /area/station/cargo/bitrunning/den)
 "nfl" = (
 /obj/structure/sink/directional/south,
@@ -48237,7 +48239,7 @@
 /obj/effect/turf_decal/trimline/brown/corner{
 	dir = 1
 	},
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/carpet/neon/simple/black,
 /area/station/cargo/bitrunning/den)
 "nyB" = (
 /obj/machinery/door/firedoor,
@@ -54932,7 +54934,7 @@
 /obj/structure/chair/office{
 	dir = 1
 	},
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/carpet/neon/simple/black,
 /area/station/cargo/bitrunning/den)
 "rYY" = (
 /obj/machinery/door/airlock/engineering/glass{
@@ -55275,7 +55277,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/carpet/neon/simple/black,
 /area/station/cargo/bitrunning/den)
 "snJ" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
@@ -57286,7 +57288,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/trimline/brown/filled/warning,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/carpet/neon/simple/black,
 /area/station/cargo/bitrunning/den)
 "tMs" = (
 /obj/effect/turf_decal/tile/blue{
@@ -57575,7 +57577,7 @@
 	dir = 1
 	},
 /obj/machinery/computer/order_console/bitrunning,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/carpet/neon/simple/black,
 /area/station/cargo/bitrunning/den)
 "tWc" = (
 /obj/structure/sign/directions/science{
@@ -59956,7 +59958,7 @@
 /obj/effect/turf_decal/trimline/brown/filled/corner{
 	dir = 8
 	},
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/carpet/neon/simple/black,
 /area/station/cargo/bitrunning/den)
 "vxu" = (
 /obj/structure/rack,
@@ -60116,7 +60118,7 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/brown/filled/corner,
 /obj/effect/spawner/random/trash/food_packaging,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/carpet/neon/simple/black,
 /area/station/cargo/bitrunning/den)
 "vFX" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -61237,7 +61239,6 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "wyx" = (
@@ -62930,7 +62931,7 @@
 	pixel_x = 2
 	},
 /obj/structure/table,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/carpet/neon/simple/black,
 /area/station/cargo/bitrunning/den)
 "xBe" = (
 /obj/machinery/door/window/right/directional/south{
@@ -98020,7 +98021,7 @@ bJP
 bJP
 bJP
 bJP
-uGu
+bJP
 bJP
 bJP
 bJP
