@@ -58647,11 +58647,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/plating,
 /area/station/security/prison)
-"uGu" = (
-/obj/structure/lattice,
-/obj/structure/grille,
-/turf/closed/wall/r_wall,
-/area/station/engineering/atmos)
 "uHi" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -98025,7 +98020,7 @@ bJP
 bJP
 bJP
 bJP
-uGu
+bJP
 bJP
 bJP
 bJP
@@ -98274,7 +98269,7 @@ rdQ
 rdQ
 ltl
 abI
-uGu
+bJP
 bWg
 hAj
 bWg
@@ -98531,15 +98526,15 @@ rdQ
 aaa
 ttB
 aht
-uGu
+bJP
 bWg
 seY
 cDr
-uGu
+bJP
 jty
 yfm
 bGt
-uGu
+bJP
 iNZ
 aOe
 udn
