@@ -39342,7 +39342,7 @@
 /area/station/engineering/supermatter/room)
 "gVJ" = (
 /obj/machinery/button/door{
-	id = "Skynet_launch";
+	id = "Sec Mech"s";
 	name = "Mech Bay Door Control";
 	pixel_x = -25;
 	req_access = list("robotics")
@@ -45302,7 +45302,7 @@
 	dir = 8
 	},
 /obj/machinery/door/poddoor/shutters{
-	id = sssss;
+	id = "Sec Mech"ss";
 	name = "Mech Bay"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
