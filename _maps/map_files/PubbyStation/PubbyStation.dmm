@@ -60626,6 +60626,7 @@
 	},
 /obj/structure/chair/office/tactical,
 /obj/effect/turf_decal/stripes/line,
+/obj/item/toy/plush/skyrat/glitch_synth,
 /turf/open/floor/iron/dark,
 /area/station/security/mechbay)
 "vZw" = (
