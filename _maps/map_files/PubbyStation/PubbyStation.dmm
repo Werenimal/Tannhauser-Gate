@@ -45302,7 +45302,7 @@
 	dir = 8
 	},
 /obj/machinery/door/poddoor/shutters{
-	id = "Sec Mech"ss";
+	id = "Sec Mech";
 	name = "Mech Bay"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
