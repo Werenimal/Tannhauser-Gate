@@ -39342,7 +39342,7 @@
 /area/station/engineering/supermatter/room)
 "gVJ" = (
 /obj/machinery/button/door{
-	id = "Sec Mech"s";
+	id = "Sec Mech";
 	name = "Mech Bay Door Control";
 	pixel_x = -25;
 	req_access = list("robotics")
