@@ -2708,7 +2708,6 @@
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "ajU" = (
-/obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
 /obj/structure/table,
 /obj/machinery/microwave{
@@ -32699,19 +32698,10 @@
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/monastery)
 "cwI" = (
-/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
-	dir = 10
-	},
 /obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 10
+	},
 /turf/open/space/basic,
 /area/space/nearstation)
 "cwM" = (
@@ -40729,9 +40719,6 @@
 "hQF" = (
 /obj/effect/turf_decal/bot_blue,
 /obj/structure/closet/secure_closet/armory_kiboko,
-/obj/structure/closet/secure_closet/armory_kiboko,
-/obj/structure/closet/secure_closet/armory_kiboko,
-/obj/structure/closet/secure_closet/armory_kiboko,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "hQG" = (
@@ -43553,7 +43540,6 @@
 /turf/open/floor/iron/white,
 /area/station/security/prison)
 "jXX" = (
-/obj/structure/cable,
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
@@ -53883,7 +53869,6 @@
 	name = "Comissary Back Room"
 	},
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/any/supply/maintenance,
 /obj/effect/mapping_helpers/airlock/access/any/supply/bit_den,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
