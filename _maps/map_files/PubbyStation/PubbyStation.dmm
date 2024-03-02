@@ -25863,7 +25863,6 @@
 "bSx" = (
 /obj/structure/closet,
 /obj/item/restraints/handcuffs/cable,
-/obj/structure/disposalpipe/segment,
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
@@ -26362,7 +26361,7 @@
 /obj/effect/turf_decal/trimline/brown/line{
 	dir = 1
 	},
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "bTL" = (
 /obj/structure/rack,
@@ -40511,7 +40510,7 @@
 "hMU" = (
 /obj/structure/table,
 /obj/machinery/microwave,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "hNd" = (
 /obj/structure/disposalpipe/segment{
@@ -42387,7 +42386,7 @@
 	pixel_x = 3;
 	pixel_y = 6
 	},
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "jha" = (
 /obj/structure/fence{
@@ -44397,6 +44396,7 @@
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 8
 	},
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/station/cargo/miningdock)
 "kHO" = (
@@ -45279,9 +45279,6 @@
 /turf/open/floor/grass,
 /area/station/hallway/secondary/exit/departure_lounge)
 "lpF" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
 /obj/machinery/door/poddoor/shutters{
 	id = "Sec Mech";
 	name = "Mech Bay"
@@ -46744,6 +46741,11 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/main)
+"mug" = (
+/obj/structure/cable,
+/obj/machinery/light/floor,
+/turf/open/floor/iron,
+/area/station/engineering/atmos)
 "muH" = (
 /obj/machinery/newscaster/directional/north,
 /obj/structure/table/glass,
@@ -47852,7 +47854,7 @@
 /obj/machinery/firealarm/directional/west,
 /obj/effect/landmark/start/bitrunner,
 /obj/machinery/light/directional/west,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "nfl" = (
 /obj/structure/sink/directional/south,
@@ -48233,7 +48235,7 @@
 /obj/effect/turf_decal/trimline/brown/corner{
 	dir = 1
 	},
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "nyB" = (
 /obj/machinery/door/firedoor,
@@ -49340,7 +49342,6 @@
 	dir = 1;
 	name = "Port to Filter"
 	},
-/obj/machinery/light/floor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
@@ -49695,7 +49696,7 @@
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "oya" = (
 /obj/machinery/camera/autoname/directional/east,
@@ -53869,7 +53870,7 @@
 /obj/effect/mapping_helpers/airlock/access/any/supply/bit_den,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "roy" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -54928,7 +54929,7 @@
 /obj/structure/chair/office{
 	dir = 1
 	},
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "rYY" = (
 /obj/machinery/door/airlock/engineering/glass{
@@ -55271,7 +55272,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "snJ" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
@@ -57282,7 +57283,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/trimline/brown/filled/warning,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "tMs" = (
 /obj/effect/turf_decal/tile/blue{
@@ -57571,7 +57572,7 @@
 	dir = 1
 	},
 /obj/machinery/computer/order_console/bitrunning,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "tWc" = (
 /obj/structure/sign/directions/science{
@@ -59948,7 +59949,7 @@
 /obj/effect/turf_decal/trimline/brown/filled/corner{
 	dir = 8
 	},
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "vxu" = (
 /obj/structure/rack,
@@ -60108,7 +60109,7 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/brown/filled/corner,
 /obj/effect/spawner/random/trash/food_packaging,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "vFX" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -62524,8 +62525,10 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "xnh" = (
-/turf/open/space/basic,
-/area/station/medical/chemistry)
+/obj/structure/table,
+/obj/effect/spawner/random/entertainment/deck,
+/turf/open/floor/wood,
+/area/station/engineering/atmos)
 "xnm" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -62768,7 +62771,7 @@
 	pixel_x = 1
 	},
 /obj/structure/window/reinforced/spawner/directional/south,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "xwd" = (
 /obj/machinery/door/firedoor,
@@ -62921,7 +62924,7 @@
 	pixel_x = 2
 	},
 /obj/structure/table,
-/turf/open/floor/carpet/neon/simple/black/nodots,
+/turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "xBe" = (
 /obj/machinery/door/window/right/directional/south{
@@ -91806,7 +91809,7 @@ bub
 byo
 bub
 dVv
-xnh
+dVv
 bpY
 fFY
 bpY
@@ -101869,7 +101872,7 @@ lqs
 eHM
 dLt
 gUu
-eHM
+mug
 eHM
 gns
 bMf
@@ -102360,7 +102363,7 @@ jaI
 bXB
 try
 uQg
-uQg
+xnh
 uQg
 eFH
 cOK
