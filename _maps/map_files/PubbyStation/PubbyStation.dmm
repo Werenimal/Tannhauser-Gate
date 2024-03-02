@@ -36327,6 +36327,10 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit/departure_lounge)
+"eSH" = (
+/obj/structure/bed/maint,
+/turf/open/space/basic,
+/area/space)
 "eSL" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -42936,6 +42940,9 @@
 	dir = 4
 	},
 /obj/effect/landmark/event_spawn,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "jBq" = (
@@ -46129,16 +46136,10 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "lXk" = (
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/obj/machinery/door/airlock/external{
-	name = "Engineering External Access"
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
+/obj/effect/spawner/structure/window/reinforced/plasma,
 /turf/open/floor/plating,
 /area/station/engineering/supermatter/room)
 "lXC" = (
@@ -47500,8 +47501,10 @@
 /turf/open/floor/vault,
 /area/station/commons/dorms/barracks)
 "mVM" = (
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
+/obj/structure/table,
+/obj/effect/spawner/random/entertainment/deck,
+/turf/open/floor/wood,
+/area/station/engineering/atmos)
 "mVO" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/machinery/light_switch{
@@ -49486,6 +49489,9 @@
 /obj/item/stack/cable_coil,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 6
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/station/engineering/main)
@@ -52222,6 +52228,14 @@
 /obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/station/engineering/atmospherics_engine)
+"qhz" = (
+/obj/machinery/door/airlock/external{
+	name = "Engineering External Access"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/space/basic,
+/area/station/engineering/main)
 "qhF" = (
 /obj/structure/cable,
 /turf/open/floor/engine/vacuum,
@@ -53507,6 +53521,7 @@
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/machinery/door/window/left/directional/south,
+/obj/effect/mapping_helpers/airlock/access/all/science/general,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance/storage)
 "rcN" = (
@@ -54457,6 +54472,7 @@
 	dir = 1
 	},
 /obj/effect/mapping_helpers/airlock/access/all/medical,
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "rGS" = (
@@ -57016,6 +57032,10 @@
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 4
 	},
+/obj/item/clothing/glasses/welding,
+/obj/item/stack/rods/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/structure/table,
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "tCD" = (
@@ -60560,14 +60580,8 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "vXt" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
-/obj/structure/table,
-/obj/item/stack/sheet/iron/fifty,
-/obj/item/stack/rods/fifty,
-/obj/item/clothing/glasses/welding,
 /obj/effect/turf_decal/trimline/yellow/filled/line,
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "vYp" = (
@@ -62519,10 +62533,11 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "xnh" = (
-/obj/structure/table,
-/obj/effect/spawner/random/entertainment/deck,
-/turf/open/floor/wood,
-/area/station/engineering/atmos)
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/station/engineering/supermatter/room)
 "xnm" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -63447,10 +63462,11 @@
 "xUU" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/junction{
-	dir = 8
-	},
 /obj/effect/mapping_helpers/mail_sorting/medbay/general,
+/obj/structure/disposalpipe/sorting/mail{
+	dir = 8;
+	sortType = 12
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "xUX" = (
@@ -91079,7 +91095,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+eSH
 aaa
 aaa
 aaa
@@ -92102,23 +92118,23 @@ tue
 tue
 tue
 tue
-mVM
-mVM
-mVM
-mVM
-mVM
-mVM
-mVM
-mVM
-mVM
-mVM
-mVM
-mVM
-mVM
-mVM
-mVM
-mVM
-mVM
+tue
+tue
+tue
+tue
+tue
+tue
+tue
+tue
+tue
+tue
+tue
+tue
+tue
+tue
+tue
+tue
+tue
 tue
 tue
 clw
@@ -93635,7 +93651,7 @@ cdQ
 cbj
 fwi
 wza
-ulY
+xnh
 uBs
 kRm
 mqH
@@ -97744,7 +97760,7 @@ bZI
 qoq
 cam
 vXt
-bXk
+qhz
 tJe
 vee
 cdm
@@ -102357,7 +102373,7 @@ jaI
 bXB
 try
 uQg
-xnh
+mVM
 uQg
 eFH
 cOK
