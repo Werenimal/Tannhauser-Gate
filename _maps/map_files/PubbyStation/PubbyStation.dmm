@@ -18502,7 +18502,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/mob/living/basic/pet/dog/corgi/borgi,
 /turf/open/floor/iron,
 /area/station/science/robotics/lab)
 "bnQ" = (
@@ -26556,12 +26555,10 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/lobby)
 "bUm" = (
-/mob/living/simple_animal/pet/poppy,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/machinery/light/floor,
 /turf/open/floor/iron,
-/area/station/engineering/lobby)
+/area/station/engineering/atmos)
 "bUo" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -55706,11 +55703,6 @@
 /obj/structure/closet/secure_closet/brig/genpop,
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
-"sGm" = (
-/obj/structure/cable,
-/obj/machinery/light/floor,
-/turf/open/floor/iron,
-/area/station/engineering/atmos)
 "sGr" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -59950,6 +59942,7 @@
 /obj/effect/turf_decal/trimline/brown/filled/corner{
 	dir = 8
 	},
+/obj/item/reagent_containers/pill/maintenance/achievement,
 /turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "vxu" = (
@@ -97481,7 +97474,7 @@ bRo
 ovX
 ovX
 ovX
-bUm
+ovX
 bVa
 bVT
 bWF
@@ -101873,7 +101866,7 @@ lqs
 eHM
 dLt
 gUu
-sGm
+bUm
 eHM
 gns
 bMf
