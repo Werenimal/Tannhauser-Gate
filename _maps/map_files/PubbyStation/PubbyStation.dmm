@@ -29507,6 +29507,14 @@
 	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
+"cgW" = (
+/obj/machinery/door/airlock/external{
+	name = "Engineering External Access"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/space/basic,
+/area/station/engineering/main)
 "cgY" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -33987,7 +33995,6 @@
 /obj/machinery/door/window/left/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "cUr" = (
@@ -38175,6 +38182,10 @@
 /obj/effect/turf_decal/trimline/brown/filled/line,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
+"ggn" = (
+/obj/structure/closet/firecloset/full,
+/turf/closed/wall/r_wall,
+/area/station/engineering/atmos)
 "ggG" = (
 /obj/machinery/suit_storage_unit/security,
 /obj/effect/turf_decal/tile/neutral{
@@ -43912,7 +43923,7 @@
 	},
 /area/station/holodeck/rec_center)
 "krz" = (
-/obj/structure/table,
+/obj/machinery/electrolyzer/co2_cracker,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "krC" = (
@@ -52228,14 +52239,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/station/engineering/atmospherics_engine)
-"qhz" = (
-/obj/machinery/door/airlock/external{
-	name = "Engineering External Access"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/space/basic,
-/area/station/engineering/main)
 "qhF" = (
 /obj/structure/cable,
 /turf/open/floor/engine/vacuum,
@@ -52315,6 +52318,10 @@
 	},
 /turf/open/floor/iron,
 /area/station/construction/mining/aux_base)
+"qkC" = (
+/obj/structure/closet/firecloset/full,
+/turf/closed/wall,
+/area/station/engineering/atmos/office)
 "qkK" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
@@ -54467,12 +54474,12 @@
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/window/reinforced/spawner/directional/east,
-/obj/machinery/door/window/left/directional/south,
+/obj/machinery/door/window/left/directional/south{
+	req_one_access = list("medical")
+	},
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/obj/effect/mapping_helpers/airlock/access/all/medical,
-/obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "rGS" = (
@@ -54839,6 +54846,10 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
+"rVr" = (
+/obj/structure/closet/firecloset/full,
+/turf/closed/wall,
+/area/station/engineering/atmos)
 "rVD" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 1
@@ -97760,7 +97771,7 @@ bZI
 qoq
 cam
 vXt
-qhz
+cgW
 tJe
 vee
 cdm
@@ -99562,7 +99573,7 @@ rdQ
 vba
 oAK
 vba
-bJN
+ggn
 phx
 vba
 gmC
@@ -100828,7 +100839,7 @@ cby
 bXr
 cby
 bJN
-hEo
+qkC
 itl
 cBT
 hEo
@@ -100837,7 +100848,7 @@ cRl
 cGA
 cRl
 bJN
-wTz
+rVr
 bSR
 bMf
 eop
@@ -101342,7 +101353,7 @@ cby
 bTN
 cby
 rfa
-bMf
+wTz
 caC
 sPb
 bMf
@@ -103933,7 +103944,7 @@ ppq
 bJN
 dat
 bJN
-bJN
+ggn
 bJN
 vba
 vba
