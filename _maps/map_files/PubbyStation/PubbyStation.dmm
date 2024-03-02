@@ -46741,11 +46741,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/main)
-"mug" = (
-/obj/structure/cable,
-/obj/machinery/light/floor,
-/turf/open/floor/iron,
-/area/station/engineering/atmos)
 "muH" = (
 /obj/machinery/newscaster/directional/north,
 /obj/structure/table/glass,
@@ -48235,6 +48230,7 @@
 /obj/effect/turf_decal/trimline/brown/corner{
 	dir = 1
 	},
+/obj/item/reagent_containers/pill/maintenance,
 /turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "nyB" = (
@@ -55710,6 +55706,11 @@
 /obj/structure/closet/secure_closet/brig/genpop,
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
+"sGm" = (
+/obj/structure/cable,
+/obj/machinery/light/floor,
+/turf/open/floor/iron,
+/area/station/engineering/atmos)
 "sGr" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -101872,7 +101873,7 @@ lqs
 eHM
 dLt
 gUu
-mug
+sGm
 eHM
 gns
 bMf
