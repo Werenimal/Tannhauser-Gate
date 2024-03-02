@@ -38068,12 +38068,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
-"gcP" = (
-/obj/effect/turf_decal/bot_blue,
-/obj/structure/closet/secure_closet/security/sec,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
-/turf/open/floor/iron/dark,
-/area/station/security/lockers)
 "gdd" = (
 /obj/machinery/camera/directional/south{
 	c_tag = "Atmospherics - Central Aft"
@@ -42616,9 +42610,9 @@
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "jpt" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
-/obj/effect/turf_decal/bot_blue,
-/obj/structure/closet/secure_closet/security/sec,
 /turf/open/floor/iron/dark,
 /area/station/security/lockers)
 "jpJ" = (
@@ -59499,7 +59493,7 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/yellow/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
+/obj/machinery/atmospherics/pipe/bridge_pipe/cyan/visible,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/engineering/atmos)
 "vmk" = (
@@ -88137,8 +88131,8 @@ aby
 aaa
 aew
 sYx
-apd
-apd
+jpt
+jpt
 pah
 pah
 ajl
@@ -88395,8 +88389,8 @@ aaa
 aew
 aiN
 ikb
-gcP
-jpt
+cnJ
+cnJ
 cnT
 cnJ
 nrx
