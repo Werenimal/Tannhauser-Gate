@@ -33849,6 +33849,14 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
+"cOl" = (
+/obj/machinery/door/airlock/external{
+	name = "Engineering External Access"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/station/engineering/main)
 "cOA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
 /obj/effect/turf_decal/tile/neutral,
@@ -38758,6 +38766,10 @@
 /obj/structure/tank_holder/oxygen,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
+"gBt" = (
+/obj/structure/closet/firecloset/full,
+/turf/closed/wall/r_wall,
+/area/station/engineering/atmos)
 "gBw" = (
 /obj/machinery/disposal/delivery_chute{
 	dir = 4
@@ -43248,10 +43260,6 @@
 	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
-"jMv" = (
-/obj/structure/closet/firecloset/full,
-/turf/closed/wall,
-/area/station/engineering/atmos)
 "jMD" = (
 /obj/structure/bodycontainer/morgue,
 /obj/structure/cable,
@@ -43996,6 +44004,13 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
+"kuH" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
 "kuP" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/disposalpipe/segment{
@@ -52091,13 +52106,6 @@
 /obj/structure/closet/secure_closet/barber,
 /turf/open/floor/wood,
 /area/station/service/barber)
-"qcm" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/machinery/light/directional/east,
-/turf/open/floor/iron,
-/area/station/hallway/primary/central)
 "qcA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/plasticflaps/opaque,
@@ -53525,7 +53533,6 @@
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/window/reinforced/spawner/directional/north,
-/obj/effect/mapping_helpers/airlock/access/all/science/general,
 /obj/machinery/door/window/right/directional/south,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance/storage)
@@ -55692,9 +55699,9 @@
 /obj/structure/lattice,
 /turf/open/space/basic,
 /area/space/nearstation)
-"sDU" = (
+"sDZ" = (
 /obj/structure/closet/firecloset/full,
-/turf/closed/wall/r_wall,
+/turf/closed/wall,
 /area/station/engineering/atmos)
 "sEk" = (
 /turf/closed/wall,
@@ -57460,10 +57467,6 @@
 	},
 /turf/open/floor/engine/co2,
 /area/station/engineering/atmos)
-"tQb" = (
-/obj/structure/closet/firecloset/full,
-/turf/closed/wall,
-/area/station/engineering/atmos/office)
 "tQj" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -57763,14 +57766,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
-"uaN" = (
-/obj/machinery/door/airlock/external{
-	name = "Engineering External Access"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/floor/plating,
-/area/station/engineering/main)
 "uaO" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -59285,7 +59280,7 @@
 	name = "Engineering External Access"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/external,
-/turf/open/space/basic,
+/turf/open/floor/plating,
 /area/station/engineering/main)
 "vek" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -61754,6 +61749,10 @@
 /obj/structure/cable,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
+"wME" = (
+/obj/structure/closet/firecloset/full,
+/turf/closed/wall,
+/area/station/engineering/atmos/office)
 "wMM" = (
 /obj/effect/spawner/structure/electrified_grille,
 /turf/open/floor/plating,
@@ -92074,7 +92073,7 @@ aYQ
 mgT
 bbe
 bdm
-qcm
+kuH
 ben
 bdo
 bdo
@@ -97533,8 +97532,8 @@ evB
 evB
 evB
 rtG
-nAC
-nAC
+aaa
+aaa
 kha
 mYa
 mYa
@@ -97781,7 +97780,7 @@ bZI
 qoq
 cam
 vXt
-uaN
+cOl
 tJe
 vee
 cdm
@@ -99583,7 +99582,7 @@ rdQ
 vba
 oAK
 vba
-sDU
+gBt
 phx
 vba
 gmC
@@ -100849,7 +100848,7 @@ cby
 bXr
 cby
 bJN
-tQb
+wME
 itl
 cBT
 hEo
@@ -100858,7 +100857,7 @@ cRl
 cGA
 cRl
 bJN
-jMv
+sDZ
 bSR
 bMf
 eop
@@ -103954,7 +103953,7 @@ ppq
 bJN
 dat
 bJN
-sDU
+gBt
 bJN
 vba
 vba
