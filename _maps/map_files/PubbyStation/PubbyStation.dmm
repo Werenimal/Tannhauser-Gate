@@ -18186,6 +18186,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "bmC" = (
@@ -29507,14 +29508,6 @@
 	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
-"cgW" = (
-/obj/machinery/door/airlock/external{
-	name = "Engineering External Access"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/space/basic,
-/area/station/engineering/main)
 "cgY" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -31105,6 +31098,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/machinery/jukebox/public,
 /turf/open/floor/iron/dark,
 /area/station/service/bar)
 "cpi" = (
@@ -35411,6 +35405,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "efu" = (
@@ -38182,10 +38177,6 @@
 /obj/effect/turf_decal/trimline/brown/filled/line,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
-"ggn" = (
-/obj/structure/closet/firecloset/full,
-/turf/closed/wall/r_wall,
-/area/station/engineering/atmos)
 "ggG" = (
 /obj/machinery/suit_storage_unit/security,
 /obj/effect/turf_decal/tile/neutral{
@@ -43257,6 +43248,10 @@
 	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
+"jMv" = (
+/obj/structure/closet/firecloset/full,
+/turf/closed/wall,
+/area/station/engineering/atmos)
 "jMD" = (
 /obj/structure/bodycontainer/morgue,
 /obj/structure/cable,
@@ -52096,6 +52091,13 @@
 /obj/structure/closet/secure_closet/barber,
 /turf/open/floor/wood,
 /area/station/service/barber)
+"qcm" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
 "qcA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/plasticflaps/opaque,
@@ -52318,10 +52320,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/construction/mining/aux_base)
-"qkC" = (
-/obj/structure/closet/firecloset/full,
-/turf/closed/wall,
-/area/station/engineering/atmos/office)
 "qkK" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
@@ -53527,8 +53525,8 @@
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/window/reinforced/spawner/directional/north,
-/obj/machinery/door/window/left/directional/south,
 /obj/effect/mapping_helpers/airlock/access/all/science/general,
+/obj/machinery/door/window/right/directional/south,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance/storage)
 "rcN" = (
@@ -54846,10 +54844,6 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
-"rVr" = (
-/obj/structure/closet/firecloset/full,
-/turf/closed/wall,
-/area/station/engineering/atmos)
 "rVD" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 1
@@ -55698,6 +55692,10 @@
 /obj/structure/lattice,
 /turf/open/space/basic,
 /area/space/nearstation)
+"sDU" = (
+/obj/structure/closet/firecloset/full,
+/turf/closed/wall/r_wall,
+/area/station/engineering/atmos)
 "sEk" = (
 /turf/closed/wall,
 /area/station/command/heads_quarters/hop)
@@ -57462,6 +57460,10 @@
 	},
 /turf/open/floor/engine/co2,
 /area/station/engineering/atmos)
+"tQb" = (
+/obj/structure/closet/firecloset/full,
+/turf/closed/wall,
+/area/station/engineering/atmos/office)
 "tQj" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -57761,6 +57763,14 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
+"uaN" = (
+/obj/machinery/door/airlock/external{
+	name = "Engineering External Access"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/station/engineering/main)
 "uaO" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -92064,7 +92074,7 @@ aYQ
 mgT
 bbe
 bdm
-bdo
+qcm
 ben
 bdo
 bdo
@@ -97771,7 +97781,7 @@ bZI
 qoq
 cam
 vXt
-cgW
+uaN
 tJe
 vee
 cdm
@@ -99573,7 +99583,7 @@ rdQ
 vba
 oAK
 vba
-ggn
+sDU
 phx
 vba
 gmC
@@ -100839,7 +100849,7 @@ cby
 bXr
 cby
 bJN
-qkC
+tQb
 itl
 cBT
 hEo
@@ -100848,7 +100858,7 @@ cRl
 cGA
 cRl
 bJN
-rVr
+jMv
 bSR
 bMf
 eop
@@ -103944,7 +103954,7 @@ ppq
 bJN
 dat
 bJN
-ggn
+sDU
 bJN
 vba
 vba
