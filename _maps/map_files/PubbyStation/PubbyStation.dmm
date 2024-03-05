@@ -2602,7 +2602,7 @@
 "ajE" = (
 /obj/structure/bed,
 /obj/structure/sign/poster/contraband/random/directional/east,
-/obj/item/bedsheet/dorms,
+/obj/effect/spawner/random/bedsheet,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "ajF" = (
@@ -2838,7 +2838,7 @@
 	pixel_x = 25;
 	specialfunctions = 4
 	},
-/obj/item/bedsheet/dorms,
+/obj/effect/spawner/random/bedsheet,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "aku" = (
@@ -13885,10 +13885,7 @@
 	location = "QM #1"
 	},
 /obj/effect/turf_decal/bot,
-/mob/living/simple_animal/bot/mulebot{
-	home_destination = "QM #1";
-	suffix = "#1"
-	},
+/mob/living/simple_animal/bot/mulebot,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "aXy" = (
@@ -14574,10 +14571,7 @@
 	location = "QM #3"
 	},
 /obj/effect/turf_decal/bot,
-/mob/living/simple_animal/bot/mulebot{
-	home_destination = "QM #2";
-	suffix = "#2"
-	},
+/mob/living/simple_animal/bot/mulebot,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "aZr" = (
@@ -16965,7 +16959,7 @@
 /turf/open/floor/iron,
 /area/station/cargo/miningdock)
 "bhv" = (
-/obj/machinery/bouldertech/brm,
+/obj/machinery/brm,
 /obj/machinery/conveyor{
 	dir = 8;
 	id = "mining"
@@ -28663,7 +28657,7 @@
 /area/station/maintenance/department/engine)
 "ccO" = (
 /obj/structure/bed,
-/obj/item/bedsheet/random,
+/obj/effect/spawner/random/bedsheet/any,
 /obj/structure/table/optable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine)
