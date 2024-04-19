@@ -3187,15 +3187,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/office)
-"alH" = (
-/obj/machinery/computer/department_orders/security{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 10
-	},
-/turf/open/floor/iron/dark,
-/area/station/security/office)
 "alI" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer4,
@@ -5214,9 +5205,6 @@
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
 	dir = 4
-	},
-/obj/structure/secure_safe/caps_spare/directional/east{
-	pixel_y = 10
 	},
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
@@ -15570,6 +15558,15 @@
 /obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/station/service/bar)
+"bcA" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/trimline/purple/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/station/science/research)
 "bcB" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -17440,21 +17437,15 @@
 "bjY" = (
 /obj/machinery/airalarm/directional/north,
 /obj/machinery/modular_computer/preset/cargochat/medical,
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 10
-	},
+/obj/effect/turf_decal/trimline/brown/filled/end,
 /turf/open/floor/iron/dark,
 /area/station/medical/paramedic)
 "bjZ" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_x = -5;
-	pixel_y = 30
+/obj/structure/table,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
 	},
-/obj/machinery/computer/department_orders/medical,
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 6
-	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/white,
 /area/station/medical/paramedic)
 "bka" = (
 /obj/structure/table,
@@ -26541,13 +26532,7 @@
 	name = "Station Intercom (Telecomms)";
 	pixel_x = -32
 	},
-/obj/machinery/computer/department_orders/engineering{
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 6
-	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron,
 /area/station/engineering/lobby)
 "bUm" = (
 /obj/structure/cable,
@@ -33559,8 +33544,8 @@
 /obj/machinery/modular_computer/preset/cargochat/security{
 	dir = 8
 	},
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 9
+/obj/effect/turf_decal/trimline/brown/filled/end{
+	dir = 8
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/office)
@@ -38518,15 +38503,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/commons/dorms)
-"gtf" = (
-/obj/machinery/computer/department_orders/science{
-	dir = 1
-	},
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 5
-	},
-/turf/open/floor/iron/dark,
-/area/station/science/research)
 "gtl" = (
 /obj/item/toy/crayon/black,
 /obj/item/toy/crayon/white{
@@ -39537,15 +39513,6 @@
 /obj/structure/displaycase/labcage,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/rd)
-"hbZ" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/turf_decal/trimline/purple/corner{
-	dir = 8
-	},
-/turf/open/floor/iron/white,
-/area/station/science/research)
 "hcJ" = (
 /obj/item/circular_saw,
 /obj/item/scalpel{
@@ -50960,8 +50927,8 @@
 /obj/machinery/modular_computer/preset/cargochat/engineering{
 	dir = 4
 	},
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 5
+/obj/effect/turf_decal/trimline/brown/filled/end{
+	dir = 4
 	},
 /obj/machinery/airalarm/directional/west,
 /obj/machinery/light/directional/west,
@@ -54144,6 +54111,12 @@
 /obj/machinery/vending/clothing,
 /turf/open/floor/iron/dark,
 /area/station/commons/dorms)
+"rxu" = (
+/obj/machinery/light/directional/south,
+/obj/structure/cable,
+/obj/structure/secure_safe/caps_spare,
+/turf/open/floor/iron/dark,
+/area/station/command/bridge)
 "rxv" = (
 /obj/structure/sign/poster/random/directional/north,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
@@ -57384,12 +57357,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/library/artgallery)
-"tOa" = (
-/obj/machinery/computer/department_orders/service{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/station/hallway/secondary/service)
 "tOf" = (
 /obj/structure/sign/poster/random/directional/north,
 /obj/machinery/conveyor_switch/oneway{
@@ -89710,7 +89677,7 @@ npH
 oYQ
 oYQ
 cCS
-alH
+anM
 ams
 pwl
 anP
@@ -93603,7 +93570,7 @@ bag
 aUb
 aWd
 aWb
-tOa
+aWd
 aRN
 aYV
 aYS
@@ -95122,7 +95089,7 @@ auR
 avZ
 axb
 ayb
-azh
+rxu
 aAB
 aBx
 aCL
@@ -105189,8 +105156,8 @@ meE
 aas
 nBL
 aaj
-vvD
-gtf
+bcA
+hiT
 gDZ
 tMG
 urP
@@ -105446,8 +105413,8 @@ aax
 aaz
 aaB
 brH
-hbZ
-hiT
+btp
+wWf
 gDZ
 fbr
 bxH
