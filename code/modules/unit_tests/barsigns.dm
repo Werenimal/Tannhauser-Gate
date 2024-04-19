@@ -2,7 +2,7 @@
  * Test if icon states for each datum actually exist in the DMI.
  */
 /datum/unit_test/barsigns_icon
-	var/list/blacklisted_sign_types = list(/datum/barsign/skyrat, /datum/barsign/skyrat/large) // SKYRAT EDIT ADDITION - Modular barsigns
+	var/list/blacklisted_sign_types = list(/datum/barsign/skyrat, /datum/barsign/skyrat/tan/, /datum/barsign/skyrat/large) // SKYRAT EDIT ADDITION - Modular barsigns
 
 /datum/unit_test/barsigns_icon/Run()
 	var/obj/machinery/barsign_type = /obj/machinery/barsign
@@ -10,6 +10,7 @@
 	var/list/barsign_icon_states = icon_states(barsign_icon)
 	barsign_icon_states += icon_states(SKYRAT_BARSIGN_FILE) // SKYRAT EDIT ADDITION - Need to check modular barsigns
 	barsign_icon_states += icon_states(SKYRAT_LARGE_BARSIGN_FILE) // SKYRAT EDIT ADDITION - Need to check modular  barsigns
+	barsign_icon_states += icon_states(TAN_BAR_SIGNS)
 
 	// Check every datum real bar sign
 	for(var/sign_type in (subtypesof(/datum/barsign) - /datum/barsign/hiddensigns))

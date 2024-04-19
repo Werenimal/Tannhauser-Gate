@@ -1,0 +1,972 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ar" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=6.2-Arrivals";
+	location = "6.1-Arrivals"
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/iron/white/corner{
+	dir = 8
+	},
+/area/station/hallway/secondary/entry)
+"bR" = (
+/obj/structure/chair/sofa/bench{
+	dir = 4
+	},
+/obj/item/radio/intercom/directional/west,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/iron/white/corner{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"dd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/public/glass{
+	name = "Docking Corridor"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/textured_half{
+	dir = 8
+	},
+/area/station/hallway/secondary/entry)
+"eh" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"gn" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"gM" = (
+/obj/structure/disposalpipe/junction{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"gO" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"jy" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"jF" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"ly" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"mK" = (
+/obj/machinery/camera/autoname/directional/east,
+/obj/machinery/newscaster/directional/east,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"mT" = (
+/obj/machinery/light/cold/directional/east,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"nw" = (
+/obj/structure/closet/firecloset,
+/obj/machinery/status_display/shuttle/directional/south{
+	shuttle_id = "arrivals_shuttle"
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"nW" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"pj" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/holopad,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"pl" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"qe" = (
+/obj/machinery/door/airlock/external{
+	name = "Primary Docking Bay"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/noslip,
+/area/station/hallway/secondary/entry)
+"rp" = (
+/obj/structure/hedge,
+/obj/machinery/status_display/ai/directional/west,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"rW" = (
+/obj/machinery/camera/autoname/directional/east,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"tC" = (
+/obj/structure/chair/sofa/bench/left{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/iron/white/corner{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"tT" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/catwalk_floor,
+/area/station/hallway/secondary/entry)
+"uF" = (
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"uR" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"va" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/holopad,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"vj" = (
+/obj/structure/hedge,
+/obj/machinery/status_display/ai/directional/east,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"ws" = (
+/obj/structure/chair/sofa/bench/right{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/machinery/newscaster/directional/west,
+/turf/open/floor/iron/white/corner{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"xC" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/sofa/bench/right{
+	dir = 4
+	},
+/obj/item/radio/intercom/directional/south,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/iron/white/corner{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"yu" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/cerulean,
+/turf/open/space/basic,
+/area/space/nearstation)
+"yL" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/machinery/disposal/bin,
+/obj/effect/turf_decal/bot,
+/obj/machinery/camera/directional/east,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"zF" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"zQ" = (
+/obj/item/kirbyplants/random,
+/obj/machinery/light/cold/directional/west,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/structure/extinguisher_cabinet/directional/west,
+/turf/open/floor/iron/white/corner{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"Ah" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"AP" = (
+/turf/closed/wall,
+/area/station/hallway/secondary/entry)
+"CG" = (
+/obj/structure/chair/sofa/bench/right{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron/white/corner{
+	dir = 4
+	},
+/area/station/hallway/secondary/entry)
+"CI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/radio/intercom/directional/east,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"Dn" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron/white/corner{
+	dir = 8
+	},
+/area/station/hallway/secondary/entry)
+"Eh" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"Fc" = (
+/obj/structure/chair/sofa/bench/left{
+	dir = 8
+	},
+/obj/item/radio/intercom/directional/south,
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron/white/corner{
+	dir = 4
+	},
+/area/station/hallway/secondary/entry)
+"FN" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"Gk" = (
+/obj/machinery/camera/autoname/directional/west,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"GG" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"Hf" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"Hk" = (
+/obj/machinery/light/cold/directional/east,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"Ib" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/public/glass{
+	name = "Docking Corridor"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/textured_half{
+	dir = 8
+	},
+/area/station/hallway/secondary/entry)
+"Jj" = (
+/obj/machinery/status_display/shuttle/directional/east{
+	shuttle_id = "arrivals_shuttle"
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"JQ" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"Ko" = (
+/obj/docking_port/stationary{
+	dwidth = 1;
+	height = 13;
+	shuttle_id = "arrivals_stationary";
+	name = "arrivals";
+	width = 7
+	},
+/turf/open/space/basic,
+/area/space)
+"KB" = (
+/obj/structure/chair/sofa/bench{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/iron/white/corner{
+	dir = 4
+	},
+/area/station/hallway/secondary/entry)
+"KO" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"Ll" = (
+/obj/machinery/light/cold/directional/north,
+/turf/open/floor/noslip,
+/area/station/hallway/secondary/entry)
+"Lm" = (
+/obj/structure/closet/emcloset,
+/obj/machinery/newscaster/directional/south,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"Lv" = (
+/turf/open/space/basic,
+/area/space)
+"LT" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"LX" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"NU" = (
+/obj/structure/closet/emcloset,
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron/white/corner{
+	dir = 4
+	},
+/area/station/hallway/secondary/entry)
+"OQ" = (
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"OX" = (
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"QG" = (
+/obj/machinery/door/airlock/external{
+	name = "Primary Docking Bay"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/noslip,
+/area/station/hallway/secondary/entry)
+"Rk" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron/white/corner{
+	dir = 8
+	},
+/area/station/hallway/secondary/entry)
+"RV" = (
+/obj/machinery/status_display/ai/directional/east,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"RZ" = (
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"SE" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"SS" = (
+/obj/machinery/light/cold/directional/west,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"UE" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/obj/machinery/camera/directional/west,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"UW" = (
+/obj/structure/chair/sofa/bench{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/iron/white/corner{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"Ve" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"VC" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"WC" = (
+/obj/machinery/status_display/shuttle/directional/west{
+	shuttle_id = "arrivals_shuttle"
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"WY" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space/nearstation)
+"XQ" = (
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+"ZW" = (
+/obj/machinery/light/cold/directional/east,
+/obj/machinery/computer/shuttle/arrivals/recall{
+	dir = 8
+	},
+/obj/effect/turf_decal/delivery/blue,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
+
+(1,1,1) = {"
+Ve
+AP
+AP
+AP
+tC
+bR
+ws
+AP
+AP
+AP
+LT
+LT
+AP
+LT
+LT
+LT
+AP
+LT
+LT
+LT
+LT
+AP
+AP
+"}
+(2,1,1) = {"
+LX
+XQ
+OX
+WC
+XQ
+XQ
+KO
+Gk
+gO
+uF
+XQ
+RZ
+WC
+XQ
+XQ
+Gk
+OX
+SS
+XQ
+pl
+XQ
+nw
+AP
+"}
+(3,1,1) = {"
+SE
+VC
+va
+VC
+VC
+VC
+VC
+VC
+VC
+zF
+VC
+VC
+VC
+VC
+VC
+VC
+eh
+VC
+gn
+gn
+XQ
+Lm
+AP
+"}
+(4,1,1) = {"
+LX
+XQ
+XQ
+ZW
+LT
+QG
+LT
+LT
+LT
+AP
+LT
+LT
+LT
+QG
+LT
+LT
+AP
+LT
+CG
+KB
+Fc
+AP
+AP
+"}
+(5,1,1) = {"
+gM
+yL
+vj
+AP
+LT
+Ll
+LT
+Lv
+Lv
+WY
+Lv
+Lv
+LT
+Ll
+LT
+Lv
+WY
+LT
+LT
+LT
+LT
+AP
+Lv
+"}
+(6,1,1) = {"
+Dn
+AP
+AP
+AP
+LT
+qe
+LT
+WY
+WY
+WY
+WY
+WY
+LT
+qe
+LT
+WY
+yu
+Lv
+Lv
+Lv
+Lv
+WY
+Lv
+"}
+(7,1,1) = {"
+Dn
+LT
+yu
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+"}
+(8,1,1) = {"
+ar
+LT
+WY
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Ko
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+"}
+(9,1,1) = {"
+Rk
+LT
+WY
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+"}
+(10,1,1) = {"
+tT
+AP
+WY
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+"}
+(11,1,1) = {"
+Dn
+LT
+WY
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+"}
+(12,1,1) = {"
+Dn
+LT
+WY
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+"}
+(13,1,1) = {"
+Dn
+LT
+yu
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+Lv
+"}
+(14,1,1) = {"
+Rk
+AP
+AP
+AP
+LT
+QG
+LT
+WY
+WY
+WY
+WY
+WY
+LT
+QG
+LT
+WY
+yu
+Lv
+Lv
+Lv
+Lv
+WY
+Lv
+"}
+(15,1,1) = {"
+Eh
+UE
+rp
+AP
+LT
+Ll
+LT
+Lv
+Lv
+WY
+Lv
+Lv
+LT
+Ll
+LT
+Lv
+WY
+LT
+LT
+LT
+LT
+AP
+Lv
+"}
+(16,1,1) = {"
+Eh
+nW
+XQ
+zQ
+LT
+qe
+LT
+LT
+LT
+AP
+LT
+LT
+LT
+qe
+LT
+LT
+AP
+LT
+tC
+UW
+xC
+AP
+AP
+"}
+(17,1,1) = {"
+GG
+VC
+pj
+uR
+uR
+jy
+VC
+VC
+VC
+zF
+VC
+VC
+VC
+VC
+VC
+VC
+Ah
+VC
+VC
+VC
+XQ
+Lm
+AP
+"}
+(18,1,1) = {"
+JQ
+ly
+XQ
+Jj
+FN
+nW
+CI
+mK
+Hf
+uF
+XQ
+mT
+RV
+XQ
+XQ
+rW
+OQ
+Hk
+XQ
+jF
+XQ
+nw
+AP
+"}
+(19,1,1) = {"
+AP
+Ib
+dd
+AP
+NU
+NU
+AP
+AP
+AP
+AP
+LT
+LT
+AP
+LT
+LT
+LT
+AP
+LT
+LT
+LT
+LT
+AP
+AP
+"}

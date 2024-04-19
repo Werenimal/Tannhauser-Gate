@@ -271,7 +271,7 @@ GLOBAL_VAR_INIT(DNR_trait_overlay, generate_DNR_trait_overlay())
 	gain_text = span_notice("Your face is awfully sensitive.")
 	lose_text = span_notice("Your face feels numb.")
 	medical_record_text = "Patient's nose seems to have a cluster of nerves in the tip, would advise against direct contact."
-	value = 0
+	value = -2 //Tannhauser Edit
 	mob_trait = TRAIT_SENSITIVESNOUT
 	icon = FA_ICON_FINGERPRINT
 

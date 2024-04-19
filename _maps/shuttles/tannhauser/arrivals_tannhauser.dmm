@@ -1,0 +1,346 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ah" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/west,
+/turf/open/floor/grass/fairy,
+/area/shuttle/arrival)
+"iJ" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/evac{
+	dir = 4;
+	icon_state = "1,13"
+	},
+/area/shuttle/arrival)
+"iK" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/ferry{
+	icon_state = "2,3"
+	},
+/area/shuttle/arrival)
+"jQ" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/ferry{
+	dir = 1;
+	icon_state = "14,5"
+	},
+/area/shuttle/arrival)
+"kp" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/window/reinforced/spawner/directional/east,
+/turf/open/floor/grass/fairy,
+/area/shuttle/arrival)
+"nd" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/ferry{
+	dir = 1;
+	icon_state = "2,2"
+	},
+/area/shuttle/arrival)
+"nt" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/ferry{
+	dir = 1;
+	icon_state = "2,6"
+	},
+/area/shuttle/arrival)
+"nT" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_blue/full,
+/turf/open/floor/iron/shuttle/evac,
+/area/shuttle/arrival)
+"pn" = (
+/obj/effect/turf_decal/delivery/blue,
+/obj/effect/spawner/random/trash/box,
+/turf/open/floor/iron/shuttle/evac,
+/area/shuttle/arrival)
+"pv" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/ferry{
+	dir = 1;
+	icon_state = "2,4"
+	},
+/area/shuttle/arrival)
+"pD" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/ferry{
+	dir = 1;
+	icon_state = "2,8"
+	},
+/area/shuttle/arrival)
+"qp" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/dark_blue/full,
+/turf/open/floor/iron/shuttle/evac,
+/area/shuttle/arrival)
+"qy" = (
+/obj/machinery/light/directional/south,
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_blue/full,
+/turf/open/floor/iron/shuttle/evac,
+/area/shuttle/arrival)
+"qC" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Cockpit"
+	},
+/obj/effect/turf_decal/tile/blue/full,
+/turf/open/floor/iron/shuttle/evac,
+/area/shuttle/arrival)
+"qV" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/ferry{
+	icon_state = "2,7"
+	},
+/area/shuttle/arrival)
+"ul" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/ferry{
+	icon_state = "3,8"
+	},
+/area/shuttle/arrival)
+"uI" = (
+/obj/docking_port/mobile/arrivals_skyrat,
+/turf/closed/wall/mineral/titanium/shuttle_wall/ferry{
+	dir = 1;
+	icon_state = "2,7"
+	},
+/area/shuttle/arrival)
+"wd" = (
+/obj/effect/turf_decal/tile/blue/full,
+/turf/open/floor/iron/shuttle/arrivals{
+	icon_state = "sign_3"
+	},
+/area/shuttle/arrival)
+"xM" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/ferry{
+	icon_state = "2,2"
+	},
+/area/shuttle/arrival)
+"yx" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/ferry{
+	dir = 1;
+	icon_state = "3,8"
+	},
+/area/shuttle/arrival)
+"zu" = (
+/turf/open/floor/glass,
+/area/shuttle/arrival)
+"GT" = (
+/obj/machinery/light/directional/north,
+/obj/structure/chair/comfy/shuttle,
+/obj/effect/turf_decal/tile/dark_blue/full,
+/turf/open/floor/iron/shuttle/evac,
+/area/shuttle/arrival)
+"Hd" = (
+/obj/machinery/light/directional/east,
+/obj/machinery/status_display/shuttle{
+	pixel_x = 32;
+	shuttle_id = "arrivals_shuttle"
+	},
+/obj/effect/turf_decal/delivery/blue,
+/obj/structure/closet/crate/bin,
+/turf/open/floor/iron/shuttle/evac,
+/area/shuttle/arrival)
+"HW" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/ferry{
+	dir = 1;
+	icon_state = "2,3"
+	},
+/area/shuttle/arrival)
+"KE" = (
+/obj/structure/chair/comfy/shuttle,
+/obj/effect/turf_decal/tile/dark_blue/full,
+/turf/open/floor/iron/shuttle/evac,
+/area/shuttle/arrival)
+"Qc" = (
+/obj/effect/turf_decal/delivery/blue,
+/turf/open/floor/iron/shuttle/evac,
+/area/shuttle/arrival)
+"Qx" = (
+/obj/structure/closet/shuttle/emergency/white,
+/turf/open/floor/grass/fairy,
+/area/shuttle/arrival)
+"QE" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/evac{
+	dir = 8;
+	icon_state = "1,13"
+	},
+/area/shuttle/arrival)
+"Rj" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/ferry{
+	icon_state = "3,2"
+	},
+/area/shuttle/arrival)
+"Ry" = (
+/obj/effect/turf_decal/tile/blue/full,
+/turf/open/floor/iron/shuttle/evac,
+/area/shuttle/arrival)
+"RD" = (
+/obj/effect/turf_decal/tile/blue/full,
+/obj/machinery/door/airlock/grunge,
+/turf/open/floor/iron/shuttle/arrivals,
+/area/shuttle/arrival)
+"SA" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/evac{
+	dir = 4;
+	icon_state = "1,12"
+	},
+/area/shuttle/arrival)
+"Tp" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/ferry{
+	icon_state = "2,8"
+	},
+/area/shuttle/arrival)
+"US" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/ferry{
+	icon_state = "2,6"
+	},
+/area/shuttle/arrival)
+"Xt" = (
+/obj/machinery/light/directional/west,
+/obj/machinery/computer/shuttle/arrivals{
+	dir = 4
+	},
+/obj/machinery/status_display/shuttle{
+	pixel_x = -32;
+	shuttle_id = "arrivals_shuttle"
+	},
+/obj/effect/turf_decal/tile/dark_blue/full,
+/turf/open/floor/iron/shuttle/evac,
+/area/shuttle/arrival)
+"Xz" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/ferry{
+	icon_state = "2,4"
+	},
+/area/shuttle/arrival)
+"YH" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/ferry{
+	dir = 1;
+	icon_state = "3,2"
+	},
+/area/shuttle/arrival)
+"YT" = (
+/obj/effect/turf_decal/bot_blue,
+/obj/effect/turf_decal/delivery/blue,
+/turf/open/floor/iron/shuttle/evac,
+/area/shuttle/arrival)
+"ZP" = (
+/turf/closed/wall/mineral/titanium/shuttle_wall/window/evac{
+	dir = 8;
+	icon_state = "1,12"
+	},
+/area/shuttle/arrival)
+
+(1,1,1) = {"
+Tp
+qV
+US
+jQ
+Xz
+iK
+xM
+"}
+(2,1,1) = {"
+ul
+qp
+qp
+Xt
+qp
+qp
+Rj
+"}
+(3,1,1) = {"
+RD
+Ry
+Ry
+Ry
+Ry
+Ry
+RD
+"}
+(4,1,1) = {"
+SA
+kp
+Qx
+qC
+Qx
+kp
+ZP
+"}
+(5,1,1) = {"
+iJ
+GT
+wd
+Ry
+wd
+qy
+QE
+"}
+(6,1,1) = {"
+SA
+KE
+zu
+Ry
+zu
+nT
+ZP
+"}
+(7,1,1) = {"
+SA
+KE
+zu
+Ry
+zu
+nT
+ZP
+"}
+(8,1,1) = {"
+SA
+KE
+zu
+Ry
+zu
+nT
+ZP
+"}
+(9,1,1) = {"
+iJ
+GT
+wd
+Ry
+wd
+qy
+QE
+"}
+(10,1,1) = {"
+SA
+ah
+Qx
+qC
+Qx
+ah
+ZP
+"}
+(11,1,1) = {"
+RD
+Ry
+Ry
+Ry
+Ry
+Ry
+RD
+"}
+(12,1,1) = {"
+YH
+pn
+YT
+Hd
+YT
+Qc
+yx
+"}
+(13,1,1) = {"
+nd
+HW
+pv
+jQ
+nt
+uI
+pD
+"}

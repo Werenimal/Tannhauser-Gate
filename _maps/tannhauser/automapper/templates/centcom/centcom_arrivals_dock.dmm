@@ -1,0 +1,203 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating/cobblestone/dungeon,
+/area/centcom/interlink)
+"b" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating/cobblestone/dungeon,
+/area/centcom/interlink)
+"e" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating/cobblestone/dungeon,
+/area/centcom/interlink)
+"f" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plating/cobblestone/dungeon,
+/area/centcom/interlink)
+"k" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 1;
+	height = 13;
+	name = "tram dock";
+	roundstart_template = /datum/map_template/shuttle/arrivals_tannhauser;
+	shuttle_id = "arrivals_shuttle";
+	width = 7
+	},
+/turf/open/floor/iron/smooth_half,
+/area/centcom/interlink)
+"p" = (
+/turf/open/floor/iron/dark/small,
+/area/centcom/interlink)
+"z" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating/cobblestone/dungeon,
+/area/centcom/interlink)
+"C" = (
+/turf/open/floor/iron/smooth_half,
+/area/centcom/interlink)
+"Q" = (
+/turf/open/floor/plating/cobblestone/dungeon,
+/area/centcom/interlink)
+
+(1,1,1) = {"
+a
+z
+z
+z
+z
+z
+z
+z
+"}
+(2,1,1) = {"
+b
+Q
+C
+Q
+C
+Q
+C
+Q
+"}
+(3,1,1) = {"
+b
+Q
+p
+Q
+p
+Q
+p
+Q
+"}
+(4,1,1) = {"
+b
+Q
+C
+Q
+C
+Q
+C
+Q
+"}
+(5,1,1) = {"
+b
+Q
+C
+Q
+C
+Q
+C
+Q
+"}
+(6,1,1) = {"
+b
+Q
+C
+Q
+C
+Q
+C
+Q
+"}
+(7,1,1) = {"
+b
+Q
+C
+Q
+C
+Q
+C
+Q
+"}
+(8,1,1) = {"
+b
+Q
+p
+Q
+p
+Q
+p
+Q
+"}
+(9,1,1) = {"
+b
+Q
+C
+Q
+C
+Q
+C
+Q
+"}
+(10,1,1) = {"
+b
+Q
+C
+Q
+C
+Q
+C
+Q
+"}
+(11,1,1) = {"
+b
+Q
+C
+Q
+C
+Q
+C
+Q
+"}
+(12,1,1) = {"
+b
+Q
+C
+Q
+C
+Q
+C
+Q
+"}
+(13,1,1) = {"
+b
+Q
+p
+Q
+p
+Q
+p
+Q
+"}
+(14,1,1) = {"
+b
+Q
+C
+Q
+C
+Q
+k
+Q
+"}
+(15,1,1) = {"
+f
+e
+e
+e
+e
+e
+e
+e
+"}

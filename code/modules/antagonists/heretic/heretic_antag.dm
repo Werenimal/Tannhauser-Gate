@@ -350,7 +350,7 @@
 	else
 		drawing_effect = new(target_turf, rune_colour)
 
-	if(!do_after(user, drawing_time, target_turf, extra_checks = additional_checks))
+	if(!do_after(user, drawing_time, target_turf, extra_checks = additional_checks, hidden = TRUE))
 		target_turf.balloon_alert(user, "interrupted!")
 		new /obj/effect/temp_visual/drawing_heretic_rune/fail(target_turf, rune_colour)
 		qdel(drawing_effect)
@@ -465,7 +465,7 @@
 /datum/antagonist/heretic/roundend_report()
 	var/list/parts = list()
 
-	//var/succeeded = TRUE // SKYRAT EDIT REMOVAL
+	var/succeeded = TRUE
 
 	parts += printplayer(owner)
 	parts += "<b>Sacrifices Made:</b> [total_sacrifices]"
@@ -473,18 +473,12 @@
 	if(length(objectives))
 		var/count = 1
 		for(var/datum/objective/objective as anything in objectives)
-			// SKYRAT EDIT START - No greentext
-			/*
 			if(!objective.check_completion())
 				succeeded = FALSE
 			parts += "<b>Objective #[count]</b>: [objective.explanation_text] [objective.get_roundend_success_suffix()]"
-			*/
 			parts += "<b>Objective #[count]</b>: [objective.explanation_text]"
-			// SKYRAT EDIT END - No greentext
 			count++
 
-	// SKYRAT EDIT START - No greentext
-	/*
 	if(ascended)
 		parts += span_greentext(span_big("THE HERETIC ASCENDED!"))
 
@@ -493,8 +487,6 @@
 			parts += span_greentext("The heretic was successful, but did not ascend!")
 		else
 			parts += span_redtext("The heretic has failed.")
-	*/
-	// SKYRAT EDIT END - No greentext
 
 	parts += "<b>Knowledge Researched:</b> "
 

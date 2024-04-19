@@ -21,20 +21,26 @@ map birdshot
 	votable
 endmap
 
+map metastation
+	#default
+	minplayers 15
+	#voteweight 0.5
+	votable
+endmap
+
 map deltastation
-	minplayers 50
+	minplayers 20
 	votable
 endmap
 
 map icebox
 	minplayers 25
+	disabled
 	votable
 endmap
 
-map metastation
-	minplayers 25
-	#voteweight 0.5
-	votable
+map tramstation
+	minplayers 10
 endmap
 
 map northstar
@@ -51,8 +57,12 @@ endmap
 
 map gateway_test
 endmap
+map runtimestation
+	disabled
+endmap
 
 map multiz_debug
+	disabled
 endmap
 
 map runtimestation
@@ -74,3 +84,22 @@ map kilostation
 	maxplayers 75
 	votable
 endmap
+
+##Tannhauser-Gate Maps##
+map manaforge
+	maxplayers 80
+	votable
+endmap
+
+map PubbyStation
+	votable
+	maxplayers 30
+	default
+	#disabled
+	#voteweight 0.5
+endmap
+
+#map alphastation
+#	votable
+#	minplayers 10
+#endmap

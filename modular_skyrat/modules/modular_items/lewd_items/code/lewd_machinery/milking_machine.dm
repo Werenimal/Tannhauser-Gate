@@ -419,7 +419,7 @@
 	return TRUE
 
 // Machine deconstruction process handler
-/obj/structure/chair/milking_machine/deconstruct(disassembled)
+/obj/structure/chair/milking_machine/atom_deconstruct(disassembled)
 	if(beaker)
 		beaker.forceMove(drop_location())
 		adjust_item_drop_location(beaker)
@@ -532,6 +532,8 @@
 /obj/structure/chair/milking_machine/ui_interact(mob/user, datum/tgui/ui)
 	ui = SStgui.try_update_ui(user, src, ui)
 
+	/*
+
 	//Block the interface if we are in the machine. Use in production
 	if(LAZYLEN(buckled_mobs))
 		if(user != src.buckled_mobs[1])
@@ -546,6 +548,13 @@
 		ui = new(user, src, "MilkingMachine", name)
 		ui.open()
 		return
+	*/
+
+	// // Tannhauser Gate behavior.
+	if(!ui)
+		ui = new(user, src, "MilkingMachine", name)
+		ui.close()
+	// ///////////////////////////////////////////////////////////
 
 // Interface data filling handler
 /obj/structure/chair/milking_machine/ui_data(mob/user)

@@ -19,6 +19,9 @@
 		#include "map_files\KiloStation\KiloStation.dmm"
 		// SKYRAT EDIT END
 
+		//Tannhauser-Gate Maps
+		#include "map_files\PubbyStation\PubbyStation.dmm"
+
 		#ifdef CIBUILDING
 			#include "templates.dm"
 		#endif

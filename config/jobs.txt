@@ -18,7 +18,7 @@ Quartermaster=1,1
 # Central Command
 
 Nanotrasen Consultant=1,1
-Blueshield=1,1
+Blueshield=1,0
 
 
 # Cargo
@@ -74,7 +74,7 @@ Science Guard=2,2
 Warden=1,1
 Detective=2,2
 Security Officer=6,6
-Corrections Officer=2,1
+Corrections Officer=0,0
 
 
 # Silicons
@@ -86,4 +86,4 @@ Cyborg=3,3
 # Misc.
 
 Assistant=-1,-1
-Prisoner=12,12
+Prisoner=0,0
