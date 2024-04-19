@@ -33,7 +33,7 @@
 	attack_verb_continuous = "squeaks"
 	attack_verb_simple = "squeak"
 	death_message = "lets out a faint squeak as the glint in its eyes disappears"
-	habitable_atmos = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
+	habitable_atmos = null
 	minimum_survivable_temperature = 0
 	pressure_resistance = 200
 
