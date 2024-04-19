@@ -1,5 +1,5 @@
 //simplemob plushie that can be controlled by players
-/mob/living/simple_animal/pet/plushie
+/mob/living/basic/pet/plushie
 	name = "Plushie"
 	desc = "A living plushie!"
 	icon = 'modular_skyrat/master_files/icons/obj/plushes.dmi'
@@ -33,14 +33,16 @@
 	attack_verb_continuous = "squeaks"
 	attack_verb_simple = "squeak"
 	death_message = "lets out a faint squeak as the glint in its eyes disappears"
-	footstep_type = FOOTSTEP_MOB_BAREFOOT
-	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
-	minbodytemp = 0
+	habitable_atmos = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
+	minimum_survivable_temperature = 0
 	pressure_resistance = 200
 
-/mob/living/simple_animal/pet/plushie/Initialize()
+/mob/living/basic/pet/plushie/Initialize()
 	AddElement(/datum/element/pet_bonus, "squeaks!")
 	. = ..()
+	AddElement(/datum/element/footstep, footstep_type = FOOTSTEP_MOB_CLAW)
+	AddElement(/datum/element/tiny_mob_hunter, MOB_SIZE_SMALL)
+	AddElement(/datum/element/ai_retaliate)
 //	AddElement(/datum/element/mob_holder, "plushie")
 
 //shell that lets people turn into the plush or poll for ghosts
@@ -60,7 +62,7 @@
 		to_chat(user, "<span class='userdanger'>You hug the strange plushie. You fool.</span>")
 
 		//setup the mob
-		var/mob/living/simple_animal/pet/plushie/new_plushie = new /mob/living/simple_animal/pet/plushie/(user.loc)
+		var/mob/living/basic/pet/plushie/new_plushie = new /mob/living/basic/pet/plushie/(user.loc)
 		new_plushie.icon = src.icon
 		new_plushie.icon_living = src.icon_state
 		new_plushie.icon_dead = src.icon_state
@@ -88,7 +90,7 @@
 		qdel(src)
 
 //low regen over time
-/mob/living/simple_animal/pet/plushie/Life(delta_time = SSMOBS_DT, times_fired) //yes i stole this from butter bear
+/mob/living/basic/pet/plushie/Life(delta_time = SSMOBS_DT, times_fired) //yes i stole this from butter bear
 	if(stat)
 		return
 	if(health < maxHealth)
