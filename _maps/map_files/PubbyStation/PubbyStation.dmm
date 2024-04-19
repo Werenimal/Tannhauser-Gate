@@ -6905,6 +6905,7 @@
 /area/station/command/bridge)
 "ayk" = (
 /obj/structure/chair/stool,
+/obj/item/piggy_bank/vault,
 /turf/open/floor/vault,
 /area/station/ai_monitored/command/nuke_storage)
 "ayz" = (
@@ -14859,15 +14860,8 @@
 /obj/item/radio/intercom{
 	pixel_x = -32
 	},
-/turf/open/floor/iron,
-/area/station/cargo/sorting)
-"baw" = (
-/obj/machinery/conveyor_switch/oneway{
-	dir = 8;
-	id = "Delivery";
-	name = "Delivery";
-	pixel_x = -11;
-	pixel_y = -3
+/obj/machinery/modular_computer/preset/cargochat/cargo{
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
@@ -55071,6 +55065,13 @@
 "seX" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
+	},
+/obj/machinery/conveyor_switch/oneway{
+	dir = 8;
+	id = "Delivery";
+	name = "Delivery";
+	pixel_x = -11;
+	pixel_y = -3
 	},
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
@@ -101283,7 +101284,7 @@ usS
 tOf
 aYr
 xNk
-baw
+sJN
 bbA
 usS
 aFi
