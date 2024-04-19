@@ -22223,7 +22223,7 @@
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "bBU" = (
-/mob/living/simple_animal/slime,
+/mob/living/basic/slime,
 /obj/effect/turf_decal/vg_decals/numbers/one,
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
@@ -57521,7 +57521,7 @@
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/rd)
 "tSa" = (
-/mob/living/simple_animal/slime,
+/mob/living/basic/slime,
 /obj/effect/turf_decal/vg_decals/numbers/two{
 	dir = 1
 	},
@@ -60247,7 +60247,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
 "vMv" = (
-/mob/living/simple_animal/slime,
+/mob/living/basic/slime,
 /obj/effect/turf_decal/vg_decals/numbers/eight{
 	dir = 1
 	},
