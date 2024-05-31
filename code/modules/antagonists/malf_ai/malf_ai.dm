@@ -250,7 +250,7 @@
 /datum/antagonist/malf_ai/roundend_report()
 	var/list/result = list()
 
-	var/malf_ai_won = TRUE
+	//var/malf_ai_won = TRUE // SKYRAT EDIT REMOVAL
 
 	result += printplayer(owner)
 
@@ -258,10 +258,14 @@
 	if(objectives.len) //If the traitor had no objectives, don't need to process this.
 		var/count = 1
 		for(var/datum/objective/objective in objectives)
+			// SKYRAT EDIT START - No greentext
+			/*
 			if(!objective.check_completion())
 				malf_ai_won = FALSE
 			objectives_text += "<br><B>Objective #[count]</B>: [objective.explanation_text] [objective.get_roundend_success_suffix()]"
+			*/
 			objectives_text += "<br><B>Objective #[count]</B>: [objective.explanation_text]"
+			// SKYRAT EDIT END - No greentext
 			count++
 
 	result += objectives_text
@@ -275,6 +279,7 @@
 	else
 		result += span_redtext("The [special_role_text] has failed!")
 		SEND_SOUND(owner.current, 'sound/ambience/ambifailure.ogg')
+	*/
 
 	return result.Join("<br>")
 

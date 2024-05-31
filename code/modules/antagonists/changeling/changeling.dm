@@ -102,7 +102,7 @@
 	var/list/stolen_memories = list()
 
 	var/true_form_death //SKYRAT EDIT ADDITION: The time that the horror form died.
-	
+
 	// SKYRAT EDIT START
 	var/datum/changeling_profile/current_profile = null
 	var/list/mimicable_quirks_list = list(
@@ -826,13 +826,13 @@
 	user.selected_laugh = new chosen_profile.laugh_type
 
 	// Only certain quirks will be copied, to avoid making the changeling blind or wheelchair-bound when they can simply pretend to have these quirks.
-	
+
 	for(var/datum/quirk/target_quirk in user.quirks)
 		for(var/mimicable_quirk in mimicable_quirks_list)
 			if(target_quirk.name == mimicable_quirk)
 				user.remove_quirk(target_quirk.type)
 				break
-	
+
 	for(var/datum/quirk/target_quirk in chosen_profile.quirks)
 		for(var/mimicable_quirk in mimicable_quirks_list)
 			if(target_quirk.name == mimicable_quirk)
@@ -919,7 +919,7 @@
 		new_flesh_item.inhand_icon_state = chosen_profile.inhand_icon_state_list[slot]
 		new_flesh_item.worn_icon = chosen_profile.worn_icon_list[slot]
 		new_flesh_item.worn_icon_state = chosen_profile.worn_icon_state_list[slot]
-		
+
 		// SKYRAT EDIT START
 		new_flesh_item.worn_icon_digi = chosen_profile.worn_icon_digi_list[slot]
 		new_flesh_item.worn_icon_monkey = chosen_profile.worn_icon_monkey_list[slot]
@@ -1071,9 +1071,13 @@
 /datum/antagonist/changeling/roundend_report()
 	var/list/parts = list()
 
+	// SKYRAT EDIT REMOVAL START
+	/*
 	var/changeling_win = TRUE
 	if(!owner.current)
 		changeling_win = FALSE
+	*/
+	// SKYRAT EDIT REMOVAL END
 
 	parts += printplayer(owner)
 	parts += "<b>Genomes Extracted:</b> [absorbed_count]<br>"
@@ -1081,16 +1085,24 @@
 	if(objectives.len)
 		var/count = 1
 		for(var/datum/objective/objective in objectives)
+			// SKYRAT EDIT START - No greentext
+			/*
 			if(!objective.check_completion())
 				changeling_win = FALSE
 			parts += "<b>Objective #[count]</b>: [objective.explanation_text] [objective.get_roundend_success_suffix()]"
+			*/
 			parts += "<b>Objective #[count]</b>: [objective.explanation_text]"
+			// SKYRAT EDIT END - No greentext
 			count++
 
+	// SKYRAT EDIT REMOVAL START - No greentext
+	/*
 	if(changeling_win)
 		parts += span_greentext("The changeling was successful!")
 	else
 		parts += span_redtext("The changeling has failed.")
+	*/
+	// SKYRAT EDIT REMOVAL END - No greentext
 
 	return parts.Join("<br>")
 
