@@ -3,11 +3,10 @@
 /turf/open/space/basic,
 /area/space)
 "aac" = (
-/obj/machinery/power/smes{
-	charge = 5e+006;
+/obj/structure/cable,
+/obj/machinery/power/smes/super/full{
 	name = "ai power storage unit"
 	},
-/obj/structure/cable,
 /turf/open/floor/circuit/green,
 /area/station/ai_monitored/turret_protected/ai)
 "aak" = (
@@ -15734,7 +15733,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
-/obj/effect/landmark/start/virologist,
 /obj/effect/turf_decal/tile/green,
 /obj/effect/turf_decal/tile/green/anticorner/contrasted,
 /turf/open/floor/iron/showroomfloor,
@@ -54015,12 +54013,11 @@
 /obj/item/radio/intercom/directional/north,
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/smes{
-	charge = 5e+006;
-	name = "ai power storage unit"
-	},
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
+/obj/machinery/power/smes/super/full{
+	name = "ai power storage unit"
+	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/storage/satellite)
 "rLR" = (
@@ -69630,7 +69627,6 @@
 "wEw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/landmark/start/virologist,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},

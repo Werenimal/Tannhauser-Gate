@@ -42546,7 +42546,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "viro-passthrough"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/medical/virology,
+/obj/effect/mapping_helpers/airlock/access/any/medical/general,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "jor" = (
@@ -42575,7 +42575,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "viro-passthrough"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/medical/virology,
+/obj/effect/mapping_helpers/airlock/access/any/medical/general,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "jpt" = (
@@ -49029,7 +49029,6 @@
 /turf/open/floor/engine,
 /area/station/engineering/supermatter)
 "oat" = (
-/obj/effect/landmark/start/virologist,
 /obj/structure/chair/office/light{
 	dir = 1
 	},

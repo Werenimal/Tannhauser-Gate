@@ -102,7 +102,7 @@
 	var/list/stolen_memories = list()
 
 	var/true_form_death //SKYRAT EDIT ADDITION: The time that the horror form died.
-	
+
 	// SKYRAT EDIT START
 	var/datum/changeling_profile/current_profile = null
 	var/list/mimicable_quirks_list = list(
@@ -546,14 +546,20 @@
 	new_profile.name = target.real_name
 	new_profile.protected = protect
 
+	new_profile.age = target.age
+	new_profile.physique = target.physique
+	new_profile.athletics_level = target.mind?.get_skill_level(/datum/skill/athletics) || SKILL_LEVEL_NONE
+
+	// Grab the target's quirks.
+	for(var/datum/quirk/target_quirk as anything in target.quirks)
+		LAZYADD(new_profile.quirks, new target_quirk.type)
+
 	// Clothes, of course
 	new_profile.underwear = target.underwear
 	new_profile.undershirt = target.undershirt
 	new_profile.socks = target.socks
-	
-	// SKYRAT EDIT START
+	// SKYRAT EDIT ADDITION START
 	new_profile.bra = target.bra
-
 	new_profile.underwear_color = target.underwear_color
 	new_profile.undershirt_color = target.undershirt_color
 	new_profile.socks_color = target.socks_color
@@ -561,16 +567,14 @@
 	new_profile.eye_color_left = target.eye_color_left
 	new_profile.eye_color_right = target.eye_color_right
 	new_profile.emissive_eyes = target.emissive_eyes
-	new_profile.grad_style = LAZYLISTDUPLICATE(target.grad_style)
-	new_profile.grad_color = LAZYLISTDUPLICATE(target.grad_color)
-	new_profile.physique = target.physique
 	new_profile.scream_type = target.selected_scream?.type || /datum/scream_type/none
 	new_profile.laugh_type = target.selected_laugh?.type || /datum/laugh_type/none
-	new_profile.age = target.age
-	for(var/datum/quirk/target_quirk in target.quirks)
-		LAZYADD(new_profile.quirks, new target_quirk.type)
-	//SKYRAT EDIT END
-	
+	//SKYRAT EDIT ADDITION END
+
+	// Hair and facial hair gradients, alongside their colours.
+	new_profile.grad_style = LAZYLISTDUPLICATE(target.grad_style)
+	new_profile.grad_color = LAZYLISTDUPLICATE(target.grad_color)
+
 	// Grab skillchips they have
 	new_profile.skillchips = target.clone_skillchip_list(TRUE)
 
@@ -605,14 +609,14 @@
 		new_profile.worn_icon_list[slot] = clothing_item.worn_icon
 		new_profile.worn_icon_state_list[slot] = clothing_item.worn_icon_state
 		new_profile.exists_list[slot] = 1
-		
-		// SKYRAT EDIT START
+		// SKYRAT EDIT ADDITION START
 		new_profile.worn_icon_digi_list[slot] = clothing_item.worn_icon_digi
 		new_profile.worn_icon_monkey_list[slot] = clothing_item.worn_icon_monkey
 		new_profile.worn_icon_teshari_list[slot] = clothing_item.worn_icon_teshari
 		new_profile.worn_icon_vox_list[slot] = clothing_item.worn_icon_vox
 		new_profile.supports_variations_flags_list[slot] = clothing_item.supports_variations_flags
-		// SKYRAT EDIT END
+		// SKYRAT EDIT ADDITION END
+
 	new_profile.voice = target.voice
 	new_profile.voice_filter = target.voice_filter
 
@@ -800,8 +804,12 @@
 	user.underwear = chosen_profile.underwear
 	user.undershirt = chosen_profile.undershirt
 	user.socks = chosen_profile.socks
-	
-	// SKYRAT EDIT START
+	user.age = chosen_profile.age
+	user.physique = chosen_profile.physique
+	user.mind?.set_level(/datum/skill/athletics, chosen_profile.athletics_level, silent = TRUE)
+	user.grad_style = LAZYLISTDUPLICATE(chosen_profile.grad_style)
+	user.grad_color = LAZYLISTDUPLICATE(chosen_profile.grad_color)
+	// SKYRAT EDIT ADDITION START
 	user.bra = chosen_profile.bra
 
 	user.underwear_color = chosen_profile.underwear_color
@@ -811,31 +819,26 @@
 	user.emissive_eyes = chosen_profile.emissive_eyes
 	user.dna.mutant_bodyparts = chosen_dna.mutant_bodyparts.Copy()
 	user.dna.body_markings = chosen_dna.body_markings.Copy()
-	user.grad_style = LAZYLISTDUPLICATE(chosen_profile.grad_style)
-	user.grad_color = LAZYLISTDUPLICATE(chosen_profile.grad_color)
 
-	user.physique = chosen_profile.physique
 	qdel(user.selected_scream)
 	qdel(user.selected_laugh)
 	user.selected_scream = new chosen_profile.scream_type
 	user.selected_laugh = new chosen_profile.laugh_type
-	user.age = chosen_profile.age
-	
+
 	// Only certain quirks will be copied, to avoid making the changeling blind or wheelchair-bound when they can simply pretend to have these quirks.
-	
+
 	for(var/datum/quirk/target_quirk in user.quirks)
 		for(var/mimicable_quirk in mimicable_quirks_list)
 			if(target_quirk.name == mimicable_quirk)
 				user.remove_quirk(target_quirk.type)
 				break
-	
+
 	for(var/datum/quirk/target_quirk in chosen_profile.quirks)
 		for(var/mimicable_quirk in mimicable_quirks_list)
 			if(target_quirk.name == mimicable_quirk)
 				user.add_quirk(target_quirk.type)
 				break
-	
-	// SKYRAT EDIT END
+	// SKYRAT EDIT ADDITION END
 	user.voice = chosen_profile.voice
 	user.voice_filter = chosen_profile.voice_filter
 
@@ -916,7 +919,7 @@
 		new_flesh_item.inhand_icon_state = chosen_profile.inhand_icon_state_list[slot]
 		new_flesh_item.worn_icon = chosen_profile.worn_icon_list[slot]
 		new_flesh_item.worn_icon_state = chosen_profile.worn_icon_state_list[slot]
-		
+
 		// SKYRAT EDIT START
 		new_flesh_item.worn_icon_digi = chosen_profile.worn_icon_digi_list[slot]
 		new_flesh_item.worn_icon_monkey = chosen_profile.worn_icon_monkey_list[slot]
@@ -990,7 +993,18 @@
 	var/datum/icon_snapshot/profile_snapshot
 	/// ID HUD icon associated with the profile
 	var/id_icon
-
+	/// The age of the profile source.
+	var/age
+	/// The body type of the profile source.
+	var/physique
+	/// The athleticism of the profile source.
+	var/athletics_level
+	/// The quirks of the profile source.
+	var/list/quirks = list()
+	/// The hair and facial hair gradient styles of the profile source.
+	var/list/grad_style = list("None", "None")
+	/// The hair and facial hair gradient colours of the profile source.
+	var/list/grad_color = list(null, null)
 	/// The TTS voice of the profile source
 	var/voice
 	/// The TTS filter of the profile filter
@@ -1027,8 +1041,15 @@
 	new_profile.stored_scars = stored_scars.Copy()
 	new_profile.profile_snapshot = profile_snapshot
 	new_profile.id_icon = id_icon
-	
-	// SKYRAT EDIT START
+	new_profile.age = age
+	new_profile.physique = physique
+	new_profile.athletics_level = athletics_level
+	new_profile.quirks = quirks.Copy()
+	new_profile.grad_style = LAZYLISTDUPLICATE(grad_style)
+	new_profile.grad_color = LAZYLISTDUPLICATE(grad_color)
+	new_profile.voice = voice
+	new_profile.voice_filter = voice_filter
+	// SKYRAT EDIT ADDITION START
 	new_profile.underwear_color = underwear_color
 	new_profile.undershirt_color = undershirt_color
 	new_profile.socks_color = socks_color
@@ -1037,10 +1058,7 @@
 	new_profile.eye_color_left = eye_color_left
 	new_profile.eye_color_right = eye_color_right
 	new_profile.emissive_eyes = emissive_eyes
-	new_profile.grad_style = LAZYLISTDUPLICATE(grad_style)
-	new_profile.grad_color = LAZYLISTDUPLICATE(grad_color)
 
-	new_profile.physique = physique
 	new_profile.worn_icon_digi_list = worn_icon_digi_list.Copy()
 	new_profile.worn_icon_monkey_list = worn_icon_monkey_list.Copy()
 	new_profile.worn_icon_teshari_list = worn_icon_teshari_list.Copy()
@@ -1048,19 +1066,18 @@
 	new_profile.supports_variations_flags_list = supports_variations_flags_list.Copy()
 	new_profile.scream_type = scream_type
 	new_profile.laugh_type = laugh_type
-	new_profile.age = age
-	new_profile.quirks = quirks.Copy()
-	// SKYRAT EDIT END
-
-	new_profile.voice = voice
-	new_profile.voice_filter = voice_filter
+	// SKYRAT EDIT ADDITION END
 
 /datum/antagonist/changeling/roundend_report()
 	var/list/parts = list()
 
+	// SKYRAT EDIT REMOVAL START
+	/*
 	var/changeling_win = TRUE
 	if(!owner.current)
 		changeling_win = FALSE
+	*/
+	// SKYRAT EDIT REMOVAL END
 
 	parts += printplayer(owner)
 	parts += "<b>Genomes Extracted:</b> [absorbed_count]<br>"
@@ -1068,16 +1085,24 @@
 	if(objectives.len)
 		var/count = 1
 		for(var/datum/objective/objective in objectives)
+			// SKYRAT EDIT START - No greentext
+			/*
 			if(!objective.check_completion())
 				changeling_win = FALSE
 			parts += "<b>Objective #[count]</b>: [objective.explanation_text] [objective.get_roundend_success_suffix()]"
+			*/
 			parts += "<b>Objective #[count]</b>: [objective.explanation_text]"
+			// SKYRAT EDIT END - No greentext
 			count++
 
+	// SKYRAT EDIT REMOVAL START - No greentext
+	/*
 	if(changeling_win)
 		parts += span_greentext("The changeling was successful!")
 	else
 		parts += span_redtext("The changeling has failed.")
+	*/
+	// SKYRAT EDIT REMOVAL END - No greentext
 
 	return parts.Join("<br>")
 
