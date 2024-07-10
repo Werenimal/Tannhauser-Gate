@@ -1424,7 +1424,7 @@
 "afB" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
-/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
 /obj/machinery/light/small/directional/east,
 /obj/item/stack/cable_coil,
 /turf/open/floor/plating,
@@ -7261,7 +7261,7 @@
 "aAa" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
-/obj/item/stock_parts/cell/potato{
+/obj/item/stock_parts/power_store/cell/potato{
 	name = "\improper Beepsky's emergency battery"
 	},
 /obj/item/paper/fluff/jobs/security/beepsky_mom,
@@ -7352,7 +7352,7 @@
 	pixel_x = -4;
 	pixel_y = 2
 	},
-/obj/item/clothing/mask/cigarette/cigar,
+/obj/item/cigarette/cigar,
 /obj/item/reagent_containers/cup/glass/flask/gold,
 /turf/open/floor/iron/grimy,
 /area/station/command/heads_quarters/captain/private)
@@ -7971,7 +7971,7 @@
 "aCu" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
-/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
 /obj/item/radio/intercom{
 	pixel_y = 26
 	},
@@ -10984,11 +10984,11 @@
 "aNr" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
-/obj/item/stock_parts/cell/high{
+/obj/item/stock_parts/power_store/cell/high{
 	charge = 100;
 	maxcharge = 15000
 	},
-/obj/item/stock_parts/cell/high{
+/obj/item/stock_parts/power_store/cell/high{
 	charge = 100;
 	maxcharge = 15000
 	},
@@ -16632,7 +16632,7 @@
 "bgx" = (
 /obj/machinery/firealarm/directional/north,
 /obj/structure/chair,
-/obj/item/clothing/mask/cigarette,
+/obj/item/cigarette,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
@@ -17856,7 +17856,7 @@
 /area/station/hallway/primary/aft)
 "blw" = (
 /obj/structure/table,
-/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
 /obj/machinery/cell_charger_multi,
 /obj/effect/turf_decal/tile/green/half{
 	dir = 1
@@ -18735,7 +18735,7 @@
 "boZ" = (
 /obj/structure/table,
 /obj/machinery/cell_charger_multi,
-/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
 /obj/machinery/light/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
@@ -19605,8 +19605,8 @@
 	pixel_x = -8;
 	pixel_y = 4
 	},
-/obj/item/stock_parts/cell/high,
-/obj/item/stock_parts/cell/high{
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high{
 	pixel_x = 5;
 	pixel_y = -5
 	},
@@ -20387,7 +20387,7 @@
 /obj/structure/chair{
 	dir = 8
 	},
-/obj/item/clothing/mask/cigarette,
+/obj/item/cigarette,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/green/half{
@@ -24603,8 +24603,8 @@
 "bNZ" = (
 /obj/structure/table,
 /obj/machinery/cell_charger_multi,
-/obj/item/stock_parts/cell/high,
-/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 10
 	},
@@ -25192,7 +25192,7 @@
 /obj/machinery/cell_charger{
 	pixel_y = 5
 	},
-/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
 /obj/machinery/firealarm/directional/north,
 /obj/effect/turf_decal/tile/green{
 	dir = 1
@@ -27255,11 +27255,11 @@
 /obj/item/stack/cable_coil,
 /obj/machinery/light/directional/east,
 /obj/structure/cable,
-/obj/item/stock_parts/cell/emproof{
+/obj/item/stock_parts/power_store/cell/emproof{
 	pixel_x = -4;
 	pixel_y = -2
 	},
-/obj/item/stock_parts/cell/emproof{
+/obj/item/stock_parts/power_store/cell/emproof{
 	pixel_x = 4;
 	pixel_y = 6
 	},
@@ -28190,8 +28190,8 @@
 /obj/item/electronics/airlock,
 /obj/item/electronics/airlock,
 /obj/item/electronics/apc,
-/obj/item/stock_parts/cell/high,
-/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "caA" = (
@@ -28651,7 +28651,7 @@
 /obj/item/stack/sheet/glass/fifty,
 /obj/item/electronics/airlock,
 /obj/item/electronics/airlock,
-/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
 /obj/item/stack/sheet/mineral/plasma{
 	amount = 30
 	},
@@ -34588,8 +34588,8 @@
 "duF" = (
 /obj/structure/table/reinforced,
 /obj/machinery/cell_charger_multi,
-/obj/item/stock_parts/cell/high,
-/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
 /turf/open/floor/iron,
 /area/station/engineering/lobby)
 "duJ" = (
@@ -38953,7 +38953,7 @@
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
 /obj/structure/table/reinforced,
-/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
 /obj/machinery/door/window/right/directional/south{
 	name = "Engineering Desk";
 	req_one_access = list("engineering")
@@ -41010,7 +41010,7 @@
 "icp" = (
 /obj/structure/table/reinforced,
 /obj/machinery/cell_charger,
-/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
@@ -43153,7 +43153,7 @@
 /obj/item/clipboard,
 /obj/item/lighter,
 /obj/item/stamp/head/ce,
-/obj/item/stock_parts/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
 /obj/machinery/keycard_auth{
 	pixel_x = 26;
 	pixel_y = 26
@@ -50228,7 +50228,7 @@
 	pixel_x = 3;
 	pixel_y = -9
 	},
-/obj/item/stock_parts/cell/crap{
+/obj/item/stock_parts/power_store/cell/crap{
 	pixel_x = -8;
 	pixel_y = -5
 	},
@@ -52178,7 +52178,7 @@
 /turf/open/floor/grass,
 /area/station/medical/psychology)
 "qhh" = (
-/obj/item/stock_parts/cell/crank,
+/obj/item/stock_parts/power_store/cell/crank,
 /obj/effect/decal/cleanable/blood/old,
 /obj/item/stack/cable_coil/cut{
 	pixel_x = -5;
@@ -56322,7 +56322,7 @@
 /turf/open/floor/catwalk_floor/iron,
 /area/station/engineering/main)
 "tde" = (
-/obj/item/clothing/mask/cigarette,
+/obj/item/cigarette,
 /obj/item/cigbutt{
 	pixel_y = 6
 	},
