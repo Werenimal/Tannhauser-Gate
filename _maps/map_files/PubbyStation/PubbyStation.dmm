@@ -4037,13 +4037,7 @@
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/computer/security/telescreen{
-	desc = "Used for watching Prison Wing holding areas.";
-	dir = 8;
-	name = "Prison Monitor";
-	network = list("prison");
-	pixel_x = 30
-	},
+/obj/machinery/computer/security/telescreen/prison/directional/east,
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
 	dir = 4
 	},
@@ -4592,10 +4586,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/brig)
 "aqA" = (
-/obj/machinery/computer/security/telescreen/interrogation{
-	dir = 8;
-	pixel_x = 30
-	},
+/obj/machinery/computer/security/telescreen/interrogation/directional/east,
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
 	dir = 5
 	},
@@ -7717,9 +7708,7 @@
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hop)
 "aBA" = (
-/obj/machinery/computer/security/telescreen/vault{
-	pixel_y = 30
-	},
+/obj/machinery/computer/security/telescreen/vault/directional/north,
 /obj/machinery/computer/security/mining,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hop)
@@ -7730,12 +7719,7 @@
 /area/station/command/heads_quarters/hop)
 "aBC" = (
 /obj/structure/closet/secure_closet/hop,
-/obj/machinery/computer/security/telescreen{
-	desc = "Used for watching the monastery.";
-	name = "Monastery Monitor";
-	network = list("monastery");
-	pixel_y = 32
-	},
+/obj/machinery/computer/security/telescreen/normal/directional/north,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hop)
 "aBD" = (
@@ -12134,10 +12118,7 @@
 /obj/item/assault_pod/mining,
 /obj/machinery/camera/autoname/directional/east,
 /obj/machinery/light/directional/east,
-/obj/machinery/computer/security/telescreen/auxbase{
-	dir = 8;
-	pixel_x = 30
-	},
+/obj/machinery/computer/security/telescreen/auxbase/directional/east,
 /turf/open/floor/iron,
 /area/station/construction/mining/aux_base)
 "aRH" = (
@@ -13111,9 +13092,7 @@
 /area/station/service/theater/abandoned)
 "aVm" = (
 /obj/machinery/vending/autodrobe,
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = 32
-	},
+/obj/machinery/computer/security/telescreen/entertainment/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/service/theater/abandoned)
 "aVn" = (
@@ -14341,9 +14320,7 @@
 	id = "kitchenshutters";
 	name = "Kitchen Shutters"
 	},
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = 32
-	},
+/obj/machinery/computer/security/telescreen/entertainment/directional/north,
 /obj/item/reagent_containers/condiment/saltshaker{
 	pixel_x = -2;
 	pixel_y = 2
@@ -15589,7 +15566,6 @@
 	},
 /obj/machinery/status_display/supply{
 	dir = 4;
-	layer = 4;
 	pixel_x = 33
 	},
 /turf/open/floor/iron,
@@ -16243,9 +16219,7 @@
 /area/station/service/hydroponics)
 "bfl" = (
 /obj/structure/reagent_dispensers/watertank/high,
-/obj/structure/window/reinforced/spawner/directional/east{
-	layer = 2.9
-	},
+/obj/structure/window/reinforced/spawner/directional/east,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -18659,7 +18633,6 @@
 "boR" = (
 /obj/structure/table,
 /obj/item/paper_bin{
-	layer = 2.9;
 	pixel_x = -2;
 	pixel_y = 4
 	},
@@ -19169,9 +19142,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
-/obj/item/paper_bin{
-	layer = 2.9
-	},
+/obj/item/paper_bin,
 /obj/item/folder/blue,
 /obj/item/pen,
 /turf/open/floor/iron/white,
@@ -20271,13 +20242,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
-/obj/machinery/computer/security/telescreen{
-	desc = "Used for monitoring medbay to ensure patient safety.";
-	dir = 1;
-	name = "Medbay Monitor";
-	network = list("medbay");
-	pixel_y = -30
-	},
+/obj/machinery/computer/security/telescreen/normal/directional/south,
 /obj/effect/landmark/start/orderly,
 /turf/open/floor/iron,
 /area/station/security/checkpoint/medical)
@@ -20858,9 +20823,7 @@
 	name = "medical bed"
 	},
 /obj/item/bedsheet/medical,
-/obj/structure/curtain{
-	layer = 4.5
-	},
+/obj/structure/curtain,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "bwO" = (
@@ -21269,10 +21232,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/obj/machinery/computer/security/telescreen/cmo{
-	dir = 4;
-	pixel_x = -24
-	},
+/obj/machinery/computer/security/telescreen/cmo/directional/west,
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
 /turf/open/floor/iron/white,
@@ -21633,13 +21593,7 @@
 /area/station/hallway/secondary/entry)
 "bzB" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/machinery/computer/security/telescreen{
-	desc = "Used for watching the monastery.";
-	dir = 8;
-	name = "Monastery Monitor";
-	network = list("monastery");
-	pixel_x = 28
-	},
+/obj/machinery/computer/security/telescreen/normal/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
 "bzC" = (
@@ -22284,9 +22238,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "bCr" = (
-/obj/machinery/chem_dispenser{
-	layer = 2.7
-	},
+/obj/machinery/chem_dispenser,
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "bCt" = (
@@ -22364,9 +22316,7 @@
 /area/station/hallway/primary/aft)
 "bCO" = (
 /obj/structure/table/reinforced,
-/obj/item/pen{
-	layer = 3.1
-	},
+/obj/item/pen,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/window/right/directional/east{
 	name = "Research and Development Desk";
@@ -22844,9 +22794,7 @@
 "bFq" = (
 /obj/structure/table,
 /obj/item/paper_bin,
-/obj/item/pen{
-	layer = 3.1
-	},
+/obj/item/pen,
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
@@ -23410,12 +23358,6 @@
 	},
 /turf/open/floor/engine,
 /area/station/science/research)
-"bIT" = (
-/obj/structure/window/reinforced/spawner/directional/east{
-	layer = 2.9
-	},
-/turf/open/space/basic,
-/area/space/nearstation)
 "bIU" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/closed/wall,
@@ -23638,9 +23580,7 @@
 /turf/open/floor/iron,
 /area/station/science/auxlab)
 "bJZ" = (
-/obj/structure/window/reinforced/spawner/directional/east{
-	layer = 2.9
-	},
+/obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/lattice,
 /turf/open/space/basic,
 /area/space/nearstation)
@@ -23815,9 +23755,7 @@
 /area/station/hallway/primary/aft)
 "bKK" = (
 /obj/structure/table/reinforced,
-/obj/item/pen{
-	layer = 3.1
-	},
+/obj/item/pen,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/window/right/directional/east{
 	name = "Research and Development Desk";
@@ -24158,9 +24096,7 @@
 /area/station/science/ordnance)
 "bMr" = (
 /obj/structure/window/reinforced/spawner/directional/south,
-/obj/structure/window/reinforced/spawner/directional/east{
-	layer = 2.9
-	},
+/obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/space/basic,
 /area/space/nearstation)
 "bMu" = (
@@ -26283,15 +26219,11 @@
 	pixel_x = 3
 	},
 /obj/item/clothing/mask/gas{
-	layer = 4;
 	pixel_x = 3;
 	pixel_y = 3
 	},
+/obj/item/clothing/mask/gas,
 /obj/item/clothing/mask/gas{
-	layer = 4
-	},
-/obj/item/clothing/mask/gas{
-	layer = 4;
 	pixel_x = -3;
 	pixel_y = -3
 	},
@@ -26584,9 +26516,7 @@
 "bUJ" = (
 /obj/structure/filingcabinet/chestdrawer,
 /obj/machinery/light/directional/north,
-/obj/machinery/computer/security/telescreen/ce{
-	pixel_y = 30
-	},
+/obj/machinery/computer/security/telescreen/ce/directional/north,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 1
 	},
@@ -26659,9 +26589,7 @@
 	},
 /obj/effect/mapping_helpers/requests_console/information,
 /obj/effect/mapping_helpers/requests_console/assistance,
-/obj/item/paper_bin{
-	layer = 2.9
-	},
+/obj/item/paper_bin,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
@@ -27134,15 +27062,9 @@
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/stack/sheet/glass/fifty{
-	layer = 4
-	},
-/obj/item/stack/sheet/glass/fifty{
-	layer = 4
-	},
-/obj/item/stack/sheet/glass/fifty{
-	layer = 4
-	},
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
 /obj/item/storage/box/lights/mixed{
 	pixel_x = 6;
 	pixel_y = 8
@@ -27205,13 +27127,7 @@
 /area/station/engineering/engine_smes)
 "bWA" = (
 /obj/structure/filingcabinet,
-/obj/machinery/computer/security/telescreen{
-	desc = "Used for watching the engine containment area.";
-	dir = 4;
-	name = "Engine Monitor";
-	network = list("engine");
-	pixel_x = -32
-	},
+/obj/machinery/computer/security/telescreen/engine/directional/west,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
@@ -28223,9 +28139,7 @@
 /area/station/engineering/main)
 "cbe" = (
 /obj/item/pen,
-/obj/item/paper_bin{
-	layer = 2.9
-	},
+/obj/item/paper_bin,
 /obj/structure/table/glass,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -28659,7 +28573,6 @@
 "cdp" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
-	layer = 2.9;
 	pixel_x = -2;
 	pixel_y = 4
 	},
@@ -29043,13 +28956,7 @@
 /turf/open/floor/plating,
 /area/station/engineering/main)
 "ceU" = (
-/obj/machinery/computer/security/telescreen{
-	desc = "Used for watching telecomms.";
-	layer = 4;
-	name = "Telecomms Telescreen";
-	network = list("tcomms");
-	pixel_y = 28
-	},
+/obj/machinery/computer/security/telescreen/tcomms/directional/north,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -29593,9 +29500,7 @@
 /area/station/service/chapel/monastery)
 "chW" = (
 /obj/structure/table,
-/obj/item/storage/box/ingredients/wildcard{
-	layer = 3.1
-	},
+/obj/item/storage/box/ingredients/wildcard,
 /turf/open/floor/iron,
 /area/station/service/chapel/monastery)
 "chX" = (
@@ -29851,12 +29756,9 @@
 /area/station/service/chapel/monastery)
 "cjO" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/item/stack/sheet/glass/fifty{
-	layer = 4
-	},
+/obj/item/stack/sheet/glass/fifty,
 /obj/item/stack/sheet/iron{
-	amount = 20;
-	layer = 3.1
+	amount = 20
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
@@ -29964,9 +29866,7 @@
 /area/station/service/chapel/monastery)
 "ckw" = (
 /obj/machinery/mass_driver/chapelgun,
-/obj/structure/window/reinforced/spawner/directional/east{
-	layer = 2.9
-	},
+/obj/structure/window/reinforced/spawner/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/monastery)
@@ -30047,9 +29947,7 @@
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/monastery)
 "ckN" = (
-/obj/structure/window/reinforced/spawner/directional/east{
-	layer = 2.9
-	},
+/obj/structure/window/reinforced/spawner/directional/east,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
@@ -32609,12 +32507,6 @@
 	},
 /turf/open/space/basic,
 /area/space/nearstation)
-"cwM" = (
-/obj/structure/window/reinforced/spawner/directional/east{
-	layer = 2.9
-	},
-/turf/open/space,
-/area/space/nearstation)
 "cwO" = (
 /obj/item/flashlight/lantern,
 /turf/open/floor/iron/dark,
@@ -32664,18 +32556,12 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "cxh" = (
-/obj/structure/window/reinforced/spawner/directional/north{
-	pixel_y = 1
-	},
-/obj/structure/window/reinforced/spawner/directional/east{
-	layer = 2.9
-	},
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/space/basic,
 /area/space/nearstation)
 "cxk" = (
-/obj/structure/window/reinforced/spawner/directional/north{
-	pixel_y = 1
-	},
+/obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/window/reinforced/spawner/directional/west,
 /turf/open/space/basic,
 /area/space/nearstation)
@@ -37761,10 +37647,7 @@
 /turf/open/floor/carpet,
 /area/station/service/chapel)
 "fVT" = (
-/obj/machinery/computer/security/telescreen/ordnance{
-	dir = 1;
-	pixel_y = -30
-	},
+/obj/machinery/computer/security/telescreen/ordnance/directional/south,
 /obj/structure/chair/office/light,
 /turf/open/floor/iron,
 /area/station/science/ordnance/testlab)
@@ -42297,9 +42180,7 @@
 /area/station/service/chapel/monastery)
 "jhz" = (
 /obj/machinery/modular_computer/preset/id,
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = 32
-	},
+/obj/machinery/computer/security/telescreen/entertainment/directional/north,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 5
 	},
@@ -45106,10 +44987,7 @@
 /area/station/engineering/atmos)
 "lnc" = (
 /obj/structure/table/glass,
-/obj/machinery/computer/security/telescreen/rd{
-	dir = 1;
-	pixel_y = -26
-	},
+/obj/machinery/computer/security/telescreen/prison/directional/south,
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
@@ -48368,12 +48246,7 @@
 /turf/open/floor/engine/plasma,
 /area/station/engineering/atmos)
 "nIm" = (
-/obj/machinery/computer/security/telescreen{
-	dir = 8;
-	name = "Test Chamber Monitor";
-	network = list("xeno");
-	pixel_y = 2
-	},
+/obj/machinery/computer/security/telescreen/xeno/directional/east,
 /obj/structure/table/reinforced,
 /turf/open/floor/iron,
 /area/station/science/xenobiology)
@@ -49603,11 +49476,7 @@
 	dir = 1
 	},
 /obj/structure/table,
-/obj/machinery/computer/security/telescreen{
-	desc = "Used for watching the turbine vent.";
-	name = "turbine vent monitor";
-	network = list("turbine")
-	},
+/obj/machinery/computer/security/telescreen/turbine/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "oAe" = (
@@ -55637,11 +55506,7 @@
 /area/station/holodeck/rec_center)
 "sJF" = (
 /obj/structure/cable,
-/obj/machinery/computer/security/telescreen/interrogation{
-	name = "isolation room monitor";
-	network = list("isolation");
-	pixel_y = 31
-	},
+/obj/machinery/computer/security/telescreen/interrogation/directional/north,
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
@@ -73972,8 +73837,8 @@ bWV
 bWV
 bWV
 bWV
-cwM
-bIT
+bGD
+bVp
 aaa
 aaa
 aaa
@@ -77525,9 +77390,9 @@ aaa
 aaa
 bGD
 bGD
-bIT
+bVp
 bJZ
-bIT
+bVp
 bMr
 bNs
 bOw
