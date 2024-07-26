@@ -168,7 +168,6 @@
 /obj/structure/table,
 /obj/machinery/light/small/blacklight/directional/north,
 /obj/machinery/status_display{
-	layer = 4;
 	pixel_y = 32
 	},
 /obj/item/food/pizza/arnold,
