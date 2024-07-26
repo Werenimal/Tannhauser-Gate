@@ -533,10 +533,10 @@ trait_name = "Station"
 map_files = ["warpstone_lab.dmm"]
 directory = "_maps/tannhauser/automapper/manaforge/"
 required_map = "IceBoxStation.dmm"
-coordinates = [184, 99, 2]
+coordinates = [113, 91, 2]
 trait_name = "Station"
 
-# Manaforge Warpstone Laboratry
+# Manaforge Arcade Laboratry
 [templates.mana_arcade]
 map_files = ["arcade.dmm"]
 directory = "_maps/tannhauser/automapper/manaforge/"
