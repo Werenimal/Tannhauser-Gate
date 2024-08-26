@@ -3902,7 +3902,7 @@
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hos)
 "anS" = (
-/obj/machinery/keycard_auth/directional/south,
+/obj/machinery/keycard_auth/wall_mounted/directional/south,
 /mob/living/basic/spider/giant/sgt_araneus,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hos)
@@ -8122,7 +8122,7 @@
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "aCP" = (
-/obj/machinery/keycard_auth/directional/west,
+/obj/machinery/keycard_auth/wall_mounted/directional/west,
 /obj/structure/cable,
 /obj/machinery/photocopier,
 /turf/open/floor/wood,
