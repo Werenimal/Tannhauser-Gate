@@ -15,7 +15,7 @@
 	///A list of traits that this fishing line has, checked by fish traits and the minigame.
 	var/list/fishing_line_traits
 	/// Color of the fishing line
-	var/line_color = "#808080"
+	var/line_color = COLOR_GRAY
 
 /obj/item/fishing_line/reinforced
 	name = "reinforced fishing line reel"
@@ -41,11 +41,67 @@
 /obj/item/fishing_line/sinew
 	name = "fishing sinew"
 	desc = "An all-natural fishing line made of stretched out sinew. A bit stiff, but usable to fish in extreme enviroments."
-	icon = 'icons/obj/fishing.dmi'
 	icon_state = "reel_sinew"
-	icon_state = "reel_green"
 	fishing_line_traits = FISHING_LINE_REINFORCED|FISHING_LINE_STIFF
 	line_color = "#d1cca3"
+
+/**
+ * A special line reel that let you skip the biting phase of the minigame, netting you a completion bonus,
+ * and thrown hooked items at you, so you can rapidly catch them from afar.
+ * It may also work on mobs if the right hook is attached.
+ */
+/obj/item/fishing_line/auto_reel
+	name = "fishing line auto-reel"
+	desc = "A fishing line that automatically starts reeling in fish the moment they bite. Also good for hurling things at yourself."
+	icon_state = "reel_auto"
+	fishing_line_traits = FISHING_LINE_AUTOREEL
+	line_color = "#F88414"
+
+/obj/item/fishing_line/auto_reel/Initialize(mapload)
+	. = ..()
+	RegisterSignal(src, COMSIG_FISHING_EQUIPMENT_SLOTTED, PROC_REF(line_equipped))
+
+/obj/item/fishing_line/auto_reel/proc/line_equipped(datum/source, obj/item/fishing_rod/rod)
+	SIGNAL_HANDLER
+	RegisterSignal(rod, COMSIG_FISHING_ROD_HOOKED_ITEM, PROC_REF(on_hooked_item))
+	RegisterSignal(src, COMSIG_MOVABLE_MOVED, PROC_REF(on_removed))
+
+/obj/item/fishing_line/auto_reel/proc/on_removed(atom/movable/source, atom/old_loc, dir, forced)
+	SIGNAL_HANDLER
+	UnregisterSignal(src, COMSIG_MOVABLE_MOVED)
+	UnregisterSignal(old_loc, COMSIG_FISHING_ROD_HOOKED_ITEM)
+
+/obj/item/fishing_line/auto_reel/proc/on_hooked_item(obj/item/fishing_rod/source, atom/target, mob/living/user)
+	SIGNAL_HANDLER
+	if(!ismovable(target))
+		return
+	var/atom/movable/movable_target = target
+	var/please_be_gentle = FALSE
+	var/atom/destination
+	var/datum/callback/throw_callback
+	if(isliving(movable_target) || !isitem(movable_target))
+		destination = get_step_towards(user, target)
+		please_be_gentle = TRUE
+	else
+		destination = user
+		throw_callback = CALLBACK(src, PROC_REF(clear_hitby_signal), movable_target)
+		RegisterSignal(movable_target, COMSIG_ATOM_PREHITBY, PROC_REF(catch_it_chucklenut))
+
+	if(!movable_target.safe_throw_at(destination, source.cast_range, 2, callback = throw_callback, gentle = please_be_gentle))
+		UnregisterSignal(movable_target, COMSIG_ATOM_PREHITBY)
+	else
+		playsound(src, 'sound/weapons/batonextend.ogg', 50, TRUE)
+
+/obj/item/fishing_line/auto_reel/proc/catch_it_chucklenut(obj/item/source, atom/hit_atom, datum/thrownthing/throwingdatum)
+	SIGNAL_HANDLER
+	var/mob/living/user = throwingdatum.initial_target.resolve()
+	if(QDELETED(user) || hit_atom != user)
+		return
+	if(user.try_catch_item(source, skip_throw_mode_check = TRUE, try_offhand = TRUE))
+		return COMSIG_HIT_PREVENTED
+
+/obj/item/fishing_line/auto_reel/proc/clear_hitby_signal(obj/item/item)
+	UnregisterSignal(item, COMSIG_ATOM_PREHITBY)
 
 // Hooks
 
@@ -204,7 +260,6 @@
 	// Can hold fishing rod despite the size
 	var/static/list/exception_cache = typecacheof(list(
 		/obj/item/fishing_rod,
-		/obj/item/fishing_line,
 	))
 	atom_storage.exception_hold = exception_cache
 
@@ -213,6 +268,7 @@
 	new /obj/item/fishing_rod/unslotted(src)
 	new /obj/item/fishing_hook(src)
 	new /obj/item/fishing_line(src)
+	new /obj/item/paper/paperslip/fishing_tip(src)
 
 /obj/item/storage/toolbox/fishing/small
 	name = "compact fishing toolbox"
@@ -229,24 +285,84 @@
 	new /obj/item/fishing_rod/unslotted(src)
 	new /obj/item/fishing_hook(src)
 	new /obj/item/fishing_line(src)
+	new /obj/item/paper/paperslip/fishing_tip(src)
+
+/obj/item/storage/toolbox/fishing/master
+	name = "super fishing toolbox"
+	desc = "Contains EVERYTHING (almost) you need for your fishing trip."
+	icon_state = "gold"
+	inhand_icon_state = "toolbox_gold"
+
+/obj/item/storage/toolbox/fishing/master/PopulateContents()
+	new /obj/item/fishing_rod/telescopic/master(src)
+	new /obj/item/storage/box/fishing_hooks/master(src)
+	new /obj/item/storage/box/fishing_lines/master(src)
+	new /obj/item/bait_can/super_baits(src)
+	new /obj/item/fish_feed(src)
+	new /obj/item/aquarium_kit(src)
+	new /obj/item/fish_analyzer(src)
+	new /obj/item/experi_scanner(src)
 
 /obj/item/storage/box/fishing_hooks
 	name = "fishing hook set"
+	illustration = "fish"
 
 /obj/item/storage/box/fishing_hooks/PopulateContents()
-	. = ..()
 	new /obj/item/fishing_hook/magnet(src)
 	new /obj/item/fishing_hook/shiny(src)
 	new /obj/item/fishing_hook/weighted(src)
 
+/obj/item/storage/box/fishing_hooks/master
+
+/obj/item/storage/box/fishing_hooks/master/PopulateContents()
+	. = ..()
+	new /obj/item/fishing_hook/stabilized(src)
+	new /obj/item/fishing_hook/jaws(src)
+
 /obj/item/storage/box/fishing_lines
 	name = "fishing line set"
+	illustration = "fish"
 
 /obj/item/storage/box/fishing_lines/PopulateContents()
-	. = ..()
 	new /obj/item/fishing_line/bouncy(src)
 	new /obj/item/fishing_line/reinforced(src)
 	new /obj/item/fishing_line/cloaked(src)
+
+/obj/item/storage/box/fishing_lines/master
+
+/obj/item/storage/box/fishing_lines/master/PopulateContents()
+	. = ..()
+	new /obj/item/fishing_line/auto_reel(src)
+
+/obj/item/storage/box/fish_debug
+	name = "box full of fish"
+	illustration = "fish"
+
+/obj/item/storage/box/fish_debug/PopulateContents()
+	for(var/fish_type in subtypesof(/obj/item/fish))
+		new fish_type(src)
+
+///Used to give the average player info about fishing stuff that's unknown to many.
+/obj/item/paper/paperslip/fishing_tip
+	name = "fishing tip"
+	desc = "A slip of paper containing a pearl of wisdom about fishing within it, though you wish it were an actual pearl."
+
+/obj/item/paper/paperslip/fortune/Initialize(mapload)
+	default_raw_text = pick(GLOB.fishing_tips)
+	return ..()
+
+///From the fishing mystery box. It's basically a lazarus and a few bottles of strange reagents.
+/obj/item/storage/box/fish_revival_kit
+	name = "fish revival kit"
+	desc = "Become a fish doctor today."
+	illustration = "fish"
+
+/obj/item/storage/box/fish_revival_kit/PopulateContents()
+	new /obj/item/lazarus_injector(src)
+	new /obj/item/reagent_containers/cup/bottle/strange_reagent(src)
+	new /obj/item/reagent_containers/cup(src) //to splash the reagents on the fish.
+	new /obj/item/storage/fish_case(src)
+	new /obj/item/storage/fish_case(src)
 
 #undef MAGNET_HOOK_BONUS_MULTIPLIER
 #undef RESCUE_HOOK_FISH_MULTIPLIER

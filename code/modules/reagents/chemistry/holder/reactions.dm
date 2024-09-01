@@ -97,8 +97,6 @@
 		if((selected_reaction.reaction_flags & REACTION_INSTANT) || (flags & REAGENT_HOLDER_INSTANT_REACT)) //If we have instant reactions, we process them here
 			instant_react(selected_reaction)
 			.++
-			update_total()
-			continue
 		else
 			var/exists = FALSE
 			for(var/datum/equilibrium/E_exist as anything in reaction_list)
@@ -348,6 +346,7 @@
 				my_atom.visible_message(span_notice("[iconhtml] \The [my_atom]'s power is consumed in the reaction."))
 				extract.name = "used slime extract"
 				extract.desc = "This extract has been used up."
+				extract.grind_results.Cut()
 
 	//SKYRAT EDIT ADDITION
 	//If the reaction pollutes, pollute it here if we have an atom

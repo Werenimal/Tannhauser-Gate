@@ -198,14 +198,12 @@
 "Ag" = (
 /obj/machinery/button/door/indestructible{
 	id = "XCCQMLoaddoor";
-	layer = 4;
 	name = "Loading Doors";
 	pixel_x = -27;
 	pixel_y = -5
 	},
 /obj/machinery/button/door/indestructible{
 	id = "XCCQMLoaddoor2";
-	layer = 4;
 	name = "Loading Doors";
 	pixel_x = -27;
 	pixel_y = 5

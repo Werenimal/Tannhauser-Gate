@@ -192,6 +192,9 @@ Temporary Items
 /_maps/**/backup/
 /_maps/templates.dm
 
+#dmm palette file. You really should be using StrongDMM instead.
+*.dmm-pal
+
 #dmdoc default folder
 /dmdoc
 
@@ -244,3 +247,13 @@ define_sanity_output.txt
 # ezdb
 /db/
 /config/ezdb.txt
+<<<<<<< HEAD
+=======
+
+# Running OpenDream locally
+tgstation.json
+<<<<<<< HEAD
+.cargo-lock
+>>>>>>> 5d81843b3302 (Raptor faction fix (#85792))
+=======
+>>>>>>> 8fa9db8869f0 (Reverts accidental .gitignore changes (#86114))

@@ -123,7 +123,7 @@
 /turf/open/floor/glass/plasma,
 /area/station/service/jadedragon)
 "D" = (
-/obj/item/clothing/mask/cigarette,
+/obj/item/cigarette,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/cigbutt{
 	pixel_y = 6

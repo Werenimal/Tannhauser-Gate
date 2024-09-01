@@ -235,6 +235,15 @@
 		"Spiders": {
 			"weight": 4
 		},
+
+		"Revenant": {
+			"weight": 0
+		},
+
+		"Space Pirates": {
+			"weight": 0
+		},
+
 		"Obsessed": {
 			"weight": 0,
 			"repeatable": 0
@@ -333,6 +342,8 @@
 
 	"Station": {
 		"Radioactive Nebula": {
+		},
+		"Background Checks": {
 		}
 	}
 }

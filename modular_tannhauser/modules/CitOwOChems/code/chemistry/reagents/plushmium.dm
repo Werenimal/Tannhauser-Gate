@@ -25,6 +25,6 @@
 
 //Extra interaction for which spraying it on an existing sentient plushie aheals them, so they can be revived!
 /datum/reagent/OwO/plushmium/expose_mob(mob/living/M, method = TOUCH, reac_volume)
-	if(istype(M, /mob/living/simple_animal/pet/plushie) && reac_volume >= 1)
+	if(istype(M, /mob/living/basic/pet/plushie) && reac_volume >= 1)
 		M.revive(ADMIN_HEAL_ALL)
 	. = ..()

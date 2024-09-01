@@ -9,10 +9,12 @@ export type SecurityRecordsData = {
   records: SecurityRecord[];
   min_age: number;
   max_age: number;
+  max_chrono_age: number; // SKYRAT EDIT ADDITION - Chronological age
 };
 
 export type SecurityRecord = {
   age: number;
+  chrono_age: number; // SKYRAT EDIT ADDITION - Chronological age
   citations: Crime[];
   crew_ref: string;
   crimes: Crime[];
@@ -22,6 +24,7 @@ export type SecurityRecord = {
   note: string;
   rank: string;
   species: string;
+  trim: string;
   wanted_status: string;
   voice: string;
   // SKYRAT EDIT START - RP Records
@@ -39,6 +42,7 @@ export type Crime = {
   paid: number;
   time: number;
   valid: BooleanLike;
+  voider: string;
 };
 
 export enum SECURETAB {
