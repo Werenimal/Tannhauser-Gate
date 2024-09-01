@@ -1339,6 +1339,9 @@
 "afl" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/broken{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/station/ai_monitored/turret_protected/ai_sat_ext_as)
 "afm" = (
@@ -1407,6 +1410,7 @@
 "afy" = (
 /obj/effect/landmark/start/cyborg,
 /obj/item/beacon,
+/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "afz" = (
@@ -1487,6 +1491,7 @@
 /obj/machinery/holopad/secure,
 /mob/living/simple_animal/bot/secbot/pingsky,
 /obj/effect/landmark/navigate_destination/minisat_access_ai,
+/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "afQ" = (
@@ -1654,6 +1659,7 @@
 	name = "MiniSat External Access"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/construction,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "agu" = (
@@ -1713,6 +1719,7 @@
 /obj/machinery/light/small/directional/west,
 /obj/structure/sign/warning/vacuum/external/directional/east,
 /obj/structure/sign/warning/vacuum/external/directional/west,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "agE" = (
@@ -1792,6 +1799,7 @@
 	name = "MiniSat External Access"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/construction,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "agS" = (
@@ -4297,10 +4305,12 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/external,
 /obj/effect/mapping_helpers/airlock/access/any/security/maintenance,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
 "apm" = (
 /obj/machinery/light/small/directional/north,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
 "apn" = (
@@ -4312,6 +4322,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/external,
 /obj/effect/mapping_helpers/airlock/access/any/security/maintenance,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
 "apo" = (
@@ -30837,8 +30848,9 @@
 /turf/open/floor/iron/dark/telecomms,
 /area/station/tcommsat/server)
 "cny" = (
-/obj/structure/lattice,
 /obj/machinery/camera/autoname/directional/north,
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
 /turf/open/space,
 /area/space/nearstation)
 "cnC" = (
@@ -33800,6 +33812,10 @@
 /obj/effect/turf_decal/trimline/blue/line,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"cKW" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/turret_protected/aisat_interior)
 "cLN" = (
 /turf/open/floor/plating,
 /area/station/security/prison)
@@ -35603,6 +35619,7 @@
 	req_access = list("shipping")
 	},
 /obj/effect/spawner/random/maintenance,
+/obj/structure/desk_bell/speed_demon,
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
 "elk" = (
@@ -38440,6 +38457,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "gnl" = (
@@ -40480,6 +40498,9 @@
 	},
 /obj/item/clothing/head/costume/festive,
 /obj/structure/closet/secure_closet/personal/cabinet,
+/obj/structure/disposalpipe/broken{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/station/commons/dorms/barracks)
 "hLr" = (
@@ -40545,7 +40566,6 @@
 "hMU" = (
 /obj/structure/table,
 /obj/machinery/microwave,
-/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "hNd" = (
@@ -42914,13 +42934,11 @@
 /turf/closed/wall,
 /area/station/medical/paramedic)
 "jzl" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/broken{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/station/cargo/storage)
+/obj/structure/lattice/catwalk,
+/obj/structure/transit_tube,
+/obj/structure/cable,
+/turf/open/space/basic,
+/area/space/nearstation)
 "jzz" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -44490,11 +44508,10 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/brig)
 "kJW" = (
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/turf/closed/wall,
-/area/station/cargo/bitrunning/den)
+/obj/structure/cable,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "kKl" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -47634,6 +47651,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "mYa" = (
@@ -50505,6 +50523,10 @@
 /obj/effect/spawner/random/maintenance/three,
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine/atmos)
+"oVg" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
 "oVn" = (
 /obj/machinery/suit_storage_unit/engine,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
@@ -51463,12 +51485,10 @@
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness/recreation)
 "pEh" = (
-/obj/effect/turf_decal/trimline/brown/filled/line,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/station/cargo/storage)
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/open/space,
+/area/space/nearstation)
 "pEv" = (
 /obj/effect/mapping_helpers/mail_sorting/medbay/virology,
 /obj/structure/disposalpipe/sorting/mail/flip{
@@ -52334,6 +52354,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/crew_quarters/dorms)
 "qio" = (
@@ -62754,10 +62775,10 @@
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "xrT" = (
-/obj/effect/turf_decal/trimline/brown/filled/line,
-/obj/structure/disposalpipe/rotator,
-/turf/open/floor/iron,
-/area/station/cargo/storage)
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/open/space/basic,
+/area/space/nearstation)
 "xss" = (
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
 	dir = 8
@@ -62864,9 +62885,6 @@
 	pixel_x = 1
 	},
 /obj/structure/window/reinforced/spawner/directional/south,
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
 /turf/open/floor/iron/dark/small,
 /area/station/cargo/bitrunning/den)
 "xwd" = (
@@ -92615,7 +92633,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+oVg
 aaa
 aqG
 arE
@@ -96209,7 +96227,7 @@ aht
 aht
 aht
 aht
-amC
+iGp
 aht
 aht
 aht
@@ -96458,7 +96476,7 @@ ags
 adX
 adX
 adX
-aaa
+cdm
 aaa
 aaa
 aaa
@@ -96715,7 +96733,7 @@ adX
 adX
 adX
 ahh
-aaa
+cdm
 aaa
 aaa
 aaa
@@ -96967,12 +96985,12 @@ aeO
 aff
 afy
 afP
-agf
+cKW
 agt
 agD
 agR
-ahi
-aaa
+pEh
+xrT
 aaa
 aaa
 aaa
@@ -97229,7 +97247,7 @@ adX
 adX
 adX
 ahh
-aaa
+xrT
 aaa
 aaa
 aaa
@@ -97743,7 +97761,7 @@ agu
 agE
 agS
 agS
-ahs
+jzl
 ahR
 ahs
 ahs
@@ -98000,11 +98018,11 @@ agq
 adX
 abI
 abI
-aht
-aht
-aht
-aht
-aht
+kJW
+kJW
+kJW
+kJW
+kJW
 aht
 aht
 aht
@@ -98261,7 +98279,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+kJW
 aaa
 aaa
 aaa
@@ -98518,7 +98536,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+kJW
 aaa
 aaa
 aaa
@@ -98775,7 +98793,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+kJW
 aaa
 aaa
 gGO
@@ -99032,7 +99050,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+kJW
 aaa
 aaa
 aaa
@@ -99289,7 +99307,7 @@ aht
 aht
 aht
 aht
-aht
+kJW
 aht
 jCF
 aht
@@ -99546,7 +99564,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+kJW
 aaa
 aaa
 aaa
@@ -99803,7 +99821,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+kJW
 aaa
 gQu
 aaa
@@ -100060,7 +100078,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+kJW
 aaa
 aaa
 aaa
@@ -100317,7 +100335,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+kJW
 aaa
 xaU
 aht
@@ -100574,7 +100592,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+kJW
 aaa
 aaa
 aaa
@@ -100831,7 +100849,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+kJW
 aaa
 aaa
 aaa
@@ -101088,7 +101106,7 @@ aaa
 aaa
 aaa
 cdm
-cdm
+xrT
 cdm
 cPZ
 rpM
@@ -109093,8 +109111,8 @@ xAW
 rYP
 vxr
 oxR
-xrT
-jzl
+ptA
+szk
 aWB
 pvZ
 yeb
@@ -109350,7 +109368,7 @@ tVs
 jgZ
 hMU
 xvZ
-pEh
+aSk
 szk
 aWB
 lOO
@@ -109606,8 +109624,8 @@ qpT
 qpT
 kuP
 qpT
-kJW
-ptA
+nOV
+aSk
 szk
 aWB
 pvZ
