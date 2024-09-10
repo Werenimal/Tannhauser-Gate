@@ -12686,7 +12686,7 @@
 	id = "barshutters";
 	name = "Bar Lockdown";
 	pixel_x = 28;
-	req_access = list("bar")
+	req_one_access = list("bar")
 	},
 /obj/item/radio/intercom{
 	pixel_y = 26
@@ -19311,12 +19311,6 @@
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 8
 	},
-/obj/machinery/button/door{
-	id = "plumbing_shutters";
-	name = "Plumbing Shutter Control";
-	pixel_x = -25;
-	req_access = list("plumbing")
-	},
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "bsR" = (
@@ -19862,18 +19856,12 @@
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/poddoor/shutters{
-	id = s;
+	id = "plumbing_shutters";
 	name = "Plumbing Shutter"
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/medical/glass{
 	name = "Pharmacy"
-	},
-/obj/machinery/button/door{
-	id = "plumbing_shutters";
-	name = "Plumbing Shutter Control";
-	pixel_x = -25;
-	req_access = list("chemistry")
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
@@ -63131,6 +63119,11 @@
 	c_tag = "Chemistry North #1";
 	name = "medical camera";
 	network = list("ss13","medbay")
+	},
+/obj/machinery/button/door/directional/north{
+	id = "plumbing_shutters";
+	name = "Plumbing Shutter Control";
+	req_one_access = list("pharmacy","chemistry")
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
