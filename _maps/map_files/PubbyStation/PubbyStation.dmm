@@ -17256,7 +17256,7 @@
 	name = "Dalton Snoodle"
 	},
 /turf/open/space/basic,
-/area/space)
+/area/space/nearstation)
 "blv" = (
 /obj/structure/table,
 /obj/item/pai_card,
@@ -36601,7 +36601,6 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
@@ -42834,12 +42833,6 @@
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
 /area/space/nearstation)
-"khJ" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
-/area/station/maintenance/department/engine)
 "kid" = (
 /obj/machinery/airalarm/directional/north,
 /obj/machinery/power/apc/auto_name/directional/east,
@@ -42918,9 +42911,7 @@
 /turf/open/floor/iron/white,
 /area/station/science/auxlab)
 "kmN" = (
-/obj/machinery/computer/security/telescreen/ordnance/directional/south{
-	network = list("rd","ordnance")
-	},
+/obj/machinery/computer/security/telescreen/ordnance/directional/south,
 /obj/structure/chair/office/light,
 /turf/open/floor/iron,
 /area/station/science/ordnance/testlab)
@@ -95461,7 +95452,7 @@ ntO
 fMs
 boO
 vLR
-khJ
+axl
 bDi
 bDi
 bpY
